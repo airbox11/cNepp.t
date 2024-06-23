@@ -1,0 +1,10 @@
+# This pipeline is designed to do neoepitope prediction based on mutation calling from pannel sequence in pathology department
+
+> sh panel_analysis/main_run_predict_neopeptide.sh 
+Usage: panel_analysis/main_run_predict_neopeptide.sh -i PID -v vcf -l length -o outputDir
+    -i: Sample ID
+    -v: Path to VCF file
+    -l: Length of expected neopeptides
+    -o: Path to result folder
+>>> Note: Absolute path needed
+

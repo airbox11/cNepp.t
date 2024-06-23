@@ -1,0 +1,165 @@
+Sender: LSF System <lsfadmin@odcf-cn33u03s01>
+Subject: Job 3930538: <separate_ref_mut_peptide_HB60> in cluster <ODCF> Done
+
+Job <separate_ref_mut_peptide_HB60> was submitted from host <odcf-worker01> by user <huangz> in cluster <ODCF> at Wed Aug 26 10:24:46 2020
+Job was executed on host(s) <odcf-cn33u03s01>, in queue <medium>, as user <huangz> in cluster <ODCF> at Wed Aug 26 10:25:30 2020
+</home/huangz> was used as the home directory.
+</icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs> was used as the working directory.
+Started at Wed Aug 26 10:25:30 2020
+Terminated at Wed Aug 26 10:25:35 2020
+Results reported at Wed Aug 26 10:25:35 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/run_separate_ref_mut_peptide.sh
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.48 sec.
+    Max Memory :                                 12 MB
+    Average Memory :                             8.33 MB
+    Total Requested Memory :                     2048.00 MB
+    Delta Memory :                               2036.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   1 sec.
+    Turnaround time :                            49 sec.
+
+The output (if any) follows:
+
+python /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/separate_ref_mut_peptide.py /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_predictedProtein.fa /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_mut.fa /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa 14
+/tbi/software/x86_64/python/python-2.7.9/el7/lib/python2.7/site-packages/Bio/Seq.py:197: FutureWarning: In future comparing Seq objects will use string comparison (not object comparison). Incompatible alphabets will trigger a warning (not an exception). In the interim please use id(seq1)==id(seq2) or str(seq1)==str(seq2) to make your code explicit and to avoid this warning.
+  "and to avoid this warning.", FutureWarning)
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+Sender: LSF System <lsfadmin@odcf-cn33u03s01>
+Subject: Job 3930723: <separate_ref_mut_peptide_HB60> in cluster <ODCF> Done
+
+Job <separate_ref_mut_peptide_HB60> was submitted from host <odcf-worker01> by user <huangz> in cluster <ODCF> at Wed Aug 26 10:46:07 2020
+Job was executed on host(s) <odcf-cn33u03s01>, in queue <medium>, as user <huangz> in cluster <ODCF> at Wed Aug 26 10:46:51 2020
+</home/huangz> was used as the home directory.
+</icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs> was used as the working directory.
+Started at Wed Aug 26 10:46:51 2020
+Terminated at Wed Aug 26 10:46:54 2020
+Results reported at Wed Aug 26 10:46:54 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/run_separate_ref_mut_peptide.sh
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.52 sec.
+    Max Memory :                                 13 MB
+    Average Memory :                             8.67 MB
+    Total Requested Memory :                     2048.00 MB
+    Delta Memory :                               2035.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   1 sec.
+    Turnaround time :                            47 sec.
+
+The output (if any) follows:
+
+python /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/separate_ref_mut_peptide.py /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_predictedProtein.fa /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_mut.fa /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa 14
+/tbi/software/x86_64/python/python-2.7.9/el7/lib/python2.7/site-packages/Bio/Seq.py:197: FutureWarning: In future comparing Seq objects will use string comparison (not object comparison). Incompatible alphabets will trigger a warning (not an exception). In the interim please use id(seq1)==id(seq2) or str(seq1)==str(seq2) to make your code explicit and to avoid this warning.
+  "and to avoid this warning.", FutureWarning)
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+Sender: LSF System <lsfadmin@odcf-cn33u24s03>
+Subject: Job 3930729: <separate_ref_mut_peptide_HB60> in cluster <ODCF> Done
+
+Job <separate_ref_mut_peptide_HB60> was submitted from host <odcf-worker01> by user <huangz> in cluster <ODCF> at Wed Aug 26 10:59:34 2020
+Job was executed on host(s) <odcf-cn33u24s03>, in queue <medium>, as user <huangz> in cluster <ODCF> at Wed Aug 26 11:00:16 2020
+</home/huangz> was used as the home directory.
+</icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs> was used as the working directory.
+Started at Wed Aug 26 11:00:16 2020
+Terminated at Wed Aug 26 11:00:20 2020
+Results reported at Wed Aug 26 11:00:20 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/run_separate_ref_mut_peptide.sh
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.63 sec.
+    Max Memory :                                 11 MB
+    Average Memory :                             7.67 MB
+    Total Requested Memory :                     2048.00 MB
+    Delta Memory :                               2037.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   1 sec.
+    Turnaround time :                            46 sec.
+
+The output (if any) follows:
+
+python /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/separate_ref_mut_peptide.py /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_predictedProtein.fa /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_mut.fa /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa 14
+/tbi/software/x86_64/python/python-2.7.9/el7/lib/python2.7/site-packages/Bio/Seq.py:197: FutureWarning: In future comparing Seq objects will use string comparison (not object comparison). Incompatible alphabets will trigger a warning (not an exception). In the interim please use id(seq1)==id(seq2) or str(seq1)==str(seq2) to make your code explicit and to avoid this warning.
+  "and to avoid this warning.", FutureWarning)
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same

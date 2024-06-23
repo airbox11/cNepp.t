@@ -1,0 +1,15 @@
+
+
+```{r, echo = FALSE}
+#install.packages("knitr")
+#library(knitr)
+df = read.table(visualFile, sep = "\t", stringsAsFactors = FALSE)
+#df = df[df[, 1] != "", ]
+df[, 1] = paste0("`", df[, 1], "`")
+
+df[,1] <-ifelse(df[,1] != "",paste0("`", df[, 1], "`"), " ")
+
+colnames(df) = c("Neoantigen", "Comments")
+myTable <- kable(df)
+return(myTable)
+```

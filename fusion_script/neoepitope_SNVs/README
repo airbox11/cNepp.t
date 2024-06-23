@@ -1,0 +1,11 @@
+# This script is to predict neoepitope based on nonsynonymous mutation 
+# Require VCF file and HLA result from PHLAT prediction
+
+> main_run_neoepitope_snvs.sh
+Usage: neoepitope_SNVs/main_run_neoepitope_snvs.sh -c CONFIG_FILE -i PID -v vcf -m hla_type -o outputDir
+	-c: Path to config file
+	-i: Sample ID
+	-v: Path to VCF file
+	-m: Path to HLA type result file
+	-o: Path to result folder
+

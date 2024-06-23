@@ -1,0 +1,27 @@
+..SS...S..S...S...S..S..S....	CS 0.8
+..SS..SS..S..SS...S..S..S...S	CS 0.5
+SSLFAQRLKTLQDKVASGLCSFQAMSAR*	MYO1G,p.D864fs,frameshift deletion
+SSLFAQRLKTLQDKDGFGAVLFSSHVRKV	Ref
+SSLFAQRLKTLQDKV--------------	DRB1_1454 ,175
+SSLFAQRLKTLQDKV--------------	DRB1_1501 ,223
+-SLFAQRLKTLQDKVA-------------	DRB1_1454 ,223
+-SLFAQRLKTLQDKVA-------------	DRB1_1501 ,340
+-SLFAQRLKTL------------------	HLA-A*32:01 ,779
+--LFAQRLKTLQDKVAS------------	DRB1_1454 ,299
+--LFAQRLKTLQDKVAS------------	DRB1_1501 ,494
+--LFAQRLKTL------------------	HLA-A*24:02 ,2428
+--LFAQRLKTL------------------	HLA-C*04:01 ,14090
+----------LQDKVASGL----------	HLA-C*04:01 ,6533
+------------DKVASGLCSF-------	HLA-A*32:01 ,1169
+------------DKVASGLCSF-------	HLA-B*15:01 ,169
+-------------KVASGLCSFQAMSAR-	DRB1_1501 ,287
+-------------KVASGLCSF-------	HLA-A*24:02 ,1927
+-------------KVASGLCSF-------	HLA-A*32:01 ,25
+-------------KVASGLCSFQ------	HLA-B*15:01 ,439
+-------------KVASGLCSF-------	HLA-B*15:01 ,16
+-------------KVASGLCSF-------	HLA-C*03:03 ,346
+-------------KVASGLCSF-------	HLA-C*04:01 ,12626
+--------------VASGLCSFQAMSAR*-	DRB1_1501 ,235
+----------------SGLCSFQAM----	HLA-B*35:03 ,14230
+----------------SGLCSFQAM----	HLA-C*03:03 ,219
+ 	 

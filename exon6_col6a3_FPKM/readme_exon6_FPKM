@@ -1,0 +1,57 @@
+K9665 
+
+
+COL6A3 ENSG00000163359
+	Chromosome 2: 238,232,646-238,323,018 
+	Chr2:238,232,646-238,323,018
+		238232646-238323018
+
+	exon 6
+		2: 238,287,878	238,287,279
+		238287878-238287279
+
+
+
+
+
+
+/omics/odcf/project/OE0422/immuno_patients_nct/sequencing/rna_sequencing/view-by-pid/IPNCT_K9665/tumor/paired/merged-alignment/.merging_0/tumor_IPNCT_K9665_merged.mdup.bam
+
+
+samtools flagstat COL6A3.bam
+
+
+12*6=72 reads
+
+187024*10^9/(247463668*65)=exon6.length
+	odcf FPKM calculation:
+		77124*10^9/(65*19624)
+
+72*10^9/(247463668*65)
+
+
+script:
+	/omics/groups/OE0422/internal/yanhong/all_in_one_pipeline_collection/mhc4.1/K9665_tumor2/3_add_expression/exon6_task.sh
+
+x=22
+y=201354588
+$x*6*10^9/($y*572)
+
+22*6*10^9/(201354588*600)
+
+
+https://www.novogene.com/us-en/resources/blog/how-to-choose-normalization-methods-tpm-rpkm-fpkm-for-mrna-expression/#
+
+17727*10^9/247463668
+
+
+
+0.48491966909
+1.09259988652
+
+
+221875*10^9/(250*90372)
+
+201354588
+70783130
+70783130

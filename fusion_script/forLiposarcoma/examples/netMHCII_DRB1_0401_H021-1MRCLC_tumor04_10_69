@@ -1,0 +1,79 @@
+# NetMHCIIpan version 3.1
+
+# Input is in FASTA format
+
+# Peptide length 15
+
+# Threshold for Strong binding peptides (IC50)	50.000 nM
+# Threshold for Weak binding peptides (IC50)	500.000 nM
+
+# Threshold for Strong binding peptides (%Rank)	0.5%
+# Threshold for Weak binding peptides (%Rank)	2%
+
+# Allele: DRB1_0401
+--------------------------------------------------------------------------------------------------------------------------------------------
+   Seq          Allele              Peptide    Identity  Pos      Core  Core_Rel 1-log50k(aff)  Affinity(nM)  %Rank Exp_Bind  BindingLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+     0         DRB1_0401     MMVESASETIRSAPS H021-1MRCLC_tumor04_10_69    1    MVESASETI 0.260         0.287       2245.39  65.00   9.999       
+     1         DRB1_0401     MVESASETIRSAPSG H021-1MRCLC_tumor04_10_69    3    SASETIRSA 0.305         0.246       3474.63  80.00   9.999       
+     2         DRB1_0401     VESASETIRSAPSGQ H021-1MRCLC_tumor04_10_69    2    SASETIRSA 0.325         0.235       3913.54  85.00   9.999       
+     3         DRB1_0401     ESASETIRSAPSGQN H021-1MRCLC_tumor04_10_69    6    IRSAPSGQN 0.525         0.280       2406.25  70.00   9.999       
+     4         DRB1_0401     SASETIRSAPSGQNG H021-1MRCLC_tumor04_10_69    5    IRSAPSGQN 0.685         0.307       1800.74  60.00   9.999       
+     5         DRB1_0401     ASETIRSAPSGQNGV H021-1MRCLC_tumor04_10_69    4    IRSAPSGQN 0.815         0.343       1218.27  45.00   9.999       
+     6         DRB1_0401     SETIRSAPSGQNGVG H021-1MRCLC_tumor04_10_69    3    IRSAPSGQN 0.860         0.333       1365.88  48.00   9.999       
+     7         DRB1_0401     ETIRSAPSGQNGVGS H021-1MRCLC_tumor04_10_69    2    IRSAPSGQN 0.890         0.311       1733.75  60.00   9.999       
+     8         DRB1_0401     TIRSAPSGQNGVGSL H021-1MRCLC_tumor04_10_69    1    IRSAPSGQN 0.885         0.263       2894.45  75.00   9.999       
+     9         DRB1_0401     IRSAPSGQNGVGSLS H021-1MRCLC_tumor04_10_69    0    IRSAPSGQN 0.530         0.156       9212.15  95.00   9.999       
+    10         DRB1_0401     RSAPSGQNGVGSLSG H021-1MRCLC_tumor04_10_69    6    QNGVGSLSG 0.270         0.111      14983.81  95.00   9.999       
+    11         DRB1_0401     SAPSGQNGVGSLSGQ H021-1MRCLC_tumor04_10_69    5    QNGVGSLSG 0.380         0.128      12559.37  95.00   9.999       
+    12         DRB1_0401     APSGQNGVGSLSGQA H021-1MRCLC_tumor04_10_69    4    QNGVGSLSG 0.370         0.144      10532.00  95.00   9.999       
+    13         DRB1_0401     PSGQNGVGSLSGQAD H021-1MRCLC_tumor04_10_69    6    VGSLSGQAD 0.405         0.170       7979.71  95.00   9.999       
+    14         DRB1_0401     SGQNGVGSLSGQADG H021-1MRCLC_tumor04_10_69    5    VGSLSGQAD 0.490         0.187       6588.44  95.00   9.999       
+    15         DRB1_0401     GQNGVGSLSGQADGS H021-1MRCLC_tumor04_10_69    4    VGSLSGQAD 0.575         0.195       6045.34  95.00   9.999       
+    16         DRB1_0401     QNGVGSLSGQADGSS H021-1MRCLC_tumor04_10_69    3    VGSLSGQAD 0.520         0.209       5198.58  90.00   9.999       
+    17         DRB1_0401     NGVGSLSGQADGSSG H021-1MRCLC_tumor04_10_69    2    VGSLSGQAD 0.445         0.210       5136.85  90.00   9.999       
+    18         DRB1_0401     GVGSLSGQADGSSGG H021-1MRCLC_tumor04_10_69    4    LSGQADGSS 0.350         0.202       5606.39  90.00   9.999       
+    19         DRB1_0401     VGSLSGQADGSSGGA H021-1MRCLC_tumor04_10_69    3    LSGQADGSS 0.420         0.190       6412.40  95.00   9.999       
+    20         DRB1_0401     GSLSGQADGSSGGAT H021-1MRCLC_tumor04_10_69    2    LSGQADGSS 0.555         0.158       9011.73  95.00   9.999       
+    21         DRB1_0401     SLSGQADGSSGGATG H021-1MRCLC_tumor04_10_69    1    LSGQADGSS 0.530         0.146      10285.27  95.00   9.999       
+    22         DRB1_0401     LSGQADGSSGGATGT H021-1MRCLC_tumor04_10_69    0    LSGQADGSS 0.360         0.114      14563.44  95.00   9.999       
+    23         DRB1_0401     SGQADGSSGGATGTT H021-1MRCLC_tumor04_10_69    1    GQADGSSGG 0.450         0.077      21663.58  95.00   9.999       
+    24         DRB1_0401     GQADGSSGGATGTTA H021-1MRCLC_tumor04_10_69    3    DGSSGGATG 0.220         0.065      24651.35  95.00   9.999       
+    25         DRB1_0401     QADGSSGGATGTTAS H021-1MRCLC_tumor04_10_69    5    SGGATGTTA 0.310         0.064      25068.52  95.00   9.999       
+    26         DRB1_0401     ADGSSGGATGTTASG H021-1MRCLC_tumor04_10_69    4    SGGATGTTA 0.315         0.065      24720.79  95.00   9.999       
+    27         DRB1_0401     DGSSGGATGTTASGT H021-1MRCLC_tumor04_10_69    6    ATGTTASGT 0.325         0.081      20876.15  95.00   9.999       
+    28         DRB1_0401     GSSGGATGTTASGTG H021-1MRCLC_tumor04_10_69    5    ATGTTASGT 0.425         0.090      18900.83  95.00   9.999       
+    29         DRB1_0401     SSGGATGTTASGTGR H021-1MRCLC_tumor04_10_69    4    ATGTTASGT 0.450         0.100      16921.13  95.00   9.999       
+    30         DRB1_0401     SGGATGTTASGTGRE H021-1MRCLC_tumor04_10_69    3    ATGTTASGT 0.395         0.101      16686.95  95.00   9.999       
+    31         DRB1_0401     GGATGTTASGTGREV H021-1MRCLC_tumor04_10_69    2    ATGTTASGT 0.265         0.108      15515.54  95.00   9.999       
+    32         DRB1_0401     GATGTTASGTGREVT H021-1MRCLC_tumor04_10_69    5    TASGTGREV 0.235         0.114      14487.37  95.00   9.999       
+    33         DRB1_0401     ATGTTASGTGREVTT H021-1MRCLC_tumor04_10_69    4    TASGTGREV 0.280         0.114      14486.12  95.00   9.999       
+    34         DRB1_0401     TGTTASGTGREVTTG H021-1MRCLC_tumor04_10_69    3    TASGTGREV 0.310         0.107      15663.64  95.00   9.999       
+    35         DRB1_0401     GTTASGTGREVTTGA H021-1MRCLC_tumor04_10_69    2    TASGTGREV 0.260         0.112      14874.13  95.00   9.999       
+    36         DRB1_0401     TTASGTGREVTTGAD H021-1MRCLC_tumor04_10_69    5    TGREVTTGA 0.315         0.117      14030.59  95.00   9.999       
+    37         DRB1_0401     TASGTGREVTTGADS H021-1MRCLC_tumor04_10_69    4    TGREVTTGA 0.350         0.128      12527.07  95.00   9.999       
+    38         DRB1_0401     ASGTGREVTTGADSN H021-1MRCLC_tumor04_10_69    5    REVTTGADS 0.325         0.139      11103.88  95.00   9.999       
+    39         DRB1_0401     SGTGREVTTGADSNG H021-1MRCLC_tumor04_10_69    4    REVTTGADS 0.280         0.143      10631.38  95.00   9.999       
+    40         DRB1_0401     GTGREVTTGADSNGE H021-1MRCLC_tumor04_10_69    5    VTTGADSNG 0.330         0.149       9955.59  95.00   9.999       
+    41         DRB1_0401     TGREVTTGADSNGEM H021-1MRCLC_tumor04_10_69    4    VTTGADSNG 0.375         0.162       8636.57  95.00   9.999       
+    42         DRB1_0401     GREVTTGADSNGEMS H021-1MRCLC_tumor04_10_69    3    VTTGADSNG 0.380         0.165       8358.02  95.00   9.999       
+    43         DRB1_0401     REVTTGADSNGEMSP H021-1MRCLC_tumor04_10_69    2    VTTGADSNG 0.365         0.159       8908.29  95.00   9.999       
+    44         DRB1_0401     EVTTGADSNGEMSPA H021-1MRCLC_tumor04_10_69    1    VTTGADSNG 0.285         0.145      10359.54  95.00   9.999       
+    45         DRB1_0401     VTTGADSNGEMSPAE H021-1MRCLC_tumor04_10_69    2    TGADSNGEM 0.305         0.130      12224.07  95.00   9.999       
+    46         DRB1_0401     TTGADSNGEMSPAEL H021-1MRCLC_tumor04_10_69    1    TGADSNGEM 0.230         0.126      12746.24  95.00   9.999       
+    47         DRB1_0401     TGADSNGEMSPAELL H021-1MRCLC_tumor04_10_69    6    GEMSPAELL 0.430         0.156       9240.91  95.00   9.999       
+    48         DRB1_0401     GADSNGEMSPAELLH H021-1MRCLC_tumor04_10_69    5    GEMSPAELL 0.550         0.182       6976.01  95.00   9.999       
+    49         DRB1_0401     ADSNGEMSPAELLHF H021-1MRCLC_tumor04_10_69    4    GEMSPAELL 0.475         0.219       4693.26  90.00   9.999       
+    50         DRB1_0401     DSNGEMSPAELLHFQ H021-1MRCLC_tumor04_10_69    3    GEMSPAELL 0.410         0.235       3936.30  85.00   9.999       
+    51         DRB1_0401     SNGEMSPAELLHFQQ H021-1MRCLC_tumor04_10_69    2    GEMSPAELL 0.360         0.248       3406.11  80.00   9.999       
+    52         DRB1_0401     NGEMSPAELLHFQQQ H021-1MRCLC_tumor04_10_69    3    MSPAELLHF 0.240         0.254       3203.12  80.00   9.999       
+    53         DRB1_0401     GEMSPAELLHFQQQQ H021-1MRCLC_tumor04_10_69    2    MSPAELLHF 0.245         0.251       3320.23  80.00   9.999       
+    54         DRB1_0401     EMSPAELLHFQQQQg H021-1MRCLC_tumor04_10_69    4    AELLHFQQQ 0.210         0.255       3184.80  75.00   9.999       
+    55         DRB1_0401     MSPAELLHFQQQQgl H021-1MRCLC_tumor04_10_69    6    LHFQQQQgl 0.235         0.268       2743.87  75.00   9.999       
+    56         DRB1_0401     SPAELLHFQQQQglg H021-1MRCLC_tumor04_10_69    5    LHFQQQQgl 0.310         0.284       2322.93  65.00   9.999       
+    57         DRB1_0401     PAELLHFQQQQglga H021-1MRCLC_tumor04_10_69    6    FQQQQglga 0.580         0.352       1114.57  42.00   9.999       
+    58         DRB1_0401     AELLHFQQQQglgac H021-1MRCLC_tumor04_10_69    5    FQQQQglga 0.765         0.400        658.21  28.00   9.999       
+    59         DRB1_0401     ELLHFQQQQglgack H021-1MRCLC_tumor04_10_69    4    FQQQQglga 0.835         0.411        586.92  26.00   9.999       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 0 Number of weak binders: 0
+--------------------------------------------------------------------------------------------------------------------------------------------

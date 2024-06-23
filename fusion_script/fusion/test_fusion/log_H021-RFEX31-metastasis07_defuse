@@ -1,0 +1,77 @@
+Sender: LSF System <lsfadmin@odcf-cn34u18s01>
+Subject: Job 3956303: <H021-RFEX31-metastasis07_deFuse> in cluster <ODCF> Done
+
+Job <H021-RFEX31-metastasis07_deFuse> was submitted from host <odcf-worker01> by user <huangz> in cluster <ODCF> at Wed Sep  2 16:43:06 2020
+Job was executed on host(s) <10*odcf-cn34u18s01>, in queue <verylong>, as user <huangz> in cluster <ODCF> at Wed Sep  2 16:43:06 2020
+</home/huangz> was used as the home directory.
+</icgc/dkfzlsdf/analysis/D120/scripts/fusion/test_fusion> was used as the working directory.
+Started at Wed Sep  2 16:43:06 2020
+Terminated at Thu Sep  3 09:45:21 2020
+Results reported at Thu Sep  3 09:45:21 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/icgc/dkfzlsdf/analysis/D120/scripts/fusion/run_defuse.sh
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   532018.94 sec.
+    Max Memory :                                 29484 MB
+    Average Memory :                             6818.45 MB
+    Total Requested Memory :                     122880.00 MB
+    Delta Memory :                               93396.00 MB
+    Max Swap :                                   17592186044415 MB
+    Max Processes :                              94
+    Max Threads :                                100
+    Run time :                                   61330 sec.
+    Turnaround time :                            61335 sec.
+
+The output (if any) follows:
+
+zcat /icgc/dkfzlsdf/project/hipo/hipo_021/sequencing/rna_sequencing/view-by-pid/H021-RFEX31/metastasis07/paired/run190614_ST-K00246_0304_AH7C3YBBXY/sequence/AS-356663-LR-44266_R1.fastq.gz /icgc/dkfzlsdf/project/hipo/hipo_021/sequencing/rna_sequencing/view-by-pid/H021-RFEX31/metastasis07/paired/run190614_ST-K00246_0304_AH7C3YBBXY/sequence/AS-356663-LR-44267_R1.fastq.gz >  /tmp_fifo_READ1 &
+zcat /icgc/dkfzlsdf/project/hipo/hipo_021/sequencing/rna_sequencing/view-by-pid/H021-RFEX31/metastasis07/paired/run190614_ST-K00246_0304_AH7C3YBBXY/sequence/AS-356663-LR-44266_R2.fastq.gz /icgc/dkfzlsdf/project/hipo/hipo_021/sequencing/rna_sequencing/view-by-pid/H021-RFEX31/metastasis07/paired/run190614_ST-K00246_0304_AH7C3YBBXY/sequence/AS-356663-LR-44267_R2.fastq.gz >  /tmp_fifo_READ2 &
+perl /lsdf/dkfz/analysis/D120/tools/deFuse/defuse-0.6.1/scripts/defuse.pl -c /lsdf/dkfz/analysis/D120/tools/deFuse/defuse-0.6.1/scripts/config.txt -1 /icgc/dkfzlsdf/analysis/D120/scripts/fusion/test_fusion/deFuse/tmp_fifo_file1 -2 /icgc/dkfzlsdf/analysis/D120/scripts/fusion/test_fusion/deFuse/tmp_fifo_file2 -o /icgc/dkfzlsdf/analysis/D120/scripts/fusion/test_fusion/deFuse -p 10 -n H021-RFEX31-metastasis07
+Importing fastq files
+Splitting fastq files
+Discordant alignments
+Read Stats
+	Fragment mean 184.171784184386 stddev 67.6907125985777
+	Read length min 101 max 101
+Generating discordant alignment clusters
+Remove mitochondrial-genomic clusters
+Generating maximum parsimony solution
+Selecting fusion clusters
+Preparing sequences for local realignment
+Performing local realignment
+Filtering concordant clusters
+Generating spanning alignment regions file
+Initializing split read alignments
+Calculating split read alignments
+Evaluating split reads
+Calculating spanning stats
+Calculating spanning p-values
+Calculating split read pvalues
+Creating fastas
+Splitting fastas
+Breakpoint alignments
+Annotating fusions
+Failure for defuse command:
+	/icgc/dkfzlsdf/analysis/D120/tools/deFuse/defuse-0.6.1/scripts/annotate_fusions.pl -c /icgc/dkfzlsdf/analysis/D120/tools/deFuse/defuse-0.6.1/scripts/config.txt -o /icgc/dkfzlsdf/analysis/D120/scripts/fusion/test_fusion/deFuse -n H021-RFEX31-metastasis07 > /icgc/dkfzlsdf/analysis/D120/scripts/fusion/test_fusion/deFuse/annotations.tmp
+Reason:
+	Job command with nonzero return code
+Job output:
+	Running on odcf-cn34u18s01
+	Can't open sequence index file /icgc/dkfzlsdf/analysis/D120/tools/deFuse/defuse-0.6.1/reference/Homo_sapiens.GRCh37.69.dna.chromosomes.fa.index:  at /icgc/dkfzlsdf/analysis/D120/tools/deFuse/defuse-0.6.1/scripts/../external/BioPerl-1.6.1/Bio/DB/Fasta.pm line 527.
+	Use of uninitialized value $sequence in reverse at /icgc/dkfzlsdf/analysis/D120/tools/deFuse/defuse-0.6.1/scripts/annotate_fusions.pl line 80.
+	
+	real	10m54.537s
+	user	9m53.309s
+	sys	0m32.403s
+Return codes: 255
+Commands failed after 655 seconds
+Attempting to mail z.huang@dkfz.de the result

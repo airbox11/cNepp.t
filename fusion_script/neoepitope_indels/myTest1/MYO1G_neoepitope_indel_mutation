@@ -1,0 +1,896 @@
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/bin/netMHCpan -a HLA-A24:02 -BA -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest1/MYO1G_targeted.fa
+# Fri Aug 28 15:12:38 2020
+# User: huangz
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest1
+# Host: Linux odcf-worker01 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-A24:02           HLA allele
+# -BA      1                    Make Binding affinity prediction
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest1/MYO1G_targeted.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/synlist.bin Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-A24:02           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest1/MYO1G_targeted.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/threshold/%s.thr.%s Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/allelenames File with print names for alleles
+#	[-BA]                1                    Make Binding affinity prediction
+
+# NetMHCpan version 4.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/tmp/netMHCpan3tIEGD
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+# Make binding affinity predictions
+
+HLA-A24:02 : Distance to training data  0.000 (using nearest neighbor HLA-A24:02)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity     Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-A*24:02     SSLFAQRLKTL  SFAQRLKTL  0  1  2  0  0  SSLFAQRLKTL           MYO1G 0.0867120 19566.5 10.9834
+    2  HLA-A*24:02     SLFAQRLKTLQ  SFAQRLKTL  0  1  1  0  0   SLFAQRLKTL           MYO1G 0.0327110 35096.3 31.2224
+    3  HLA-A*24:02     LFAQRLKTLQD  LFAQRLKTL  0  0  0  0  0    LFAQRLKTL           MYO1G 0.0266960 37456.4 37.5189
+    4  HLA-A*24:02     FAQRLKTLQDK  FAQRLKTLK  0  8  2  0  0  FAQRLKTLQDK           MYO1G 0.0177970 41242.3 52.2327
+    5  HLA-A*24:02     AQRLKTLQDKV  AQRLKTLQV  0  8  2  0  0  AQRLKTLQDKV           MYO1G 0.0232710 38870.5 42.1841
+    6  HLA-A*24:02     QRLKTLQDKVA  QRLKTLQVA  0  7  2  0  0  QRLKTLQDKVA           MYO1G 0.0120800 43873.9 67.3064
+    7  HLA-A*24:02     RLKTLQDKVAS  RLKTLQVAS  0  6  2  0  0  RLKTLQDKVAS           MYO1G 0.0102150 44768.2 73.6319
+    8  HLA-A*24:02     LKTLQDKVASG  LLQDKVASG  0  1  2  0  0  LKTLQDKVASG           MYO1G 0.0109390 44418.9 71.0790
+    9  HLA-A*24:02     KTLQDKVASGL  KTLKVASGL  0  3  2  0  0  KTLQDKVASGL           MYO1G 0.0404910 32263.0 25.4246
+   10  HLA-A*24:02     TLQDKVASGLC  TLQDKVALC  0  7  2  0  0  TLQDKVASGLC           MYO1G 0.0183500 40996.2 51.0455
+   11  HLA-A*24:02     LQDKVASGLCS  LQDKVALCS  0  6  2  0  0  LQDKVASGLCS           MYO1G 0.0132840 43306.1 63.5932
+   12  HLA-A*24:02     QDKVASGLCSF  QVASGLCSF  0  1  2  0  0  QDKVASGLCSF           MYO1G 0.0639580 25028.4 15.6467
+   13  HLA-A*24:02     DKVASGLCSFQ  KVASGLCSF  1  0  0  0  0    KVASGLCSF           MYO1G 0.0172140 41503.2 53.4843
+   14  HLA-A*24:02     KVASGLCSFQA  KVASGLCSF  0  0  0  0  0    KVASGLCSF           MYO1G 0.0345570 34402.3 29.6528
+   15  HLA-A*24:02     VASGLCSFQAM  VGLCSFQAM  0  1  2  0  0  VASGLCSFQAM           MYO1G 0.0387830 32864.7 26.5448
+   16  HLA-A*24:02     ASGLCSFQAMS  ASLCSFQAM  0  2  1  0  0   ASGLCSFQAM           MYO1G 0.0175310 41361.1 52.8038
+   17  HLA-A*24:02     SGLCSFQAMSA  SGLCSFMSA  0  6  2  0  0  SGLCSFQAMSA           MYO1G 0.0250330 38136.5 39.6558
+   18  HLA-A*24:02     GLCSFQAMSAR  GLCSFQAMR  0  8  2  0  0  GLCSFQAMSAR           MYO1G 0.0177490 41263.7 52.3358
+   19  HLA-A*24:02     LCSFQAMSARX  LFQAMSARX  0  1  2  0  0  LCSFQAMSARX           MYO1G 0.0342150 34529.9 29.9167
+    1  HLA-A*24:02      SSLFAQRLKT  SSLFARLKT  0  5  1  0  0   SSLFAQRLKT           MYO1G 0.0207950 39925.9 46.2751
+    2  HLA-A*24:02      SLFAQRLKTL  SFAQRLKTL  0  1  1  0  0   SLFAQRLKTL           MYO1G 0.1345310 11663.1  6.1706
+    3  HLA-A*24:02      LFAQRLKTLQ  LFAQRLKTL  0  0  0  0  0    LFAQRLKTL           MYO1G 0.0520850 28459.3 19.6388
+    4  HLA-A*24:02      FAQRLKTLQD  FAQRLTLQD  0  5  1  0  0   FAQRLKTLQD           MYO1G 0.0146540 42668.9 59.6937
+    5  HLA-A*24:02      AQRLKTLQDK  AQRLKTLQK  0  8  1  0  0   AQRLKTLQDK           MYO1G 0.0186950 40843.5 50.3048
+    6  HLA-A*24:02      QRLKTLQDKV  QRLKTLQKV  0  7  1  0  0   QRLKTLQDKV           MYO1G 0.0269530 37352.4 37.2058
+    7  HLA-A*24:02      RLKTLQDKVA  RLKTLQDVA  0  7  1  0  0   RLKTLQDKVA           MYO1G 0.0151310 42449.2 58.4861
+    8  HLA-A*24:02      LKTLQDKVAS  LTLQDKVAS  0  1  1  0  0   LKTLQDKVAS           MYO1G 0.0059850 46864.8 89.6646
+    9  HLA-A*24:02      KTLQDKVASG  KTLQKVASG  0  4  1  0  0   KTLQDKVASG           MYO1G 0.0208880 39885.8 46.1111
+   10  HLA-A*24:02      TLQDKVASGL  TLQDKVASL  0  8  1  0  0   TLQDKVASGL           MYO1G 0.0407220 32182.4 25.2737
+   11  HLA-A*24:02      LQDKVASGLC  LQDKVASLC  0  7  1  0  0   LQDKVASGLC           MYO1G 0.0267100 37450.8 37.5018
+   12  HLA-A*24:02      QDKVASGLCS  QKVASGLCS  0  1  1  0  0   QDKVASGLCS           MYO1G 0.0070010 46352.4 85.7927
+   13  HLA-A*24:02      DKVASGLCSF  KVASGLCSF  1  0  0  0  0    KVASGLCSF           MYO1G 0.0851780 19894.0 11.2384
+   14  HLA-A*24:02      KVASGLCSFQ  KVASGLCSF  0  0  0  0  0    KVASGLCSF           MYO1G 0.0562540 27204.1 18.0050
+   15  HLA-A*24:02      VASGLCSFQA  VASGLCFQA  0  6  1  0  0   VASGLCSFQA           MYO1G 0.0282390 36836.3 35.7088
+   16  HLA-A*24:02      ASGLCSFQAM  ASLCSFQAM  0  2  1  0  0   ASGLCSFQAM           MYO1G 0.0530670 28158.5 19.2448
+   17  HLA-A*24:02      SGLCSFQAMS  SGLCSFAMS  0  6  1  0  0   SGLCSFQAMS           MYO1G 0.0276030 37090.6 36.4354
+   18  HLA-A*24:02      GLCSFQAMSA  GLCSFAMSA  0  5  1  0  0   GLCSFQAMSA           MYO1G 0.0203760 40107.3 47.0150
+   19  HLA-A*24:02      LCSFQAMSAR  LSFQAMSAR  0  1  1  0  0   LCSFQAMSAR           MYO1G 0.0167340 41719.3 54.5148
+   20  HLA-A*24:02      CSFQAMSARX  CFQAMSARX  0  1  1  0  0   CSFQAMSARX           MYO1G 0.0560460 27265.4 18.0853
+    1  HLA-A*24:02       SSLFAQRLK  SSLFAQRLK  0  0  0  0  0    SSLFAQRLK           MYO1G 0.0319000 35405.7 31.9498
+    2  HLA-A*24:02       SLFAQRLKT  SLFAQRLKT  0  0  0  0  0    SLFAQRLKT           MYO1G 0.0233470 38838.6 42.0635
+    3  HLA-A*24:02       LFAQRLKTL  LFAQRLKTL  0  0  0  0  0    LFAQRLKTL           MYO1G 0.2611870  2962.5  2.1877
+    4  HLA-A*24:02       FAQRLKTLQ  FAQRLKTLQ  0  0  0  0  0    FAQRLKTLQ           MYO1G 0.0124110 43717.1 66.2387
+    5  HLA-A*24:02       AQRLKTLQD  AQRLKTLQD  0  0  0  0  0    AQRLKTLQD           MYO1G 0.0115640 44119.5 68.9710
+    6  HLA-A*24:02       QRLKTLQDK  QRLKTLQDK  0  0  0  0  0    QRLKTLQDK           MYO1G 0.0151510 42440.0 58.4354
+    7  HLA-A*24:02       RLKTLQDKV  RLKTLQDKV  0  0  0  0  0    RLKTLQDKV           MYO1G 0.0502850 29019.0 20.3809
+    8  HLA-A*24:02       LKTLQDKVA  LKTLQDKVA  0  0  0  0  0    LKTLQDKVA           MYO1G 0.0045960 47574.4 94.3687
+    9  HLA-A*24:02       KTLQDKVAS  KTLQDKVAS  0  0  0  0  0    KTLQDKVAS           MYO1G 0.0099190 44911.9 74.6756
+   10  HLA-A*24:02       TLQDKVASG  TLQDKVASG  0  0  0  0  0    TLQDKVASG           MYO1G 0.0205410 40035.8 46.7231
+   11  HLA-A*24:02       LQDKVASGL  LQDKVASGL  0  0  0  0  0    LQDKVASGL           MYO1G 0.0483800 29623.3 21.2127
+   12  HLA-A*24:02       QDKVASGLC  QDKVASGLC  0  0  0  0  0    QDKVASGLC           MYO1G 0.0122590 43789.0 66.7290
+   13  HLA-A*24:02       DKVASGLCS  DKVASGLCS  0  0  0  0  0    DKVASGLCS           MYO1G 0.0048500 47443.8 93.5158
+   14  HLA-A*24:02       KVASGLCSF  KVASGLCSF  0  0  0  0  0    KVASGLCSF           MYO1G 0.2668760  2785.7  2.0978
+   15  HLA-A*24:02       VASGLCSFQ  VASGLCSFQ  0  0  0  0  0    VASGLCSFQ           MYO1G 0.0122180 43808.5 66.8613
+   16  HLA-A*24:02       ASGLCSFQA  ASGLCSFQA  0  0  0  0  0    ASGLCSFQA           MYO1G 0.0306830 35875.0 33.1121
+   17  HLA-A*24:02       SGLCSFQAM  SGLCSFQAM  0  0  0  0  0    SGLCSFQAM           MYO1G 0.0882050 19253.0 10.7636
+   18  HLA-A*24:02       GLCSFQAMS  GLCSFQAMS  0  0  0  0  0    GLCSFQAMS           MYO1G 0.0159140 42091.1 56.5038
+   19  HLA-A*24:02       LCSFQAMSA  LCSFQAMSA  0  0  0  0  0    LCSFQAMSA           MYO1G 0.0116880 44060.4 68.5710
+   20  HLA-A*24:02       CSFQAMSAR  CSFQAMSAR  0  0  0  0  0    CSFQAMSAR           MYO1G 0.0301790 36071.1 33.6355
+   21  HLA-A*24:02       SFQAMSARX  SFQAMSARX  0  0  0  0  0    SFQAMSARX           MYO1G 0.0946840 17949.5  9.8345
+    1  HLA-A*24:02        SSLFAQRL  SSL-FAQRL  0  0  0  3  1     SSLFAQRL           MYO1G 0.0408680 32131.6 25.1783
+    2  HLA-A*24:02        SLFAQRLK  SLFAQR-LK  0  0  0  6  1     SLFAQRLK           MYO1G 0.0203910 40100.8 46.9877
+    3  HLA-A*24:02        LFAQRLKT  LFAQR-LKT  0  0  0  5  1     LFAQRLKT           MYO1G 0.0162000 41961.1 55.7797
+    4  HLA-A*24:02        FAQRLKTL  -FAQRLKTL  0  0  0  0  1     FAQRLKTL           MYO1G 0.0437530 31144.1 23.5288
+    5  HLA-A*24:02        AQRLKTLQ  AQRLKTLQ-  0  0  0  8  1     AQRLKTLQ           MYO1G 0.0067710 46467.9 86.6692
+    6  HLA-A*24:02        QRLKTLQD  QRLKTLQD-  0  0  0  8  1     QRLKTLQD           MYO1G 0.0057800 46968.9 90.3929
+    7  HLA-A*24:02        RLKTLQDK  RLKTLQD-K  0  0  0  7  1     RLKTLQDK           MYO1G 0.0111150 44334.4 70.4584
+    8  HLA-A*24:02        LKTLQDKV  L-KTLQDKV  0  0  0  1  1     LKTLQDKV           MYO1G 0.0089440 45388.2 78.3245
+    9  HLA-A*24:02        KTLQDKVA  KTLQDK-VA  0  0  0  6  1     KTLQDKVA           MYO1G 0.0055790 47071.1 91.0678
+   10  HLA-A*24:02        TLQDKVAS  TLQDKVAS-  0  0  0  8  1     TLQDKVAS           MYO1G 0.0053850 47170.0 91.7193
+   11  HLA-A*24:02        LQDKVASG  LQDKV-ASG  0  0  0  5  1     LQDKVASG           MYO1G 0.0099070 44917.7 74.7179
+   12  HLA-A*24:02        QDKVASGL  -QDKVASGL  0  0  0  0  1     QDKVASGL           MYO1G 0.0102370 44757.6 73.5543
+   13  HLA-A*24:02        DKVASGLC  D-KVASGLC  0  0  0  1  1     DKVASGLC           MYO1G 0.0047460 47497.3 93.8650
+   14  HLA-A*24:02        KVASGLCS  KVASGLCS-  0  0  0  8  1     KVASGLCS           MYO1G 0.0078670 45920.2 82.4496
+   15  HLA-A*24:02        VASGLCSF  V-ASGLCSF  0  0  0  1  1     VASGLCSF           MYO1G 0.0818440 20624.7 11.7978
+   16  HLA-A*24:02        ASGLCSFQ  ASGLCSFQ-  0  0  0  8  1     ASGLCSFQ           MYO1G 0.0076290 46038.6 83.3721
+   17  HLA-A*24:02        SGLCSFQA  SGLCSF-QA  0  0  0  6  1     SGLCSFQA           MYO1G 0.0207550 39943.2 46.3457
+   18  HLA-A*24:02        GLCSFQAM  G-LCSFQAM  0  0  0  1  1     GLCSFQAM           MYO1G 0.0230020 38983.8 42.6111
+   19  HLA-A*24:02        LCSFQAMS  L-CSFQAMS  0  0  0  1  1     LCSFQAMS           MYO1G 0.0064870 46610.9 87.7515
+   20  HLA-A*24:02        CSFQAMSA  CSFQA-MSA  0  0  0  5  1     CSFQAMSA           MYO1G 0.0186790 40850.5 50.3392
+   21  HLA-A*24:02        SFQAMSAR  SFQAMSAR-  0  0  0  8  1     SFQAMSAR           MYO1G 0.0269560 37351.2 37.2022
+   22  HLA-A*24:02        FQAMSARX  -FQAMSARX  0  0  0  0  1     FQAMSARX           MYO1G 0.0178460 41220.4 52.1275
+-----------------------------------------------------------------------------------
+
+Protein MYO1G. Allele HLA-A*24:02. Number of high binders 0. Number of weak binders 0. Number of peptides 82
+
+-----------------------------------------------------------------------------------
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/bin/netMHCpan -a HLA-A32:01 -BA -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest1/MYO1G_targeted.fa
+# Fri Aug 28 15:12:38 2020
+# User: huangz
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest1
+# Host: Linux odcf-worker01 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-A32:01           HLA allele
+# -BA      1                    Make Binding affinity prediction
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest1/MYO1G_targeted.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/synlist.bin Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-A32:01           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest1/MYO1G_targeted.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/threshold/%s.thr.%s Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/allelenames File with print names for alleles
+#	[-BA]                1                    Make Binding affinity prediction
+
+# NetMHCpan version 4.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/tmp/netMHCpan7h4uSD
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+# Make binding affinity predictions
+
+HLA-A32:01 : Distance to training data  0.000 (using nearest neighbor HLA-A32:01)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity     Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-A*32:01     SSLFAQRLKTL  SLFAQRLTL  1  7  1  0  0   SLFAQRLKTL           MYO1G 0.1235550 13133.8 10.1582
+    2  HLA-A*32:01     SLFAQRLKTLQ  SLFAQRLTL  0  7  1  0  0   SLFAQRLKTL           MYO1G 0.0733420 22612.0 18.9960
+    3  HLA-A*32:01     LFAQRLKTLQD  LQRLKTLQD  0  1  2  0  0  LFAQRLKTLQD           MYO1G 0.0086150 45550.0 82.3575
+    4  HLA-A*32:01     FAQRLKTLQDK  FAQRLKTLK  0  8  2  0  0  FAQRLKTLQDK           MYO1G 0.0192560 40596.3 57.5407
+    5  HLA-A*32:01     AQRLKTLQDKV  AQRLKTLQV  0  8  2  0  0  AQRLKTLQDKV           MYO1G 0.0337630 34699.1 38.9945
+    6  HLA-A*32:01     QRLKTLQDKVA  RLKTLQDVA  1  7  1  0  0   RLKTLQDKVA           MYO1G 0.0118360 43989.9 73.4834
+    7  HLA-A*32:01     RLKTLQDKVAS  RLKTLQVAS  0  6  2  0  0  RLKTLQDKVAS           MYO1G 0.0265710 37507.1 46.6556
+    8  HLA-A*32:01     LKTLQDKVASG  KTLQKVASG  1  4  1  0  0   KTLQDKVASG           MYO1G 0.0183460 40998.0 59.1519
+    9  HLA-A*32:01     KTLQDKVASGL  KTLQVASGL  0  4  2  0  0  KTLQDKVASGL           MYO1G 0.1942440  6112.6  5.1718
+   10  HLA-A*32:01     TLQDKVASGLC  TLQDKVALC  0  7  2  0  0  TLQDKVASGLC           MYO1G 0.0152880 42377.2 65.2565
+   11  HLA-A*32:01     LQDKVASGLCS  LQVASGLCS  0  2  2  0  0  LQDKVASGLCS           MYO1G 0.0129150 43479.3 70.7238
+   12  HLA-A*32:01     QDKVASGLCSF  KVASGLCSF  2  0  0  0  0    KVASGLCSF           MYO1G 0.1344760 11670.0  9.0537
+   13  HLA-A*32:01     DKVASGLCSFQ  KVASGLCSF  1  0  0  0  0    KVASGLCSF           MYO1G 0.0351330 34188.6 37.7602
+   14  HLA-A*32:01     KVASGLCSFQA  KVASGLCSF  0  0  0  0  0    KVASGLCSF           MYO1G 0.0928190 18315.4 14.5953
+   15  HLA-A*32:01     VASGLCSFQAM  VASGLFQAM  0  5  2  0  0  VASGLCSFQAM           MYO1G 0.0521360 28443.6 26.8922
+   16  HLA-A*32:01     ASGLCSFQAMS  ASLCSFQAM  0  2  1  0  0   ASGLCSFQAM           MYO1G 0.0246290 38303.6 49.1598
+   17  HLA-A*32:01     SGLCSFQAMSA  SGLCSFMSA  0  6  2  0  0  SGLCSFQAMSA           MYO1G 0.0258850 37786.6 47.5212
+   18  HLA-A*32:01     GLCSFQAMSAR  GSFQAMSAR  0  1  2  0  0  GLCSFQAMSAR           MYO1G 0.0463700 30274.6 29.8936
+   19  HLA-A*32:01     LCSFQAMSARX  CSFAMSARX  1  3  1  0  0   CSFQAMSARX           MYO1G 0.0231410 38925.2 51.2957
+    1  HLA-A*32:01      SSLFAQRLKT  SLFAQRLKT  0  1  1  0  0   SSLFAQRLKT           MYO1G 0.0514700 28649.3 27.2211
+    2  HLA-A*32:01      SLFAQRLKTL  SLFAQRLTL  0  7  1  0  0   SLFAQRLKTL           MYO1G 0.3655090   958.2  1.2537 <= WB
+    3  HLA-A*32:01      LFAQRLKTLQ  LFAQRLKTL  0  0  0  0  0    LFAQRLKTL           MYO1G 0.0194980 40490.2 57.1123
+    4  HLA-A*32:01      FAQRLKTLQD  FAQRLTLQD  0  5  1  0  0   FAQRLKTLQD           MYO1G 0.0158130 42137.2 64.1646
+    5  HLA-A*32:01      AQRLKTLQDK  AQRLKTLQK  0  8  1  0  0   AQRLKTLQDK           MYO1G 0.0361500 33814.4 36.8996
+    6  HLA-A*32:01      QRLKTLQDKV  RLKTLQDKV  1  0  0  0  0    RLKTLQDKV           MYO1G 0.0463140 30293.0 29.9242
+    7  HLA-A*32:01      RLKTLQDKVA  RLKTLQDVA  0  7  1  0  0   RLKTLQDKVA           MYO1G 0.0442180 30987.8 31.1632
+    8  HLA-A*32:01      LKTLQDKVAS  KTLQDKVAS  1  0  0  0  0    KTLQDKVAS           MYO1G 0.0125210 43665.1 71.7315
+    9  HLA-A*32:01      KTLQDKVASG  KTLQKVASG  0  4  1  0  0   KTLQDKVASG           MYO1G 0.0841500 20116.5 16.3805
+   10  HLA-A*32:01      TLQDKVASGL  TLQDKVASL  0  8  1  0  0   TLQDKVASGL           MYO1G 0.0798120 21083.2 17.3471
+   11  HLA-A*32:01      LQDKVASGLC  LQDKVASLC  0  7  1  0  0   LQDKVASGLC           MYO1G 0.0246320 38302.3 49.1558
+   12  HLA-A*32:01      QDKVASGLCS  QDVASGLCS  0  2  1  0  0   QDKVASGLCS           MYO1G 0.0059470 46884.1 90.1842
+   13  HLA-A*32:01      DKVASGLCSF  KVASGLCSF  1  0  0  0  0    KVASGLCSF           MYO1G 0.2847040  2297.0  2.4170
+   14  HLA-A*32:01      KVASGLCSFQ  KVASGLCSF  0  0  0  0  0    KVASGLCSF           MYO1G 0.2177940  4737.6  4.2271
+   15  HLA-A*32:01      VASGLCSFQA  VASGLSFQA  0  5  1  0  0   VASGLCSFQA           MYO1G 0.0500220 29101.7 27.9436
+   16  HLA-A*32:01      ASGLCSFQAM  ASLCSFQAM  0  2  1  0  0   ASGLCSFQAM           MYO1G 0.1254850 12862.3  9.9463
+   17  HLA-A*32:01      SGLCSFQAMS  SLCSFQAMS  0  1  1  0  0   SGLCSFQAMS           MYO1G 0.0349670 34250.0 37.9019
+   18  HLA-A*32:01      GLCSFQAMSA  GLCSFQMSA  0  6  1  0  0   GLCSFQAMSA           MYO1G 0.0632150 25230.4 22.2089
+   19  HLA-A*32:01      LCSFQAMSAR  LSFQAMSAR  0  1  1  0  0   LCSFQAMSAR           MYO1G 0.0644580 24893.4 21.7778
+   20  HLA-A*32:01      CSFQAMSARX  CSFAMSARX  0  3  1  0  0   CSFQAMSARX           MYO1G 0.0761040 21946.2 18.2646
+    1  HLA-A*32:01       SSLFAQRLK  SSLFAQRLK  0  0  0  0  0    SSLFAQRLK           MYO1G 0.1036130 16296.5 12.7452
+    2  HLA-A*32:01       SLFAQRLKT  SLFAQRLKT  0  0  0  0  0    SLFAQRLKT           MYO1G 0.1074010 15642.1 12.1783
+    3  HLA-A*32:01       LFAQRLKTL  LFAQRLKTL  0  0  0  0  0    LFAQRLKTL           MYO1G 0.1024730 16498.8 12.9159
+    4  HLA-A*32:01       FAQRLKTLQ  FAQRLKTLQ  0  0  0  0  0    FAQRLKTLQ           MYO1G 0.0201950 40186.0 55.8782
+    5  HLA-A*32:01       AQRLKTLQD  AQRLKTLQD  0  0  0  0  0    AQRLKTLQD           MYO1G 0.0211070 39791.4 54.3710
+    6  HLA-A*32:01       QRLKTLQDK  QRLKTLQDK  0  0  0  0  0    QRLKTLQDK           MYO1G 0.0160570 42026.1 63.6699
+    7  HLA-A*32:01       RLKTLQDKV  RLKTLQDKV  0  0  0  0  0    RLKTLQDKV           MYO1G 0.2168580  4785.9  4.2621
+    8  HLA-A*32:01       LKTLQDKVA  LKTLQDKVA  0  0  0  0  0    LKTLQDKVA           MYO1G 0.0035530 48114.4 95.7652
+    9  HLA-A*32:01       KTLQDKVAS  KTLQDKVAS  0  0  0  0  0    KTLQDKVAS           MYO1G 0.0536330 27986.6 26.1683
+   10  HLA-A*32:01       TLQDKVASG  TLQDKVASG  0  0  0  0  0    TLQDKVASG           MYO1G 0.0479190 29771.5 29.0486
+   11  HLA-A*32:01       LQDKVASGL  LQDKVASGL  0  0  0  0  0    LQDKVASGL           MYO1G 0.1140470 14556.8 11.2763
+   12  HLA-A*32:01       QDKVASGLC  QDKVASGLC  0  0  0  0  0    QDKVASGLC           MYO1G 0.0084630 45625.0 82.8088
+   13  HLA-A*32:01       DKVASGLCS  DKVASGLCS  0  0  0  0  0    DKVASGLCS           MYO1G 0.0034750 48155.0 95.8582
+   14  HLA-A*32:01       KVASGLCSF  KVASGLCSF  0  0  0  0  0    KVASGLCSF           MYO1G 0.6830520    30.9  0.0562 <= SB
+   15  HLA-A*32:01       VASGLCSFQ  VASGLCSFQ  0  0  0  0  0    VASGLCSFQ           MYO1G 0.0309540 35769.9 41.7500
+   16  HLA-A*32:01       ASGLCSFQA  ASGLCSFQA  0  0  0  0  0    ASGLCSFQA           MYO1G 0.0639320 25035.5 21.9515
+   17  HLA-A*32:01       SGLCSFQAM  SGLCSFQAM  0  0  0  0  0    SGLCSFQAM           MYO1G 0.1174550 14029.8 10.8498
+   18  HLA-A*32:01       GLCSFQAMS  GLCSFQAMS  0  0  0  0  0    GLCSFQAMS           MYO1G 0.0442540 30975.7 31.1403
+   19  HLA-A*32:01       LCSFQAMSA  LCSFQAMSA  0  0  0  0  0    LCSFQAMSA           MYO1G 0.0281870 36857.0 44.7249
+   20  HLA-A*32:01       CSFQAMSAR  CSFQAMSAR  0  0  0  0  0    CSFQAMSAR           MYO1G 0.1290010 12382.2  9.5936
+   21  HLA-A*32:01       SFQAMSARX  SFQAMSARX  0  0  0  0  0    SFQAMSARX           MYO1G 0.0453470 30611.6 30.4871
+    1  HLA-A*32:01        SSLFAQRL  SSL-FAQRL  0  0  0  3  1     SSLFAQRL           MYO1G 0.0742340 22394.8 18.7598
+    2  HLA-A*32:01        SLFAQRLK  SLFAQR-LK  0  0  0  6  1     SLFAQRLK           MYO1G 0.0565680 27111.8 24.7918
+    3  HLA-A*32:01        LFAQRLKT  -LFAQRLKT  0  0  0  0  1     LFAQRLKT           MYO1G 0.0075530 46076.4 85.5026
+    4  HLA-A*32:01        FAQRLKTL  FAQRLK-TL  0  0  0  6  1     FAQRLKTL           MYO1G 0.0302140 36057.5 42.4894
+    5  HLA-A*32:01        AQRLKTLQ  AQRLKTLQ-  0  0  0  8  1     AQRLKTLQ           MYO1G 0.0095380 45097.4 79.6483
+    6  HLA-A*32:01        QRLKTLQD  QRLKTLQD-  0  0  0  8  1     QRLKTLQD           MYO1G 0.0038640 47952.7 95.3945
+    7  HLA-A*32:01        RLKTLQDK  RLKTLQD-K  0  0  0  7  1     RLKTLQDK           MYO1G 0.0248790 38200.1 48.8296
+    8  HLA-A*32:01        LKTLQDKV  -LKTLQDKV  0  0  0  0  1     LKTLQDKV           MYO1G 0.0075270 46089.4 85.5786
+    9  HLA-A*32:01        KTLQDKVA  KTLQDKVA-  0  0  0  8  1     KTLQDKVA           MYO1G 0.0182260 41051.3 59.3644
+   10  HLA-A*32:01        TLQDKVAS  TLQDKVAS-  0  0  0  8  1     TLQDKVAS           MYO1G 0.0083820 45665.0 83.0493
+   11  HLA-A*32:01        LQDKVASG  LQDKV-ASG  0  0  0  5  1     LQDKVASG           MYO1G 0.0097650 44986.7 79.0294
+   12  HLA-A*32:01        QDKVASGL  -QDKVASGL  0  0  0  0  1     QDKVASGL           MYO1G 0.0096010 45066.6 79.4766
+   13  HLA-A*32:01        DKVASGLC  D-KVASGLC  0  0  0  1  1     DKVASGLC           MYO1G 0.0025640 48632.0 96.9440
+   14  HLA-A*32:01        KVASGLCS  KVASGLCS-  0  0  0  8  1     KVASGLCS           MYO1G 0.0285980 36693.5 44.2497
+   15  HLA-A*32:01        VASGLCSF  VASGL-CSF  0  0  0  5  1     VASGLCSF           MYO1G 0.0788100 21313.0 17.5886
+   16  HLA-A*32:01        ASGLCSFQ  ASGLCSFQ-  0  0  0  8  1     ASGLCSFQ           MYO1G 0.0123540 43744.0 72.1586
+   17  HLA-A*32:01        SGLCSFQA  SGL-CSFQA  0  0  0  3  1     SGLCSFQA           MYO1G 0.0175140 41368.7 60.7157
+   18  HLA-A*32:01        GLCSFQAM  GLCSFQ-AM  0  0  0  6  1     GLCSFQAM           MYO1G 0.0465570 30213.4 29.7916
+   19  HLA-A*32:01        LCSFQAMS  LCSFQAMS-  0  0  0  8  1     LCSFQAMS           MYO1G 0.0073170 46194.2 86.1923
+   20  HLA-A*32:01        CSFQAMSA  CSFQA-MSA  0  0  0  5  1     CSFQAMSA           MYO1G 0.0468870 30105.8 29.6116
+   21  HLA-A*32:01        SFQAMSAR  S-FQAMSAR  0  0  0  1  1     SFQAMSAR           MYO1G 0.0190530 40685.6 57.9001
+   22  HLA-A*32:01        FQAMSARX  FQA-MSARX  0  0  0  3  1     FQAMSARX           MYO1G 0.0141240 42914.3 67.8983
+-----------------------------------------------------------------------------------
+
+Protein MYO1G. Allele HLA-A*32:01. Number of high binders 1. Number of weak binders 1. Number of peptides 82
+
+-----------------------------------------------------------------------------------
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/bin/netMHCpan -a HLA-B15:01 -BA -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest1/MYO1G_targeted.fa
+# Fri Aug 28 15:12:38 2020
+# User: huangz
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest1
+# Host: Linux odcf-worker01 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-B15:01           HLA allele
+# -BA      1                    Make Binding affinity prediction
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest1/MYO1G_targeted.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/synlist.bin Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-B15:01           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest1/MYO1G_targeted.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/threshold/%s.thr.%s Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/allelenames File with print names for alleles
+#	[-BA]                1                    Make Binding affinity prediction
+
+# NetMHCpan version 4.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/tmp/netMHCpaneuBNPD
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+# Make binding affinity predictions
+
+HLA-B15:01 : Distance to training data  0.000 (using nearest neighbor HLA-B15:01)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity     Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-B*15:01     SSLFAQRLKTL  SLFAQRLTL  1  7  1  0  0   SLFAQRLKTL           MYO1G 0.1074280 15637.6 21.5744
+    2  HLA-B*15:01     SLFAQRLKTLQ  SLFAQRLTL  0  7  1  0  0   SLFAQRLKTL           MYO1G 0.0820590 20576.8 29.5732
+    3  HLA-B*15:01     LFAQRLKTLQD  LQRLKTLQD  0  1  2  0  0  LFAQRLKTLQD           MYO1G 0.0317320 35470.1 67.1816
+    4  HLA-B*15:01     FAQRLKTLQDK  FAQRLKTLK  0  8  2  0  0  FAQRLKTLQDK           MYO1G 0.0406540 32206.1 57.0523
+    5  HLA-B*15:01     AQRLKTLQDKV  AQRLKTLQV  0  8  2  0  0  AQRLKTLQDKV           MYO1G 0.1054230 15980.5 22.0658
+    6  HLA-B*15:01     QRLKTLQDKVA  RLKTLQDVA  1  7  1  0  0   RLKTLQDKVA           MYO1G 0.0429170 31427.1 54.7245
+    7  HLA-B*15:01     RLKTLQDKVAS  RLKTLQVAS  0  6  2  0  0  RLKTLQDKVAS           MYO1G 0.0809720 20820.2 30.0099
+    8  HLA-B*15:01     LKTLQDKVASG  LLQDKVASG  0  1  2  0  0  LKTLQDKVASG           MYO1G 0.0432970 31298.2 54.3766
+    9  HLA-B*15:01     KTLQDKVASGL  KTLQVASGL  0  4  2  0  0  KTLQDKVASGL           MYO1G 0.0941170 18060.0 25.2705
+   10  HLA-B*15:01     TLQDKVASGLC  TLKVASGLC  0  2  2  0  0  TLQDKVASGLC           MYO1G 0.0422650 31649.6 55.3672
+   11  HLA-B*15:01     LQDKVASGLCS  LQVASGLCS  0  2  2  0  0  LQDKVASGLCS           MYO1G 0.0873650 19428.7 27.5393
+   12  HLA-B*15:01     QDKVASGLCSF  QVASGLCSF  0  1  2  0  0  QDKVASGLCSF           MYO1G 0.3462380  1180.3  2.9751
+   13  HLA-B*15:01     DKVASGLCSFQ  KVASGLCSF  1  0  0  0  0    KVASGLCSF           MYO1G 0.0904970 18781.4 26.4367
+   14  HLA-B*15:01     KVASGLCSFQA  KVASGLCSF  0  0  0  0  0    KVASGLCSF           MYO1G 0.1653490  8356.0 11.9489
+   15  HLA-B*15:01     VASGLCSFQAM  VASGSFQAM  0  4  2  0  0  VASGLCSFQAM           MYO1G 0.2135860  4958.3  7.8722
+   16  HLA-B*15:01     ASGLCSFQAMS  ASLCSFQAM  0  2  1  0  0   ASGLCSFQAM           MYO1G 0.0673420 24128.6 36.5390
+   17  HLA-B*15:01     SGLCSFQAMSA  SGLCSFMSA  0  6  2  0  0  SGLCSFQAMSA           MYO1G 0.0522750 28400.8 46.5614
+   18  HLA-B*15:01     GLCSFQAMSAR  GLFQAMSAR  0  2  2  0  0  GLCSFQAMSAR           MYO1G 0.0607470 25913.2 40.5132
+   19  HLA-B*15:01     LCSFQAMSARX  CSFQAMSAX  1  8  1  0  0   CSFQAMSARX           MYO1G 0.0607930 25900.3 40.4820
+    1  HLA-B*15:01      SSLFAQRLKT  SLFAQRLKT  0  1  1  0  0   SSLFAQRLKT           MYO1G 0.0757550 22029.2 32.2986
+    2  HLA-B*15:01      SLFAQRLKTL  SLFAQRLTL  0  7  1  0  0   SLFAQRLKTL           MYO1G 0.3042340  1859.4  3.9949
+    3  HLA-B*15:01      LFAQRLKTLQ  LFAQRLTLQ  0  6  1  0  0   LFAQRLKTLQ           MYO1G 0.0549540 27589.4 44.5455
+    4  HLA-B*15:01      FAQRLKTLQD  FQRLKTLQD  0  1  1  0  0   FAQRLKTLQD           MYO1G 0.0856900 19784.0 28.1716
+    5  HLA-B*15:01      AQRLKTLQDK  AQRLTLQDK  0  4  1  0  0   AQRLKTLQDK           MYO1G 0.1102200 15172.2 20.9014
+    6  HLA-B*15:01      QRLKTLQDKV  RLKTLQDKV  1  0  0  0  0    RLKTLQDKV           MYO1G 0.0684920 23830.2 35.9056
+    7  HLA-B*15:01      RLKTLQDKVA  RLKTLQDVA  0  7  1  0  0   RLKTLQDKVA           MYO1G 0.1763690  7416.8 10.8232
+    8  HLA-B*15:01      LKTLQDKVAS  LTLQDKVAS  0  1  1  0  0   LKTLQDKVAS           MYO1G 0.0386530 32911.0 59.1454
+    9  HLA-B*15:01      KTLQDKVASG  KLQDKVASG  0  1  1  0  0   KTLQDKVASG           MYO1G 0.1055900 15951.7 22.0224
+   10  HLA-B*15:01      TLQDKVASGL  TLQDKVASL  0  8  1  0  0   TLQDKVASGL           MYO1G 0.1539340  9454.5 13.2869
+   11  HLA-B*15:01      LQDKVASGLC  LQKVASGLC  0  2  1  0  0   LQDKVASGLC           MYO1G 0.1396270 11037.4 15.3000
+   12  HLA-B*15:01      QDKVASGLCS  QKVASGLCS  0  1  1  0  0   QDKVASGLCS           MYO1G 0.0326540 35118.0 66.0302
+   13  HLA-B*15:01      DKVASGLCSF  KVASGLCSF  1  0  0  0  0    KVASGLCSF           MYO1G 0.4976560   229.4  1.0120 <= WB
+   14  HLA-B*15:01      KVASGLCSFQ  KVASGLCSF  0  0  0  0  0    KVASGLCSF           MYO1G 0.4095310   595.1  1.9023 <= WB
+   15  HLA-B*15:01      VASGLCSFQA  VASGLCSFA  0  8  1  0  0   VASGLCSFQA           MYO1G 0.0975360 17404.1 24.2516
+   16  HLA-B*15:01      ASGLCSFQAM  ASLCSFQAM  0  2  1  0  0   ASGLCSFQAM           MYO1G 0.3805870   814.0  2.3334
+   17  HLA-B*15:01      SGLCSFQAMS  SGLCSFQAM  0  0  0  0  0    SGLCSFQAM           MYO1G 0.0923550 18407.6 25.8298
+   18  HLA-B*15:01      GLCSFQAMSA  GLCSFAMSA  0  5  1  0  0   GLCSFQAMSA           MYO1G 0.1396960 11029.2 15.2895
+   19  HLA-B*15:01      LCSFQAMSAR  LSFQAMSAR  0  1  1  0  0   LCSFQAMSAR           MYO1G 0.0900580 18870.8 26.5818
+   20  HLA-B*15:01      CSFQAMSARX  CSFQAMSAX  0  8  1  0  0   CSFQAMSARX           MYO1G 0.2279110  4246.4  7.0088
+    1  HLA-B*15:01       SSLFAQRLK  SSLFAQRLK  0  0  0  0  0    SSLFAQRLK           MYO1G 0.0665620 24333.1 36.9733
+    2  HLA-B*15:01       SLFAQRLKT  SLFAQRLKT  0  0  0  0  0    SLFAQRLKT           MYO1G 0.1120910 14868.2 20.4695
+    3  HLA-B*15:01       LFAQRLKTL  LFAQRLKTL  0  0  0  0  0    LFAQRLKTL           MYO1G 0.1376360 11277.8 15.6045
+    4  HLA-B*15:01       FAQRLKTLQ  FAQRLKTLQ  0  0  0  0  0    FAQRLKTLQ           MYO1G 0.0672300 24157.9 36.6013
+    5  HLA-B*15:01       AQRLKTLQD  AQRLKTLQD  0  0  0  0  0    AQRLKTLQD           MYO1G 0.0970290 17499.8 24.3994
+    6  HLA-B*15:01       QRLKTLQDK  QRLKTLQDK  0  0  0  0  0    QRLKTLQDK           MYO1G 0.0184230 40963.9 85.5212
+    7  HLA-B*15:01       RLKTLQDKV  RLKTLQDKV  0  0  0  0  0    RLKTLQDKV           MYO1G 0.1606480  8792.0 12.4862
+    8  HLA-B*15:01       LKTLQDKVA  LKTLQDKVA  0  0  0  0  0    LKTLQDKVA           MYO1G 0.0337280 34712.3 64.7143
+    9  HLA-B*15:01       KTLQDKVAS  KTLQDKVAS  0  0  0  0  0    KTLQDKVAS           MYO1G 0.0563190 27185.0 43.5564
+   10  HLA-B*15:01       TLQDKVASG  TLQDKVASG  0  0  0  0  0    TLQDKVASG           MYO1G 0.1227490 13248.8 18.2231
+   11  HLA-B*15:01       LQDKVASGL  LQDKVASGL  0  0  0  0  0    LQDKVASGL           MYO1G 0.2035310  5528.2  8.5900
+   12  HLA-B*15:01       QDKVASGLC  QDKVASGLC  0  0  0  0  0    QDKVASGLC           MYO1G 0.0232420 38882.7 78.5640
+   13  HLA-B*15:01       DKVASGLCS  DKVASGLCS  0  0  0  0  0    DKVASGLCS           MYO1G 0.0242040 38480.1 77.2056
+   14  HLA-B*15:01       KVASGLCSF  KVASGLCSF  0  0  0  0  0    KVASGLCSF           MYO1G 0.7385870    16.9  0.0552 <= SB
+   15  HLA-B*15:01       VASGLCSFQ  VASGLCSFQ  0  0  0  0  0    VASGLCSFQ           MYO1G 0.0862030 19674.5 27.9785
+   16  HLA-B*15:01       ASGLCSFQA  ASGLCSFQA  0  0  0  0  0    ASGLCSFQA           MYO1G 0.0770450 21723.9 31.7202
+   17  HLA-B*15:01       SGLCSFQAM  SGLCSFQAM  0  0  0  0  0    SGLCSFQAM           MYO1G 0.3113340  1722.0  3.7974
+   18  HLA-B*15:01       GLCSFQAMS  GLCSFQAMS  0  0  0  0  0    GLCSFQAMS           MYO1G 0.0737400 22514.8 33.2317
+   19  HLA-B*15:01       LCSFQAMSA  LCSFQAMSA  0  0  0  0  0    LCSFQAMSA           MYO1G 0.0646700 24836.3 38.0299
+   20  HLA-B*15:01       CSFQAMSAR  CSFQAMSAR  0  0  0  0  0    CSFQAMSAR           MYO1G 0.1145280 14481.3 19.9124
+   21  HLA-B*15:01       SFQAMSARX  SFQAMSARX  0  0  0  0  0    SFQAMSARX           MYO1G 0.1001830 16912.7 23.4800
+    1  HLA-B*15:01        SSLFAQRL  SSL-FAQRL  0  0  0  3  1     SSLFAQRL           MYO1G 0.0579860 26699.0 42.3697
+    2  HLA-B*15:01        SLFAQRLK  SLFAQRLK-  0  0  0  8  1     SLFAQRLK           MYO1G 0.0692860 23626.4 35.4935
+    3  HLA-B*15:01        LFAQRLKT  LFAQRLKT-  0  0  0  8  1     LFAQRLKT           MYO1G 0.0263510 37596.5 74.2114
+    4  HLA-B*15:01        FAQRLKTL  FAQ-RLKTL  0  0  0  3  1     FAQRLKTL           MYO1G 0.0681970 23906.4 36.0629
+    5  HLA-B*15:01        AQRLKTLQ  AQRLKTLQ-  0  0  0  8  1     AQRLKTLQ           MYO1G 0.0955600 17780.2 24.8277
+    6  HLA-B*15:01        QRLKTLQD  -QRLKTLQD  0  0  0  0  1     QRLKTLQD           MYO1G 0.0113400 44226.6 94.8024
+    7  HLA-B*15:01        RLKTLQDK  RLKTLQDK-  0  0  0  8  1     RLKTLQDK           MYO1G 0.0514410 28658.3 47.2172
+    8  HLA-B*15:01        LKTLQDKV  -LKTLQDKV  0  0  0  0  1     LKTLQDKV           MYO1G 0.0190960 40666.6 84.5533
+    9  HLA-B*15:01        KTLQDKVA  KTLQDKVA-  0  0  0  8  1     KTLQDKVA           MYO1G 0.0322780 35261.2 66.4997
+   10  HLA-B*15:01        TLQDKVAS  TLQDKVAS-  0  0  0  8  1     TLQDKVAS           MYO1G 0.0404020 32294.0 57.3159
+   11  HLA-B*15:01        LQDKVASG  LQ-DKVASG  0  0  0  2  1     LQDKVASG           MYO1G 0.0506380 28908.4 47.8560
+   12  HLA-B*15:01        QDKVASGL  -QDKVASGL  0  0  0  0  1     QDKVASGL           MYO1G 0.0277770 37020.9 72.2890
+   13  HLA-B*15:01        DKVASGLC  DKVASGLC-  0  0  0  8  1     DKVASGLC           MYO1G 0.0131050 43390.0 92.6500
+   14  HLA-B*15:01        KVASGLCS  KVASGLCS-  0  0  0  8  1     KVASGLCS           MYO1G 0.0904940 18782.0 26.4377
+   15  HLA-B*15:01        VASGLCSF  VAS-GLCSF  0  0  0  3  1     VASGLCSF           MYO1G 0.2524110  3257.6  5.8030
+   16  HLA-B*15:01        ASGLCSFQ  AS-GLCSFQ  0  0  0  2  1     ASGLCSFQ           MYO1G 0.0267310 37442.2 73.6991
+   17  HLA-B*15:01        SGLCSFQA  SGLCSFQA-  0  0  0  8  1     SGLCSFQA           MYO1G 0.0351300 34189.7 63.1053
+   18  HLA-B*15:01        GLCSFQAM  GLC-SFQAM  0  0  0  3  1     GLCSFQAM           MYO1G 0.2300240  4150.4  6.8929
+   19  HLA-B*15:01        LCSFQAMS  LCSFQAMS-  0  0  0  8  1     LCSFQAMS           MYO1G 0.0190310 40695.3 84.6479
+   20  HLA-B*15:01        CSFQAMSA  CSFQAMSA-  0  0  0  8  1     CSFQAMSA           MYO1G 0.1042420 16186.0 22.3729
+   21  HLA-B*15:01        SFQAMSAR  S-FQAMSAR  0  0  0  1  1     SFQAMSAR           MYO1G 0.0337220 34714.5 64.7211
+   22  HLA-B*15:01        FQAMSARX  FQA-MSARX  0  0  0  3  1     FQAMSARX           MYO1G 0.2074920  5296.3  8.3021
+-----------------------------------------------------------------------------------
+
+Protein MYO1G. Allele HLA-B*15:01. Number of high binders 1. Number of weak binders 2. Number of peptides 82
+
+-----------------------------------------------------------------------------------
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/bin/netMHCpan -a HLA-B35:03 -BA -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest1/MYO1G_targeted.fa
+# Fri Aug 28 15:12:38 2020
+# User: huangz
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest1
+# Host: Linux odcf-worker01 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-B35:03           HLA allele
+# -BA      1                    Make Binding affinity prediction
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest1/MYO1G_targeted.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/synlist.bin Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-B35:03           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest1/MYO1G_targeted.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/threshold/%s.thr.%s Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/allelenames File with print names for alleles
+#	[-BA]                1                    Make Binding affinity prediction
+
+# NetMHCpan version 4.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/tmp/netMHCpanIp9gTG
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+# Make binding affinity predictions
+
+HLA-B35:03 : Distance to training data  0.000 (using nearest neighbor HLA-B35:03)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity     Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-B*35:03     SSLFAQRLKTL  SSLFAQRTL  0  7  2  0  0  SSLFAQRLKTL           MYO1G 0.0196360 40429.8 26.9537
+    2  HLA-B*35:03     SLFAQRLKTLQ  SLFAQRLTL  0  7  1  0  0   SLFAQRLKTL           MYO1G 0.0095810 45076.4 53.4677
+    3  HLA-B*35:03     LFAQRLKTLQD  LFAQRLKTL  0  0  0  0  0    LFAQRLKTL           MYO1G 0.0047030 47519.4 82.0513
+    4  HLA-B*35:03     FAQRLKTLQDK  FAQRLKTLK  0  8  2  0  0  FAQRLKTLQDK           MYO1G 0.0057920 46962.7 74.4629
+    5  HLA-B*35:03     AQRLKTLQDKV  AQRLKTLQV  0  8  2  0  0  AQRLKTLQDKV           MYO1G 0.0049350 47400.2 80.3989
+    6  HLA-B*35:03     QRLKTLQDKVA  QRLKTLQVA  0  7  2  0  0  QRLKTLQDKVA           MYO1G 0.0043840 47683.7 84.3234
+    7  HLA-B*35:03     RLKTLQDKVAS  RTLQDKVAS  0  1  2  0  0  RLKTLQDKVAS           MYO1G 0.0053390 47193.5 77.5833
+    8  HLA-B*35:03     LKTLQDKVASG  LLQDKVASG  0  1  2  0  0  LKTLQDKVASG           MYO1G 0.0043270 47713.1 84.7293
+    9  HLA-B*35:03     KTLQDKVASGL  KTLQDKVAL  0  8  2  0  0  KTLQDKVASGL           MYO1G 0.0160130 42046.1 33.4588
+   10  HLA-B*35:03     TLQDKVASGLC  TLQDKVASL  0  8  1  0  0   TLQDKVASGL           MYO1G 0.0064840 46612.5 69.8855
+   11  HLA-B*35:03     LQDKVASGLCS  LQVASGLCS  0  2  2  0  0  LQDKVASGLCS           MYO1G 0.0070810 46312.3 66.2892
+   12  HLA-B*35:03     QDKVASGLCSF  QVASGLCSF  0  1  2  0  0  QDKVASGLCSF           MYO1G 0.0214610 39639.2 24.3780
+   13  HLA-B*35:03     DKVASGLCSFQ  DVASGLCSF  0  1  1  0  0   DKVASGLCSF           MYO1G 0.0119160 43951.9 44.4290
+   14  HLA-B*35:03     KVASGLCSFQA  KVASGLCSA  0  8  2  0  0  KVASGLCSFQA           MYO1G 0.0098130 44963.4 52.4830
+   15  HLA-B*35:03     VASGLCSFQAM  VALCSFQAM  0  2  2  0  0  VASGLCSFQAM           MYO1G 0.0750590 22195.8  4.5708
+   16  HLA-B*35:03     ASGLCSFQAMS  ASLCSFQAM  0  2  1  0  0   ASGLCSFQAM           MYO1G 0.0090680 45327.3 55.7480
+   17  HLA-B*35:03     SGLCSFQAMSA  SGLCSFQAA  0  8  2  0  0  SGLCSFQAMSA           MYO1G 0.0139910 42976.1 38.2137
+   18  HLA-B*35:03     GLCSFQAMSAR  CSFQAMSAR  2  0  0  0  0    CSFQAMSAR           MYO1G 0.0060570 46828.3 72.7056
+   19  HLA-B*35:03     LCSFQAMSARX  CSFQAMSAX  1  8  1  0  0   CSFQAMSARX           MYO1G 0.0072650 46220.2 65.1807
+    1  HLA-B*35:03      SSLFAQRLKT  SSLFAQLKT  0  6  1  0  0   SSLFAQRLKT           MYO1G 0.0091570 45283.7 55.3100
+    2  HLA-B*35:03      SLFAQRLKTL  SLFAQRLTL  0  7  1  0  0   SLFAQRLKTL           MYO1G 0.0394190 32639.3 11.4809
+    3  HLA-B*35:03      LFAQRLKTLQ  LFAQRLKTL  0  0  0  0  0    LFAQRLKTL           MYO1G 0.0096490 45043.3 53.1791
+    4  HLA-B*35:03      FAQRLKTLQD  FAQRLTLQD  0  5  1  0  0   FAQRLKTLQD           MYO1G 0.0137710 43078.5 38.8164
+    5  HLA-B*35:03      AQRLKTLQDK  AQRLKTLQK  0  8  1  0  0   AQRLKTLQDK           MYO1G 0.0029270 48441.3 93.9316
+    6  HLA-B*35:03      QRLKTLQDKV  QRLTLQDKV  0  3  1  0  0   QRLKTLQDKV           MYO1G 0.0057080 47005.5 75.0208
+    7  HLA-B*35:03      RLKTLQDKVA  RLKTLQDVA  0  7  1  0  0   RLKTLQDKVA           MYO1G 0.0061780 46767.0 71.9032
+    8  HLA-B*35:03      LKTLQDKVAS  LTLQDKVAS  0  1  1  0  0   LKTLQDKVAS           MYO1G 0.0105380 44612.1 49.4309
+    9  HLA-B*35:03      KTLQDKVASG  KTLQDKVAG  0  8  1  0  0   KTLQDKVASG           MYO1G 0.0061170 46797.9 72.3077
+   10  HLA-B*35:03      TLQDKVASGL  TLQDKVASL  0  8  1  0  0   TLQDKVASGL           MYO1G 0.0245860 38321.4 20.7851
+   11  HLA-B*35:03      LQDKVASGLC  LQDVASGLC  0  3  1  0  0   LQDKVASGLC           MYO1G 0.0124650 43691.5 42.6500
+   12  HLA-B*35:03      QDKVASGLCS  QKVASGLCS  0  1  1  0  0   QDKVASGLCS           MYO1G 0.0040140 47874.9 86.9150
+   13  HLA-B*35:03      DKVASGLCSF  DVASGLCSF  0  1  1  0  0   DKVASGLCSF           MYO1G 0.0527930 28242.1  7.6767
+   14  HLA-B*35:03      KVASGLCSFQ  KVASGLCSF  0  0  0  0  0    KVASGLCSF           MYO1G 0.0134670 43220.4 39.6565
+   15  HLA-B*35:03      VASGLCSFQA  VASGLSFQA  0  5  1  0  0   VASGLCSFQA           MYO1G 0.0253090 38022.8 20.0657
+   16  HLA-B*35:03      ASGLCSFQAM  ASLCSFQAM  0  2  1  0  0   ASGLCSFQAM           MYO1G 0.0525630 28312.5  7.7256
+   17  HLA-B*35:03      SGLCSFQAMS  SGLCSFQAM  0  0  0  0  0    SGLCSFQAM           MYO1G 0.0211400 39777.2 24.7992
+   18  HLA-B*35:03      GLCSFQAMSA  GLCSFAMSA  0  5  1  0  0   GLCSFQAMSA           MYO1G 0.0088420 45438.3 56.8602
+   19  HLA-B*35:03      LCSFQAMSAR  LSFQAMSAR  0  1  1  0  0   LCSFQAMSAR           MYO1G 0.0129030 43485.0 41.3155
+   20  HLA-B*35:03      CSFQAMSARX  CSFQAMSAX  0  8  1  0  0   CSFQAMSARX           MYO1G 0.0229300 39014.2 22.5777
+    1  HLA-B*35:03       SSLFAQRLK  SSLFAQRLK  0  0  0  0  0    SSLFAQRLK           MYO1G 0.0088390 45439.7 56.8750
+    2  HLA-B*35:03       SLFAQRLKT  SLFAQRLKT  0  0  0  0  0    SLFAQRLKT           MYO1G 0.0161590 41979.7 33.1501
+    3  HLA-B*35:03       LFAQRLKTL  LFAQRLKTL  0  0  0  0  0    LFAQRLKTL           MYO1G 0.0395210 32603.3 11.4411
+    4  HLA-B*35:03       FAQRLKTLQ  FAQRLKTLQ  0  0  0  0  0    FAQRLKTLQ           MYO1G 0.0315200 35551.5 15.2989
+    5  HLA-B*35:03       AQRLKTLQD  AQRLKTLQD  0  0  0  0  0    AQRLKTLQD           MYO1G 0.0039810 47892.1 87.1448
+    6  HLA-B*35:03       QRLKTLQDK  QRLKTLQDK  0  0  0  0  0    QRLKTLQDK           MYO1G 0.0036060 48086.8 89.7563
+    7  HLA-B*35:03       RLKTLQDKV  RLKTLQDKV  0  0  0  0  0    RLKTLQDKV           MYO1G 0.0094240 45153.0 54.1341
+    8  HLA-B*35:03       LKTLQDKVA  LKTLQDKVA  0  0  0  0  0    LKTLQDKVA           MYO1G 0.0089540 45383.2 56.3091
+    9  HLA-B*35:03       KTLQDKVAS  KTLQDKVAS  0  0  0  0  0    KTLQDKVAS           MYO1G 0.0140660 42941.2 38.0082
+   10  HLA-B*35:03       TLQDKVASG  TLQDKVASG  0  0  0  0  0    TLQDKVASG           MYO1G 0.0137320 43096.7 38.9233
+   11  HLA-B*35:03       LQDKVASGL  LQDKVASGL  0  0  0  0  0    LQDKVASGL           MYO1G 0.0639550 25029.2  5.7981
+   12  HLA-B*35:03       QDKVASGLC  QDKVASGLC  0  0  0  0  0    QDKVASGLC           MYO1G 0.0044670 47640.9 83.7322
+   13  HLA-B*35:03       DKVASGLCS  DKVASGLCS  0  0  0  0  0    DKVASGLCS           MYO1G 0.0089490 45385.7 56.3337
+   14  HLA-B*35:03       KVASGLCSF  KVASGLCSF  0  0  0  0  0    KVASGLCSF           MYO1G 0.0800560 21027.6  4.1300
+   15  HLA-B*35:03       VASGLCSFQ  VASGLCSFQ  0  0  0  0  0    VASGLCSFQ           MYO1G 0.0245410 38340.0 20.8299
+   16  HLA-B*35:03       ASGLCSFQA  ASGLCSFQA  0  0  0  0  0    ASGLCSFQA           MYO1G 0.0127690 43548.1 41.7143
+   17  HLA-B*35:03       SGLCSFQAM  SGLCSFQAM  0  0  0  0  0    SGLCSFQAM           MYO1G 0.1304670 12187.4  1.8152 <= WB
+   18  HLA-B*35:03       GLCSFQAMS  GLCSFQAMS  0  0  0  0  0    GLCSFQAMS           MYO1G 0.0059400 46887.6 73.4814
+   19  HLA-B*35:03       LCSFQAMSA  LCSFQAMSA  0  0  0  0  0    LCSFQAMSA           MYO1G 0.0283720 36783.3 17.4637
+   20  HLA-B*35:03       CSFQAMSAR  CSFQAMSAR  0  0  0  0  0    CSFQAMSAR           MYO1G 0.0266750 37464.9 18.8228
+   21  HLA-B*35:03       SFQAMSARX  SFQAMSARX  0  0  0  0  0    SFQAMSARX           MYO1G 0.0174040 41418.0 30.6934
+    1  HLA-B*35:03        SSLFAQRL  SSL-FAQRL  0  0  0  3  1     SSLFAQRL           MYO1G 0.0176260 41318.6 30.2883
+    2  HLA-B*35:03        SLFAQRLK  SLFAQRLK-  0  0  0  8  1     SLFAQRLK           MYO1G 0.0056770 47021.2 75.2361
+    3  HLA-B*35:03        LFAQRLKT  LFAQRLKT-  0  0  0  8  1     LFAQRLKT           MYO1G 0.0051990 47265.0 78.5556
+    4  HLA-B*35:03        FAQRLKTL  FAQRLK-TL  0  0  0  6  1     FAQRLKTL           MYO1G 0.0561040 27248.3  6.9911
+    5  HLA-B*35:03        AQRLKTLQ  AQRLKTLQ-  0  0  0  8  1     AQRLKTLQ           MYO1G 0.0032610 48266.6 91.8926
+    6  HLA-B*35:03        QRLKTLQD  QRLKTLQD-  0  0  0  8  1     QRLKTLQD           MYO1G 0.0021370 48857.2 96.1174
+    7  HLA-B*35:03        RLKTLQDK  RLKTLQDK-  0  0  0  8  1     RLKTLQDK           MYO1G 0.0020720 48891.6 96.2355
+    8  HLA-B*35:03        LKTLQDKV  LKT-LQDKV  0  0  0  3  1     LKTLQDKV           MYO1G 0.0044030 47673.9 84.1880
+    9  HLA-B*35:03        KTLQDKVA  KTLQDKVA-  0  0  0  8  1     KTLQDKVA           MYO1G 0.0050700 47331.1 79.4514
+   10  HLA-B*35:03        TLQDKVAS  TLQDKVAS-  0  0  0  8  1     TLQDKVAS           MYO1G 0.0061670 46772.6 71.9761
+   11  HLA-B*35:03        LQDKVASG  LQDKV-ASG  0  0  0  5  1     LQDKVASG           MYO1G 0.0065100 46599.3 69.7289
+   12  HLA-B*35:03        QDKVASGL  -QDKVASGL  0  0  0  0  1     QDKVASGL           MYO1G 0.0081930 45758.4 60.0605
+   13  HLA-B*35:03        DKVASGLC  DKVASGL-C  0  0  0  7  1     DKVASGLC           MYO1G 0.0043350 47709.0 84.6724
+   14  HLA-B*35:03        KVASGLCS  KVASGLCS-  0  0  0  8  1     KVASGLCS           MYO1G 0.0065500 46579.2 69.4880
+   15  HLA-B*35:03        VASGLCSF  VAS-GLCSF  0  0  0  3  1     VASGLCSF           MYO1G 0.0529650 28189.6  7.6401
+   16  HLA-B*35:03        ASGLCSFQ  -ASGLCSFQ  0  0  0  0  1     ASGLCSFQ           MYO1G 0.0034060 48190.9 91.0073
+   17  HLA-B*35:03        SGLCSFQA  SGLCSFQA-  0  0  0  8  1     SGLCSFQA           MYO1G 0.0121710 43830.7 43.5928
+   18  HLA-B*35:03        GLCSFQAM  GL-CSFQAM  0  0  0  2  1     GLCSFQAM           MYO1G 0.0248300 38220.4 20.5423
+   19  HLA-B*35:03        LCSFQAMS  LCSFQAMS-  0  0  0  8  1     LCSFQAMS           MYO1G 0.0047240 47508.6 81.9017
+   20  HLA-B*35:03        CSFQAMSA  CSFQA-MSA  0  0  0  5  1     CSFQAMSA           MYO1G 0.0213970 39666.7 24.4619
+   21  HLA-B*35:03        SFQAMSAR  -SFQAMSAR  0  0  0  0  1     SFQAMSAR           MYO1G 0.0069870 46359.5 66.8554
+   22  HLA-B*35:03        FQAMSARX  FQA-MSARX  0  0  0  3  1     FQAMSARX           MYO1G 0.0127840 43541.0 41.6696
+-----------------------------------------------------------------------------------
+
+Protein MYO1G. Allele HLA-B*35:03. Number of high binders 0. Number of weak binders 1. Number of peptides 82
+
+-----------------------------------------------------------------------------------
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/bin/netMHCpan -a HLA-C03:03 -BA -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest1/MYO1G_targeted.fa
+# Fri Aug 28 15:12:38 2020
+# User: huangz
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest1
+# Host: Linux odcf-worker01 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-C03:03           HLA allele
+# -BA      1                    Make Binding affinity prediction
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest1/MYO1G_targeted.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/synlist.bin Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-C03:03           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest1/MYO1G_targeted.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/threshold/%s.thr.%s Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/allelenames File with print names for alleles
+#	[-BA]                1                    Make Binding affinity prediction
+
+# NetMHCpan version 4.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/tmp/netMHCpanzRreyG
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+# Make binding affinity predictions
+
+HLA-C03:03 : Distance to training data  0.000 (using nearest neighbor HLA-C03:03)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity     Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-C*03:03     SSLFAQRLKTL  SSLFAQRTL  0  7  2  0  0  SSLFAQRLKTL           MYO1G 0.0964460 17610.6 12.2970
+    2  HLA-C*03:03     SLFAQRLKTLQ  SLFAQRLTL  0  7  1  0  0   SLFAQRLKTL           MYO1G 0.0251320 38095.7 41.4332
+    3  HLA-C*03:03     LFAQRLKTLQD  LFAQRLKTL  0  0  0  0  0    LFAQRLKTL           MYO1G 0.0080460 45831.3 76.2609
+    4  HLA-C*03:03     FAQRLKTLQDK  FALKTLQDK  0  2  2  0  0  FAQRLKTLQDK           MYO1G 0.0179130 41190.5 51.6068
+    5  HLA-C*03:03     AQRLKTLQDKV  AQRLKTLQV  0  8  2  0  0  AQRLKTLQDKV           MYO1G 0.0146700 42661.5 57.8323
+    6  HLA-C*03:03     QRLKTLQDKVA  QRLKTLQVA  0  7  2  0  0  QRLKTLQDKVA           MYO1G 0.0065590 46574.6 81.7924
+    7  HLA-C*03:03     RLKTLQDKVAS  RTLQDKVAS  0  1  2  0  0  RLKTLQDKVAS           MYO1G 0.0084270 45642.7 74.8875
+    8  HLA-C*03:03     LKTLQDKVASG  LLQDKVASG  0  1  2  0  0  LKTLQDKVASG           MYO1G 0.0075630 46071.4 78.0211
+    9  HLA-C*03:03     KTLQDKVASGL  KTLQDKVAL  0  8  2  0  0  KTLQDKVASGL           MYO1G 0.0641640 24972.7 19.0660
+   10  HLA-C*03:03     TLQDKVASGLC  TLQDKVASL  0  8  1  0  0   TLQDKVASGL           MYO1G 0.0125820 43636.3 62.6796
+   11  HLA-C*03:03     LQDKVASGLCS  LQVASGLCS  0  2  2  0  0  LQDKVASGLCS           MYO1G 0.0150490 42486.9 57.0276
+   12  HLA-C*03:03     QDKVASGLCSF  QVASGLCSF  0  1  2  0  0  QDKVASGLCSF           MYO1G 0.0494560 29280.4 24.3454
+   13  HLA-C*03:03     DKVASGLCSFQ  KVASGLCSF  1  0  0  0  0    KVASGLCSF           MYO1G 0.0112010 44293.2 66.3363
+   14  HLA-C*03:03     KVASGLCSFQA  KVASGLCSA  0  8  2  0  0  KVASGLCSFQA           MYO1G 0.0348420 34296.4 32.6099
+   15  HLA-C*03:03     VASGLCSFQAM  VASGSFQAM  0  4  2  0  0  VASGLCSFQAM           MYO1G 0.2719590  2636.6  2.7001
+   16  HLA-C*03:03     ASGLCSFQAMS  ASLCSFQAM  0  2  1  0  0   ASGLCSFQAM           MYO1G 0.0293770 36385.5 37.1067
+   17  HLA-C*03:03     SGLCSFQAMSA  SGLCSFMSA  0  6  2  0  0  SGLCSFQAMSA           MYO1G 0.0269080 37370.6 39.5117
+   18  HLA-C*03:03     GLCSFQAMSAR  GSFQAMSAR  0  1  2  0  0  GLCSFQAMSAR           MYO1G 0.0165750 41791.2 53.9851
+   19  HLA-C*03:03     LCSFQAMSARX  CSFQAMSAX  1  8  1  0  0   CSFQAMSARX           MYO1G 0.0190300 40695.7 49.6656
+    1  HLA-C*03:03      SSLFAQRLKT  SSFAQRLKT  0  2  1  0  0   SSLFAQRLKT           MYO1G 0.0293250 36406.0 37.1567
+    2  HLA-C*03:03      SLFAQRLKTL  SLFAQRLTL  0  7  1  0  0   SLFAQRLKTL           MYO1G 0.1816030  7008.5  5.3442
+    3  HLA-C*03:03      LFAQRLKTLQ  LFAQRLKTL  0  0  0  0  0    LFAQRLKTL           MYO1G 0.0238200 38640.3 43.0293
+    4  HLA-C*03:03      FAQRLKTLQD  FARLKTLQD  0  2  1  0  0   FAQRLKTLQD           MYO1G 0.0273140 37206.8 39.0987
+    5  HLA-C*03:03      AQRLKTLQDK  AQRLKTLQK  0  8  1  0  0   AQRLKTLQDK           MYO1G 0.0081300 45789.6 75.9548
+    6  HLA-C*03:03      QRLKTLQDKV  QRLKTLQKV  0  7  1  0  0   QRLKTLQDKV           MYO1G 0.0126780 43590.9 62.4385
+    7  HLA-C*03:03      RLKTLQDKVA  RLKTLQDVA  0  7  1  0  0   RLKTLQDKVA           MYO1G 0.0131280 43379.2 61.3084
+    8  HLA-C*03:03      LKTLQDKVAS  LTLQDKVAS  0  1  1  0  0   LKTLQDKVAS           MYO1G 0.0187150 40834.6 50.1813
+    9  HLA-C*03:03      KTLQDKVASG  KTLDKVASG  0  3  1  0  0   KTLQDKVASG           MYO1G 0.0193630 40549.4 49.1429
+   10  HLA-C*03:03      TLQDKVASGL  TLQDKVASL  0  8  1  0  0   TLQDKVASGL           MYO1G 0.0921720 18444.1 12.9425
+   11  HLA-C*03:03      LQDKVASGLC  LQDKVASGL  0  0  0  0  0    LQDKVASGL           MYO1G 0.0334130 34830.8 33.6933
+   12  HLA-C*03:03      QDKVASGLCS  QKVASGLCS  0  1  1  0  0   QDKVASGLCS           MYO1G 0.0060250 46844.5 83.8686
+   13  HLA-C*03:03      DKVASGLCSF  KVASGLCSF  1  0  0  0  0    KVASGLCSF           MYO1G 0.0846770 20002.1 14.2632
+   14  HLA-C*03:03      KVASGLCSFQ  KVASGLCSF  0  0  0  0  0    KVASGLCSF           MYO1G 0.0630850 25265.9 19.3987
+   15  HLA-C*03:03      VASGLCSFQA  VASGLCSFA  0  8  1  0  0   VASGLCSFQA           MYO1G 0.0664370 24366.0 18.4207
+   16  HLA-C*03:03      ASGLCSFQAM  ASLCSFQAM  0  2  1  0  0   ASGLCSFQAM           MYO1G 0.2307310  4118.8  3.6215
+   17  HLA-C*03:03      SGLCSFQAMS  SGLCSFQAM  0  0  0  0  0    SGLCSFQAM           MYO1G 0.0497370 29191.6 24.2182
+   18  HLA-C*03:03      GLCSFQAMSA  GLSFQAMSA  0  2  1  0  0   GLCSFQAMSA           MYO1G 0.0180550 41127.3 51.3544
+   19  HLA-C*03:03      LCSFQAMSAR  LSFQAMSAR  0  1  1  0  0   LCSFQAMSAR           MYO1G 0.0427200 31494.2 27.6541
+   20  HLA-C*03:03      CSFQAMSARX  CSFQAMSAX  0  8  1  0  0   CSFQAMSARX           MYO1G 0.0972100 17465.6 12.1817
+    1  HLA-C*03:03       SSLFAQRLK  SSLFAQRLK  0  0  0  0  0    SSLFAQRLK           MYO1G 0.0384780 32973.3 30.1399
+    2  HLA-C*03:03       SLFAQRLKT  SLFAQRLKT  0  0  0  0  0    SLFAQRLKT           MYO1G 0.0595040 26264.1 20.5271
+    3  HLA-C*03:03       LFAQRLKTL  LFAQRLKTL  0  0  0  0  0    LFAQRLKTL           MYO1G 0.2162870  4815.5  4.0336
+    4  HLA-C*03:03       FAQRLKTLQ  FAQRLKTLQ  0  0  0  0  0    FAQRLKTLQ           MYO1G 0.0834410 20271.4 14.5095
+    5  HLA-C*03:03       AQRLKTLQD  AQRLKTLQD  0  0  0  0  0    AQRLKTLQD           MYO1G 0.0097890 44975.1 70.5109
+    6  HLA-C*03:03       QRLKTLQDK  QRLKTLQDK  0  0  0  0  0    QRLKTLQDK           MYO1G 0.0086250 45545.1 74.2513
+    7  HLA-C*03:03       RLKTLQDKV  RLKTLQDKV  0  0  0  0  0    RLKTLQDKV           MYO1G 0.0362260 33786.7 31.6560
+    8  HLA-C*03:03       LKTLQDKVA  LKTLQDKVA  0  0  0  0  0    LKTLQDKVA           MYO1G 0.0157490 42166.4 55.5414
+    9  HLA-C*03:03       KTLQDKVAS  KTLQDKVAS  0  0  0  0  0    KTLQDKVAS           MYO1G 0.0490220 29418.3 24.5419
+   10  HLA-C*03:03       TLQDKVASG  TLQDKVASG  0  0  0  0  0    TLQDKVASG           MYO1G 0.0432770 31304.9 27.3502
+   11  HLA-C*03:03       LQDKVASGL  LQDKVASGL  0  0  0  0  0    LQDKVASGL           MYO1G 0.2659190  2814.7  2.8135
+   12  HLA-C*03:03       QDKVASGLC  QDKVASGLC  0  0  0  0  0    QDKVASGLC           MYO1G 0.0040500 47856.3 91.7100
+   13  HLA-C*03:03       DKVASGLCS  DKVASGLCS  0  0  0  0  0    DKVASGLCS           MYO1G 0.0099790 44882.7 69.9094
+   14  HLA-C*03:03       KVASGLCSF  KVASGLCSF  0  0  0  0  0    KVASGLCSF           MYO1G 0.4582950   351.1  0.7913 <= WB
+   15  HLA-C*03:03       VASGLCSFQ  VASGLCSFQ  0  0  0  0  0    VASGLCSFQ           MYO1G 0.0592330 26341.2 20.6147
+   16  HLA-C*03:03       ASGLCSFQA  ASGLCSFQA  0  0  0  0  0    ASGLCSFQA           MYO1G 0.0342000 34535.5 33.0647
+   17  HLA-C*03:03       SGLCSFQAM  SGLCSFQAM  0  0  0  0  0    SGLCSFQAM           MYO1G 0.4428230   415.1  0.8800 <= WB
+   18  HLA-C*03:03       GLCSFQAMS  GLCSFQAMS  0  0  0  0  0    GLCSFQAMS           MYO1G 0.0118880 43965.1 64.4224
+   19  HLA-C*03:03       LCSFQAMSA  LCSFQAMSA  0  0  0  0  0    LCSFQAMSA           MYO1G 0.0645520 24868.1 18.9510
+   20  HLA-C*03:03       CSFQAMSAR  CSFQAMSAR  0  0  0  0  0    CSFQAMSAR           MYO1G 0.0985310 17217.7 11.9839
+   21  HLA-C*03:03       SFQAMSARX  SFQAMSARX  0  0  0  0  0    SFQAMSARX           MYO1G 0.0285150 36726.4 37.9356
+    1  HLA-C*03:03        SSLFAQRL  SSL-FAQRL  0  0  0  3  1     SSLFAQRL           MYO1G 0.1008820 16785.3 11.6629
+    2  HLA-C*03:03        SLFAQRLK  SLFAQRLK-  0  0  0  8  1     SLFAQRLK           MYO1G 0.0142590 42851.6 58.7049
+    3  HLA-C*03:03        LFAQRLKT  LFAQRLKT-  0  0  0  8  1     LFAQRLKT           MYO1G 0.0099290 44907.0 70.0611
+    4  HLA-C*03:03        FAQRLKTL  FAQ-RLKTL  0  0  0  3  1     FAQRLKTL           MYO1G 0.2836520  2323.3  2.4846
+    5  HLA-C*03:03        AQRLKTLQ  AQRLKTLQ-  0  0  0  8  1     AQRLKTLQ           MYO1G 0.0058780 46919.1 84.4401
+    6  HLA-C*03:03        QRLKTLQD  QRLKTLQD-  0  0  0  8  1     QRLKTLQD           MYO1G 0.0027180 48551.0 95.7398
+    7  HLA-C*03:03        RLKTLQDK  RLK-TLQDK  0  0  0  3  1     RLKTLQDK           MYO1G 0.0035020 48140.9 93.8064
+    8  HLA-C*03:03        LKTLQDKV  LKT-LQDKV  0  0  0  3  1     LKTLQDKV           MYO1G 0.0066880 46509.7 81.2908
+    9  HLA-C*03:03        KTLQDKVA  KTLQDK-VA  0  0  0  6  1     KTLQDKVA           MYO1G 0.0142300 42865.1 58.7665
+   10  HLA-C*03:03        TLQDKVAS  TLQDKVAS-  0  0  0  8  1     TLQDKVAS           MYO1G 0.0115580 44122.4 65.2924
+   11  HLA-C*03:03        LQDKVASG  LQDKVASG-  0  0  0  8  1     LQDKVASG           MYO1G 0.0123620 43740.3 63.2320
+   12  HLA-C*03:03        QDKVASGL  -QDKVASGL  0  0  0  0  1     QDKVASGL           MYO1G 0.0164470 41849.1 54.2126
+   13  HLA-C*03:03        DKVASGLC  DKVASGL-C  0  0  0  7  1     DKVASGLC           MYO1G 0.0034370 48174.8 94.0551
+   14  HLA-C*03:03        KVASGLCS  KVASGLCS-  0  0  0  8  1     KVASGLCS           MYO1G 0.0190950 40667.1 49.5636
+   15  HLA-C*03:03        VASGLCSF  VAS-GLCSF  0  0  0  3  1     VASGLCSF           MYO1G 0.1996100  5767.8  4.5976
+   16  HLA-C*03:03        ASGLCSFQ  AS-GLCSFQ  0  0  0  2  1     ASGLCSFQ           MYO1G 0.0058980 46908.9 84.3624
+   17  HLA-C*03:03        SGLCSFQA  SGLCSF-QA  0  0  0  6  1     SGLCSFQA           MYO1G 0.0184650 40945.3 50.6257
+   18  HLA-C*03:03        GLCSFQAM  GL-CSFQAM  0  0  0  2  1     GLCSFQAM           MYO1G 0.0514350 28660.2 23.4901
+   19  HLA-C*03:03        LCSFQAMS  LCSFQAMS-  0  0  0  8  1     LCSFQAMS           MYO1G 0.0058900 46913.0 84.3935
+   20  HLA-C*03:03        CSFQAMSA  CSFQA-MSA  0  0  0  5  1     CSFQAMSA           MYO1G 0.0866870 19571.8 13.8811
+   21  HLA-C*03:03        SFQAMSAR  -SFQAMSAR  0  0  0  0  1     SFQAMSAR           MYO1G 0.0132020 43344.5 61.1226
+   22  HLA-C*03:03        FQAMSARX  FQA-MSARX  0  0  0  3  1     FQAMSARX           MYO1G 0.0504550 28965.7 23.9010
+-----------------------------------------------------------------------------------
+
+Protein MYO1G. Allele HLA-C*03:03. Number of high binders 0. Number of weak binders 2. Number of peptides 82
+
+-----------------------------------------------------------------------------------
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/bin/netMHCpan -a HLA-C04:01 -BA -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest1/MYO1G_targeted.fa
+# Fri Aug 28 15:12:38 2020
+# User: huangz
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest1
+# Host: Linux odcf-worker01 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-C04:01           HLA allele
+# -BA      1                    Make Binding affinity prediction
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest1/MYO1G_targeted.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/synlist.bin Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-C04:01           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest1/MYO1G_targeted.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/threshold/%s.thr.%s Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/Linux_x86_64/data/allelenames File with print names for alleles
+#	[-BA]                1                    Make Binding affinity prediction
+
+# NetMHCpan version 4.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0/tmp/netMHCpantmyBxH
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+# Make binding affinity predictions
+
+HLA-C04:01 : Distance to training data  0.000 (using nearest neighbor HLA-C04:01)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity     Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-C*04:01     SSLFAQRLKTL  SFAQRLKTL  0  1  2  0  0  SSLFAQRLKTL           MYO1G 0.0460730 30372.1 16.3792
+    2  HLA-C*04:01     SLFAQRLKTLQ  SLFAQRLTL  0  7  1  0  0   SLFAQRLKTL           MYO1G 0.0245870 38321.0 43.5888
+    3  HLA-C*04:01     LFAQRLKTLQD  LFAQRLKTL  0  0  0  0  0    LFAQRLKTL           MYO1G 0.0193330 40562.5 56.2952
+    4  HLA-C*04:01     FAQRLKTLQDK  FAQRLKTLK  0  8  2  0  0  FAQRLKTLQDK           MYO1G 0.0284230 36763.0 36.1218
+    5  HLA-C*04:01     AQRLKTLQDKV  AQRLKTLQV  0  8  2  0  0  AQRLKTLQDKV           MYO1G 0.0281460 36873.4 36.5969
+    6  HLA-C*04:01     QRLKTLQDKVA  QRLKTLQVA  0  7  2  0  0  QRLKTLQDKVA           MYO1G 0.0126660 43596.6 77.8387
+    7  HLA-C*04:01     RLKTLQDKVAS  RLKTLQVAS  0  6  2  0  0  RLKTLQDKVAS           MYO1G 0.0139730 42984.4 73.2302
+    8  HLA-C*04:01     LKTLQDKVASG  LLQDKVASG  0  1  2  0  0  LKTLQDKVASG           MYO1G 0.0118310 43992.3 80.8039
+    9  HLA-C*04:01     KTLQDKVASGL  KQDKVASGL  0  1  2  0  0  KTLQDKVASGL           MYO1G 0.0489750 29433.2 14.5389
+   10  HLA-C*04:01     TLQDKVASGLC  TLQDKVALC  0  7  2  0  0  TLQDKVASGLC           MYO1G 0.0253210 38017.8 42.0385
+   11  HLA-C*04:01     LQDKVASGLCS  LQDKVASGL  0  0  0  0  0    LQDKVASGL           MYO1G 0.0264210 37568.0 39.8543
+   12  HLA-C*04:01     QDKVASGLCSF  QVASGLCSF  0  1  2  0  0  QDKVASGLCSF           MYO1G 0.0264680 37548.9 39.7605
+   13  HLA-C*04:01     DKVASGLCSFQ  KVASGLCSF  1  0  0  0  0    KVASGLCSF           MYO1G 0.0129700 43453.5 76.7491
+   14  HLA-C*04:01     KVASGLCSFQA  KVASGLCSA  0  8  2  0  0  KVASGLCSFQA           MYO1G 0.0237490 38670.0 45.3662
+   15  HLA-C*04:01     VASGLCSFQAM  VALCSFQAM  0  2  2  0  0  VASGLCSFQAM           MYO1G 0.0441560 31008.6 17.7932
+   16  HLA-C*04:01     ASGLCSFQAMS  ASLCSFQAM  0  2  1  0  0   ASGLCSFQAM           MYO1G 0.0185570 40904.5 58.5238
+   17  HLA-C*04:01     SGLCSFQAMSA  SGLCSFMSA  0  6  2  0  0  SGLCSFQAMSA           MYO1G 0.0275710 37103.5 37.6227
+   18  HLA-C*04:01     GLCSFQAMSAR  GLFQAMSAR  0  2  2  0  0  GLCSFQAMSAR           MYO1G 0.0195990 40445.9 55.5313
+   19  HLA-C*04:01     LCSFQAMSARX  LFQAMSARX  0  1  2  0  0  LCSFQAMSARX           MYO1G 0.0270390 37317.7 38.6318
+    1  HLA-C*04:01      SSLFAQRLKT  SLFAQRLKT  0  1  1  0  0   SSLFAQRLKT           MYO1G 0.0251440 38090.7 42.4176
+    2  HLA-C*04:01      SLFAQRLKTL  SFAQRLKTL  0  1  1  0  0   SLFAQRLKTL           MYO1G 0.0795910 21133.6  4.7559
+    3  HLA-C*04:01      LFAQRLKTLQ  LFAQRLKTL  0  0  0  0  0    LFAQRLKTL           MYO1G 0.0398790 32477.3 21.4583
+    4  HLA-C*04:01      FAQRLKTLQD  FAQLKTLQD  0  3  1  0  0   FAQRLKTLQD           MYO1G 0.0235510 38752.9 45.8004
+    5  HLA-C*04:01      AQRLKTLQDK  AQRLKTLQK  0  8  1  0  0   AQRLKTLQDK           MYO1G 0.0272120 37247.9 38.2965
+    6  HLA-C*04:01      QRLKTLQDKV  QRLKTLQKV  0  7  1  0  0   QRLKTLQDKV           MYO1G 0.0256420 37886.0 41.3661
+    7  HLA-C*04:01      RLKTLQDKVA  RLKTLQDVA  0  7  1  0  0   RLKTLQDKVA           MYO1G 0.0220310 39395.5 49.2929
+    8  HLA-C*04:01      LKTLQDKVAS  LTLQDKVAS  0  1  1  0  0   LKTLQDKVAS           MYO1G 0.0121000 43864.4 79.8674
+    9  HLA-C*04:01      KTLQDKVASG  KLQDKVASG  0  1  1  0  0   KTLQDKVASG           MYO1G 0.0185710 40898.3 58.4836
+   10  HLA-C*04:01      TLQDKVASGL  TQDKVASGL  0  1  1  0  0   TLQDKVASGL           MYO1G 0.0759430 21984.5  5.3940
+   11  HLA-C*04:01      LQDKVASGLC  LQDKVASGL  0  0  0  0  0    LQDKVASGL           MYO1G 0.0455070 30558.6 16.7645
+   12  HLA-C*04:01      QDKVASGLCS  QKVASGLCS  0  1  1  0  0   QDKVASGLCS           MYO1G 0.0101570 44796.3 86.4974
+   13  HLA-C*04:01      DKVASGLCSF  KVASGLCSF  1  0  0  0  0    KVASGLCSF           MYO1G 0.0386780 32902.1 22.6411
+   14  HLA-C*04:01      KVASGLCSFQ  KVASGLCSF  0  0  0  0  0    KVASGLCSF           MYO1G 0.0291990 36455.6 34.8099
+   15  HLA-C*04:01      VASGLCSFQA  VASGLCSFA  0  8  1  0  0   VASGLCSFQA           MYO1G 0.0316130 35515.8 31.1259
+   16  HLA-C*04:01      ASGLCSFQAM  ASLCSFQAM  0  2  1  0  0   ASGLCSFQAM           MYO1G 0.0534550 28040.6 12.1573
+   17  HLA-C*04:01      SGLCSFQAMS  SGLCSFQAM  0  0  0  0  0    SGLCSFQAM           MYO1G 0.0338470 34667.6 28.1235
+   18  HLA-C*04:01      GLCSFQAMSA  GLCSFQMSA  0  6  1  0  0   GLCSFQAMSA           MYO1G 0.0265090 37532.3 39.6786
+   19  HLA-C*04:01      LCSFQAMSAR  LSFQAMSAR  0  1  1  0  0   LCSFQAMSAR           MYO1G 0.0293750 36386.3 34.5190
+   20  HLA-C*04:01      CSFQAMSARX  CFQAMSARX  0  1  1  0  0   CSFQAMSARX           MYO1G 0.0467230 30159.2 15.9418
+    1  HLA-C*04:01       SSLFAQRLK  SSLFAQRLK  0  0  0  0  0    SSLFAQRLK           MYO1G 0.0504670 28961.9 13.6798
+    2  HLA-C*04:01       SLFAQRLKT  SLFAQRLKT  0  0  0  0  0    SLFAQRLKT           MYO1G 0.0439330 31083.5 17.9692
+    3  HLA-C*04:01       LFAQRLKTL  LFAQRLKTL  0  0  0  0  0    LFAQRLKTL           MYO1G 0.1498070  9886.2  0.7519 <= WB
+    4  HLA-C*04:01       FAQRLKTLQ  FAQRLKTLQ  0  0  0  0  0    FAQRLKTLQ           MYO1G 0.0354720 34063.4 26.1355
+    5  HLA-C*04:01       AQRLKTLQD  AQRLKTLQD  0  0  0  0  0    AQRLKTLQD           MYO1G 0.0165760 41790.7 64.5815
+    6  HLA-C*04:01       QRLKTLQDK  QRLKTLQDK  0  0  0  0  0    QRLKTLQDK           MYO1G 0.0207110 39962.2 52.6084
+    7  HLA-C*04:01       RLKTLQDKV  RLKTLQDKV  0  0  0  0  0    RLKTLQDKV           MYO1G 0.0555370 27416.0 11.2009
+    8  HLA-C*04:01       LKTLQDKVA  LKTLQDKVA  0  0  0  0  0    LKTLQDKVA           MYO1G 0.0130620 43410.2 76.4193
+    9  HLA-C*04:01       KTLQDKVAS  KTLQDKVAS  0  0  0  0  0    KTLQDKVAS           MYO1G 0.0185010 40929.3 58.6847
+   10  HLA-C*04:01       TLQDKVASG  TLQDKVASG  0  0  0  0  0    TLQDKVASG           MYO1G 0.0317230 35473.5 30.9710
+   11  HLA-C*04:01       LQDKVASGL  LQDKVASGL  0  0  0  0  0    LQDKVASGL           MYO1G 0.1747900  7544.6  0.4573 <= SB
+   12  HLA-C*04:01       QDKVASGLC  QDKVASGLC  0  0  0  0  0    QDKVASGLC           MYO1G 0.0129850 43446.4 76.6953
+   13  HLA-C*04:01       DKVASGLCS  DKVASGLCS  0  0  0  0  0    DKVASGLCS           MYO1G 0.0082630 45723.8 92.1719
+   14  HLA-C*04:01       KVASGLCSF  KVASGLCSF  0  0  0  0  0    KVASGLCSF           MYO1G 0.0886010 19170.6  3.5601
+   15  HLA-C*04:01       VASGLCSFQ  VASGLCSFQ  0  0  0  0  0    VASGLCSFQ           MYO1G 0.0249000 38191.4 42.9400
+   16  HLA-C*04:01       ASGLCSFQA  ASGLCSFQA  0  0  0  0  0    ASGLCSFQA           MYO1G 0.0318700 35417.2 30.7580
+   17  HLA-C*04:01       SGLCSFQAM  SGLCSFQAM  0  0  0  0  0    SGLCSFQAM           MYO1G 0.0981670 17285.7  2.7269
+   18  HLA-C*04:01       GLCSFQAMS  GLCSFQAMS  0  0  0  0  0    GLCSFQAMS           MYO1G 0.0206850 39973.5 52.6754
+   19  HLA-C*04:01       LCSFQAMSA  LCSFQAMSA  0  0  0  0  0    LCSFQAMSA           MYO1G 0.0237390 38674.2 45.3882
+   20  HLA-C*04:01       CSFQAMSAR  CSFQAMSAR  0  0  0  0  0    CSFQAMSAR           MYO1G 0.0530490 28164.0 12.3619
+   21  HLA-C*04:01       SFQAMSARX  SFQAMSARX  0  0  0  0  0    SFQAMSARX           MYO1G 0.0860350 19710.3  3.8437
+    1  HLA-C*04:01        SSLFAQRL  SSL-FAQRL  0  0  0  3  1     SSLFAQRL           MYO1G 0.0407550 32170.9 20.6370
+    2  HLA-C*04:01        SLFAQRLK  SLFAQR-LK  0  0  0  6  1     SLFAQRLK           MYO1G 0.0334250 34826.3 28.6444
+    3  HLA-C*04:01        LFAQRLKT  LFAQR-LKT  0  0  0  5  1     LFAQRLKT           MYO1G 0.0276140 37086.2 37.5440
+    4  HLA-C*04:01        FAQRLKTL  FAQRLK-TL  0  0  0  6  1     FAQRLKTL           MYO1G 0.0737130 22521.4  5.8106
+    5  HLA-C*04:01        AQRLKTLQ  AQRLKTLQ-  0  0  0  8  1     AQRLKTLQ           MYO1G 0.0159960 42053.8 66.4585
+    6  HLA-C*04:01        QRLKTLQD  QRLKTLQD-  0  0  0  8  1     QRLKTLQD           MYO1G 0.0075190 46093.4 94.1644
+    7  HLA-C*04:01        RLKTLQDK  RLKTLQD-K  0  0  0  7  1     RLKTLQDK           MYO1G 0.0165140 41818.8 64.7751
+    8  HLA-C*04:01        LKTLQDKV  L-KTLQDKV  0  0  0  1  1     LKTLQDKV           MYO1G 0.0150190 42500.7 69.6534
+    9  HLA-C*04:01        KTLQDKVA  KTLQDK-VA  0  0  0  6  1     KTLQDKVA           MYO1G 0.0128950 43488.7 77.0179
+   10  HLA-C*04:01        TLQDKVAS  TLQDKVAS-  0  0  0  8  1     TLQDKVAS           MYO1G 0.0193010 40576.6 56.3871
+   11  HLA-C*04:01        LQDKVASG  LQDKVASG-  0  0  0  8  1     LQDKVASG           MYO1G 0.0247760 38242.7 43.1983
+   12  HLA-C*04:01        QDKVASGL  -QDKVASGL  0  0  0  0  1     QDKVASGL           MYO1G 0.0367400 33599.3 24.6852
+   13  HLA-C*04:01        DKVASGLC  D-KVASGLC  0  0  0  1  1     DKVASGLC           MYO1G 0.0071080 46298.8 95.0687
+   14  HLA-C*04:01        KVASGLCS  KVASGLCS-  0  0  0  8  1     KVASGLCS           MYO1G 0.0156640 42205.1 67.5442
+   15  HLA-C*04:01        VASGLCSF  VASGLC-SF  0  0  0  6  1     VASGLCSF           MYO1G 0.0462200 30323.8 16.2791
+   16  HLA-C*04:01        ASGLCSFQ  ASGLCSFQ-  0  0  0  8  1     ASGLCSFQ           MYO1G 0.0109690 44404.5 83.7907
+   17  HLA-C*04:01        SGLCSFQA  SGLCSF-QA  0  0  0  6  1     SGLCSFQA           MYO1G 0.0235050 38772.2 45.9013
+   18  HLA-C*04:01        GLCSFQAM  GL-CSFQAM  0  0  0  2  1     GLCSFQAM           MYO1G 0.0389500 32805.4 22.3699
+   19  HLA-C*04:01        LCSFQAMS  -LCSFQAMS  0  0  0  0  1     LCSFQAMS           MYO1G 0.0091740 45275.3 89.6766
+   20  HLA-C*04:01        CSFQAMSA  CSFQA-MSA  0  0  0  5  1     CSFQAMSA           MYO1G 0.0282800 36819.9 36.3671
+   21  HLA-C*04:01        SFQAMSAR  SFQAMSAR-  0  0  0  8  1     SFQAMSAR           MYO1G 0.0335000 34798.0 28.5519
+   22  HLA-C*04:01        FQAMSARX  FQA-MSARX  0  0  0  3  1     FQAMSARX           MYO1G 0.0350380 34223.7 26.6466
+-----------------------------------------------------------------------------------
+
+Protein MYO1G. Allele HLA-C*04:01. Number of high binders 1. Number of weak binders 1. Number of peptides 82
+
+-----------------------------------------------------------------------------------
+# NetMHCIIpan version 3.2
+
+# Input is in FASTA format
+
+# Peptide length 15
+
+# Threshold for Strong binding peptides (%Rank)	2%
+# Threshold for Weak binding peptides (%Rank)	10%
+
+# Allele: DRB1_1454
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Seq        Allele              Peptide        Identity  Pos        Core  Core_Rel 1-log50k(aff)  Affinity(nM)    %Rank Exp_Bind  BindingLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+   1     DRB1_1454      SSLFAQRLKTLQDKV           MYO1G    2   LFAQRLKTL     0.325         0.451        381.11    20.00      NA       
+   2     DRB1_1454      SLFAQRLKTLQDKVA           MYO1G    3   AQRLKTLQD     0.285         0.449        390.32    20.00      NA       
+   3     DRB1_1454      LFAQRLKTLQDKVAS           MYO1G    5   LKTLQDKVA     0.290         0.442        419.58    23.00      NA       
+   4     DRB1_1454      FAQRLKTLQDKVASG           MYO1G    4   LKTLQDKVA     0.375         0.413        572.95    34.00      NA       
+   5     DRB1_1454      AQRLKTLQDKVASGL           MYO1G    3   LKTLQDKVA     0.425         0.409        600.42    36.00      NA       
+   6     DRB1_1454      QRLKTLQDKVASGLC           MYO1G    2   LKTLQDKVA     0.460         0.395        700.13    42.00      NA       
+   7     DRB1_1454      RLKTLQDKVASGLCS           MYO1G    1   LKTLQDKVA     0.360         0.384        788.13    47.00      NA       
+   8     DRB1_1454      LKTLQDKVASGLCSF           MYO1G    1   KTLQDKVAS     0.240         0.359       1033.42    60.00      NA       
+   9     DRB1_1454      KTLQDKVASGLCSFQ           MYO1G    4   DKVASGLCS     0.295         0.338       1294.09    65.00      NA       
+  10     DRB1_1454      TLQDKVASGLCSFQA           MYO1G    3   DKVASGLCS     0.315         0.344       1203.76    65.00      NA       
+  11     DRB1_1454      LQDKVASGLCSFQAM           MYO1G    2   DKVASGLCS     0.260         0.357       1046.36    60.00      NA       
+  12     DRB1_1454      QDKVASGLCSFQAMS           MYO1G    3   VASGLCSFQ     0.260         0.352       1111.16    60.00      NA       
+  13     DRB1_1454      DKVASGLCSFQAMSA           MYO1G    6   LCSFQAMSA     0.430         0.381        811.84    48.00      NA       
+  14     DRB1_1454      KVASGLCSFQAMSAR           MYO1G    5   LCSFQAMSA     0.525         0.412        579.50    35.00      NA       
+  15     DRB1_1454      VASGLCSFQAMSAR*           MYO1G    4   LCSFQAMSA     0.525         0.417        548.64    33.00      NA       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 0 Number of weak binders: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+# NetMHCIIpan version 3.2
+
+# Input is in FASTA format
+
+# Peptide length 15
+
+# Threshold for Strong binding peptides (%Rank)	2%
+# Threshold for Weak binding peptides (%Rank)	10%
+
+# Allele: DRB1_1501
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Seq        Allele              Peptide        Identity  Pos        Core  Core_Rel 1-log50k(aff)  Affinity(nM)    %Rank Exp_Bind  BindingLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+   1     DRB1_1501      SSLFAQRLKTLQDKV           MYO1G    2   LFAQRLKTL     0.495         0.411        587.44    36.00      NA       
+   2     DRB1_1501      SLFAQRLKTLQDKVA           MYO1G    1   LFAQRLKTL     0.395         0.393        714.81    40.00      NA       
+   3     DRB1_1501      LFAQRLKTLQDKVAS           MYO1G    5   LKTLQDKVA     0.435         0.376        851.86    44.00      NA       
+   4     DRB1_1501      FAQRLKTLQDKVASG           MYO1G    4   LKTLQDKVA     0.640         0.346       1187.50    55.00      NA       
+   5     DRB1_1501      AQRLKTLQDKVASGL           MYO1G    3   LKTLQDKVA     0.710         0.361       1005.08    48.00      NA       
+   6     DRB1_1501      QRLKTLQDKVASGLC           MYO1G    2   LKTLQDKVA     0.670         0.348       1157.21    55.00      NA       
+   7     DRB1_1501      RLKTLQDKVASGLCS           MYO1G    1   LKTLQDKVA     0.545         0.324       1498.76    60.00      NA       
+   8     DRB1_1501      LKTLQDKVASGLCSF           MYO1G    3   LQDKVASGL     0.280         0.294       2072.77    65.00      NA       
+   9     DRB1_1501      KTLQDKVASGLCSFQ           MYO1G    4   DKVASGLCS     0.355         0.287       2244.10    70.00      NA       
+  10     DRB1_1501      TLQDKVASGLCSFQA           MYO1G    3   DKVASGLCS     0.315         0.320       1575.62    60.00      NA       
+  11     DRB1_1501      LQDKVASGLCSFQAM           MYO1G    5   ASGLCSFQA     0.245         0.354       1081.14    50.00      NA       
+  12     DRB1_1501      QDKVASGLCSFQAMS           MYO1G    4   ASGLCSFQA     0.315         0.352       1108.56    50.00      NA       
+  13     DRB1_1501      DKVASGLCSFQAMSA           MYO1G    6   LCSFQAMSA     0.590         0.445        406.58    28.00      NA       
+  14     DRB1_1501      KVASGLCSFQAMSAR           MYO1G    5   LCSFQAMSA     0.735         0.508        205.06    15.00      NA       
+  15     DRB1_1501      VASGLCSFQAMSAR*           MYO1G    4   LCSFQAMSA     0.760         0.517        186.37    14.00      NA       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 0 Number of weak binders: 0
+--------------------------------------------------------------------------------------------------------------------------------------------

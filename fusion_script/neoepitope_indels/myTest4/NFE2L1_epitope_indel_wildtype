@@ -1,0 +1,896 @@
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/bin/netMHCpan -a HLA-A02:01 -BA -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest4/NFE2L1_refPeptide.fa
+# Wed Nov 18 15:22:18 2020
+# User: charoent
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest4
+# Host: Linux odcf-cn34u03s10 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-A02:01           HLA allele
+# -BA      1                    Make Binding affinity prediction
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest4/NFE2L1_refPeptide.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/synlist.bin Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-A02:01           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest4/NFE2L1_refPeptide.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/threshold/%s.thr.%s Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/allelenames File with print names for alleles
+#	[-BA]                1                    Make Binding affinity prediction
+
+# NetMHCpan version 4.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//tmp/netMHCpanVFpxsX
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+# Make binding affinity predictions
+
+HLA-A02:01 : Distance to training data  0.000 (using nearest neighbor HLA-A02:01)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity     Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-A*02:01     SSEGSSSSSSS  SSSSSSSSS  0  2  2  0  0  SSEGSSSSSSS          NFE2L1 0.0126580 43600.4 85.5457
+    2  HLA-A*02:01     SEGSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SEGSSSSSSSS          NFE2L1 0.0127260 43568.3 85.4151
+    3  HLA-A*02:01     EGSSSSSSSSS  ESSSSSSSS  0  1  2  0  0  EGSSSSSSSSS          NFE2L1 0.0092870 45220.0 91.8049
+    4  HLA-A*02:01     GSSSSSSSSSS  GSSSSSSSS  0  1  2  0  0  GSSSSSSSSSS          NFE2L1 0.0097000 45018.4 91.0970
+    5  HLA-A*02:01     SSSSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SSSSSSSSSSS          NFE2L1 0.0116920 44058.5 87.4020
+    6  HLA-A*02:01     SSSSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SSSSSSSSSSS          NFE2L1 0.0116920 44058.5 87.4020
+    7  HLA-A*02:01     SSSSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SSSSSSSSSSS          NFE2L1 0.0116920 44058.5 87.4020
+    8  HLA-A*02:01     SSSSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SSSSSSSSSSS          NFE2L1 0.0116920 44058.5 87.4020
+    9  HLA-A*02:01     SSSSSSSSSSA  SSSSSSSSA  0  1  2  0  0  SSSSSSSSSSA          NFE2L1 0.0257840 37827.9 62.9587
+   10  HLA-A*02:01     SSSSSSSSSAS  SSSSSSSAS  0  1  2  0  0  SSSSSSSSSAS          NFE2L1 0.0133010 43298.1 84.3138
+   11  HLA-A*02:01     SSSSSSSSASS  SSSSSSASS  0  1  2  0  0  SSSSSSSSASS          NFE2L1 0.0144090 42782.1 82.1961
+   12  HLA-A*02:01     SSSSSSSASSS  SSSSSSSAS  0  8  2  0  0  SSSSSSSASSS          NFE2L1 0.0132700 43312.6 84.3731
+   13  HLA-A*02:01     SSSSSSASSSA  SSSSSSASA  0  7  2  0  0  SSSSSSASSSA          NFE2L1 0.0338040 34683.8 53.0445
+   14  HLA-A*02:01     SSSSSASSSAS  SSSASSSAS  0  1  2  0  0  SSSSSASSSAS          NFE2L1 0.0146040 42692.0 81.8234
+   15  HLA-A*02:01     SSSSASSSASS  SSASSSASS  0  1  2  0  0  SSSSASSSASS          NFE2L1 0.0172670 41479.4 76.8503
+   16  HLA-A*02:01     SSSASSSASSS  SSSASSSAS  0  8  2  0  0  SSSASSSASSS          NFE2L1 0.0149900 42514.1 81.0856
+   17  HLA-A*02:01     SSASSSASSSF  SSASSSASF  0  7  2  0  0  SSASSSASSSF          NFE2L1 0.0269550 37351.6 61.3034
+   18  HLA-A*02:01     SASSSASSSFS  SASASSSFS  0  2  2  0  0  SASSSASSSFS          NFE2L1 0.0223090 39277.2 68.2116
+   19  HLA-A*02:01     ASSSASSSFSE  ASASSSFSE  0  1  2  0  0  ASSSASSSFSE          NFE2L1 0.0180290 41138.9 75.4460
+    1  HLA-A*02:01      SSEGSSSSSS  SSGSSSSSS  0  2  1  0  0   SSEGSSSSSS          NFE2L1 0.0166950 41736.9 77.9045
+    2  HLA-A*02:01      SEGSSSSSSS  SGSSSSSSS  0  1  1  0  0   SEGSSSSSSS          NFE2L1 0.0156050 42232.1 79.9134
+    3  HLA-A*02:01      EGSSSSSSSS  ESSSSSSSS  0  1  1  0  0   EGSSSSSSSS          NFE2L1 0.0135710 43171.8 83.7978
+    4  HLA-A*02:01      GSSSSSSSSS  GSSSSSSSS  0  1  1  0  0   GSSSSSSSSS          NFE2L1 0.0155210 42270.5 80.0707
+    5  HLA-A*02:01      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0179660 41166.9 75.5621
+    6  HLA-A*02:01      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0179660 41166.9 75.5621
+    7  HLA-A*02:01      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0179660 41166.9 75.5621
+    8  HLA-A*02:01      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0179660 41166.9 75.5621
+    9  HLA-A*02:01      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0179660 41166.9 75.5621
+   10  HLA-A*02:01      SSSSSSSSSA  SSSSSSSSA  0  1  1  0  0   SSSSSSSSSA          NFE2L1 0.0410520 32067.7 46.0121
+   11  HLA-A*02:01      SSSSSSSSAS  SSSSSSSAS  0  1  1  0  0   SSSSSSSSAS          NFE2L1 0.0219530 39428.8 68.7745
+   12  HLA-A*02:01      SSSSSSSASS  SSSSSSASS  0  1  1  0  0   SSSSSSSASS          NFE2L1 0.0227050 39109.3 67.5854
+   13  HLA-A*02:01      SSSSSSASSS  SSSSSSASS  0  7  1  0  0   SSSSSSASSS          NFE2L1 0.0224920 39199.5 67.9222
+   14  HLA-A*02:01      SSSSSASSSA  SSSSASSSA  0  1  1  0  0   SSSSSASSSA          NFE2L1 0.0464570 30246.1 41.7711
+   15  HLA-A*02:01      SSSSASSSAS  SSSSASSAS  0  5  1  0  0   SSSSASSSAS          NFE2L1 0.0244580 38374.5 64.8332
+   16  HLA-A*02:01      SSSASSSASS  SSASSSASS  0  1  1  0  0   SSSASSSASS          NFE2L1 0.0269160 37367.4 61.3585
+   17  HLA-A*02:01      SSASSSASSS  SSASSSASS  0  7  1  0  0   SSASSSASSS          NFE2L1 0.0267280 37443.5 61.6243
+   18  HLA-A*02:01      SASSSASSSF  SASSASSSF  0  2  1  0  0   SASSSASSSF          NFE2L1 0.0314100 35593.9 55.6809
+   19  HLA-A*02:01      ASSSASSSFS  ASSSASSFS  0  5  1  0  0   ASSSASSSFS          NFE2L1 0.0318300 35432.5 55.1675
+   20  HLA-A*02:01      SSSASSSFSE  SSASSSFSE  0  1  1  0  0   SSSASSSFSE          NFE2L1 0.0272490 37233.0 60.8878
+    1  HLA-A*02:01       SSEGSSSSS  SSEGSSSSS  0  0  0  0  0    SSEGSSSSS          NFE2L1 0.0184070 40971.0 74.7661
+    2  HLA-A*02:01       SEGSSSSSS  SEGSSSSSS  0  0  0  0  0    SEGSSSSSS          NFE2L1 0.0126950 43582.9 85.4746
+    3  HLA-A*02:01       EGSSSSSSS  EGSSSSSSS  0  0  0  0  0    EGSSSSSSS          NFE2L1 0.0135150 43198.0 83.9048
+    4  HLA-A*02:01       GSSSSSSSS  GSSSSSSSS  0  0  0  0  0    GSSSSSSSS          NFE2L1 0.0219270 39439.9 68.8156
+    5  HLA-A*02:01       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0267560 37432.1 61.5847
+    6  HLA-A*02:01       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0267560 37432.1 61.5847
+    7  HLA-A*02:01       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0267560 37432.1 61.5847
+    8  HLA-A*02:01       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0267560 37432.1 61.5847
+    9  HLA-A*02:01       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0267560 37432.1 61.5847
+   10  HLA-A*02:01       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0267560 37432.1 61.5847
+   11  HLA-A*02:01       SSSSSSSSA  SSSSSSSSA  0  0  0  0  0    SSSSSSSSA          NFE2L1 0.0649700 24755.8 31.7920
+   12  HLA-A*02:01       SSSSSSSAS  SSSSSSSAS  0  0  0  0  0    SSSSSSSAS          NFE2L1 0.0291430 36477.8 58.4523
+   13  HLA-A*02:01       SSSSSSASS  SSSSSSASS  0  0  0  0  0    SSSSSSASS          NFE2L1 0.0336620 34737.1 53.1957
+   14  HLA-A*02:01       SSSSSASSS  SSSSSASSS  0  0  0  0  0    SSSSSASSS          NFE2L1 0.0266610 37470.6 61.7190
+   15  HLA-A*02:01       SSSSASSSA  SSSSASSSA  0  0  0  0  0    SSSSASSSA          NFE2L1 0.0701200 23414.1 29.7934
+   16  HLA-A*02:01       SSSASSSAS  SSSASSSAS  0  0  0  0  0    SSSASSSAS          NFE2L1 0.0310230 35743.2 56.1540
+   17  HLA-A*02:01       SSASSSASS  SSASSSASS  0  0  0  0  0    SSASSSASS          NFE2L1 0.0407240 32181.7 46.2946
+   18  HLA-A*02:01       SASSSASSS  SASSSASSS  0  0  0  0  0    SASSSASSS          NFE2L1 0.0284070 36769.4 59.3521
+   19  HLA-A*02:01       ASSSASSSF  ASSSASSSF  0  0  0  0  0    ASSSASSSF          NFE2L1 0.0450050 30725.1 42.8461
+   20  HLA-A*02:01       SSSASSSFS  SSSASSSFS  0  0  0  0  0    SSSASSSFS          NFE2L1 0.0415370 31899.9 45.6101
+   21  HLA-A*02:01       SSASSSFSE  SSASSSFSE  0  0  0  0  0    SSASSSFSE          NFE2L1 0.0354090 34086.6 51.3360
+    1  HLA-A*02:01        SSEGSSSS  SS-EGSSSS  0  0  0  2  1     SSEGSSSS          NFE2L1 0.0113110 44240.5 88.1341
+    2  HLA-A*02:01        SEGSSSSS  SE-GSSSSS  0  0  0  2  1     SEGSSSSS          NFE2L1 0.0059770 46868.9 95.9740
+    3  HLA-A*02:01        EGSSSSSS  EG-SSSSSS  0  0  0  2  1     EGSSSSSS          NFE2L1 0.0061480 46782.2 95.8588
+    4  HLA-A*02:01        GSSSSSSS  GS-SSSSSS  0  0  0  2  1     GSSSSSSS          NFE2L1 0.0099780 44883.2 90.6205
+    5  HLA-A*02:01        SSSSSSSS  SS-SSSSSS  0  0  0  2  1     SSSSSSSS          NFE2L1 0.0119620 43930.0 86.8832
+    6  HLA-A*02:01        SSSSSSSS  SS-SSSSSS  0  0  0  2  1     SSSSSSSS          NFE2L1 0.0119620 43930.0 86.8832
+    7  HLA-A*02:01        SSSSSSSS  SS-SSSSSS  0  0  0  2  1     SSSSSSSS          NFE2L1 0.0119620 43930.0 86.8832
+    8  HLA-A*02:01        SSSSSSSS  SS-SSSSSS  0  0  0  2  1     SSSSSSSS          NFE2L1 0.0119620 43930.0 86.8832
+    9  HLA-A*02:01        SSSSSSSS  SS-SSSSSS  0  0  0  2  1     SSSSSSSS          NFE2L1 0.0119620 43930.0 86.8832
+   10  HLA-A*02:01        SSSSSSSS  SS-SSSSSS  0  0  0  2  1     SSSSSSSS          NFE2L1 0.0119620 43930.0 86.8832
+   11  HLA-A*02:01        SSSSSSSS  SS-SSSSSS  0  0  0  2  1     SSSSSSSS          NFE2L1 0.0119620 43930.0 86.8832
+   12  HLA-A*02:01        SSSSSSSA  SS-SSSSSA  0  0  0  2  1     SSSSSSSA          NFE2L1 0.0231230 38932.8 66.9244
+   13  HLA-A*02:01        SSSSSSAS  SS-SSSSAS  0  0  0  2  1     SSSSSSAS          NFE2L1 0.0134310 43237.2 84.0654
+   14  HLA-A*02:01        SSSSSASS  SS-SSSASS  0  0  0  2  1     SSSSSASS          NFE2L1 0.0135360 43188.2 83.8647
+   15  HLA-A*02:01        SSSSASSS  SS-SSASSS  0  0  0  2  1     SSSSASSS          NFE2L1 0.0126090 43623.5 85.6399
+   16  HLA-A*02:01        SSSASSSA  SS-SASSSA  0  0  0  2  1     SSSASSSA          NFE2L1 0.0242790 38448.9 65.0965
+   17  HLA-A*02:01        SSASSSAS  SSASSSAS-  0  0  0  8  1     SSASSSAS          NFE2L1 0.0150260 42497.5 81.0168
+   18  HLA-A*02:01        SASSSASS  SA-SSSASS  0  0  0  2  1     SASSSASS          NFE2L1 0.0138820 43026.8 83.2034
+   19  HLA-A*02:01        ASSSASSS  AS-SSASSS  0  0  0  2  1     ASSSASSS          NFE2L1 0.0124030 43720.9 86.0357
+   20  HLA-A*02:01        SSSASSSF  SS-SASSSF  0  0  0  2  1     SSSASSSF          NFE2L1 0.0192890 40581.8 73.2491
+   21  HLA-A*02:01        SSASSSFS  SSASSSFS-  0  0  0  8  1     SSASSSFS          NFE2L1 0.0208420 39905.6 70.5779
+   22  HLA-A*02:01        SASSSFSE  SASSSFSE-  0  0  0  8  1     SASSSFSE          NFE2L1 0.0177540 41261.4 75.9528
+-----------------------------------------------------------------------------------
+
+Protein NFE2L1. Allele HLA-A*02:01. Number of high binders 0. Number of weak binders 0. Number of peptides 82
+
+-----------------------------------------------------------------------------------
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/bin/netMHCpan -a HLA-A03:01 -BA -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest4/NFE2L1_refPeptide.fa
+# Wed Nov 18 15:22:18 2020
+# User: charoent
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest4
+# Host: Linux odcf-cn34u03s10 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-A03:01           HLA allele
+# -BA      1                    Make Binding affinity prediction
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest4/NFE2L1_refPeptide.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/synlist.bin Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-A03:01           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest4/NFE2L1_refPeptide.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/threshold/%s.thr.%s Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/allelenames File with print names for alleles
+#	[-BA]                1                    Make Binding affinity prediction
+
+# NetMHCpan version 4.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//tmp/netMHCpan1dxtnX
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+# Make binding affinity predictions
+
+HLA-A03:01 : Distance to training data  0.000 (using nearest neighbor HLA-A03:01)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity     Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-A*03:01     SSEGSSSSSSS  SSSSSSSSS  0  2  2  0  0  SSEGSSSSSSS          NFE2L1 0.0253830 37992.3 64.1842
+    2  HLA-A*03:01     SEGSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SEGSSSSSSSS          NFE2L1 0.0258950 37782.5 63.2197
+    3  HLA-A*03:01     EGSSSSSSSSS  ESSSSSSSS  0  1  2  0  0  EGSSSSSSSSS          NFE2L1 0.0163790 41879.9 83.4127
+    4  HLA-A*03:01     GSSSSSSSSSS  GSSSSSSSS  0  1  2  0  0  GSSSSSSSSSS          NFE2L1 0.0208790 39889.6 73.6003
+    5  HLA-A*03:01     SSSSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SSSSSSSSSSS          NFE2L1 0.0250560 38127.0 64.8003
+    6  HLA-A*03:01     SSSSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SSSSSSSSSSS          NFE2L1 0.0250560 38127.0 64.8003
+    7  HLA-A*03:01     SSSSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SSSSSSSSSSS          NFE2L1 0.0250560 38127.0 64.8003
+    8  HLA-A*03:01     SSSSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SSSSSSSSSSS          NFE2L1 0.0250560 38127.0 64.8003
+    9  HLA-A*03:01     SSSSSSSSSSA  SSSSSSSSA  0  1  2  0  0  SSSSSSSSSSA          NFE2L1 0.0313530 35615.8 53.4976
+   10  HLA-A*03:01     SSSSSSSSSAS  SSSSSSSSS  0  8  2  0  0  SSSSSSSSSAS          NFE2L1 0.0263210 37608.7 62.4171
+   11  HLA-A*03:01     SSSSSSSSASS  SSSSSSASS  0  1  2  0  0  SSSSSSSSASS          NFE2L1 0.0269700 37345.5 61.1944
+   12  HLA-A*03:01     SSSSSSSASSS  SSSSSASSS  0  1  2  0  0  SSSSSSSASSS          NFE2L1 0.0272890 37216.9 60.5934
+   13  HLA-A*03:01     SSSSSSASSSA  SSSSASSSA  0  1  2  0  0  SSSSSSASSSA          NFE2L1 0.0340520 34590.8 49.2825
+   14  HLA-A*03:01     SSSSSASSSAS  SSSASSSAS  0  1  2  0  0  SSSSSASSSAS          NFE2L1 0.0283480 36792.9 58.6705
+   15  HLA-A*03:01     SSSSASSSASS  SSASSSASS  0  1  2  0  0  SSSSASSSASS          NFE2L1 0.0297770 36228.4 56.1169
+   16  HLA-A*03:01     SSSASSSASSS  SSSASASSS  0  4  2  0  0  SSSASSSASSS          NFE2L1 0.0292960 36417.4 56.9764
+   17  HLA-A*03:01     SSASSSASSSF  SSASSSSSF  0  5  2  0  0  SSASSSASSSF          NFE2L1 0.0561280 27241.2 27.6163
+   18  HLA-A*03:01     SASSSASSSFS  SSSASSSFS  0  1  2  0  0  SASSSASSSFS          NFE2L1 0.0425040 31567.8 38.7482
+   19  HLA-A*03:01     ASSSASSSFSE  ASASSSFSE  0  1  2  0  0  ASSSASSSFSE          NFE2L1 0.0428740 31441.7 38.3695
+    1  HLA-A*03:01      SSEGSSSSSS  SSGSSSSSS  0  2  1  0  0   SSEGSSSSSS          NFE2L1 0.0336900 34726.6 49.8180
+    2  HLA-A*03:01      SEGSSSSSSS  SGSSSSSSS  0  1  1  0  0   SEGSSSSSSS          NFE2L1 0.0270050 37331.4 61.1285
+    3  HLA-A*03:01      EGSSSSSSSS  ESSSSSSSS  0  1  1  0  0   EGSSSSSSSS          NFE2L1 0.0264760 37545.7 62.1251
+    4  HLA-A*03:01      GSSSSSSSSS  GSSSSSSSS  0  1  1  0  0   GSSSSSSSSS          NFE2L1 0.0360710 33843.4 46.3448
+    5  HLA-A*03:01      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0433850 31268.4 37.8528
+    6  HLA-A*03:01      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0433850 31268.4 37.8528
+    7  HLA-A*03:01      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0433850 31268.4 37.8528
+    8  HLA-A*03:01      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0433850 31268.4 37.8528
+    9  HLA-A*03:01      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0433850 31268.4 37.8528
+   10  HLA-A*03:01      SSSSSSSSSA  SSSSSSSSA  0  1  1  0  0   SSSSSSSSSA          NFE2L1 0.0540380 27864.2 28.9831
+   11  HLA-A*03:01      SSSSSSSSAS  SSSSSSSSS  0  8  1  0  0   SSSSSSSSAS          NFE2L1 0.0459250 30420.7 35.4155
+   12  HLA-A*03:01      SSSSSSSASS  SSSSSSASS  0  1  1  0  0   SSSSSSSASS          NFE2L1 0.0473070 29969.2 34.1652
+   13  HLA-A*03:01      SSSSSSASSS  SSSSSSASS  0  7  1  0  0   SSSSSSASSS          NFE2L1 0.0470760 30044.2 34.3736
+   14  HLA-A*03:01      SSSSSASSSA  SSSSSSSSA  0  5  1  0  0   SSSSSASSSA          NFE2L1 0.0581960 26638.4 26.4076
+   15  HLA-A*03:01      SSSSASSSAS  SSSASSSAS  0  1  1  0  0   SSSSASSSAS          NFE2L1 0.0494360 29286.8 32.3514
+   16  HLA-A*03:01      SSSASSSASS  SSSASSASS  0  4  1  0  0   SSSASSSASS          NFE2L1 0.0517990 28547.5 30.5402
+   17  HLA-A*03:01      SSASSSASSS  SSASSSASS  0  7  1  0  0   SSASSSASSS          NFE2L1 0.0508660 28837.1 31.2338
+   18  HLA-A*03:01      SASSSASSSF  SSSSASSSF  0  1  1  0  0   SASSSASSSF          NFE2L1 0.0818500 20623.4 16.9402
+   19  HLA-A*03:01      ASSSASSSFS  ASSASSSFS  0  1  1  0  0   ASSSASSSFS          NFE2L1 0.0822940 20524.5 16.8253
+   20  HLA-A*03:01      SSSASSSFSE  SSSASSSFE  0  8  1  0  0   SSSASSSFSE          NFE2L1 0.0857950 19761.6 15.9269
+    1  HLA-A*03:01       SSEGSSSSS  SSEGSSSSS  0  0  0  0  0    SSEGSSSSS          NFE2L1 0.0299860 36146.5 55.7434
+    2  HLA-A*03:01       SEGSSSSSS  SEGSSSSSS  0  0  0  0  0    SEGSSSSSS          NFE2L1 0.0187200 40832.4 78.3282
+    3  HLA-A*03:01       EGSSSSSSS  EGSSSSSSS  0  0  0  0  0    EGSSSSSSS          NFE2L1 0.0208440 39904.8 73.6774
+    4  HLA-A*03:01       GSSSSSSSS  GSSSSSSSS  0  0  0  0  0    GSSSSSSSS          NFE2L1 0.0512590 28714.8 30.9349
+    5  HLA-A*03:01       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0631690 25243.0 23.8292
+    6  HLA-A*03:01       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0631690 25243.0 23.8292
+    7  HLA-A*03:01       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0631690 25243.0 23.8292
+    8  HLA-A*03:01       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0631690 25243.0 23.8292
+    9  HLA-A*03:01       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0631690 25243.0 23.8292
+   10  HLA-A*03:01       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0631690 25243.0 23.8292
+   11  HLA-A*03:01       SSSSSSSSA  SSSSSSSSA  0  0  0  0  0    SSSSSSSSA          NFE2L1 0.0782550 21441.3 17.9816
+   12  HLA-A*03:01       SSSSSSSAS  SSSSSSSAS  0  0  0  0  0    SSSSSSSAS          NFE2L1 0.0624980 25426.9 24.1569
+   13  HLA-A*03:01       SSSSSSASS  SSSSSSASS  0  0  0  0  0    SSSSSSASS          NFE2L1 0.0634880 25156.0 23.6756
+   14  HLA-A*03:01       SSSSSASSS  SSSSSASSS  0  0  0  0  0    SSSSSASSS          NFE2L1 0.0631770 25240.8 23.8253
+   15  HLA-A*03:01       SSSSASSSA  SSSSASSSA  0  0  0  0  0    SSSSASSSA          NFE2L1 0.0769440 21747.7 18.3967
+   16  HLA-A*03:01       SSSASSSAS  SSSASSSAS  0  0  0  0  0    SSSASSSAS          NFE2L1 0.0656420 24576.5 22.6712
+   17  HLA-A*03:01       SSASSSASS  SSASSSASS  0  0  0  0  0    SSASSSASS          NFE2L1 0.0676350 24052.2 21.8081
+   18  HLA-A*03:01       SASSSASSS  SASSSASSS  0  0  0  0  0    SASSSASSS          NFE2L1 0.0452530 30642.7 36.0282
+   19  HLA-A*03:01       ASSSASSSF  ASSSASSSF  0  0  0  0  0    ASSSASSSF          NFE2L1 0.1170110 14097.4 10.6014
+   20  HLA-A*03:01       SSSASSSFS  SSSASSSFS  0  0  0  0  0    SSSASSSFS          NFE2L1 0.0968170 17540.0 13.6158
+   21  HLA-A*03:01       SSASSSFSE  SSASSSFSE  0  0  0  0  0    SSASSSFSE          NFE2L1 0.0982940 17261.9 13.3504
+    1  HLA-A*03:01        SSEGSSSS  SSEGSSSS-  0  0  0  8  1     SSEGSSSS          NFE2L1 0.0153310 42357.5 85.6376
+    2  HLA-A*03:01        SEGSSSSS  SEGSSSSS-  0  0  0  8  1     SEGSSSSS          NFE2L1 0.0104820 44639.1 94.6593
+    3  HLA-A*03:01        EGSSSSSS  EGSSSSSS-  0  0  0  8  1     EGSSSSSS          NFE2L1 0.0093260 45200.9 95.4662
+    4  HLA-A*03:01        GSSSSSSS  GSSSSSSS-  0  0  0  8  1     GSSSSSSS          NFE2L1 0.0208260 39912.5 73.7170
+    5  HLA-A*03:01        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0248430 38215.0 65.2197
+    6  HLA-A*03:01        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0248430 38215.0 65.2197
+    7  HLA-A*03:01        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0248430 38215.0 65.2197
+    8  HLA-A*03:01        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0248430 38215.0 65.2197
+    9  HLA-A*03:01        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0248430 38215.0 65.2197
+   10  HLA-A*03:01        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0248430 38215.0 65.2197
+   11  HLA-A*03:01        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0248430 38215.0 65.2197
+   12  HLA-A*03:01        SSSSSSSA  SSSSSSSA-  0  0  0  8  1     SSSSSSSA          NFE2L1 0.0294840 36343.4 56.6405
+   13  HLA-A*03:01        SSSSSSAS  SSSSSSAS-  0  0  0  8  1     SSSSSSAS          NFE2L1 0.0271780 37261.6 60.8026
+   14  HLA-A*03:01        SSSSSASS  SSSSSASS-  0  0  0  8  1     SSSSSASS          NFE2L1 0.0259990 37740.0 63.0237
+   15  HLA-A*03:01        SSSSASSS  SSSSASSS-  0  0  0  8  1     SSSSASSS          NFE2L1 0.0266660 37468.6 61.7671
+   16  HLA-A*03:01        SSSASSSA  SSSASSSA-  0  0  0  8  1     SSSASSSA          NFE2L1 0.0312590 35652.1 53.6461
+   17  HLA-A*03:01        SSASSSAS  SSASSSAS-  0  0  0  8  1     SSASSSAS          NFE2L1 0.0288860 36579.3 57.7091
+   18  HLA-A*03:01        SASSSASS  SASSSASS-  0  0  0  8  1     SASSSASS          NFE2L1 0.0194900 40493.7 76.6455
+   19  HLA-A*03:01        ASSSASSS  ASSSASSS-  0  0  0  8  1     ASSSASSS          NFE2L1 0.0286130 36687.5 58.1969
+   20  HLA-A*03:01        SSSASSSF  SSS-ASSSF  0  0  0  3  1     SSSASSSF          NFE2L1 0.0503680 28992.9 31.6169
+   21  HLA-A*03:01        SSASSSFS  SSASSSFS-  0  0  0  8  1     SSASSSFS          NFE2L1 0.0385160 32959.8 43.1799
+   22  HLA-A*03:01        SASSSFSE  SASSSFSE-  0  0  0  8  1     SASSSFSE          NFE2L1 0.0276030 37090.6 60.0019
+-----------------------------------------------------------------------------------
+
+Protein NFE2L1. Allele HLA-A*03:01. Number of high binders 0. Number of weak binders 0. Number of peptides 82
+
+-----------------------------------------------------------------------------------
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/bin/netMHCpan -a HLA-B07:02 -BA -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest4/NFE2L1_refPeptide.fa
+# Wed Nov 18 15:22:19 2020
+# User: charoent
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest4
+# Host: Linux odcf-cn34u03s10 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-B07:02           HLA allele
+# -BA      1                    Make Binding affinity prediction
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest4/NFE2L1_refPeptide.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/synlist.bin Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-B07:02           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest4/NFE2L1_refPeptide.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/threshold/%s.thr.%s Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/allelenames File with print names for alleles
+#	[-BA]                1                    Make Binding affinity prediction
+
+# NetMHCpan version 4.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//tmp/netMHCpanr0wkaQ
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+# Make binding affinity predictions
+
+HLA-B07:02 : Distance to training data  0.000 (using nearest neighbor HLA-B07:02)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity     Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-B*07:02     SSEGSSSSSSS  SSSSSSSSS  0  2  2  0  0  SSEGSSSSSSS          NFE2L1 0.0247660 38246.8 55.3139
+    2  HLA-B*07:02     SEGSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SEGSSSSSSSS          NFE2L1 0.0259790 37748.1 53.0649
+    3  HLA-B*07:02     EGSSSSSSSSS  ESSSSSSSS  0  1  2  0  0  EGSSSSSSSSS          NFE2L1 0.0171440 41534.7 73.0974
+    4  HLA-B*07:02     GSSSSSSSSSS  GSSSSSSSS  0  1  2  0  0  GSSSSSSSSSS          NFE2L1 0.0144850 42747.0 80.3216
+    5  HLA-B*07:02     SSSSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SSSSSSSSSSS          NFE2L1 0.0226520 39131.7 59.7089
+    6  HLA-B*07:02     SSSSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SSSSSSSSSSS          NFE2L1 0.0226520 39131.7 59.7089
+    7  HLA-B*07:02     SSSSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SSSSSSSSSSS          NFE2L1 0.0226520 39131.7 59.7089
+    8  HLA-B*07:02     SSSSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SSSSSSSSSSS          NFE2L1 0.0226520 39131.7 59.7089
+    9  HLA-B*07:02     SSSSSSSSSSA  SSSSSSSSA  0  1  2  0  0  SSSSSSSSSSA          NFE2L1 0.0401430 32384.6 33.6411
+   10  HLA-B*07:02     SSSSSSSSSAS  SSSSSSSAS  0  1  2  0  0  SSSSSSSSSAS          NFE2L1 0.0276270 37081.0 50.0620
+   11  HLA-B*07:02     SSSSSSSSASS  SSSSSSSSS  0  7  2  0  0  SSSSSSSSASS          NFE2L1 0.0234760 38784.4 57.9958
+   12  HLA-B*07:02     SSSSSSSASSS  SSSSSSSAS  0  8  2  0  0  SSSSSSSASSS          NFE2L1 0.0276950 37053.7 49.9380
+   13  HLA-B*07:02     SSSSSSASSSA  SSSSASSSA  0  1  2  0  0  SSSSSSASSSA          NFE2L1 0.0457980 30462.6 28.8813
+   14  HLA-B*07:02     SSSSSASSSAS  SSSASSSAS  0  1  2  0  0  SSSSSASSSAS          NFE2L1 0.0303150 36018.1 45.6600
+   15  HLA-B*07:02     SSSSASSSASS  SSASSSASS  0  1  2  0  0  SSSSASSSASS          NFE2L1 0.0286110 36688.3 48.3506
+   16  HLA-B*07:02     SSSASSSASSS  SASSSASSS  0  1  2  0  0  SSSASSSASSS          NFE2L1 0.0343050 34496.3 40.1961
+   17  HLA-B*07:02     SSASSSASSSF  SSASASSSF  0  3  2  0  0  SSASSSASSSF          NFE2L1 0.0773690 21647.9 14.8690
+   18  HLA-B*07:02     SASSSASSSFS  SASSASSSF  0  2  1  0  0   SASSSASSSF          NFE2L1 0.0402430 32349.6 33.5455
+   19  HLA-B*07:02     ASSSASSSFSE  ASSSASSSF  0  0  0  0  0    ASSSASSSF          NFE2L1 0.0231520 38920.6 58.6694
+    1  HLA-B*07:02      SSEGSSSSSS  SSGSSSSSS  0  2  1  0  0   SSEGSSSSSS          NFE2L1 0.0361130 33828.0 38.0433
+    2  HLA-B*07:02      SEGSSSSSSS  SESSSSSSS  0  2  1  0  0   SEGSSSSSSS          NFE2L1 0.0349990 34238.2 39.3562
+    3  HLA-B*07:02      EGSSSSSSSS  ESSSSSSSS  0  1  1  0  0   EGSSSSSSSS          NFE2L1 0.0288600 36589.6 47.9496
+    4  HLA-B*07:02      GSSSSSSSSS  GSSSSSSSS  0  1  1  0  0   GSSSSSSSSS          NFE2L1 0.0271290 37281.4 50.9694
+    5  HLA-B*07:02      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0407280 32180.3 33.0813
+    6  HLA-B*07:02      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0407280 32180.3 33.0813
+    7  HLA-B*07:02      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0407280 32180.3 33.0813
+    8  HLA-B*07:02      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0407280 32180.3 33.0813
+    9  HLA-B*07:02      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0407280 32180.3 33.0813
+   10  HLA-B*07:02      SSSSSSSSSA  SSSSSSSSA  0  1  1  0  0   SSSSSSSSSA          NFE2L1 0.0755920 22068.1 15.3436
+   11  HLA-B*07:02      SSSSSSSSAS  SSSSSSSAS  0  1  1  0  0   SSSSSSSSAS          NFE2L1 0.0507920 28860.2 25.5524
+   12  HLA-B*07:02      SSSSSSSASS  SSSSSSSAS  0  8  1  0  0   SSSSSSSASS          NFE2L1 0.0501450 29063.0 25.9355
+   13  HLA-B*07:02      SSSSSSASSS  SSSSSSSSS  0  6  1  0  0   SSSSSSASSS          NFE2L1 0.0424770 31577.1 31.4813
+   14  HLA-B*07:02      SSSSSASSSA  SSSSASSSA  0  1  1  0  0   SSSSSASSSA          NFE2L1 0.0847780 19980.2 13.1667
+   15  HLA-B*07:02      SSSSASSSAS  SSSSASSAS  0  5  1  0  0   SSSSASSSAS          NFE2L1 0.0588300 26456.3 21.2211
+   16  HLA-B*07:02      SSSASSSASS  SSSASSSAS  0  8  1  0  0   SSSASSSASS          NFE2L1 0.0571000 26956.2 22.0629
+   17  HLA-B*07:02      SSASSSASSS  SASSSASSS  0  1  1  0  0   SSASSSASSS          NFE2L1 0.0624070 25452.0 19.7473
+   18  HLA-B*07:02      SASSSASSSF  SASSASSSF  0  2  1  0  0   SASSSASSSF          NFE2L1 0.1976630  5890.6  3.8195
+   19  HLA-B*07:02      ASSSASSSFS  ASSSASSSF  0  0  0  0  0    ASSSASSSF          NFE2L1 0.0557090 27365.0 22.8108
+   20  HLA-B*07:02      SSSASSSFSE  SSSASSSSE  0  7  1  0  0   SSSASSSFSE          NFE2L1 0.0348520 34292.7 39.5331
+    1  HLA-B*07:02       SSEGSSSSS  SSEGSSSSS  0  0  0  0  0    SSEGSSSSS          NFE2L1 0.0616320 25666.3 20.0594
+    2  HLA-B*07:02       SEGSSSSSS  SEGSSSSSS  0  0  0  0  0    SEGSSSSSS          NFE2L1 0.0394710 32621.0 34.3003
+    3  HLA-B*07:02       EGSSSSSSS  EGSSSSSSS  0  0  0  0  0    EGSSSSSSS          NFE2L1 0.0399800 32441.8 33.7971
+    4  HLA-B*07:02       GSSSSSSSS  GSSSSSSSS  0  0  0  0  0    GSSSSSSSS          NFE2L1 0.0563270 27182.6 22.4785
+    5  HLA-B*07:02       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0892070 19045.4 12.2981
+    6  HLA-B*07:02       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0892070 19045.4 12.2981
+    7  HLA-B*07:02       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0892070 19045.4 12.2981
+    8  HLA-B*07:02       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0892070 19045.4 12.2981
+    9  HLA-B*07:02       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0892070 19045.4 12.2981
+   10  HLA-B*07:02       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0892070 19045.4 12.2981
+   11  HLA-B*07:02       SSSSSSSSA  SSSSSSSSA  0  0  0  0  0    SSSSSSSSA          NFE2L1 0.1656280  8330.8  5.0593
+   12  HLA-B*07:02       SSSSSSSAS  SSSSSSSAS  0  0  0  0  0    SSSSSSSAS          NFE2L1 0.1080000 15541.1  9.4365
+   13  HLA-B*07:02       SSSSSSASS  SSSSSSASS  0  0  0  0  0    SSSSSSASS          NFE2L1 0.0854640 19832.5 13.0221
+   14  HLA-B*07:02       SSSSSASSS  SSSSSASSS  0  0  0  0  0    SSSSSASSS          NFE2L1 0.0788930 21293.8 14.4858
+   15  HLA-B*07:02       SSSSASSSA  SSSSASSSA  0  0  0  0  0    SSSSASSSA          NFE2L1 0.1815170  7015.0  4.3946
+   16  HLA-B*07:02       SSSASSSAS  SSSASSSAS  0  0  0  0  0    SSSASSSAS          NFE2L1 0.1179860 13949.5  8.3128
+   17  HLA-B*07:02       SSASSSASS  SSASSSASS  0  0  0  0  0    SSASSSASS          NFE2L1 0.1104930 15127.5  9.1457
+   18  HLA-B*07:02       SASSSASSS  SASSSASSS  0  0  0  0  0    SASSSASSS          NFE2L1 0.1235990 13127.5  7.7866
+   19  HLA-B*07:02       ASSSASSSF  ASSSASSSF  0  0  0  0  0    ASSSASSSF          NFE2L1 0.2229220  4481.9  3.1473
+   20  HLA-B*07:02       SSSASSSFS  SSSASSSFS  0  0  0  0  0    SSSASSSFS          NFE2L1 0.0554590 27439.1 22.9452
+   21  HLA-B*07:02       SSASSSFSE  SSASSSFSE  0  0  0  0  0    SSASSSFSE          NFE2L1 0.0580690 26675.1 21.5886
+    1  HLA-B*07:02        SSEGSSSS  SSEGSSSS-  0  0  0  8  1     SSEGSSSS          NFE2L1 0.0253260 38015.8 54.2547
+    2  HLA-B*07:02        SEGSSSSS  SE-GSSSSS  0  0  0  2  1     SEGSSSSS          NFE2L1 0.0199570 40289.6 65.9163
+    3  HLA-B*07:02        EGSSSSSS  EGSSSSSS-  0  0  0  8  1     EGSSSSSS          NFE2L1 0.0149480 42533.4 79.0531
+    4  HLA-B*07:02        GSSSSSSS  GSSSSSSS-  0  0  0  8  1     GSSSSSSS          NFE2L1 0.0220090 39404.9 61.1510
+    5  HLA-B*07:02        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0337670 34697.6 40.8594
+    6  HLA-B*07:02        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0337670 34697.6 40.8594
+    7  HLA-B*07:02        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0337670 34697.6 40.8594
+    8  HLA-B*07:02        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0337670 34697.6 40.8594
+    9  HLA-B*07:02        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0337670 34697.6 40.8594
+   10  HLA-B*07:02        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0337670 34697.6 40.8594
+   11  HLA-B*07:02        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0337670 34697.6 40.8594
+   12  HLA-B*07:02        SSSSSSSA  SSS-SSSSA  0  0  0  3  1     SSSSSSSA          NFE2L1 0.0605510 25968.3 20.4932
+   13  HLA-B*07:02        SSSSSSAS  SSS-SSSAS  0  0  0  3  1     SSSSSSAS          NFE2L1 0.0388910 32826.3 34.8868
+   14  HLA-B*07:02        SSSSSASS  SSS-SSASS  0  0  0  3  1     SSSSSASS          NFE2L1 0.0326470 35120.7 42.3383
+   15  HLA-B*07:02        SSSSASSS  SSSSASSS-  0  0  0  8  1     SSSSASSS          NFE2L1 0.0372070 33429.9 36.7787
+   16  HLA-B*07:02        SSSASSSA  SSS-ASSSA  0  0  0  3  1     SSSASSSA          NFE2L1 0.0665430 24338.1 18.1768
+   17  HLA-B*07:02        SSASSSAS  SSA-SSSAS  0  0  0  3  1     SSASSSAS          NFE2L1 0.0494740 29274.7 26.3580
+   18  HLA-B*07:02        SASSSASS  SAS-SSASS  0  0  0  3  1     SASSSASS          NFE2L1 0.0522630 28404.5 24.7008
+   19  HLA-B*07:02        ASSSASSS  ASSSASSS-  0  0  0  8  1     ASSSASSS          NFE2L1 0.0334040 34834.2 41.3298
+   20  HLA-B*07:02        SSSASSSF  SSS-ASSSF  0  0  0  3  1     SSSASSSF          NFE2L1 0.0913260 18613.7 11.8989
+   21  HLA-B*07:02        SSASSSFS  SSASSSFS-  0  0  0  8  1     SSASSSFS          NFE2L1 0.0318070 35441.3 43.4867
+   22  HLA-B*07:02        SASSSFSE  SASSSFSE-  0  0  0  8  1     SASSSFSE          NFE2L1 0.0431440 31350.0 30.9043
+-----------------------------------------------------------------------------------
+
+Protein NFE2L1. Allele HLA-B*07:02. Number of high binders 0. Number of weak binders 0. Number of peptides 82
+
+-----------------------------------------------------------------------------------
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/bin/netMHCpan -a HLA-B15:01 -BA -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest4/NFE2L1_refPeptide.fa
+# Wed Nov 18 15:22:19 2020
+# User: charoent
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest4
+# Host: Linux odcf-cn34u03s10 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-B15:01           HLA allele
+# -BA      1                    Make Binding affinity prediction
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest4/NFE2L1_refPeptide.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/synlist.bin Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-B15:01           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest4/NFE2L1_refPeptide.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/threshold/%s.thr.%s Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/allelenames File with print names for alleles
+#	[-BA]                1                    Make Binding affinity prediction
+
+# NetMHCpan version 4.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//tmp/netMHCpaninJ8TP
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+# Make binding affinity predictions
+
+HLA-B15:01 : Distance to training data  0.000 (using nearest neighbor HLA-B15:01)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity     Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-B*15:01     SSEGSSSSSSS  SSSSSSSSS  0  2  2  0  0  SSEGSSSSSSS          NFE2L1 0.0314600 35574.6 67.5212
+    2  HLA-B*15:01     SEGSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SEGSSSSSSSS          NFE2L1 0.0373030 33395.2 60.6117
+    3  HLA-B*15:01     EGSSSSSSSSS  ESSSSSSSS  0  1  2  0  0  EGSSSSSSSSS          NFE2L1 0.0176030 41328.9 86.6890
+    4  HLA-B*15:01     GSSSSSSSSSS  GSSSSSSSS  0  1  2  0  0  GSSSSSSSSSS          NFE2L1 0.0254550 37962.8 75.4391
+    5  HLA-B*15:01     SSSSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SSSSSSSSSSS          NFE2L1 0.0295800 36305.7 69.8689
+    6  HLA-B*15:01     SSSSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SSSSSSSSSSS          NFE2L1 0.0295800 36305.7 69.8689
+    7  HLA-B*15:01     SSSSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SSSSSSSSSSS          NFE2L1 0.0295800 36305.7 69.8689
+    8  HLA-B*15:01     SSSSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SSSSSSSSSSS          NFE2L1 0.0295800 36305.7 69.8689
+    9  HLA-B*15:01     SSSSSSSSSSA  SSSSSSSSA  0  1  2  0  0  SSSSSSSSSSA          NFE2L1 0.0511630 28744.6 47.4383
+   10  HLA-B*15:01     SSSSSSSSSAS  SSSSSSSAS  0  1  2  0  0  SSSSSSSSSAS          NFE2L1 0.0336310 34748.7 64.8256
+   11  HLA-B*15:01     SSSSSSSSASS  SSSSSSASS  0  1  2  0  0  SSSSSSSSASS          NFE2L1 0.0328060 35060.3 65.8404
+   12  HLA-B*15:01     SSSSSSSASSS  SSSSSSSAS  0  8  2  0  0  SSSSSSSASSS          NFE2L1 0.0338450 34668.4 64.5800
+   13  HLA-B*15:01     SSSSSSASSSA  SSSSASSSA  0  1  2  0  0  SSSSSSASSSA          NFE2L1 0.0586410 26510.5 41.9168
+   14  HLA-B*15:01     SSSSSASSSAS  SSSASSSAS  0  1  2  0  0  SSSSSASSSAS          NFE2L1 0.0362310 33784.8 61.8419
+   15  HLA-B*15:01     SSSSASSSASS  SSASSSASS  0  1  2  0  0  SSSSASSSASS          NFE2L1 0.0402690 32340.5 57.4550
+   16  HLA-B*15:01     SSSASSSASSS  SSSASSSAS  0  8  2  0  0  SSSASSSASSS          NFE2L1 0.0368530 33558.2 61.1281
+   17  HLA-B*15:01     SSASSSASSSF  SSASASSSF  0  3  2  0  0  SSASSSASSSF          NFE2L1 0.4225640   516.8  1.7326 <= WB
+   18  HLA-B*15:01     SASSSASSSFS  SASSASSSF  0  2  1  0  0   SASSSASSSF          NFE2L1 0.1254830 12862.6 17.7060
+   19  HLA-B*15:01     ASSSASSSFSE  ASSSASSSF  0  0  0  0  0    ASSSASSSF          NFE2L1 0.1064270 15807.8 21.8176
+    1  HLA-B*15:01      SSEGSSSSSS  SSGSSSSSS  0  2  1  0  0   SSEGSSSSSS          NFE2L1 0.0495860 29239.3 48.7181
+    2  HLA-B*15:01      SEGSSSSSSS  SESSSSSSS  0  2  1  0  0   SEGSSSSSSS          NFE2L1 0.0572930 26900.0 42.8539
+    3  HLA-B*15:01      EGSSSSSSSS  ESSSSSSSS  0  1  1  0  0   EGSSSSSSSS          NFE2L1 0.0341580 34551.2 64.2208
+    4  HLA-B*15:01      GSSSSSSSSS  GSSSSSSSS  0  1  1  0  0   GSSSSSSSSS          NFE2L1 0.0494100 29295.0 48.8632
+    5  HLA-B*15:01      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0576360 26800.3 42.6143
+    6  HLA-B*15:01      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0576360 26800.3 42.6143
+    7  HLA-B*15:01      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0576360 26800.3 42.6143
+    8  HLA-B*15:01      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0576360 26800.3 42.6143
+    9  HLA-B*15:01      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0576360 26800.3 42.6143
+   10  HLA-B*15:01      SSSSSSSSSA  SSSSSSSSA  0  1  1  0  0   SSSSSSSSSA          NFE2L1 0.1011730 16732.5 23.1915
+   11  HLA-B*15:01      SSSSSSSSAS  SSSSSSSAS  0  1  1  0  0   SSSSSSSSAS          NFE2L1 0.0676100 24058.7 36.3898
+   12  HLA-B*15:01      SSSSSSSASS  SSSSSSSAS  0  8  1  0  0   SSSSSSSASS          NFE2L1 0.0682240 23899.4 36.0479
+   13  HLA-B*15:01      SSSSSSASSS  SSSSSSASS  0  7  1  0  0   SSSSSSASSS          NFE2L1 0.0646550 24840.4 38.0393
+   14  HLA-B*15:01      SSSSSASSSA  SSSSASSSA  0  1  1  0  0   SSSSSASSSA          NFE2L1 0.1125900 14788.1 20.3543
+   15  HLA-B*15:01      SSSSASSSAS  SSSSASSAS  0  5  1  0  0   SSSSASSSAS          NFE2L1 0.0773440 21653.7 31.5875
+   16  HLA-B*15:01      SSSASSSASS  SSASSSASS  0  1  1  0  0   SSSASSSASS          NFE2L1 0.0810180 20809.9 29.9908
+   17  HLA-B*15:01      SSASSSASSS  SSASSSASS  0  7  1  0  0   SSASSSASSS          NFE2L1 0.0815150 20698.2 29.7914
+   18  HLA-B*15:01      SASSSASSSF  SASSASSSF  0  2  1  0  0   SASSSASSSF          NFE2L1 0.5644600   111.3  0.5742 <= WB
+   19  HLA-B*15:01      ASSSASSSFS  ASSSASSSF  0  0  0  0  0    ASSSASSSF          NFE2L1 0.3068680  1807.2  3.9216
+   20  HLA-B*15:01      SSSASSSFSE  SSSASSSSE  0  7  1  0  0   SSSASSSFSE          NFE2L1 0.0604700 25991.0 40.7013
+    1  HLA-B*15:01       SSEGSSSSS  SSEGSSSSS  0  0  0  0  0    SSEGSSSSS          NFE2L1 0.0407510 32172.3 56.9508
+    2  HLA-B*15:01       SEGSSSSSS  SEGSSSSSS  0  0  0  0  0    SEGSSSSSS          NFE2L1 0.0592990 26322.4 41.4825
+    3  HLA-B*15:01       EGSSSSSSS  EGSSSSSSS  0  0  0  0  0    EGSSSSSSS          NFE2L1 0.0292490 36435.9 70.3047
+    4  HLA-B*15:01       GSSSSSSSS  GSSSSSSSS  0  0  0  0  0    GSSSSSSSS          NFE2L1 0.0857100 19779.8 28.1640
+    5  HLA-B*15:01       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.1008270 16795.3 23.2923
+    6  HLA-B*15:01       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.1008270 16795.3 23.2923
+    7  HLA-B*15:01       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.1008270 16795.3 23.2923
+    8  HLA-B*15:01       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.1008270 16795.3 23.2923
+    9  HLA-B*15:01       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.1008270 16795.3 23.2923
+   10  HLA-B*15:01       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.1008270 16795.3 23.2923
+   11  HLA-B*15:01       SSSSSSSSA  SSSSSSSSA  0  0  0  0  0    SSSSSSSSA          NFE2L1 0.1749160  7534.3 10.9533
+   12  HLA-B*15:01       SSSSSSSAS  SSSSSSSAS  0  0  0  0  0    SSSSSSSAS          NFE2L1 0.1103350 15153.4 20.8749
+   13  HLA-B*15:01       SSSSSSASS  SSSSSSASS  0  0  0  0  0    SSSSSSASS          NFE2L1 0.1064800 15798.8 21.8047
+   14  HLA-B*15:01       SSSSSASSS  SSSSSASSS  0  0  0  0  0    SSSSSASSS          NFE2L1 0.0919270 18493.0 25.9657
+   15  HLA-B*15:01       SSSSASSSA  SSSSASSSA  0  0  0  0  0    SSSSASSSA          NFE2L1 0.1876580  6564.0  9.8225
+   16  HLA-B*15:01       SSSASSSAS  SSSASSSAS  0  0  0  0  0    SSSASSSAS          NFE2L1 0.1171500 14076.2 19.3422
+   17  HLA-B*15:01       SSASSSASS  SSASSSASS  0  0  0  0  0    SSASSSASS          NFE2L1 0.1300150 12247.1 16.8714
+   18  HLA-B*15:01       SASSSASSS  SASSSASSS  0  0  0  0  0    SASSSASSS          NFE2L1 0.0931800 18244.0 25.5679
+   19  HLA-B*15:01       ASSSASSSF  ASSSASSSF  0  0  0  0  0    ASSSASSSF          NFE2L1 0.6865260    29.7  0.1376 <= SB
+   20  HLA-B*15:01       SSSASSSFS  SSSASSSFS  0  0  0  0  0    SSSASSSFS          NFE2L1 0.0801730 21001.0 30.3531
+   21  HLA-B*15:01       SSASSSFSE  SSASSSFSE  0  0  0  0  0    SSASSSFSE          NFE2L1 0.0844150 20058.9 28.6512
+    1  HLA-B*15:01        SSEGSSSS  SSEGSSSS-  0  0  0  8  1     SSEGSSSS          NFE2L1 0.0223790 39247.5 79.7825
+    2  HLA-B*15:01        SEGSSSSS  SEGSSSSS-  0  0  0  8  1     SEGSSSSS          NFE2L1 0.0268690 37386.4 73.5131
+    3  HLA-B*15:01        EGSSSSSS  EGSSSSSS-  0  0  0  8  1     EGSSSSSS          NFE2L1 0.0159600 42070.2 89.0288
+    4  HLA-B*15:01        GSSSSSSS  GSSSSSSS-  0  0  0  8  1     GSSSSSSS          NFE2L1 0.0432040 31329.7 54.4617
+    5  HLA-B*15:01        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0503550 28997.0 48.0841
+    6  HLA-B*15:01        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0503550 28997.0 48.0841
+    7  HLA-B*15:01        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0503550 28997.0 48.0841
+    8  HLA-B*15:01        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0503550 28997.0 48.0841
+    9  HLA-B*15:01        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0503550 28997.0 48.0841
+   10  HLA-B*15:01        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0503550 28997.0 48.0841
+   11  HLA-B*15:01        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0503550 28997.0 48.0841
+   12  HLA-B*15:01        SSSSSSSA  SSSSSSSA-  0  0  0  8  1     SSSSSSSA          NFE2L1 0.0638240 25064.7 38.5577
+   13  HLA-B*15:01        SSSSSSAS  SSSSSSAS-  0  0  0  8  1     SSSSSSAS          NFE2L1 0.0539000 27905.9 45.3191
+   14  HLA-B*15:01        SSSSSASS  SSSSSASS-  0  0  0  8  1     SSSSSASS          NFE2L1 0.0474970 29907.7 50.5319
+   15  HLA-B*15:01        SSSSASSS  SSSSASSS-  0  0  0  8  1     SSSSASSS          NFE2L1 0.0541140 27841.3 45.1584
+   16  HLA-B*15:01        SSSASSSA  SSSASSSA-  0  0  0  8  1     SSSASSSA          NFE2L1 0.0681610 23915.7 36.0830
+   17  HLA-B*15:01        SSASSSAS  SSASSSAS-  0  0  0  8  1     SSASSSAS          NFE2L1 0.0692960 23623.8 35.4883
+   18  HLA-B*15:01        SASSSASS  SASSSASS-  0  0  0  8  1     SASSSASS          NFE2L1 0.0478230 29802.4 50.2334
+   19  HLA-B*15:01        ASSSASSS  ASSSASSS-  0  0  0  8  1     ASSSASSS          NFE2L1 0.0626100 25396.1 39.3133
+   20  HLA-B*15:01        SSSASSSF  SSS-ASSSF  0  0  0  3  1     SSSASSSF          NFE2L1 0.2917240  2129.0  4.3995
+   21  HLA-B*15:01        SSASSSFS  SSASSSFS-  0  0  0  8  1     SSASSSFS          NFE2L1 0.0561900 27222.9 43.6502
+   22  HLA-B*15:01        SASSSFSE  SASSSFSE-  0  0  0  8  1     SASSSFSE          NFE2L1 0.0556430 27384.5 44.0477
+-----------------------------------------------------------------------------------
+
+Protein NFE2L1. Allele HLA-B*15:01. Number of high binders 1. Number of weak binders 2. Number of peptides 82
+
+-----------------------------------------------------------------------------------
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/bin/netMHCpan -a HLA-C03:04 -BA -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest4/NFE2L1_refPeptide.fa
+# Wed Nov 18 15:22:19 2020
+# User: charoent
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest4
+# Host: Linux odcf-cn34u03s10 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-C03:04           HLA allele
+# -BA      1                    Make Binding affinity prediction
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest4/NFE2L1_refPeptide.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/synlist.bin Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-C03:04           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest4/NFE2L1_refPeptide.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/threshold/%s.thr.%s Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/allelenames File with print names for alleles
+#	[-BA]                1                    Make Binding affinity prediction
+
+# NetMHCpan version 4.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//tmp/netMHCpanOm6hTP
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+# Make binding affinity predictions
+
+HLA-C03:04 : Distance to training data  0.000 (using nearest neighbor HLA-C03:03)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity     Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-C*03:04     SSEGSSSSSSS  SSSSSSSSS  0  2  2  0  0  SSEGSSSSSSS          NFE2L1 0.0122300 43802.8 63.5635
+    2  HLA-C*03:04     SEGSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SEGSSSSSSSS          NFE2L1 0.0124590 43694.4 62.9884
+    3  HLA-C*03:04     EGSSSSSSSSS  ESSSSSSSS  0  1  2  0  0  EGSSSSSSSSS          NFE2L1 0.0074240 46140.8 78.5277
+    4  HLA-C*03:04     GSSSSSSSSSS  GSSSSSSSS  0  1  2  0  0  GSSSSSSSSSS          NFE2L1 0.0065310 46588.7 81.9012
+    5  HLA-C*03:04     SSSSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SSSSSSSSSSS          NFE2L1 0.0119720 43925.2 64.2114
+    6  HLA-C*03:04     SSSSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SSSSSSSSSSS          NFE2L1 0.0119720 43925.2 64.2114
+    7  HLA-C*03:04     SSSSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SSSSSSSSSSS          NFE2L1 0.0119720 43925.2 64.2114
+    8  HLA-C*03:04     SSSSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SSSSSSSSSSS          NFE2L1 0.0119720 43925.2 64.2114
+    9  HLA-C*03:04     SSSSSSSSSSA  SSSSSSSSA  0  1  2  0  0  SSSSSSSSSSA          NFE2L1 0.0273740 37182.6 39.0376
+   10  HLA-C*03:04     SSSSSSSSSAS  SSSSSSSAS  0  1  2  0  0  SSSSSSSSSAS          NFE2L1 0.0150620 42481.0 57.0000
+   11  HLA-C*03:04     SSSSSSSSASS  SSSSSSASS  0  1  2  0  0  SSSSSSSSASS          NFE2L1 0.0138120 43059.4 59.6539
+   12  HLA-C*03:04     SSSSSSSASSS  SSSSSSSAS  0  8  2  0  0  SSSSSSSASSS          NFE2L1 0.0151830 42425.4 56.7431
+   13  HLA-C*03:04     SSSSSSASSSA  SSSSASSSA  0  1  2  0  0  SSSSSSASSSA          NFE2L1 0.0331220 34940.6 33.9257
+   14  HLA-C*03:04     SSSSSASSSAS  SSSASSSAS  0  1  2  0  0  SSSSSASSSAS          NFE2L1 0.0172000 41509.5 52.8742
+   15  HLA-C*03:04     SSSSASSSASS  SSASSSASS  0  1  2  0  0  SSSSASSSASS          NFE2L1 0.0178760 41207.0 51.6726
+   16  HLA-C*03:04     SSSASSSASSS  SSSASSSAS  0  8  2  0  0  SSSASSSASSS          NFE2L1 0.0191980 40621.8 49.4019
+   17  HLA-C*03:04     SSASSSASSSF  SSASASSSF  0  3  2  0  0  SSASSSASSSF          NFE2L1 0.1452470 10386.2  7.3872
+   18  HLA-C*03:04     SASSSASSSFS  SASSASSSF  0  2  1  0  0   SASSSASSSF          NFE2L1 0.0444190 30920.5 26.7521
+   19  HLA-C*03:04     ASSSASSSFSE  ASSSASSSF  0  0  0  0  0    ASSSASSSF          NFE2L1 0.0227780 39078.4 44.3179
+    1  HLA-C*03:04      SSEGSSSSSS  SSESSSSSS  0  3  1  0  0   SSEGSSSSSS          NFE2L1 0.0142120 42873.4 58.8047
+    2  HLA-C*03:04      SEGSSSSSSS  SGSSSSSSS  0  1  1  0  0   SEGSSSSSSS          NFE2L1 0.0134630 43222.3 60.4671
+    3  HLA-C*03:04      EGSSSSSSSS  ESSSSSSSS  0  1  1  0  0   EGSSSSSSSS          NFE2L1 0.0128950 43488.7 61.8935
+    4  HLA-C*03:04      GSSSSSSSSS  SSSSSSSSS  1  0  0  0  0    SSSSSSSSS          NFE2L1 0.0136860 43118.1 59.9214
+    5  HLA-C*03:04      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0231350 38927.8 43.8657
+    6  HLA-C*03:04      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0231350 38927.8 43.8657
+    7  HLA-C*03:04      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0231350 38927.8 43.8657
+    8  HLA-C*03:04      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0231350 38927.8 43.8657
+    9  HLA-C*03:04      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0231350 38927.8 43.8657
+   10  HLA-C*03:04      SSSSSSSSSA  SSSSSSSSA  0  1  1  0  0   SSSSSSSSSA          NFE2L1 0.0558050 27336.6 21.8378
+   11  HLA-C*03:04      SSSSSSSSAS  SSSSSSSAS  0  1  1  0  0   SSSSSSSSAS          NFE2L1 0.0306730 35878.8 35.9825
+   12  HLA-C*03:04      SSSSSSSASS  SSSSSSSAS  0  8  1  0  0   SSSSSSSASS          NFE2L1 0.0308320 35817.2 35.8359
+   13  HLA-C*03:04      SSSSSSASSS  SSSSSSASS  0  7  1  0  0   SSSSSSASSS          NFE2L1 0.0272830 37219.3 39.1302
+   14  HLA-C*03:04      SSSSSASSSA  SSSSASSSA  0  1  1  0  0   SSSSSASSSA          NFE2L1 0.0641330 24981.1 19.0755
+   15  HLA-C*03:04      SSSSASSSAS  SSSSASSAS  0  5  1  0  0   SSSSASSSAS          NFE2L1 0.0364960 33688.1 31.4729
+   16  HLA-C*03:04      SSSASSSASS  SSASSSASS  0  1  1  0  0   SSSASSSASS          NFE2L1 0.0378680 33191.7 30.5482
+   17  HLA-C*03:04      SSASSSASSS  SSASSSASS  0  7  1  0  0   SSASSSASSS          NFE2L1 0.0395130 32606.2 29.4979
+   18  HLA-C*03:04      SASSSASSSF  SASSASSSF  0  2  1  0  0   SASSSASSSF          NFE2L1 0.2965600  2020.4  2.2923
+   19  HLA-C*03:04      ASSSASSSFS  ASSSASSSF  0  0  0  0  0    ASSSASSSF          NFE2L1 0.0711660 23150.7 17.1769
+   20  HLA-C*03:04      SSSASSSFSE  SSSASSSSE  0  7  1  0  0   SSSASSSFSE          NFE2L1 0.0228310 39056.0 44.2497
+    1  HLA-C*03:04       SSEGSSSSS  SSEGSSSSS  0  0  0  0  0    SSEGSSSSS          NFE2L1 0.0476560 29856.3 25.1707
+    2  HLA-C*03:04       SEGSSSSSS  SEGSSSSSS  0  0  0  0  0    SEGSSSSSS          NFE2L1 0.0103670 44694.7 68.7749
+    3  HLA-C*03:04       EGSSSSSSS  EGSSSSSSS  0  0  0  0  0    EGSSSSSSS          NFE2L1 0.0230250 38974.1 44.0000
+    4  HLA-C*03:04       GSSSSSSSS  GSSSSSSSS  0  0  0  0  0    GSSSSSSSS          NFE2L1 0.0450620 30706.1 26.4333
+    5  HLA-C*03:04       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0921220 18454.0 12.9500
+    6  HLA-C*03:04       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0921220 18454.0 12.9500
+    7  HLA-C*03:04       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0921220 18454.0 12.9500
+    8  HLA-C*03:04       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0921220 18454.0 12.9500
+    9  HLA-C*03:04       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0921220 18454.0 12.9500
+   10  HLA-C*03:04       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0921220 18454.0 12.9500
+   11  HLA-C*03:04       SSSSSSSSA  SSSSSSSSA  0  0  0  0  0    SSSSSSSSA          NFE2L1 0.2239110  4434.2  3.8138
+   12  HLA-C*03:04       SSSSSSSAS  SSSSSSSAS  0  0  0  0  0    SSSSSSSAS          NFE2L1 0.1129120 14736.7 10.1705
+   13  HLA-C*03:04       SSSSSSASS  SSSSSSASS  0  0  0  0  0    SSSSSSASS          NFE2L1 0.1035190 16313.1 11.3028
+   14  HLA-C*03:04       SSSSSASSS  SSSSSASSS  0  0  0  0  0    SSSSSASSS          NFE2L1 0.0859940 19719.1 14.0008
+   15  HLA-C*03:04       SSSSASSSA  SSSSASSSA  0  0  0  0  0    SSSSASSSA          NFE2L1 0.2449200  3532.6  3.2641
+   16  HLA-C*03:04       SSSASSSAS  SSSASSSAS  0  0  0  0  0    SSSASSSAS          NFE2L1 0.1236330 13122.7  9.1122
+   17  HLA-C*03:04       SSASSSASS  SSASSSASS  0  0  0  0  0    SSASSSASS          NFE2L1 0.1356450 11523.3  8.0853
+   18  HLA-C*03:04       SASSSASSS  SASSSASSS  0  0  0  0  0    SASSSASSS          NFE2L1 0.1352610 11571.3  8.1165
+   19  HLA-C*03:04       ASSSASSSF  ASSSASSSF  0  0  0  0  0    ASSSASSSF          NFE2L1 0.5044370   213.1  0.5864 <= WB
+   20  HLA-C*03:04       SSSASSSFS  SSSASSSFS  0  0  0  0  0    SSSASSSFS          NFE2L1 0.0753160 22134.1 16.1995
+   21  HLA-C*03:04       SSASSSFSE  SSASSSFSE  0  0  0  0  0    SSASSSFSE          NFE2L1 0.0636500 25112.0 19.2245
+    1  HLA-C*03:04        SSEGSSSS  SS-EGSSSS  0  0  0  2  1     SSEGSSSS          NFE2L1 0.0137390 43093.4 59.8089
+    2  HLA-C*03:04        SEGSSSSS  SE-GSSSSS  0  0  0  2  1     SEGSSSSS          NFE2L1 0.0049320 47401.8 88.2417
+    3  HLA-C*03:04        EGSSSSSS  EGSSSSSS-  0  0  0  8  1     EGSSSSSS          NFE2L1 0.0050750 47328.5 87.6637
+    4  HLA-C*03:04        GSSSSSSS  GSSSSSSS-  0  0  0  8  1     GSSSSSSS          NFE2L1 0.0095490 45092.0 71.2821
+    5  HLA-C*03:04        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0202180 40175.9 47.8508
+    6  HLA-C*03:04        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0202180 40175.9 47.8508
+    7  HLA-C*03:04        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0202180 40175.9 47.8508
+    8  HLA-C*03:04        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0202180 40175.9 47.8508
+    9  HLA-C*03:04        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0202180 40175.9 47.8508
+   10  HLA-C*03:04        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0202180 40175.9 47.8508
+   11  HLA-C*03:04        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0202180 40175.9 47.8508
+   12  HLA-C*03:04        SSSSSSSA  SSS-SSSSA  0  0  0  3  1     SSSSSSSA          NFE2L1 0.0436720 31171.4 27.1348
+   13  HLA-C*03:04        SSSSSSAS  SSSSSSAS-  0  0  0  8  1     SSSSSSAS          NFE2L1 0.0242790 38448.9 42.4535
+   14  HLA-C*03:04        SSSSSASS  SSSSSASS-  0  0  0  8  1     SSSSSASS          NFE2L1 0.0212110 39746.6 46.3791
+   15  HLA-C*03:04        SSSSASSS  SSSSASSS-  0  0  0  8  1     SSSSASSS          NFE2L1 0.0211390 39777.6 46.4821
+   16  HLA-C*03:04        SSSASSSA  SSS-ASSSA  0  0  0  3  1     SSSASSSA          NFE2L1 0.0481930 29683.3 24.9172
+   17  HLA-C*03:04        SSASSSAS  SSASSSAS-  0  0  0  8  1     SSASSSAS          NFE2L1 0.0320590 35344.8 34.7519
+   18  HLA-C*03:04        SASSSASS  SASSSASS-  0  0  0  8  1     SASSSASS          NFE2L1 0.0337710 34696.1 33.4073
+   19  HLA-C*03:04        ASSSASSS  ASSSASSS-  0  0  0  8  1     ASSSASSS          NFE2L1 0.0178930 41199.4 51.6424
+   20  HLA-C*03:04        SSSASSSF  SSS-ASSSF  0  0  0  3  1     SSSASSSF          NFE2L1 0.1707680  7880.2  5.8688
+   21  HLA-C*03:04        SSASSSFS  SSASSSFS-  0  0  0  8  1     SSASSSFS          NFE2L1 0.0219490 39430.5 45.3873
+   22  HLA-C*03:04        SASSSFSE  SASSSFSE-  0  0  0  8  1     SASSSFSE          NFE2L1 0.0341010 34572.5 33.1438
+-----------------------------------------------------------------------------------
+
+Protein NFE2L1. Allele HLA-C*03:04. Number of high binders 0. Number of weak binders 1. Number of peptides 82
+
+-----------------------------------------------------------------------------------
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/bin/netMHCpan -a HLA-C07:02 -BA -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest4/NFE2L1_refPeptide.fa
+# Wed Nov 18 15:22:19 2020
+# User: charoent
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest4
+# Host: Linux odcf-cn34u03s10 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-C07:02           HLA allele
+# -BA      1                    Make Binding affinity prediction
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest4/NFE2L1_refPeptide.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/synlist.bin Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-C07:02           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest4/NFE2L1_refPeptide.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/threshold/%s.thr.%s Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/allelenames File with print names for alleles
+#	[-BA]                1                    Make Binding affinity prediction
+
+# NetMHCpan version 4.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//tmp/netMHCpanzkAMzS
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+# Make binding affinity predictions
+
+HLA-C07:02 : Distance to training data  0.000 (using nearest neighbor HLA-C07:02)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity     Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-C*07:02     SSEGSSSSSSS  SSSSSSSSS  0  2  2  0  0  SSEGSSSSSSS          NFE2L1 0.0070480 46328.9 94.0986
+    2  HLA-C*07:02     SEGSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SEGSSSSSSSS          NFE2L1 0.0071240 46290.8 93.9335
+    3  HLA-C*07:02     EGSSSSSSSSS  ESSSSSSSS  0  1  2  0  0  EGSSSSSSSSS          NFE2L1 0.0048790 47429.0 96.3222
+    4  HLA-C*07:02     GSSSSSSSSSS  GSSSSSSSS  0  1  2  0  0  GSSSSSSSSSS          NFE2L1 0.0047930 47473.1 96.3870
+    5  HLA-C*07:02     SSSSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SSSSSSSSSSS          NFE2L1 0.0060470 46833.4 95.4417
+    6  HLA-C*07:02     SSSSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SSSSSSSSSSS          NFE2L1 0.0060470 46833.4 95.4417
+    7  HLA-C*07:02     SSSSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SSSSSSSSSSS          NFE2L1 0.0060470 46833.4 95.4417
+    8  HLA-C*07:02     SSSSSSSSSSS  SSSSSSSSS  0  1  2  0  0  SSSSSSSSSSS          NFE2L1 0.0060470 46833.4 95.4417
+    9  HLA-C*07:02     SSSSSSSSSSA  SSSSSSSSA  0  1  2  0  0  SSSSSSSSSSA          NFE2L1 0.0105400 44611.1 86.1804
+   10  HLA-C*07:02     SSSSSSSSSAS  SSSSSSSAS  0  1  2  0  0  SSSSSSSSSAS          NFE2L1 0.0068780 46414.1 94.4678
+   11  HLA-C*07:02     SSSSSSSSASS  SSSSSSASS  0  1  2  0  0  SSSSSSSSASS          NFE2L1 0.0068830 46411.6 94.4570
+   12  HLA-C*07:02     SSSSSSSASSS  SSSSSSSAS  0  8  2  0  0  SSSSSSSASSS          NFE2L1 0.0070190 46343.4 94.1616
+   13  HLA-C*07:02     SSSSSSASSSA  SSSSSSASA  0  7  2  0  0  SSSSSSASSSA          NFE2L1 0.0123460 43747.8 81.7782
+   14  HLA-C*07:02     SSSSSASSSAS  SSSSSASAS  0  6  2  0  0  SSSSSASSSAS          NFE2L1 0.0074800 46112.8 93.1603
+   15  HLA-C*07:02     SSSSASSSASS  SSASSSASS  0  1  2  0  0  SSSSASSSASS          NFE2L1 0.0078870 45910.2 92.2763
+   16  HLA-C*07:02     SSSASSSASSS  SASSSASSS  0  1  2  0  0  SSSASSSASSS          NFE2L1 0.0080270 45840.7 91.9722
+   17  HLA-C*07:02     SSASSSASSSF  SSASSSASF  0  7  2  0  0  SSASSSASSSF          NFE2L1 0.0525030 28330.9 29.9612
+   18  HLA-C*07:02     SASSSASSSFS  SASSASSSF  0  2  1  0  0   SASSSASSSF          NFE2L1 0.0183520 40995.4 68.4482
+   19  HLA-C*07:02     ASSSASSSFSE  ASSSASSSF  0  0  0  0  0    ASSSASSSF          NFE2L1 0.0135370 43187.7 78.9177
+    1  HLA-C*07:02      SSEGSSSSSS  SSGSSSSSS  0  2  1  0  0   SSEGSSSSSS          NFE2L1 0.0088710 45424.0 90.1390
+    2  HLA-C*07:02      SEGSSSSSSS  SGSSSSSSS  0  1  1  0  0   SEGSSSSSSS          NFE2L1 0.0101270 44810.9 87.1633
+    3  HLA-C*07:02      EGSSSSSSSS  ESSSSSSSS  0  1  1  0  0   EGSSSSSSSS          NFE2L1 0.0073860 46159.7 93.3645
+    4  HLA-C*07:02      GSSSSSSSSS  GSSSSSSSS  0  1  1  0  0   GSSSSSSSSS          NFE2L1 0.0081660 45771.8 91.6703
+    5  HLA-C*07:02      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0101160 44816.2 87.1894
+    6  HLA-C*07:02      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0101160 44816.2 87.1894
+    7  HLA-C*07:02      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0101160 44816.2 87.1894
+    8  HLA-C*07:02      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0101160 44816.2 87.1894
+    9  HLA-C*07:02      SSSSSSSSSS  SSSSSSSSS  0  1  1  0  0   SSSSSSSSSS          NFE2L1 0.0101160 44816.2 87.1894
+   10  HLA-C*07:02      SSSSSSSSSA  SSSSSSSSA  0  1  1  0  0   SSSSSSSSSA          NFE2L1 0.0187370 40824.9 67.6813
+   11  HLA-C*07:02      SSSSSSSSAS  SSSSSSSAS  0  1  1  0  0   SSSSSSSSAS          NFE2L1 0.0120320 43896.7 82.5504
+   12  HLA-C*07:02      SSSSSSSASS  SSSSSSASS  0  1  1  0  0   SSSSSSSASS          NFE2L1 0.0119870 43918.1 82.6611
+   13  HLA-C*07:02      SSSSSSASSS  SSSSSSASS  0  7  1  0  0   SSSSSSASSS          NFE2L1 0.0116500 44078.5 83.4899
+   14  HLA-C*07:02      SSSSSASSSA  SSSSASSSA  0  1  1  0  0   SSSSSASSSA          NFE2L1 0.0212870 39713.9 62.9220
+   15  HLA-C*07:02      SSSSASSSAS  SSSSASSAS  0  5  1  0  0   SSSSASSSAS          NFE2L1 0.0130200 43430.0 80.1205
+   16  HLA-C*07:02      SSSASSSASS  SSASSSASS  0  1  1  0  0   SSSASSSASS          NFE2L1 0.0130690 43407.0 80.0000
+   17  HLA-C*07:02      SSASSSASSS  SSASSSASS  0  7  1  0  0   SSASSSASSS          NFE2L1 0.0142890 42837.7 77.1785
+   18  HLA-C*07:02      SASSSASSSF  SASSASSSF  0  2  1  0  0   SASSSASSSF          NFE2L1 0.0800570 21027.3 17.8524
+   19  HLA-C*07:02      ASSSASSSFS  ASSSASSSF  0  0  0  0  0    ASSSASSSF          NFE2L1 0.0302750 36033.7 49.5293
+   20  HLA-C*07:02      SSSASSSFSE  SSSASSSFE  0  8  1  0  0   SSSASSSFSE          NFE2L1 0.0132800 43308.0 79.5120
+    1  HLA-C*07:02       SSEGSSSSS  SSEGSSSSS  0  0  0  0  0    SSEGSSSSS          NFE2L1 0.0171270 41542.3 70.9522
+    2  HLA-C*07:02       SEGSSSSSS  SEGSSSSSS  0  0  0  0  0    SEGSSSSSS          NFE2L1 0.0109700 44404.0 85.1571
+    3  HLA-C*07:02       EGSSSSSSS  EGSSSSSSS  0  0  0  0  0    EGSSSSSSS          NFE2L1 0.0132510 43321.5 79.5791
+    4  HLA-C*07:02       GSSSSSSSS  GSSSSSSSS  0  0  0  0  0    GSSSSSSSS          NFE2L1 0.0192410 40602.9 66.6773
+    5  HLA-C*07:02       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0271210 37284.6 53.7758
+    6  HLA-C*07:02       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0271210 37284.6 53.7758
+    7  HLA-C*07:02       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0271210 37284.6 53.7758
+    8  HLA-C*07:02       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0271210 37284.6 53.7758
+    9  HLA-C*07:02       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0271210 37284.6 53.7758
+   10  HLA-C*07:02       SSSSSSSSS  SSSSSSSSS  0  0  0  0  0    SSSSSSSSS          NFE2L1 0.0271210 37284.6 53.7758
+   11  HLA-C*07:02       SSSSSSSSA  SSSSSSSSA  0  0  0  0  0    SSSSSSSSA          NFE2L1 0.0551980 27516.7 28.3011
+   12  HLA-C*07:02       SSSSSSSAS  SSSSSSSAS  0  0  0  0  0    SSSSSSSAS          NFE2L1 0.0294220 36367.8 50.6562
+   13  HLA-C*07:02       SSSSSSASS  SSSSSSASS  0  0  0  0  0    SSSSSSASS          NFE2L1 0.0298490 36200.2 50.0773
+   14  HLA-C*07:02       SSSSSASSS  SSSSSASSS  0  0  0  0  0    SSSSSASSS          NFE2L1 0.0272110 37248.3 53.6537
+   15  HLA-C*07:02       SSSSASSSA  SSSSASSSA  0  0  0  0  0    SSSSASSSA          NFE2L1 0.0577950 26754.3 26.8940
+   16  HLA-C*07:02       SSSASSSAS  SSSASSSAS  0  0  0  0  0    SSSASSSAS          NFE2L1 0.0295960 36299.4 50.4203
+   17  HLA-C*07:02       SSASSSASS  SSASSSASS  0  0  0  0  0    SSASSSASS          NFE2L1 0.0322430 35274.5 47.1727
+   18  HLA-C*07:02       SASSSASSS  SASSSASSS  0  0  0  0  0    SASSSASSS          NFE2L1 0.0323540 35232.2 47.0440
+   19  HLA-C*07:02       ASSSASSSF  ASSSASSSF  0  0  0  0  0    ASSSASSSF          NFE2L1 0.1786500  7236.0  4.6142
+   20  HLA-C*07:02       SSSASSSFS  SSSASSSFS  0  0  0  0  0    SSSASSSFS          NFE2L1 0.0346140 34381.1 44.5355
+   21  HLA-C*07:02       SSASSSFSE  SSASSSFSE  0  0  0  0  0    SSASSSFSE          NFE2L1 0.0274210 37163.8 53.3690
+    1  HLA-C*07:02        SSEGSSSS  SS-EGSSSS  0  0  0  2  1     SSEGSSSS          NFE2L1 0.0078310 45938.0 92.3979
+    2  HLA-C*07:02        SEGSSSSS  SE-GSSSSS  0  0  0  2  1     SEGSSSSS          NFE2L1 0.0052730 47227.2 96.0252
+    3  HLA-C*07:02        EGSSSSSS  EGSSSSSS-  0  0  0  8  1     EGSSSSSS          NFE2L1 0.0057680 46975.0 95.6520
+    4  HLA-C*07:02        GSSSSSSS  GSSSSSSS-  0  0  0  8  1     GSSSSSSS          NFE2L1 0.0080010 45853.6 92.0287
+    5  HLA-C*07:02        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0111300 44327.2 84.7688
+    6  HLA-C*07:02        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0111300 44327.2 84.7688
+    7  HLA-C*07:02        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0111300 44327.2 84.7688
+    8  HLA-C*07:02        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0111300 44327.2 84.7688
+    9  HLA-C*07:02        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0111300 44327.2 84.7688
+   10  HLA-C*07:02        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0111300 44327.2 84.7688
+   11  HLA-C*07:02        SSSSSSSS  SSSSSSSS-  0  0  0  8  1     SSSSSSSS          NFE2L1 0.0111300 44327.2 84.7688
+   12  HLA-C*07:02        SSSSSSSA  SSSSS-SSA  0  0  0  5  1     SSSSSSSA          NFE2L1 0.0184730 40941.7 68.2072
+   13  HLA-C*07:02        SSSSSSAS  SSSSSSAS-  0  0  0  8  1     SSSSSSAS          NFE2L1 0.0123920 43726.1 81.6650
+   14  HLA-C*07:02        SSSSSASS  SSSSSASS-  0  0  0  8  1     SSSSSASS          NFE2L1 0.0119570 43932.4 82.7349
+   15  HLA-C*07:02        SSSSASSS  SSSSASSS-  0  0  0  8  1     SSSSASSS          NFE2L1 0.0120290 43898.1 82.5578
+   16  HLA-C*07:02        SSSASSSA  SSSAS-SSA  0  0  0  5  1     SSSASSSA          NFE2L1 0.0189120 40747.7 67.3327
+   17  HLA-C*07:02        SSASSSAS  SSASSSAS-  0  0  0  8  1     SSASSSAS          NFE2L1 0.0137120 43106.0 78.5130
+   18  HLA-C*07:02        SASSSASS  SASSSASS-  0  0  0  8  1     SASSSASS          NFE2L1 0.0137210 43101.8 78.4921
+   19  HLA-C*07:02        ASSSASSS  ASSSASSS-  0  0  0  8  1     ASSSASSS          NFE2L1 0.0103170 44718.8 86.7111
+   20  HLA-C*07:02        SSSASSSF  SSS-ASSSF  0  0  0  3  1     SSSASSSF          NFE2L1 0.0641130 24986.5 23.8027
+   21  HLA-C*07:02        SSASSSFS  SSASSSFS-  0  0  0  8  1     SSASSSFS          NFE2L1 0.0153750 42337.3 74.6926
+   22  HLA-C*07:02        SASSSFSE  SASSSFSE-  0  0  0  8  1     SASSSFSE          NFE2L1 0.0165250 41813.8 72.2374
+-----------------------------------------------------------------------------------
+
+Protein NFE2L1. Allele HLA-C*07:02. Number of high binders 0. Number of weak binders 0. Number of peptides 82
+
+-----------------------------------------------------------------------------------
+# NetMHCIIpan version 3.2
+
+# Input is in FASTA format
+
+# Peptide length 15
+
+# Threshold for Strong binding peptides (%Rank)	2%
+# Threshold for Weak binding peptides (%Rank)	10%
+
+# Allele: DRB1_0101
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Seq        Allele              Peptide        Identity  Pos        Core  Core_Rel 1-log50k(aff)  Affinity(nM)    %Rank Exp_Bind  BindingLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+   1     DRB1_0101      SSEGSSSSSSSSSSS          NFE2L1    4   SSSSSSSSS     0.415         0.147      10137.55    95.00      NA       
+   2     DRB1_0101      SEGSSSSSSSSSSSS          NFE2L1    3   SSSSSSSSS     0.470         0.148      10118.70    95.00      NA       
+   3     DRB1_0101      EGSSSSSSSSSSSSS          NFE2L1    3   SSSSSSSSS     0.430         0.144      10573.11    95.00      NA       
+   4     DRB1_0101      GSSSSSSSSSSSSSS          NFE2L1    3   SSSSSSSSS     0.565         0.146      10275.92    95.00      NA       
+   5     DRB1_0101      SSSSSSSSSSSSSSA          NFE2L1    3   SSSSSSSSS     0.585         0.157       9143.74    95.00      NA       
+   6     DRB1_0101      SSSSSSSSSSSSSAS          NFE2L1    3   SSSSSSSSS     0.460         0.165       8363.90    95.00      NA       
+   7     DRB1_0101      SSSSSSSSSSSSASS          NFE2L1    4   SSSSSSSSA     0.405         0.179       7181.88    95.00      NA       
+   8     DRB1_0101      SSSSSSSSSSSASSS          NFE2L1    3   SSSSSSSSA     0.360         0.198       5898.03    95.00      NA       
+   9     DRB1_0101      SSSSSSSSSSASSSA          NFE2L1    4   SSSSSSASS     0.590         0.219       4673.80    95.00      NA       
+  10     DRB1_0101      SSSSSSSSSASSSAS          NFE2L1    3   SSSSSSASS     0.600         0.230       4138.11    95.00      NA       
+  11     DRB1_0101      SSSSSSSSASSSASS          NFE2L1    2   SSSSSSASS     0.410         0.230       4169.30    95.00      NA       
+  12     DRB1_0101      SSSSSSSASSSASSS          NFE2L1    3   SSSSASSSA     0.315         0.232       4077.57    95.00      NA       
+  13     DRB1_0101      SSSSSSASSSASSSF          NFE2L1    4   SSASSSASS     0.510         0.272       2634.34    90.00      NA       
+  14     DRB1_0101      SSSSSASSSASSSFS          NFE2L1    3   SSASSSASS     0.500         0.285       2281.58    90.00      NA       
+  15     DRB1_0101      SSSSASSSASSSFSE          NFE2L1    2   SSASSSASS     0.430         0.276       2510.91    90.00      NA       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 0 Number of weak binders: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+# NetMHCIIpan version 3.2
+
+# Input is in FASTA format
+
+# Peptide length 15
+
+# Threshold for Strong binding peptides (%Rank)	2%
+# Threshold for Weak binding peptides (%Rank)	10%
+
+# Allele: DRB1_0401
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Seq        Allele              Peptide        Identity  Pos        Core  Core_Rel 1-log50k(aff)  Affinity(nM)    %Rank Exp_Bind  BindingLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+   1     DRB1_0401      SSEGSSSSSSSSSSS          NFE2L1    4   SSSSSSSSS     0.450         0.138      11250.45    95.00      NA       
+   2     DRB1_0401      SEGSSSSSSSSSSSS          NFE2L1    3   SSSSSSSSS     0.515         0.138      11247.53    95.00      NA       
+   3     DRB1_0401      EGSSSSSSSSSSSSS          NFE2L1    3   SSSSSSSSS     0.455         0.134      11723.29    95.00      NA       
+   4     DRB1_0401      GSSSSSSSSSSSSSS          NFE2L1    3   SSSSSSSSS     0.525         0.136      11529.45    95.00      NA       
+   5     DRB1_0401      SSSSSSSSSSSSSSA          NFE2L1    3   SSSSSSSSS     0.620         0.145      10462.72    95.00      NA       
+   6     DRB1_0401      SSSSSSSSSSSSSAS          NFE2L1    3   SSSSSSSSS     0.610         0.149       9993.04    95.00      NA       
+   7     DRB1_0401      SSSSSSSSSSSSASS          NFE2L1    3   SSSSSSSSS     0.400         0.157       9163.34    95.00      NA       
+   8     DRB1_0401      SSSSSSSSSSSASSS          NFE2L1    3   SSSSSSSSA     0.330         0.168       8110.19    95.00      NA       
+   9     DRB1_0401      SSSSSSSSSSASSSA          NFE2L1    4   SSSSSSASS     0.570         0.183       6933.19    95.00      NA       
+  10     DRB1_0401      SSSSSSSSSASSSAS          NFE2L1    3   SSSSSSASS     0.620         0.187       6642.77    95.00      NA       
+  11     DRB1_0401      SSSSSSSSASSSASS          NFE2L1    2   SSSSSSASS     0.450         0.184       6798.96    95.00      NA       
+  12     DRB1_0401      SSSSSSSASSSASSS          NFE2L1    3   SSSSASSSA     0.300         0.186       6707.70    95.00      NA       
+  13     DRB1_0401      SSSSSSASSSASSSF          NFE2L1    4   SSASSSASS     0.480         0.212       5028.57    90.00      NA       
+  14     DRB1_0401      SSSSSASSSASSSFS          NFE2L1    3   SSASSSASS     0.435         0.223       4464.23    90.00      NA       
+  15     DRB1_0401      SSSSASSSASSSFSE          NFE2L1    2   SSASSSASS     0.340         0.221       4599.10    90.00      NA       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 0 Number of weak binders: 0
+--------------------------------------------------------------------------------------------------------------------------------------------

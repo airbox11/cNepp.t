@@ -1,0 +1,10 @@
+# This script is to run tool deFuse to prediction fusion genes.
+
+sh main_run_fusion.sh 
+Usage: main_run_fusion.sh -i PID -1 read1 -2 read2 -o outputDir
+	-1: Path to read1 file, if multiple fastq files, then quote symbol is needed. e.g. "fq1_1;fq2_1;fq3_1"
+	-2: Path to read2 file
+	-i: Sample ID
+	-o: Path to result folder
+>>> Note: Absolute path needed
+

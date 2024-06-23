@@ -1,0 +1,10 @@
+# This script is to do epitope prediction based on input Fasta file
+
+> sh main_run_fusion_neoantigen_prediction.sh 
+Usage: main_run_fusion_neoantigen_prediction.sh -f fastaFile -n fusionName -m hla_type -o outputDir
+    -f: Path to fusion fasta file 
+    -n: Fusion name, e.g. NYB_NFIB
+    -m: Path to HLA type result file
+    -o: Path to result folder
+>>> Note: Absolute path needed
+

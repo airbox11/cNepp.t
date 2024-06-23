@@ -1,0 +1,18 @@
+# This scripts are to do HLA typing based on tool PHLAT
+# And convert the hla result file to a "standard" format for downstream analysis
+# Before you run the script, make sure the path of bowtie2 is available in script run_hla_typing.sh 
+
+> sh run_hla_typing.sh 
+Usage: HLA_typing/run_hla_typing.sh -i PID -1 READ1 -2 READ2 -o OUTPUT_DIR
+	-i: sample ID
+	-1: reads 1, if multiple fastq files, then quote symbol is needed. e.g. "fq1_1;fq2_1;fq3_1" 
+	-2: reads 2, like read 1.
+	-o: Output directory (will be created if not available)
+>>> Note: Absolute path needed 
+
+
+> sh run_format_phlat.sh 
+Usage: HLA_typing/run_format_phlat.sh -p phlatFile -o outputFile
+    -p: Path to PHLAT hla result file
+    -o: Path to output file 
+

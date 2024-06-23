@@ -1,0 +1,426 @@
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/bin/netMHCpan -a HLA-A02:01 -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/fusion/epitopePrediction/test_fusion/fasta_myb_nfib.fa
+# Fri Sep  4 15:30:31 2020
+# User: huangz
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/fusion/epitopePrediction/test_fusion
+# Host: Linux odcf-worker01 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-A02:01           HLA allele
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/fusion/epitopePrediction/test_fusion/fasta_myb_nfib.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/synlist Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-A02:01           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/fusion/epitopePrediction/test_fusion/fasta_myb_nfib.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/threshold/%s.thr Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/allelenames File with print names for alleles
+
+# NetMHCpan version 3.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/tmp/netMHCpanRskX1R
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+HLA-A02:01 : Distance to training data  0.000 (using nearest neighbor HLA-A02:01)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity   Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-A*02:01     FTVPKNRSLAS  FTVPRSLAS  0  4  2  0  0  FTVPKNRSLAS myb_nfib_H021-R 0.03552 34045.0   45.00
+    2  HLA-A*02:01     TVPKNRSLASP  TVPKSLASP  0  4  2  0  0  TVPKNRSLASP myb_nfib_H021-R 0.01492 42546.3   75.00
+    3  HLA-A*02:01     VPKNRSLASPL  VPKSLASPL  0  3  2  0  0  VPKNRSLASPL myb_nfib_H021-R 0.01463 42679.1   75.00
+    4  HLA-A*02:01     PKNRSLASPLQ  KRSLASPLQ  1  1  1  0  0   KNRSLASPLQ myb_nfib_H021-R 0.00668 46512.7   95.00
+    5  HLA-A*02:01     KNRSLASPLQL  KSLASPLQL  0  1  2  0  0  KNRSLASPLQL myb_nfib_H021-R 0.05243 28353.6   34.00
+    6  HLA-A*02:01     NRSLASPLQLR  NLASPLQLR  0  1  2  0  0  NRSLASPLQLR myb_nfib_H021-R 0.03704 33488.6   44.00
+    7  HLA-A*02:01     RSLASPLQLRI  SLAPLQLRI  1  3  1  0  0   SLASPLQLRI myb_nfib_H021-R 0.22290  4482.9    8.50
+    8  HLA-A*02:01     SLASPLQLRIC  SLAPLQLRI  0  3  1  0  0   SLASPLQLRI myb_nfib_H021-R 0.16888  8042.5   12.00
+    9  HLA-A*02:01     LASPLQLRICD  LASPLQLRI  0  0  0  0  0    LASPLQLRI myb_nfib_H021-R 0.02161 39574.5   65.00
+   10  HLA-A*02:01     ASPLQLRICDW  ALQLRICDW  0  1  2  0  0  ASPLQLRICDW myb_nfib_H021-R 0.02208 39372.9   65.00
+   11  HLA-A*02:01     SPLQLRICDWT  SQLRICDWT  0  1  2  0  0  SPLQLRICDWT myb_nfib_H021-R 0.03604 33852.9   45.00
+   12  HLA-A*02:01     PLQLRICDWTM  LQLRICWTM  1  6  1  0  0   LQLRICDWTM myb_nfib_H021-R 0.10817 15512.2   18.00
+   13  HLA-A*02:01     LQLRICDWTMN  LQLRICWTM  0  6  1  0  0   LQLRICDWTM myb_nfib_H021-R 0.08085 20847.2   24.00
+   14  HLA-A*02:01     QLRICDWTMNQ  QLRICDWTM  0  0  0  0  0    QLRICDWTM myb_nfib_H021-R 0.03684 33564.4   44.00
+   15  HLA-A*02:01     LRICDWTMNQN  LICDWTMNQ  0  1  1  0  0   LRICDWTMNQ myb_nfib_H021-R 0.01567 42203.8   75.00
+   16  HLA-A*02:01     RICDWTMNQNG  RICDWTMNG  0  7  2  0  0  RICDWTMNQNG myb_nfib_H021-R 0.03258 35145.0   48.00
+   17  HLA-A*02:01     ICDWTMNQNGR  ICDWTMNGR  0  6  2  0  0  ICDWTMNQNGR myb_nfib_H021-R 0.01229 43773.9   80.00
+   18  HLA-A*02:01     CDWTMNQNGRH  CTMNQNGRH  0  1  2  0  0  CDWTMNQNGRH myb_nfib_H021-R 0.00958 45076.9   85.00
+    1  HLA-A*02:01      FTVPKNRSLA  FTVPKNSLA  0  6  1  0  0   FTVPKNRSLA myb_nfib_H021-R 0.12979 12277.0   15.00
+    2  HLA-A*02:01      TVPKNRSLAS  TVPNRSLAS  0  3  1  0  0   TVPKNRSLAS myb_nfib_H021-R 0.02677 37425.2   55.00
+    3  HLA-A*02:01      VPKNRSLASP  VPNRSLASP  0  2  1  0  0   VPKNRSLASP myb_nfib_H021-R 0.01147 44164.0   85.00
+    4  HLA-A*02:01      PKNRSLASPL  KNRSLASPL  1  0  0  0  0    KNRSLASPL myb_nfib_H021-R 0.01610 42008.3   75.00
+    5  HLA-A*02:01      KNRSLASPLQ  KRSLASPLQ  0  1  1  0  0   KNRSLASPLQ myb_nfib_H021-R 0.01667 41749.6   70.00
+    6  HLA-A*02:01      NRSLASPLQL  NSLASPLQL  0  1  1  0  0   NRSLASPLQL myb_nfib_H021-R 0.08761 19377.1   22.00
+    7  HLA-A*02:01      RSLASPLQLR  RLASPLQLR  0  1  1  0  0   RSLASPLQLR myb_nfib_H021-R 0.07960 21130.7   24.00
+    8  HLA-A*02:01      SLASPLQLRI  SLAPLQLRI  0  3  1  0  0   SLASPLQLRI myb_nfib_H021-R 0.50355   215.2    1.70 <= WB
+    9  HLA-A*02:01      LASPLQLRIC  LASPLQLRI  0  0  0  0  0    LASPLQLRI myb_nfib_H021-R 0.06867 23784.1   27.00
+   10  HLA-A*02:01      ASPLQLRICD  ASLQLRICD  0  2  1  0  0   ASPLQLRICD myb_nfib_H021-R 0.01499 42512.2   75.00
+   11  HLA-A*02:01      SPLQLRICDW  SLQLRICDW  0  1  1  0  0   SPLQLRICDW myb_nfib_H021-R 0.04125 31998.1   41.00
+   12  HLA-A*02:01      PLQLRICDWT  LQLRICDWT  1  0  0  0  0    LQLRICDWT myb_nfib_H021-R 0.06383 25062.0   29.00
+   13  HLA-A*02:01      LQLRICDWTM  LQLRICWTM  0  6  1  0  0   LQLRICDWTM myb_nfib_H021-R 0.32669  1458.4    4.50
+   14  HLA-A*02:01      QLRICDWTMN  QLRICDWTM  0  0  0  0  0    QLRICDWTM myb_nfib_H021-R 0.08461 20016.6   23.00
+   15  HLA-A*02:01      LRICDWTMNQ  LICDWTMNQ  0  1  1  0  0   LRICDWTMNQ myb_nfib_H021-R 0.05441 27751.1   33.00
+   16  HLA-A*02:01      RICDWTMNQN  RICDWTMNN  0  8  1  0  0   RICDWTMNQN myb_nfib_H021-R 0.04299 31402.6   40.00
+   17  HLA-A*02:01      ICDWTMNQNG  ICWTMNQNG  0  2  1  0  0   ICDWTMNQNG myb_nfib_H021-R 0.01922 40613.9   70.00
+   18  HLA-A*02:01      CDWTMNQNGR  CDWMNQNGR  0  3  1  0  0   CDWTMNQNGR myb_nfib_H021-R 0.01925 40598.5   70.00
+   19  HLA-A*02:01      DWTMNQNGRH  WTMNQNGRH  1  0  0  0  0    WTMNQNGRH myb_nfib_H021-R 0.00993 44907.0   85.00
+    1  HLA-A*02:01       FTVPKNRSL  FTVPKNRSL  0  0  0  0  0    FTVPKNRSL myb_nfib_H021-R 0.15707  9138.9   13.00
+    2  HLA-A*02:01       TVPKNRSLA  TVPKNRSLA  0  0  0  0  0    TVPKNRSLA myb_nfib_H021-R 0.04530 30628.8   38.00
+    3  HLA-A*02:01       VPKNRSLAS  VPKNRSLAS  0  0  0  0  0    VPKNRSLAS myb_nfib_H021-R 0.01264 43609.8   80.00
+    4  HLA-A*02:01       PKNRSLASP  PKNRSLASP  0  0  0  0  0    PKNRSLASP myb_nfib_H021-R 0.00368 48049.8  100.00
+    5  HLA-A*02:01       KNRSLASPL  KNRSLASPL  0  0  0  0  0    KNRSLASPL myb_nfib_H021-R 0.03490 34276.0   46.00
+    6  HLA-A*02:01       NRSLASPLQ  NRSLASPLQ  0  0  0  0  0    NRSLASPLQ myb_nfib_H021-R 0.01115 44315.7   85.00
+    7  HLA-A*02:01       RSLASPLQL  RSLASPLQL  0  0  0  0  0    RSLASPLQL myb_nfib_H021-R 0.19930  5786.8    9.50
+    8  HLA-A*02:01       SLASPLQLR  SLASPLQLR  0  0  0  0  0    SLASPLQLR myb_nfib_H021-R 0.11118 15015.0   18.00
+    9  HLA-A*02:01       LASPLQLRI  LASPLQLRI  0  0  0  0  0    LASPLQLRI myb_nfib_H021-R 0.20538  5418.5    9.00
+   10  HLA-A*02:01       ASPLQLRIC  ASPLQLRIC  0  0  0  0  0    ASPLQLRIC myb_nfib_H021-R 0.02780 37011.3   55.00
+   11  HLA-A*02:01       SPLQLRICD  SPLQLRICD  0  0  0  0  0    SPLQLRICD myb_nfib_H021-R 0.00775 45979.8   90.00
+   12  HLA-A*02:01       PLQLRICDW  PLQLRICDW  0  0  0  0  0    PLQLRICDW myb_nfib_H021-R 0.02455 38335.1   60.00
+   13  HLA-A*02:01       LQLRICDWT  LQLRICDWT  0  0  0  0  0    LQLRICDWT myb_nfib_H021-R 0.15741  9105.3   13.00
+   14  HLA-A*02:01       QLRICDWTM  QLRICDWTM  0  0  0  0  0    QLRICDWTM myb_nfib_H021-R 0.26421  2867.3    6.50
+   15  HLA-A*02:01       LRICDWTMN  LRICDWTMN  0  0  0  0  0    LRICDWTMN myb_nfib_H021-R 0.01121 44287.4   85.00
+   16  HLA-A*02:01       RICDWTMNQ  RICDWTMNQ  0  0  0  0  0    RICDWTMNQ myb_nfib_H021-R 0.08773 19353.0   22.00
+   17  HLA-A*02:01       ICDWTMNQN  ICDWTMNQN  0  0  0  0  0    ICDWTMNQN myb_nfib_H021-R 0.01338 43259.3   80.00
+   18  HLA-A*02:01       CDWTMNQNG  CDWTMNQNG  0  0  0  0  0    CDWTMNQNG myb_nfib_H021-R 0.01205 43888.6   80.00
+   19  HLA-A*02:01       DWTMNQNGR  DWTMNQNGR  0  0  0  0  0    DWTMNQNGR myb_nfib_H021-R 0.00611 46800.9   95.00
+   20  HLA-A*02:01       WTMNQNGRH  WTMNQNGRH  0  0  0  0  0    WTMNQNGRH myb_nfib_H021-R 0.02124 39732.4   65.00
+    1  HLA-A*02:01        FTVPKNRS  FTVPK-NRS  0  0  0  5  1     FTVPKNRS myb_nfib_H021-R 0.01555 42255.4   75.00
+    2  HLA-A*02:01        TVPKNRSL  TV-PKNRSL  0  0  0  2  1     TVPKNRSL myb_nfib_H021-R 0.02149 39625.5   65.00
+    3  HLA-A*02:01        VPKNRSLA  -VPKNRSLA  0  0  0  0  1     VPKNRSLA myb_nfib_H021-R 0.00893 45396.5   90.00
+    4  HLA-A*02:01        PKNRSLAS  -PKNRSLAS  0  0  0  0  1     PKNRSLAS myb_nfib_H021-R 0.00270 48558.9  100.00
+    5  HLA-A*02:01        KNRSLASP  K-NRSLASP  0  0  0  1  1     KNRSLASP myb_nfib_H021-R 0.00630 46704.8   95.00
+    6  HLA-A*02:01        NRSLASPL  NR-SLASPL  0  0  0  2  1     NRSLASPL myb_nfib_H021-R 0.01497 42521.9   75.00
+    7  HLA-A*02:01        RSLASPLQ  RSLASPLQ-  0  0  0  8  1     RSLASPLQ myb_nfib_H021-R 0.01563 42221.6   75.00
+    8  HLA-A*02:01        SLASPLQL  SLASPL-QL  0  0  0  6  1     SLASPLQL myb_nfib_H021-R 0.23877  3775.7    7.50
+    9  HLA-A*02:01        LASPLQLR  -LASPLQLR  0  0  0  0  1     LASPLQLR myb_nfib_H021-R 0.03255 35157.9   48.00
+   10  HLA-A*02:01        ASPLQLRI  AS-PLQLRI  0  0  0  2  1     ASPLQLRI myb_nfib_H021-R 0.03239 35218.8   48.00
+   11  HLA-A*02:01        SPLQLRIC  SP-LQLRIC  0  0  0  2  1     SPLQLRIC myb_nfib_H021-R 0.00929 45218.1   90.00
+   12  HLA-A*02:01        PLQLRICD  PLQLRICD-  0  0  0  8  1     PLQLRICD myb_nfib_H021-R 0.00631 46702.3   95.00
+   13  HLA-A*02:01        LQLRICDW  LQLRICDW-  0  0  0  8  1     LQLRICDW myb_nfib_H021-R 0.02808 36899.7   55.00
+   14  HLA-A*02:01        QLRICDWT  QLRICDW-T  0  0  0  7  1     QLRICDWT myb_nfib_H021-R 0.03982 32499.8   42.00
+   15  HLA-A*02:01        LRICDWTM  -LRICDWTM  0  0  0  0  1     LRICDWTM myb_nfib_H021-R 0.07298 22700.2   26.00
+   16  HLA-A*02:01        RICDWTMN  RICDWTMN-  0  0  0  8  1     RICDWTMN myb_nfib_H021-R 0.04335 31281.2   39.00
+   17  HLA-A*02:01        ICDWTMNQ  -ICDWTMNQ  0  0  0  0  1     ICDWTMNQ myb_nfib_H021-R 0.01710 41555.8   70.00
+   18  HLA-A*02:01        CDWTMNQN  CDWTMNQN-  0  0  0  8  1     CDWTMNQN myb_nfib_H021-R 0.00604 46834.9   95.00
+   19  HLA-A*02:01        DWTMNQNG  D-WTMNQNG  0  0  0  1  1     DWTMNQNG myb_nfib_H021-R 0.00346 48163.8  100.00
+   20  HLA-A*02:01        WTMNQNGR  WTMN-QNGR  0  0  0  4  1     WTMNQNGR myb_nfib_H021-R 0.02185 39471.5   65.00
+   21  HLA-A*02:01        TMNQNGRH  TMNQNGRH-  0  0  0  8  1     TMNQNGRH myb_nfib_H021-R 0.00865 45532.2   90.00
+-----------------------------------------------------------------------------------
+
+Protein myb_nfib_H021-R. Allele HLA-A*02:01. Number of high binders 0. Number of weak binders 1. Number of peptides 78
+
+-----------------------------------------------------------------------------------
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/bin/netMHCpan -a HLA-B07:02 -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/fusion/epitopePrediction/test_fusion/fasta_myb_nfib.fa
+# Fri Sep  4 15:30:31 2020
+# User: huangz
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/fusion/epitopePrediction/test_fusion
+# Host: Linux odcf-worker01 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-B07:02           HLA allele
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/fusion/epitopePrediction/test_fusion/fasta_myb_nfib.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/synlist Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-B07:02           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/fusion/epitopePrediction/test_fusion/fasta_myb_nfib.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/threshold/%s.thr Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/allelenames File with print names for alleles
+
+# NetMHCpan version 3.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/tmp/netMHCpanZMuW0R
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+HLA-B07:02 : Distance to training data  0.000 (using nearest neighbor HLA-B07:02)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity   Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-B*07:02     FTVPKNRSLAS  FPKNRSLAS  0  1  2  0  0  FTVPKNRSLAS myb_nfib_H021-R 0.25106  3305.5    3.00
+    2  HLA-B*07:02     TVPKNRSLASP  TPKNRSLAS  0  1  1  0  0   TVPKNRSLAS myb_nfib_H021-R 0.05752 26832.8   24.00
+    3  HLA-B*07:02     VPKNRSLASPL  VPRSLASPL  0  2  2  0  0  VPKNRSLASPL myb_nfib_H021-R 0.72681    19.2    0.07 <= SB
+    4  HLA-B*07:02     PKNRSLASPLQ  KNRSLASPL  1  0  0  0  0    KNRSLASPL myb_nfib_H021-R 0.02048 40060.5   65.00
+    5  HLA-B*07:02     KNRSLASPLQL  KNRSLASPL  0  8  2  0  0  KNRSLASPLQL myb_nfib_H021-R 0.08164 20670.3   16.00
+    6  HLA-B*07:02     NRSLASPLQLR  RSLASPLQL  1  0  0  0  0    RSLASPLQL myb_nfib_H021-R 0.02290 39028.6   60.00
+    7  HLA-B*07:02     RSLASPLQLRI  RASPLQLRI  0  1  2  0  0  RSLASPLQLRI myb_nfib_H021-R 0.06535 24653.5   21.00
+    8  HLA-B*07:02     SLASPLQLRIC  SASPLQLRI  0  1  1  0  0   SLASPLQLRI myb_nfib_H021-R 0.02263 39138.9   60.00
+    9  HLA-B*07:02     LASPLQLRICD  LPLQLRICD  0  1  2  0  0  LASPLQLRICD myb_nfib_H021-R 0.02478 38242.3   55.00
+   10  HLA-B*07:02     ASPLQLRICDW  SPLQLRIDW  1  7  1  0  0   SPLQLRICDW myb_nfib_H021-R 0.06204 25554.1   22.00
+   11  HLA-B*07:02     SPLQLRICDWT  SPLQLRIWT  0  7  2  0  0  SPLQLRICDWT myb_nfib_H021-R 0.11092 15057.6   11.00
+   12  HLA-B*07:02     PLQLRICDWTM  LLRICDWTM  1  1  1  0  0   LQLRICDWTM myb_nfib_H021-R 0.02634 37601.8   55.00
+   13  HLA-B*07:02     LQLRICDWTMN  LLRICDWTM  0  1  1  0  0   LQLRICDWTM myb_nfib_H021-R 0.01884 40781.7   65.00
+   14  HLA-B*07:02     QLRICDWTMNQ  QLRICTMNQ  0  5  2  0  0  QLRICDWTMNQ myb_nfib_H021-R 0.01653 41811.1   75.00
+   15  HLA-B*07:02     LRICDWTMNQN  RIDWTMNQN  1  2  1  0  0   RICDWTMNQN myb_nfib_H021-R 0.01007 44840.0   90.00
+   16  HLA-B*07:02     RICDWTMNQNG  RIWTMNQNG  0  2  2  0  0  RICDWTMNQNG myb_nfib_H021-R 0.01380 43064.0   80.00
+   17  HLA-B*07:02     ICDWTMNQNGR  ICDWTMNQR  0  8  2  0  0  ICDWTMNQNGR myb_nfib_H021-R 0.00721 46247.7   95.00
+   18  HLA-B*07:02     CDWTMNQNGRH  CTMNQNGRH  0  1  2  0  0  CDWTMNQNGRH myb_nfib_H021-R 0.01453 42724.3   80.00
+    1  HLA-B*07:02      FTVPKNRSLA  FTVPKRSLA  0  5  1  0  0   FTVPKNRSLA myb_nfib_H021-R 0.11098 15048.6   11.00
+    2  HLA-B*07:02      TVPKNRSLAS  TPKNRSLAS  0  1  1  0  0   TVPKNRSLAS myb_nfib_H021-R 0.28501  2289.4    2.50
+    3  HLA-B*07:02      VPKNRSLASP  VPKNRSLAP  0  8  1  0  0   VPKNRSLASP myb_nfib_H021-R 0.19428  6109.9    5.00
+    4  HLA-B*07:02      PKNRSLASPL  KNRSLASPL  1  0  0  0  0    KNRSLASPL myb_nfib_H021-R 0.09189 18499.4   14.00
+    5  HLA-B*07:02      KNRSLASPLQ  KNRSLASPL  0  0  0  0  0    KNRSLASPL myb_nfib_H021-R 0.06637 24383.4   20.00
+    6  HLA-B*07:02      NRSLASPLQL  RSLASPLQL  1  0  0  0  0    RSLASPLQL myb_nfib_H021-R 0.08324 20316.6   15.00
+    7  HLA-B*07:02      RSLASPLQLR  RSLASPLQL  0  0  0  0  0    RSLASPLQL myb_nfib_H021-R 0.05675 27057.6   24.00
+    8  HLA-B*07:02      SLASPLQLRI  SASPLQLRI  0  1  1  0  0   SLASPLQLRI myb_nfib_H021-R 0.07924 21213.6   16.00
+    9  HLA-B*07:02      LASPLQLRIC  LASPLQRIC  0  6  1  0  0   LASPLQLRIC myb_nfib_H021-R 0.04177 31819.6   33.00
+   10  HLA-B*07:02      ASPLQLRICD  APLQLRICD  0  1  1  0  0   ASPLQLRICD myb_nfib_H021-R 0.06028 26044.5   22.00
+   11  HLA-B*07:02      SPLQLRICDW  SPLQLRIDW  0  7  1  0  0   SPLQLRICDW myb_nfib_H021-R 0.22836  4225.9    4.00
+   12  HLA-B*07:02      PLQLRICDWT  PLQLRICDT  0  8  1  0  0   PLQLRICDWT myb_nfib_H021-R 0.00821 45750.0   95.00
+   13  HLA-B*07:02      LQLRICDWTM  LLRICDWTM  0  1  1  0  0   LQLRICDWTM myb_nfib_H021-R 0.08812 19270.5   14.00
+   14  HLA-B*07:02      QLRICDWTMN  QLRICDWTM  0  0  0  0  0    QLRICDWTM myb_nfib_H021-R 0.03340 34833.8   41.00
+   15  HLA-B*07:02      LRICDWTMNQ  LRICWTMNQ  0  4  1  0  0   LRICDWTMNQ myb_nfib_H021-R 0.01636 41888.5   75.00
+   16  HLA-B*07:02      RICDWTMNQN  RIDWTMNQN  0  2  1  0  0   RICDWTMNQN myb_nfib_H021-R 0.02425 38460.5   55.00
+   17  HLA-B*07:02      ICDWTMNQNG  ICDWTMNQG  0  8  1  0  0   ICDWTMNQNG myb_nfib_H021-R 0.00886 45429.4   95.00
+   18  HLA-B*07:02      CDWTMNQNGR  CDWTMNNGR  0  6  1  0  0   CDWTMNQNGR myb_nfib_H021-R 0.01245 43700.1   85.00
+   19  HLA-B*07:02      DWTMNQNGRH  WTMNQNGRH  1  0  0  0  0    WTMNQNGRH myb_nfib_H021-R 0.01976 40376.4   65.00
+    1  HLA-B*07:02       FTVPKNRSL  FTVPKNRSL  0  0  0  0  0    FTVPKNRSL myb_nfib_H021-R 0.31646  1629.1    2.00 <= WB
+    2  HLA-B*07:02       TVPKNRSLA  TVPKNRSLA  0  0  0  0  0    TVPKNRSLA myb_nfib_H021-R 0.08228 20527.0   16.00
+    3  HLA-B*07:02       VPKNRSLAS  VPKNRSLAS  0  0  0  0  0    VPKNRSLAS myb_nfib_H021-R 0.50874   203.4    0.60 <= WB
+    4  HLA-B*07:02       PKNRSLASP  PKNRSLASP  0  0  0  0  0    PKNRSLASP myb_nfib_H021-R 0.00680 46452.3  100.00
+    5  HLA-B*07:02       KNRSLASPL  KNRSLASPL  0  0  0  0  0    KNRSLASPL myb_nfib_H021-R 0.30771  1790.7    2.50
+    6  HLA-B*07:02       NRSLASPLQ  NRSLASPLQ  0  0  0  0  0    NRSLASPLQ myb_nfib_H021-R 0.02981 36213.5   46.00
+    7  HLA-B*07:02       RSLASPLQL  RSLASPLQL  0  0  0  0  0    RSLASPLQL myb_nfib_H021-R 0.25486  3172.6    3.00
+    8  HLA-B*07:02       SLASPLQLR  SLASPLQLR  0  0  0  0  0    SLASPLQLR myb_nfib_H021-R 0.03870 32892.8   36.00
+    9  HLA-B*07:02       LASPLQLRI  LASPLQLRI  0  0  0  0  0    LASPLQLRI myb_nfib_H021-R 0.12901 12381.4    8.50
+   10  HLA-B*07:02       ASPLQLRIC  ASPLQLRIC  0  0  0  0  0    ASPLQLRIC myb_nfib_H021-R 0.02796 36947.2   48.00
+   11  HLA-B*07:02       SPLQLRICD  SPLQLRICD  0  0  0  0  0    SPLQLRICD myb_nfib_H021-R 0.14163 10800.7    7.50
+   12  HLA-B*07:02       PLQLRICDW  PLQLRICDW  0  0  0  0  0    PLQLRICDW myb_nfib_H021-R 0.00889 45415.6   95.00
+   13  HLA-B*07:02       LQLRICDWT  LQLRICDWT  0  0  0  0  0    LQLRICDWT myb_nfib_H021-R 0.01402 42963.0   80.00
+   14  HLA-B*07:02       QLRICDWTM  QLRICDWTM  0  0  0  0  0    QLRICDWTM myb_nfib_H021-R 0.15800  9047.6    6.50
+   15  HLA-B*07:02       LRICDWTMN  LRICDWTMN  0  0  0  0  0    LRICDWTMN myb_nfib_H021-R 0.01513 42448.8   75.00
+   16  HLA-B*07:02       RICDWTMNQ  RICDWTMNQ  0  0  0  0  0    RICDWTMNQ myb_nfib_H021-R 0.02801 36929.3   48.00
+   17  HLA-B*07:02       ICDWTMNQN  ICDWTMNQN  0  0  0  0  0    ICDWTMNQN myb_nfib_H021-R 0.01141 44195.0   85.00
+   18  HLA-B*07:02       CDWTMNQNG  CDWTMNQNG  0  0  0  0  0    CDWTMNQNG myb_nfib_H021-R 0.01155 44124.8   85.00
+   19  HLA-B*07:02       DWTMNQNGR  DWTMNQNGR  0  0  0  0  0    DWTMNQNGR myb_nfib_H021-R 0.00572 47000.9  100.00
+   20  HLA-B*07:02       WTMNQNGRH  WTMNQNGRH  0  0  0  0  0    WTMNQNGRH myb_nfib_H021-R 0.06192 25587.0   22.00
+    1  HLA-B*07:02        FTVPKNRS  FTVPKNRS-  0  0  0  8  1     FTVPKNRS myb_nfib_H021-R 0.03120 35674.5   44.00
+    2  HLA-B*07:02        TVPKNRSL  TV-PKNRSL  0  0  0  2  1     TVPKNRSL myb_nfib_H021-R 0.10840 15473.5   11.00
+    3  HLA-B*07:02        VPKNRSLA  VPKNRSLA-  0  0  0  8  1     VPKNRSLA myb_nfib_H021-R 0.23299  4019.2    3.50
+    4  HLA-B*07:02        PKNRSLAS  -PKNRSLAS  0  0  0  0  1     PKNRSLAS myb_nfib_H021-R 0.09291 18296.8   13.00
+    5  HLA-B*07:02        KNRSLASP  KNRSLASP-  0  0  0  8  1     KNRSLASP myb_nfib_H021-R 0.02305 38964.0   60.00
+    6  HLA-B*07:02        NRSLASPL  N-RSLASPL  0  0  0  1  1     NRSLASPL myb_nfib_H021-R 0.08698 19508.8   15.00
+    7  HLA-B*07:02        RSLASPLQ  RSLASPLQ-  0  0  0  8  1     RSLASPLQ myb_nfib_H021-R 0.01784 41224.4   70.00
+    8  HLA-B*07:02        SLASPLQL  SLASP-LQL  0  0  0  5  1     SLASPLQL myb_nfib_H021-R 0.07156 23053.2   18.00
+    9  HLA-B*07:02        LASPLQLR  LASPLQL-R  0  0  0  7  1     LASPLQLR myb_nfib_H021-R 0.01907 40678.5   65.00
+   10  HLA-B*07:02        ASPLQLRI  AS-PLQLRI  0  0  0  2  1     ASPLQLRI myb_nfib_H021-R 0.02897 36545.7   47.00
+   11  HLA-B*07:02        SPLQLRIC  SPLQLR-IC  0  0  0  6  1     SPLQLRIC myb_nfib_H021-R 0.16048  8807.9    6.50
+   12  HLA-B*07:02        PLQLRICD  -PLQLRICD  0  0  0  0  1     PLQLRICD myb_nfib_H021-R 0.01305 43415.9   80.00
+   13  HLA-B*07:02        LQLRICDW  LQL-RICDW  0  0  0  3  1     LQLRICDW myb_nfib_H021-R 0.00939 45169.2   90.00
+   14  HLA-B*07:02        QLRICDWT  QLRICDWT-  0  0  0  8  1     QLRICDWT myb_nfib_H021-R 0.01343 43239.6   80.00
+   15  HLA-B*07:02        LRICDWTM  -LRICDWTM  0  0  0  0  1     LRICDWTM myb_nfib_H021-R 0.03679 33582.2   38.00
+   16  HLA-B*07:02        RICDWTMN  RICDWTMN-  0  0  0  8  1     RICDWTMN myb_nfib_H021-R 0.01068 44544.0   90.00
+   17  HLA-B*07:02        ICDWTMNQ  ICDWTMNQ-  0  0  0  8  1     ICDWTMNQ myb_nfib_H021-R 0.00600 46855.2  100.00
+   18  HLA-B*07:02        CDWTMNQN  CDWTMNQN-  0  0  0  8  1     CDWTMNQN myb_nfib_H021-R 0.00739 46156.2   95.00
+   19  HLA-B*07:02        DWTMNQNG  DWTMNQNG-  0  0  0  8  1     DWTMNQNG myb_nfib_H021-R 0.00339 48199.3  100.00
+   20  HLA-B*07:02        WTMNQNGR  WTMNQNGR-  0  0  0  8  1     WTMNQNGR myb_nfib_H021-R 0.02947 36347.3   46.00
+   21  HLA-B*07:02        TMNQNGRH  TMNQNGRH-  0  0  0  8  1     TMNQNGRH myb_nfib_H021-R 0.01218 43824.6   85.00
+-----------------------------------------------------------------------------------
+
+Protein myb_nfib_H021-R. Allele HLA-B*07:02. Number of high binders 1. Number of weak binders 2. Number of peptides 78
+
+-----------------------------------------------------------------------------------
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/bin/netMHCpan -a HLA-C07:02 -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/fusion/epitopePrediction/test_fusion/fasta_myb_nfib.fa
+# Fri Sep  4 15:30:31 2020
+# User: huangz
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/fusion/epitopePrediction/test_fusion
+# Host: Linux odcf-worker01 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-C07:02           HLA allele
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/fusion/epitopePrediction/test_fusion/fasta_myb_nfib.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/synlist Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-C07:02           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/fusion/epitopePrediction/test_fusion/fasta_myb_nfib.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/threshold/%s.thr Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/allelenames File with print names for alleles
+
+# NetMHCpan version 3.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/tmp/netMHCpanNNuG1R
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+HLA-C07:02 : Distance to training data  0.000 (using nearest neighbor HLA-C07:02)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity   Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-C*07:02     FTVPKNRSLAS  FTVPKNRSL  0  0  0  0  0    FTVPKNRSL myb_nfib_H021-R 0.04781 29805.6   35.00
+    2  HLA-C*07:02     TVPKNRSLASP  TVPNRSLAS  0  3  1  0  0   TVPKNRSLAS myb_nfib_H021-R 0.01136 44215.1   85.00
+    3  HLA-C*07:02     VPKNRSLASPL  VPKNRSLAL  0  8  2  0  0  VPKNRSLASPL myb_nfib_H021-R 0.05541 27454.2   30.00
+    4  HLA-C*07:02     PKNRSLASPLQ  KRSLASPLQ  1  1  1  0  0   KNRSLASPLQ myb_nfib_H021-R 0.01348 43212.9   80.00
+    5  HLA-C*07:02     KNRSLASPLQL  NRSLASPLL  1  8  1  0  0   NRSLASPLQL myb_nfib_H021-R 0.10603 15876.1   14.00
+    6  HLA-C*07:02     NRSLASPLQLR  NRSLASPLL  0  8  1  0  0   NRSLASPLQL myb_nfib_H021-R 0.07545 22102.3   21.00
+    7  HLA-C*07:02     RSLASPLQLRI  RSLASPLRI  0  6  2  0  0  RSLASPLQLRI myb_nfib_H021-R 0.07985 21075.0   20.00
+    8  HLA-C*07:02     SLASPLQLRIC  SLASPLQLI  0  8  1  0  0   SLASPLQLRI myb_nfib_H021-R 0.03164 35507.3   49.00
+    9  HLA-C*07:02     LASPLQLRICD  LASPLQLRI  0  0  0  0  0    LASPLQLRI myb_nfib_H021-R 0.01588 42104.8   75.00
+   10  HLA-C*07:02     ASPLQLRICDW  ASPLRICDW  0  3  2  0  0  ASPLQLRICDW myb_nfib_H021-R 0.03184 35428.7   48.00
+   11  HLA-C*07:02     SPLQLRICDWT  SLQLRICDW  0  1  1  0  0   SPLQLRICDW myb_nfib_H021-R 0.01815 41085.9   70.00
+   12  HLA-C*07:02     PLQLRICDWTM  LQRICDWTM  1  2  1  0  0   LQLRICDWTM myb_nfib_H021-R 0.03831 33033.3   42.00
+   13  HLA-C*07:02     LQLRICDWTMN  LQRICDWTM  0  2  1  0  0   LQLRICDWTM myb_nfib_H021-R 0.02553 37933.6   60.00
+   14  HLA-C*07:02     QLRICDWTMNQ  LRIDWTMNQ  1  3  1  0  0   LRICDWTMNQ myb_nfib_H021-R 0.02841 36769.8   55.00
+   15  HLA-C*07:02     LRICDWTMNQN  LRIDWTMNQ  0  3  1  0  0   LRICDWTMNQ myb_nfib_H021-R 0.02326 38873.9   60.00
+   16  HLA-C*07:02     RICDWTMNQNG  RIWTMNQNG  0  2  2  0  0  RICDWTMNQNG myb_nfib_H021-R 0.00965 45042.3   90.00
+   17  HLA-C*07:02     ICDWTMNQNGR  IWTMNQNGR  0  1  2  0  0  ICDWTMNQNGR myb_nfib_H021-R 0.00902 45351.8   90.00
+   18  HLA-C*07:02     CDWTMNQNGRH  CTMNQNGRH  0  1  2  0  0  CDWTMNQNGRH myb_nfib_H021-R 0.01239 43728.9   80.00
+    1  HLA-C*07:02      FTVPKNRSLA  FTVPKNRSL  0  0  0  0  0    FTVPKNRSL myb_nfib_H021-R 0.11206 14873.5   13.00
+    2  HLA-C*07:02      TVPKNRSLAS  TVPNRSLAS  0  3  1  0  0   TVPKNRSLAS myb_nfib_H021-R 0.03791 33176.6   42.00
+    3  HLA-C*07:02      VPKNRSLASP  VPKNRSLAP  0  8  1  0  0   VPKNRSLASP myb_nfib_H021-R 0.01986 40331.4   65.00
+    4  HLA-C*07:02      PKNRSLASPL  KNRSLASPL  1  0  0  0  0    KNRSLASPL myb_nfib_H021-R 0.03663 33638.9   44.00
+    5  HLA-C*07:02      KNRSLASPLQ  KRSLASPLQ  0  1  1  0  0   KNRSLASPLQ myb_nfib_H021-R 0.03947 32622.0   41.00
+    6  HLA-C*07:02      NRSLASPLQL  NRLASPLQL  0  2  1  0  0   NRSLASPLQL myb_nfib_H021-R 0.27158  2647.3    1.80 <= WB
+    7  HLA-C*07:02      RSLASPLQLR  RSLASPLQL  0  0  0  0  0    RSLASPLQL myb_nfib_H021-R 0.07295 22709.0   22.00
+    8  HLA-C*07:02      SLASPLQLRI  SLAPLQLRI  0  3  1  0  0   SLASPLQLRI myb_nfib_H021-R 0.10699 15712.4   13.00
+    9  HLA-C*07:02      LASPLQLRIC  LASPLQLRI  0  0  0  0  0    LASPLQLRI myb_nfib_H021-R 0.04191 31770.4   39.00
+   10  HLA-C*07:02      ASPLQLRICD  ASPLQLRIC  0  0  0  0  0    ASPLQLRIC myb_nfib_H021-R 0.01121 44290.8   85.00
+   11  HLA-C*07:02      SPLQLRICDW  SLQLRICDW  0  1  1  0  0   SPLQLRICDW myb_nfib_H021-R 0.05400 27875.1   31.00
+   12  HLA-C*07:02      PLQLRICDWT  PLQLRICWT  0  7  1  0  0   PLQLRICDWT myb_nfib_H021-R 0.01324 43324.4   80.00
+   13  HLA-C*07:02      LQLRICDWTM  LQRICDWTM  0  2  1  0  0   LQLRICDWTM myb_nfib_H021-R 0.08953 18978.3   17.00
+   14  HLA-C*07:02      QLRICDWTMN  QLRICDWTM  0  0  0  0  0    QLRICDWTM myb_nfib_H021-R 0.02706 37308.8   55.00
+   15  HLA-C*07:02      LRICDWTMNQ  LRIDWTMNQ  0  3  1  0  0   LRICDWTMNQ myb_nfib_H021-R 0.08337 20287.0   19.00
+   16  HLA-C*07:02      RICDWTMNQN  RICDWTMQN  0  7  1  0  0   RICDWTMNQN myb_nfib_H021-R 0.01307 43405.0   80.00
+   17  HLA-C*07:02      ICDWTMNQNG  ICDWTMNQG  0  8  1  0  0   ICDWTMNQNG myb_nfib_H021-R 0.00684 46435.8   95.00
+   18  HLA-C*07:02      CDWTMNQNGR  CWTMNQNGR  0  1  1  0  0   CDWTMNQNGR myb_nfib_H021-R 0.01891 40748.6   70.00
+   19  HLA-C*07:02      DWTMNQNGRH  WTMNQNGRH  1  0  0  0  0    WTMNQNGRH myb_nfib_H021-R 0.01929 40580.1   70.00
+    1  HLA-C*07:02       FTVPKNRSL  FTVPKNRSL  0  0  0  0  0    FTVPKNRSL myb_nfib_H021-R 0.41118   584.6    0.40 <= SB
+    2  HLA-C*07:02       TVPKNRSLA  TVPKNRSLA  0  0  0  0  0    TVPKNRSLA myb_nfib_H021-R 0.08930 19026.4   17.00
+    3  HLA-C*07:02       VPKNRSLAS  VPKNRSLAS  0  0  0  0  0    VPKNRSLAS myb_nfib_H021-R 0.05731 26895.6   29.00
+    4  HLA-C*07:02       PKNRSLASP  PKNRSLASP  0  0  0  0  0    PKNRSLASP myb_nfib_H021-R 0.00544 47143.0  100.00
+    5  HLA-C*07:02       KNRSLASPL  KNRSLASPL  0  0  0  0  0    KNRSLASPL myb_nfib_H021-R 0.13124 12086.0    9.50
+    6  HLA-C*07:02       NRSLASPLQ  NRSLASPLQ  0  0  0  0  0    NRSLASPLQ myb_nfib_H021-R 0.08078 20864.4   20.00
+    7  HLA-C*07:02       RSLASPLQL  RSLASPLQL  0  0  0  0  0    RSLASPLQL myb_nfib_H021-R 0.30862  1773.2    1.20 <= WB
+    8  HLA-C*07:02       SLASPLQLR  SLASPLQLR  0  0  0  0  0    SLASPLQLR myb_nfib_H021-R 0.07975 21096.4   20.00
+    9  HLA-C*07:02       LASPLQLRI  LASPLQLRI  0  0  0  0  0    LASPLQLRI myb_nfib_H021-R 0.22633  4319.6    3.00
+   10  HLA-C*07:02       ASPLQLRIC  ASPLQLRIC  0  0  0  0  0    ASPLQLRIC myb_nfib_H021-R 0.04853 29575.0   34.00
+   11  HLA-C*07:02       SPLQLRICD  SPLQLRICD  0  0  0  0  0    SPLQLRICD myb_nfib_H021-R 0.00979 44974.1   85.00
+   12  HLA-C*07:02       PLQLRICDW  PLQLRICDW  0  0  0  0  0    PLQLRICDW myb_nfib_H021-R 0.04112 32043.8   40.00
+   13  HLA-C*07:02       LQLRICDWT  LQLRICDWT  0  0  0  0  0    LQLRICDWT myb_nfib_H021-R 0.02339 38820.1   60.00
+   14  HLA-C*07:02       QLRICDWTM  QLRICDWTM  0  0  0  0  0    QLRICDWTM myb_nfib_H021-R 0.13294 11865.3    9.50
+   15  HLA-C*07:02       LRICDWTMN  LRICDWTMN  0  0  0  0  0    LRICDWTMN myb_nfib_H021-R 0.06231 25479.5   27.00
+   16  HLA-C*07:02       RICDWTMNQ  RICDWTMNQ  0  0  0  0  0    RICDWTMNQ myb_nfib_H021-R 0.03834 33021.5   42.00
+   17  HLA-C*07:02       ICDWTMNQN  ICDWTMNQN  0  0  0  0  0    ICDWTMNQN myb_nfib_H021-R 0.00969 45021.3   90.00
+   18  HLA-C*07:02       CDWTMNQNG  CDWTMNQNG  0  0  0  0  0    CDWTMNQNG myb_nfib_H021-R 0.00851 45603.8   90.00
+   19  HLA-C*07:02       DWTMNQNGR  DWTMNQNGR  0  0  0  0  0    DWTMNQNGR myb_nfib_H021-R 0.01889 40757.8   70.00
+   20  HLA-C*07:02       WTMNQNGRH  WTMNQNGRH  0  0  0  0  0    WTMNQNGRH myb_nfib_H021-R 0.06883 23743.2   24.00
+    1  HLA-C*07:02        FTVPKNRS  FTVPKNRS-  0  0  0  8  1     FTVPKNRS myb_nfib_H021-R 0.03005 36120.7   50.00
+    2  HLA-C*07:02        TVPKNRSL  TV-PKNRSL  0  0  0  2  1     TVPKNRSL myb_nfib_H021-R 0.08708 19489.2   18.00
+    3  HLA-C*07:02        VPKNRSLA  VPKNRSL-A  0  0  0  7  1     VPKNRSLA myb_nfib_H021-R 0.03456 34400.5   45.00
+    4  HLA-C*07:02        PKNRSLAS  -PKNRSLAS  0  0  0  0  1     PKNRSLAS myb_nfib_H021-R 0.01013 44808.0   85.00
+    5  HLA-C*07:02        KNRSLASP  KNRSLASP-  0  0  0  8  1     KNRSLASP myb_nfib_H021-R 0.00840 45654.1   90.00
+    6  HLA-C*07:02        NRSLASPL  NR-SLASPL  0  0  0  2  1     NRSLASPL myb_nfib_H021-R 0.12098 13504.4   11.00
+    7  HLA-C*07:02        RSLASPLQ  RSLASPLQ-  0  0  0  8  1     RSLASPLQ myb_nfib_H021-R 0.02009 40232.5   65.00
+    8  HLA-C*07:02        SLASPLQL  SLAS-PLQL  0  0  0  4  1     SLASPLQL myb_nfib_H021-R 0.09361 18158.7   16.00
+    9  HLA-C*07:02        LASPLQLR  LASPLQ-LR  0  0  0  6  1     LASPLQLR myb_nfib_H021-R 0.02791 36969.2   55.00
+   10  HLA-C*07:02        ASPLQLRI  ASPLQ-LRI  0  0  0  5  1     ASPLQLRI myb_nfib_H021-R 0.06272 25365.9   26.00
+   11  HLA-C*07:02        SPLQLRIC  S-PLQLRIC  0  0  0  1  1     SPLQLRIC myb_nfib_H021-R 0.01744 41403.2   70.00
+   12  HLA-C*07:02        PLQLRICD  PLQLRICD-  0  0  0  8  1     PLQLRICD myb_nfib_H021-R 0.00526 47235.4  100.00
+   13  HLA-C*07:02        LQLRICDW  LQL-RICDW  0  0  0  3  1     LQLRICDW myb_nfib_H021-R 0.03436 34473.9   46.00
+   14  HLA-C*07:02        QLRICDWT  QLRICDWT-  0  0  0  8  1     QLRICDWT myb_nfib_H021-R 0.01130 44243.8   85.00
+   15  HLA-C*07:02        LRICDWTM  LRICD-WTM  0  0  0  5  1     LRICDWTM myb_nfib_H021-R 0.20332  5540.8    4.00
+   16  HLA-C*07:02        RICDWTMN  RICDWTMN-  0  0  0  8  1     RICDWTMN myb_nfib_H021-R 0.01459 42699.8   75.00
+   17  HLA-C*07:02        ICDWTMNQ  I-CDWTMNQ  0  0  0  1  1     ICDWTMNQ myb_nfib_H021-R 0.00741 46146.2   95.00
+   18  HLA-C*07:02        CDWTMNQN  C-DWTMNQN  0  0  0  1  1     CDWTMNQN myb_nfib_H021-R 0.00480 47468.5  100.00
+   19  HLA-C*07:02        DWTMNQNG  DWTMNQNG-  0  0  0  8  1     DWTMNQNG myb_nfib_H021-R 0.00567 47022.8   95.00
+   20  HLA-C*07:02        WTMNQNGR  WTMNQN-GR  0  0  0  6  1     WTMNQNGR myb_nfib_H021-R 0.02787 36985.6   55.00
+   21  HLA-C*07:02        TMNQNGRH  TMNQNGRH-  0  0  0  8  1     TMNQNGRH myb_nfib_H021-R 0.02004 40253.0   65.00
+-----------------------------------------------------------------------------------
+
+Protein myb_nfib_H021-R. Allele HLA-C*07:02. Number of high binders 1. Number of weak binders 2. Number of peptides 78
+
+-----------------------------------------------------------------------------------
+# NetMHCIIpan version 3.1
+
+# Input is in FASTA format
+
+# Peptide length 15
+
+# Threshold for Strong binding peptides (IC50)	50.000 nM
+# Threshold for Weak binding peptides (IC50)	500.000 nM
+
+# Threshold for Strong binding peptides (%Rank)	0.5%
+# Threshold for Weak binding peptides (%Rank)	2%
+
+# Allele: DRB1_1501
+--------------------------------------------------------------------------------------------------------------------------------------------
+   Seq          Allele              Peptide    Identity  Pos      Core  Core_Rel 1-log50k(aff)  Affinity(nM)  %Rank Exp_Bind  BindingLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+     0         DRB1_1501     FTVPKNRSLASPLQL myb_nfib,H021-RFEX31    5    NRSLASPLQ 0.350         0.377        850.65  43.00   9.999       
+     1         DRB1_1501     TVPKNRSLASPLQLR myb_nfib,H021-RFEX31    4    NRSLASPLQ 0.440         0.391        730.34  39.00   9.999       
+     2         DRB1_1501     VPKNRSLASPLQLRI myb_nfib,H021-RFEX31    3    NRSLASPLQ 0.420         0.417        549.44  33.00   9.999       
+     3         DRB1_1501     PKNRSLASPLQLRIC myb_nfib,H021-RFEX31    2    NRSLASPLQ 0.355         0.401        650.49  37.00   9.999       
+     4         DRB1_1501     KNRSLASPLQLRICD myb_nfib,H021-RFEX31    1    NRSLASPLQ 0.305         0.372        892.12  44.00   9.999       
+     5         DRB1_1501     NRSLASPLQLRICDW myb_nfib,H021-RFEX31    3    LASPLQLRI 0.265         0.335       1327.70  55.00   9.999       
+     6         DRB1_1501     RSLASPLQLRICDWT myb_nfib,H021-RFEX31    2    LASPLQLRI 0.300         0.313       1684.45  60.00   9.999       
+     7         DRB1_1501     SLASPLQLRICDWTM myb_nfib,H021-RFEX31    2    ASPLQLRIC 0.210         0.307       1803.41  65.00   9.999       
+     8         DRB1_1501     LASPLQLRICDWTMN myb_nfib,H021-RFEX31    5    QLRICDWTM 0.215         0.315       1660.51  60.00   9.999       
+     9         DRB1_1501     ASPLQLRICDWTMNQ myb_nfib,H021-RFEX31    5    LRICDWTMN 0.335         0.311       1719.18  65.00   9.999       
+    10         DRB1_1501     SPLQLRICDWTMNQN myb_nfib,H021-RFEX31    4    LRICDWTMN 0.325         0.318       1610.75  60.00   9.999       
+    11         DRB1_1501     PLQLRICDWTMNQNG myb_nfib,H021-RFEX31    3    LRICDWTMN 0.345         0.313       1691.41  60.00   9.999       
+    12         DRB1_1501     LQLRICDWTMNQNGR myb_nfib,H021-RFEX31    2    LRICDWTMN 0.345         0.307       1810.96  65.00   9.999       
+    13         DRB1_1501     QLRICDWTMNQNGRH myb_nfib,H021-RFEX31    1    LRICDWTMN 0.260         0.289       2188.85  70.00   9.999       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 0 Number of weak binders: 0
+--------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,33 @@
+# NetMHCIIpan version 3.1
+
+# Input is in FASTA format
+
+# Peptide length 15
+
+# Threshold for Strong binding peptides (IC50)	50.000 nM
+# Threshold for Weak binding peptides (IC50)	500.000 nM
+
+# Threshold for Strong binding peptides (%Rank)	0.5%
+# Threshold for Weak binding peptides (%Rank)	2%
+
+# Allele: DRB1_1501
+--------------------------------------------------------------------------------------------------------------------------------------------
+   Seq          Allele              Peptide    Identity  Pos      Core  Core_Rel 1-log50k(aff)  Affinity(nM)  %Rank Exp_Bind  BindingLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+     0         DRB1_1501     FTVPKNRSLASPLQL myb_nfib,H021-RFEX31    5    NRSLASPLQ 0.350         0.377        850.65  43.00   9.999       
+     1         DRB1_1501     TVPKNRSLASPLQLR myb_nfib,H021-RFEX31    4    NRSLASPLQ 0.440         0.391        730.34  39.00   9.999       
+     2         DRB1_1501     VPKNRSLASPLQLRI myb_nfib,H021-RFEX31    3    NRSLASPLQ 0.420         0.417        549.44  33.00   9.999       
+     3         DRB1_1501     PKNRSLASPLQLRIC myb_nfib,H021-RFEX31    2    NRSLASPLQ 0.355         0.401        650.49  37.00   9.999       
+     4         DRB1_1501     KNRSLASPLQLRICD myb_nfib,H021-RFEX31    1    NRSLASPLQ 0.305         0.372        892.12  44.00   9.999       
+     5         DRB1_1501     NRSLASPLQLRICDW myb_nfib,H021-RFEX31    3    LASPLQLRI 0.265         0.335       1327.70  55.00   9.999       
+     6         DRB1_1501     RSLASPLQLRICDWT myb_nfib,H021-RFEX31    2    LASPLQLRI 0.300         0.313       1684.45  60.00   9.999       
+     7         DRB1_1501     SLASPLQLRICDWTM myb_nfib,H021-RFEX31    2    ASPLQLRIC 0.210         0.307       1803.41  65.00   9.999       
+     8         DRB1_1501     LASPLQLRICDWTMN myb_nfib,H021-RFEX31    5    QLRICDWTM 0.215         0.315       1660.51  60.00   9.999       
+     9         DRB1_1501     ASPLQLRICDWTMNQ myb_nfib,H021-RFEX31    5    LRICDWTMN 0.335         0.311       1719.18  65.00   9.999       
+    10         DRB1_1501     SPLQLRICDWTMNQN myb_nfib,H021-RFEX31    4    LRICDWTMN 0.325         0.318       1610.75  60.00   9.999       
+    11         DRB1_1501     PLQLRICDWTMNQNG myb_nfib,H021-RFEX31    3    LRICDWTMN 0.345         0.313       1691.41  60.00   9.999       
+    12         DRB1_1501     LQLRICDWTMNQNGR myb_nfib,H021-RFEX31    2    LRICDWTMN 0.345         0.307       1810.96  65.00   9.999       
+    13         DRB1_1501     QLRICDWTMNQNGRH myb_nfib,H021-RFEX31    1    LRICDWTMN 0.260         0.289       2188.85  70.00   9.999       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 0 Number of weak binders: 0
+--------------------------------------------------------------------------------------------------------------------------------------------

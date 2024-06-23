@@ -1,0 +1,306 @@
+Sender: LSF System <lsfadmin@odcf-cn33u24s04>
+Subject: Job 3953609: <separate_ref_mut_peptide_GS48> in cluster <ODCF> Done
+
+Job <separate_ref_mut_peptide_GS48> was submitted from host <odcf-worker01> by user <huangz> in cluster <ODCF> at Tue Sep  1 16:54:28 2020
+Job was executed on host(s) <odcf-cn33u24s04>, in queue <medium>, as user <huangz> in cluster <ODCF> at Tue Sep  1 16:55:17 2020
+</home/huangz> was used as the home directory.
+</icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_GS48_panel_snvs> was used as the working directory.
+Started at Tue Sep  1 16:55:17 2020
+Terminated at Tue Sep  1 16:55:20 2020
+Results reported at Tue Sep  1 16:55:20 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/run_separate_ref_mut_peptide.sh
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.58 sec.
+    Max Memory :                                 13 MB
+    Average Memory :                             9.00 MB
+    Total Requested Memory :                     2048.00 MB
+    Delta Memory :                               2035.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   2 sec.
+    Turnaround time :                            52 sec.
+
+The output (if any) follows:
+
+python /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/separate_ref_mut_peptide.py /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_GS48_panel_snvs/GS48_predictedProtein.fa /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_GS48_panel_snvs/GS48_mut.fa /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_GS48_panel_snvs/GS48_ref.fa 14
+/tbi/software/x86_64/python/python-2.7.9/el7/lib/python2.7/site-packages/Bio/Seq.py:197: FutureWarning: In future comparing Seq objects will use string comparison (not object comparison). Incompatible alphabets will trigger a warning (not an exception). In the interim please use id(seq1)==id(seq2) or str(seq1)==str(seq2) to make your code explicit and to avoid this warning.
+  "and to avoid this warning.", FutureWarning)
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same
+They are the same

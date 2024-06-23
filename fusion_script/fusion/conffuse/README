@@ -1,0 +1,5 @@
+# This script is to run tool confFuse to identify high-confidence fusion genes.
+
+> python confFuse.py 
+Usage: python scripts.py results.filtered.file output_confFuse_file artefact_list gencode.v19.annotation.gtf
+

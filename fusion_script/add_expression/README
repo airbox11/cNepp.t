@@ -1,0 +1,27 @@
+## This pipeline is to add gene expression to target genes.
+# It could be from TCGA database or from RNA-seq BAM.
+# If RNA-seq data is available, mutant allele could be caculated and added. Using main_add_RNA.sh
+# If RNA-seq data is not available, using run_add_refExpression.R
+
+
+> sh main_add_RNA.sh 
+Usage: main_add_RNA.sh -p pipelineFolder -v vcf -b BAM -e expressionProfiling -n neoepitopeResult -o outputDir
+    -p: Path to pipeline folder
+    -v: Path to VCF file (snvs)
+    -b: Path to RNA bam file
+    -e: Path to RNA-seq expression file (TPM, FPKM)
+    -n: Path to neoepitope prediction result file
+    -o: Path to your output file
+
+>>> Note: Absolute path needed
+
+> Rscript run_add_refExpression.R 
+
+	Required three arguments:
+	arg1: Path to TCGA expression file
+	arg2: Path to neoepitope prediction file
+	arg3: Path to your output file
+
+	Example:
+	Rscript run_add_refExpression.R /to/your/TCGA-BRCA/TCGA-BRCA_expression_addName.tab /to/your/results_HB60_MHCI_epitopes_filtered.tab /to/my/results_HB60_MHCI_epitopes_filtered_TCGA-BRCA.tab
+

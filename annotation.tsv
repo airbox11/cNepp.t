@@ -1,0 +1,10 @@
+FPKM_RNAseq	RNA-seq only
+sumReads	RNA-seq only
+numOfBaseExp	RNA-seq only
+dna_freAlt	RNA-seq only
+dna_cov	RNA-seq only
+freRef	RNA-seq only
+freAlt	RNA-seq only
+expAlt	RNA-seq only
+freAlt.FPKM	RNA-seq only
+freAlt.Median	TCGA-only

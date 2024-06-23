@@ -1,0 +1,27 @@
+## To simplify the neoepitope result
+
+# For sample without RNA-seq data, use the following to choose good candidates
+
+> sh parse_neoepitope_refExp.sh
+Usage: parse_neoepitope_refExp.sh -n neoepitopeFile -t mhcType -a affinity -e expression -b wtBind
+    -n: path to neoepitope result file
+    -t: 1 or 2 indicating mhc-I or mhc-II
+    -a: affinity threshold, e.g. 1000.
+    -e: minimum gene expression value
+    -b: wild type binding level.  nonB indicates wildtype epitope are non binding level. Must be nonB or empty
+>>> Note: Absolute path needed
+
+
+
+# For sample with RNA-seq data. Use another script to choose candidates.
+> Rscript parse_neoepitope_rna.R 
+    Required three arguments:
+    arg1: Path to neoepitope result file
+    arg2: Path to your new file
+    arg3: Defined ID, e.g. ID-mhcI or ID-mhcII
+    >>> Usage: Rscripts parse_neoepitope_rna.R inputFile outputFile definedID 
+
+
+> Rscript parse_neoepitope_rna.R /icgc/dkfzlsdf/analysis/D120/immunoinfor/H021/results_per_pid/H021-99G9EH/immuno_201705_tumor03/results_H021-99G9EH_MHCI_epitopes_filtered_add_RNA01.tab test_output_H021-99G9EH_MHCI H021-99G9EH_MHCI
+> Rscript parse_neoepitope_rna.R /icgc/dkfzlsdf/analysis/D120/immunoinfor/H021/results_per_pid/H021-99G9EH/immuno_201705_tumor03/results_H021-99G9EH_MHCII_epitopes_filtered_add_RNA01.tab test_output_H021-99G9EH_MHCII H021-99G9EH_MHCII
+

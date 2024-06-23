@@ -1,0 +1,15 @@
+# This script is to do neoepitope prediction based on indel vcf result
+# Input are
+# Indel vcf 
+# The expected length of peptide
+# PHLAT HLA results (after convertion)
+
+
+> sh main_indels.sh 
+Usage: main_indels.sh -f indelsFile -l lenAA -a format_hla_phlat -o outputDir
+	-f: Path to indels file generating from ODCF pipeline
+	-l: Length of predicted neopeptides # e.g. 29 
+	-a: Path to file containing HLA class I and DRB allele
+	-o: Path to output folder # must be empty
+>>>> Note: Absolute path be required
+

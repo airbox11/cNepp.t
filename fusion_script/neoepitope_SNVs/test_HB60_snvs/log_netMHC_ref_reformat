@@ -1,0 +1,129 @@
+Sender:	LSF	System	<lsfadmin@odcf-cn33u03s01>
+Subject:	Job	3930540:	<run_netMHC_ref_HB60>	in	cluster	<ODCF>	Done
+
+Job	<run_netMHC_ref_HB60>	was	submitted	from	host	<odcf-worker01>	by	user	<huangz>	in	cluster	<ODCF>	at	Wed	Aug	26	10:24:47	2020
+Job	was	executed	on	host(s)	<odcf-cn33u03s01>,	in	queue	<verylong>,	as	user	<huangz>	in	cluster	<ODCF>	at	Wed	Aug	26	10:25:35	2020
+</home/huangz>	was	used	as	the	home	directory.
+</icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs>	was	used	as	the	working	directory.
+Started	at	Wed	Aug	26	10:25:35	2020
+Terminated	at	Wed	Aug	26	10:28:02	2020
+Results	reported	at	Wed	Aug	26	10:28:02	2020
+
+Your	job	looked	like:
+
+------------------------------------------------------------
+#	LSBATCH:	User	input
+/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/run_netMHC.sh
+------------------------------------------------------------
+
+Successfully	completed.
+
+Resource	usage	summary:
+
+CPU	time	:	143.36	sec.
+Max	Memory	:	214	MB
+Average	Memory	:	176.52	MB
+Total	Requested	Memory	:	4096.00	MB
+Delta	Memory	:	3882.00	MB
+Max	Swap	:	-
+Max	Processes	:	40
+Max	Threads	:	41
+Run	time	:	145	sec.
+Turnaround	time	:	195	sec.
+
+The	output	(if	any)	follows:
+
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCpan-4.0/netMHCpan	-a	HLA-A01:01	-BA	-l	8,9,10,11	-f	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa	>	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/netMHCI_HLA-A01:01_ref
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCpan-4.0/netMHCpan	-a	HLA-A02:01	-BA	-l	8,9,10,11	-f	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa	>	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/netMHCI_HLA-A02:01_ref
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCpan-4.0/netMHCpan	-a	HLA-B08:01	-BA	-l	8,9,10,11	-f	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa	>	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/netMHCI_HLA-B08:01_ref
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCpan-4.0/netMHCpan	-a	HLA-B15:07	-BA	-l	8,9,10,11	-f	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa	>	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/netMHCI_HLA-B15:07_ref
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCpan-4.0/netMHCpan	-a	HLA-C03:03	-BA	-l	8,9,10,11	-f	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa	>	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/netMHCI_HLA-C03:03_ref
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCpan-4.0/netMHCpan	-a	HLA-C07:01	-BA	-l	8,9,10,11	-f	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa	>	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/netMHCI_HLA-C07:01_ref
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCIIpan-3.2/netMHCIIpan	-a	DRB1_0301	-f	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa	>	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/netMHCII_DRB1_0301_ref
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCIIpan-3.2/netMHCIIpan	-a	DRB1_0404	-f	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa	>	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/netMHCII_DRB1_0404_ref
+Sender:	LSF	System	<lsfadmin@odcf-cn33u03s01>
+Subject:	Job	3930725:	<run_netMHC_ref_HB60>	in	cluster	<ODCF>	Done
+
+Job	<run_netMHC_ref_HB60>	was	submitted	from	host	<odcf-worker01>	by	user	<huangz>	in	cluster	<ODCF>	at	Wed	Aug	26	10:46:08	2020
+Job	was	executed	on	host(s)	<odcf-cn33u03s01>,	in	queue	<verylong>,	as	user	<huangz>	in	cluster	<ODCF>	at	Wed	Aug	26	10:46:54	2020
+</home/huangz>	was	used	as	the	home	directory.
+</icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs>	was	used	as	the	working	directory.
+Started	at	Wed	Aug	26	10:46:54	2020
+Terminated	at	Wed	Aug	26	10:49:23	2020
+Results	reported	at	Wed	Aug	26	10:49:23	2020
+
+Your	job	looked	like:
+
+------------------------------------------------------------
+#	LSBATCH:	User	input
+/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/run_netMHC.sh
+------------------------------------------------------------
+
+Successfully	completed.
+
+Resource	usage	summary:
+
+CPU	time	:	145.07	sec.
+Max	Memory	:	218	MB
+Average	Memory	:	184.00	MB
+Total	Requested	Memory	:	4096.00	MB
+Delta	Memory	:	3878.00	MB
+Max	Swap	:	-
+Max	Processes	:	40
+Max	Threads	:	41
+Run	time	:	148	sec.
+Turnaround	time	:	195	sec.
+
+The	output	(if	any)	follows:
+
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCpan-4.0/netMHCpan	-a	HLA-A01:01	-BA	-l	8,9,10,11	-f	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa	>	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/netMHCI_HLA-A01:01_ref
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCpan-4.0/netMHCpan	-a	HLA-A02:01	-BA	-l	8,9,10,11	-f	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa	>	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/netMHCI_HLA-A02:01_ref
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCpan-4.0/netMHCpan	-a	HLA-B08:01	-BA	-l	8,9,10,11	-f	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa	>	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/netMHCI_HLA-B08:01_ref
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCpan-4.0/netMHCpan	-a	HLA-B15:07	-BA	-l	8,9,10,11	-f	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa	>	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/netMHCI_HLA-B15:07_ref
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCpan-4.0/netMHCpan	-a	HLA-C03:03	-BA	-l	8,9,10,11	-f	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa	>	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/netMHCI_HLA-C03:03_ref
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCpan-4.0/netMHCpan	-a	HLA-C07:01	-BA	-l	8,9,10,11	-f	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa	>	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/netMHCI_HLA-C07:01_ref
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCIIpan-3.2/netMHCIIpan	-a	DRB1_0301	-f	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa	>	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/netMHCII_DRB1_0301_ref
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCIIpan-3.2/netMHCIIpan	-a	DRB1_0404	-f	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa	>	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/netMHCII_DRB1_0404_ref
+Sender:	LSF	System	<lsfadmin@odcf-cn33u24s03>
+Subject:	Job	3930731:	<run_netMHC_ref_HB60>	in	cluster	<ODCF>	Done
+
+Job	<run_netMHC_ref_HB60>	was	submitted	from	host	<odcf-worker01>	by	user	<huangz>	in	cluster	<ODCF>	at	Wed	Aug	26	10:59:34	2020
+Job	was	executed	on	host(s)	<odcf-cn33u24s03>,	in	queue	<verylong>,	as	user	<huangz>	in	cluster	<ODCF>	at	Wed	Aug	26	11:00:21	2020
+</home/huangz>	was	used	as	the	home	directory.
+</icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs>	was	used	as	the	working	directory.
+Started	at	Wed	Aug	26	11:00:21	2020
+Terminated	at	Wed	Aug	26	11:02:51	2020
+Results	reported	at	Wed	Aug	26	11:02:51	2020
+
+Your	job	looked	like:
+
+------------------------------------------------------------
+#	LSBATCH:	User	input
+/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/run_netMHC.sh
+------------------------------------------------------------
+
+Successfully	completed.
+
+Resource	usage	summary:
+
+CPU	time	:	146.53	sec.
+Max	Memory	:	216	MB
+Average	Memory	:	175.91	MB
+Total	Requested	Memory	:	4096.00	MB
+Delta	Memory	:	3880.00	MB
+Max	Swap	:	17592186044415	MB
+Max	Processes	:	40
+Max	Threads	:	41
+Run	time	:	149	sec.
+Turnaround	time	:	197	sec.
+
+The	output	(if	any)	follows:
+
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCpan-4.0/netMHCpan	-a	HLA-A01:01	-BA	-l	8,9,10,11	-f	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa	>	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/netMHCI_HLA-A01:01_ref
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCpan-4.0/netMHCpan	-a	HLA-A02:01	-BA	-l	8,9,10,11	-f	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa	>	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/netMHCI_HLA-A02:01_ref
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCpan-4.0/netMHCpan	-a	HLA-B08:01	-BA	-l	8,9,10,11	-f	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa	>	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/netMHCI_HLA-B08:01_ref
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCpan-4.0/netMHCpan	-a	HLA-B15:07	-BA	-l	8,9,10,11	-f	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa	>	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/netMHCI_HLA-B15:07_ref
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCpan-4.0/netMHCpan	-a	HLA-C03:03	-BA	-l	8,9,10,11	-f	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa	>	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/netMHCI_HLA-C03:03_ref
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCpan-4.0/netMHCpan	-a	HLA-C07:01	-BA	-l	8,9,10,11	-f	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa	>	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/netMHCI_HLA-C07:01_ref
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCIIpan-3.2/netMHCIIpan	-a	DRB1_0301	-f	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa	>	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/netMHCII_DRB1_0301_ref
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCIIpan-3.2/netMHCIIpan	-a	DRB1_0404	-f	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/HB60_ref.fa	>	/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs/netMHCII_DRB1_0404_ref

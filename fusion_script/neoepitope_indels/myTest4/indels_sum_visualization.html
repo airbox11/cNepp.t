@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<title></title>
+
+<script type="text/javascript">
+window.onload = function() {
+  var imgs = document.getElementsByTagName('img'), i, img;
+  for (i = 0; i < imgs.length; i++) {
+    img = imgs[i];
+    // center an image if it is the only element of its parent
+    if (img.parentElement.childElementCount === 1)
+      img.parentElement.style.textAlign = 'center';
+  }
+};
+</script>
+
+
+
+
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 13px;
+}
+
+body {
+  max-width: 800px;
+  margin: auto;
+  padding: 1em;
+  line-height: 20px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 {
+   font-size:2.2em;
+}
+
+h2 {
+   font-size:1.8em;
+}
+
+h3 {
+   font-size:1.4em;
+}
+
+h4 {
+   font-size:1.0em;
+}
+
+h5 {
+   font-size:0.9em;
+}
+
+h6 {
+   font-size:0.8em;
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre, img {
+  max-width: 100%;
+}
+pre {
+  overflow-x: auto;
+}
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code {
+  font-size: 92%;
+  border: 1px solid #ccc;
+}
+
+code[class] {
+  background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * {
+      background: transparent !important;
+      color: black !important;
+      filter:none !important;
+      -ms-filter: none !important;
+   }
+
+   body {
+      font-size:12pt;
+      max-width:100%;
+   }
+
+   a, a:visited {
+      text-decoration: underline;
+   }
+
+   hr {
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote {
+      padding-right: 1em;
+      page-break-inside: avoid;
+   }
+
+   tr, img {
+      page-break-inside: avoid;
+   }
+
+   img {
+      max-width: 100% !important;
+   }
+
+   @page :left {
+      margin: 15mm 20mm 15mm 10mm;
+   }
+
+   @page :right {
+      margin: 15mm 10mm 15mm 20mm;
+   }
+
+   p, h2, h3 {
+      orphans: 3; widows: 3;
+   }
+
+   h2, h3 {
+      page-break-after: avoid;
+   }
+}
+</style>
+
+
+
+</head>
+
+<body>
+<table><thead>
+<tr>
+<th align="left">Neoantigen</th>
+<th align="left">Comments</th>
+</tr>
+</thead><tbody>
+<tr>
+<td align="left"><code>VNVNVTDINDNTPVFSAKTPTRQSSVKMPFLSSLSSRLWPMMPMDLPTATSTTQL*</code></td>
+<td align="left">FAT1,p.F3335fs,frameshift insertion</td>
+</tr>
+<tr>
+<td align="left"><code>VNVNVTDINDNTPVFSQDTYTTVISEDAVLEQSVITVMADDADGPSNSHIHYSIID</code></td>
+<td align="left">Ref</td>
+</tr>
+<tr>
+<td align="left"><code>-----------TPVFSAKTPT-----------------------------------</code></td>
+<td align="left">HLA-B*07:02 ,986</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------KTPTRQSSVK-----------------------------</code></td>
+<td align="left">HLA-A*03:01 ,314</td>
+</tr>
+<tr>
+<td align="left"><code>------------------TPTRQSSVKM----------------------------</code></td>
+<td align="left">HLA-B*07:02 ,55</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------TRQSSVKMPF--------------------------</code></td>
+<td align="left">HLA-B*15:01 ,28</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------TRQSSVKMPF--------------------------</code></td>
+<td align="left">HLA-C*07:02 ,1961</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------RQSSVKMPFL-------------------------</code></td>
+<td align="left">HLA-B*15:01 ,137</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------RQSSVKMPF--------------------------</code></td>
+<td align="left">HLA-B*15:01 ,9</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------SSVKMPFLSSLSSRL------------------</code></td>
+<td align="left">DRB1_0101 ,8</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------SSVKMPFLSSLSSRL------------------</code></td>
+<td align="left">DRB1_0401 ,52</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------SVKMPFLSSL----------------------</code></td>
+<td align="left">HLA-A*02:01 ,170</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------SVKMPFLSSL----------------------</code></td>
+<td align="left">HLA-B*07:02 ,787</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------SVKMPFLSSL----------------------</code></td>
+<td align="left">HLA-C*03:04 ,668</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------SVKMPFLSSLSSRLW-----------------</code></td>
+<td align="left">DRB1_0101 ,6</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------SVKMPFLSSLSSRLW-----------------</code></td>
+<td align="left">DRB1_0401 ,37</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------------VKMPFLSSL----------------------</code></td>
+<td align="left">HLA-C*03:04 ,614</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------------VKMPFLSSL----------------------</code></td>
+<td align="left">HLA-C*07:02 ,467</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------------VKMPFLSSLSSRLWP----------------</code></td>
+<td align="left">DRB1_0101 ,6</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------------VKMPFLSSLSSRLWP----------------</code></td>
+<td align="left">DRB1_0401 ,34</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------KMPFLSSLSSR-------------------</code></td>
+<td align="left">HLA-A*03:01 ,518</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------KMPFLSSLSS--------------------</code></td>
+<td align="left">HLA-B*07:02 ,1910</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------KMPFLSSLSSRLWPM---------------</code></td>
+<td align="left">DRB1_0101 ,5</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------KMPFLSSLSSRLWPM---------------</code></td>
+<td align="left">DRB1_0401 ,33</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------MPFLSSLSSRL------------------</code></td>
+<td align="left">HLA-B*07:02 ,114</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------MPFLSSLSS--------------------</code></td>
+<td align="left">HLA-B*07:02 ,443</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------MPFLSSLSSRLWPMM--------------</code></td>
+<td align="left">DRB1_0101 ,6</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------MPFLSSLSSRLWPMM--------------</code></td>
+<td align="left">DRB1_0401 ,45</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------PFLSSLSSRLWPMMP-------------</code></td>
+<td align="left">DRB1_0101 ,8</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------PFLSSLSSRLWPMMP-------------</code></td>
+<td align="left">DRB1_0401 ,69</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------FLSSLSSRL------------------</code></td>
+<td align="left">HLA-A*02:01 ,11</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------FLSSLSSRL------------------</code></td>
+<td align="left">HLA-B*15:01 ,593</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------FLSSLSSRL------------------</code></td>
+<td align="left">HLA-C*03:04 ,115</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------FLSSLSSRL------------------</code></td>
+<td align="left">HLA-C*07:02 ,2432</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------FLSSLSSRLWPMMPM------------</code></td>
+<td align="left">DRB1_0101 ,13</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------FLSSLSSRLWPMMPM------------</code></td>
+<td align="left">DRB1_0401 ,177</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------SLSSRLWPM---------------</code></td>
+<td align="left">HLA-A*02:01 ,16</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------SLSSRLWPM---------------</code></td>
+<td align="left">HLA-B*15:01 ,293</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------SLSSRLWPM---------------</code></td>
+<td align="left">HLA-C*07:02 ,2423</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------------LSSRLWPMM--------------</code></td>
+<td align="left">HLA-C*03:04 ,1506</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------SSRLWPMMPM------------</code></td>
+<td align="left">HLA-B*07:02 ,622</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------SSRLWPMMPM------------</code></td>
+<td align="left">HLA-B*15:01 ,607</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------SSRLWPMMPM------------</code></td>
+<td align="left">HLA-C*03:04 ,1140</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------SSRLWPMMPM------------</code></td>
+<td align="left">HLA-C*07:02 ,1647</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------SRLWPMMPMDL----------</code></td>
+<td align="left">HLA-C*07:02 ,3076</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------SRLWPMMPM------------</code></td>
+<td align="left">HLA-C*07:02 ,121</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------RLWPMMPMDL----------</code></td>
+<td align="left">HLA-A*02:01 ,28</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------------------------LWPMMPMDL----------</code></td>
+<td align="left">HLA-C*07:02 ,1495</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------------WPMMPMDLPT--------</code></td>
+<td align="left">HLA-A*02:01 ,171</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------------WPMMPMDLPTA-------</code></td>
+<td align="left">HLA-B*07:02 ,1073</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------------WPMMPMDLPT--------</code></td>
+<td align="left">HLA-B*07:02 ,248</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------------WPMMPMDL----------</code></td>
+<td align="left">HLA-B*07:02 ,182</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------------MMPMDLPTAT------</code></td>
+<td align="left">HLA-A*02:01 ,149</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------------MMPMDLPTA-------</code></td>
+<td align="left">HLA-A*02:01 ,37</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------------MMPMDLPTAT------</code></td>
+<td align="left">HLA-B*07:02 ,931</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------------MPMDLPTATST----</code></td>
+<td align="left">HLA-B*07:02 ,1174</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------------MPMDLPTATS-----</code></td>
+<td align="left">HLA-B*07:02 ,305</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------------MPMDLPTAT------</code></td>
+<td align="left">HLA-B*07:02 ,226</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------------MPMDLPTA-------</code></td>
+<td align="left">HLA-B*07:02 ,1555</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------------------------LPTATSTTQL-</code></td>
+<td align="left">HLA-B*07:02 ,55</td>
+</tr>
+<tr>
+<td align="left"><code></code></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><code>SSEGSSSSSSSSSSSSSSASSSFSEEGAV</code></td>
+<td align="left">NFE2L1,p.476_480del,nonFrameshift deletion</td>
+</tr>
+<tr>
+<td align="left"><code>SSEGSSSSSSSSSSSSSSASSSASSSFSE</code></td>
+<td align="left">Ref</td>
+</tr>
+<tr>
+<td align="left"><code>-------------SSSSSASSSF------</code></td>
+<td align="left">HLA-B*15:01 ,140</td>
+</tr>
+<tr>
+<td align="left"><code>--------------SSSSASSSF------</code></td>
+<td align="left">HLA-B*15:01 ,40</td>
+</tr>
+<tr>
+<td align="left"><code>--------------SSSSASSSF------</code></td>
+<td align="left">HLA-C*03:04 ,134</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------SSFSEEGAV</code></td>
+<td align="left">HLA-C*03:04 ,772</td>
+</tr>
+<tr>
+<td align="left"><code></code></td>
+<td align="left"></td>
+</tr>
+</tbody></table>
+
+</body>
+
+</html>

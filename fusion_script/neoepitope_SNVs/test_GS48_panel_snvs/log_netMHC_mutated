@@ -1,0 +1,42 @@
+Sender: LSF System <lsfadmin@odcf-cn34u18s02>
+Subject: Job 3953610: <run_netMHC_mutated_GS48> in cluster <ODCF> Done
+
+Job <run_netMHC_mutated_GS48> was submitted from host <odcf-worker01> by user <huangz> in cluster <ODCF> at Tue Sep  1 16:54:28 2020
+Job was executed on host(s) <8*odcf-cn34u18s02>, in queue <verylong>, as user <huangz> in cluster <ODCF> at Tue Sep  1 16:55:20 2020
+</home/huangz> was used as the home directory.
+</icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_GS48_panel_snvs> was used as the working directory.
+Started at Tue Sep  1 16:55:20 2020
+Terminated at Tue Sep  1 17:03:02 2020
+Results reported at Tue Sep  1 17:03:02 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/run_netMHC.sh
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1900.44 sec.
+    Max Memory :                                 183 MB
+    Average Memory :                             142.82 MB
+    Total Requested Memory :                     4096.00 MB
+    Delta Memory :                               3913.00 MB
+    Max Swap :                                   17592186044415 MB
+    Max Processes :                              34
+    Max Threads :                                35
+    Run time :                                   458 sec.
+    Turnaround time :                            514 sec.
+
+The output (if any) follows:
+
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCpan-4.0/netMHCpan -a HLA-A02:01 -BA -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_GS48_panel_snvs/GS48_mut.fa > /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_GS48_panel_snvs/netMHCI_HLA-A02:01_mut
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCpan-4.0/netMHCpan -a HLA-B35:01 -BA -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_GS48_panel_snvs/GS48_mut.fa > /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_GS48_panel_snvs/netMHCI_HLA-B35:01_mut
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCpan-4.0/netMHCpan -a HLA-B44:02 -BA -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_GS48_panel_snvs/GS48_mut.fa > /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_GS48_panel_snvs/netMHCI_HLA-B44:02_mut
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCpan-4.0/netMHCpan -a HLA-C04:01 -BA -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_GS48_panel_snvs/GS48_mut.fa > /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_GS48_panel_snvs/netMHCI_HLA-C04:01_mut
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCpan-4.0/netMHCpan -a HLA-C05:01 -BA -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_GS48_panel_snvs/GS48_mut.fa > /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_GS48_panel_snvs/netMHCI_HLA-C05:01_mut
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCIIpan-3.2/netMHCIIpan -a DRB1_0407 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_GS48_panel_snvs/GS48_mut.fa > /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_GS48_panel_snvs/netMHCII_DRB1_0407_mut
+/lsdf/dkfz/analysis/G200/immuno/tools/netMHCIIpan-3.2/netMHCIIpan -a DRB1_0701 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_GS48_panel_snvs/GS48_mut.fa > /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_GS48_panel_snvs/netMHCII_DRB1_0701_mut

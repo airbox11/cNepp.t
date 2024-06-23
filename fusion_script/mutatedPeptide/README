@@ -1,0 +1,14 @@
+
+This script is to generate reference and mutated peptides based on SNV mutation VCF. Be noted the input needs annovar annotation file which is from VCF file
+e.g. snvs_EH63_somatic_functional_snvs_conf_7_to_10.vcf_nonsynonymous.annovar.exonic_variant_function_multiple
+
+
+usage: run_mutated_peptide.py [-h] -a annoFile -m fasta -r fastq -o output
+
+optional arguments:
+  -h, --help   show this help message and exit
+  -a annoFile  ANNOVAR annotation file
+  -m fasta     mutation fasta file
+  -r fastq     reference fasta file
+  -o output    path to output file
+

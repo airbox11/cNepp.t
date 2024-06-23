@@ -1,0 +1,11 @@
+# This script is to do peptide prediction, based on fusion transcripts from deFuse prediction.
+# Be noted: breakpoint | must be correctly assigned.
+
+> Rscript  run_predict_fusion_peptide.R 
+
+    Required one argument:
+    arg1: Fustion transcript, breakpoint | must be provided, quote must be used
+
+    Example:	
+    Rscript run_predict_fusion_peptide.R "AAGATGAAGACAATGTTCTCAAAGCATTTACAGTACCTAAAAACAGGTCCCTGGCGAGCCCCTTGCAG|CTGAGGATTTGTGACTGGACCATGAATCAAAACGGCAGGCATTTATACCCCAGTA"
+

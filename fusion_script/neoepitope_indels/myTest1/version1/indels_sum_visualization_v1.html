@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<title></title>
+
+<script type="text/javascript">
+window.onload = function() {
+  var imgs = document.getElementsByTagName('img'), i, img;
+  for (i = 0; i < imgs.length; i++) {
+    img = imgs[i];
+    // center an image if it is the only element of its parent
+    if (img.parentElement.childElementCount === 1)
+      img.parentElement.style.textAlign = 'center';
+  }
+};
+</script>
+
+
+
+
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 13px;
+}
+
+body {
+  max-width: 800px;
+  margin: auto;
+  padding: 1em;
+  line-height: 20px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 {
+   font-size:2.2em;
+}
+
+h2 {
+   font-size:1.8em;
+}
+
+h3 {
+   font-size:1.4em;
+}
+
+h4 {
+   font-size:1.0em;
+}
+
+h5 {
+   font-size:0.9em;
+}
+
+h6 {
+   font-size:0.8em;
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre, img {
+  max-width: 100%;
+}
+pre {
+  overflow-x: auto;
+}
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code {
+  font-size: 92%;
+  border: 1px solid #ccc;
+}
+
+code[class] {
+  background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * {
+      background: transparent !important;
+      color: black !important;
+      filter:none !important;
+      -ms-filter: none !important;
+   }
+
+   body {
+      font-size:12pt;
+      max-width:100%;
+   }
+
+   a, a:visited {
+      text-decoration: underline;
+   }
+
+   hr {
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote {
+      padding-right: 1em;
+      page-break-inside: avoid;
+   }
+
+   tr, img {
+      page-break-inside: avoid;
+   }
+
+   img {
+      max-width: 100% !important;
+   }
+
+   @page :left {
+      margin: 15mm 20mm 15mm 10mm;
+   }
+
+   @page :right {
+      margin: 15mm 10mm 15mm 20mm;
+   }
+
+   p, h2, h3 {
+      orphans: 3; widows: 3;
+   }
+
+   h2, h3 {
+      page-break-after: avoid;
+   }
+}
+</style>
+
+
+
+</head>
+
+<body>
+<table><thead>
+<tr>
+<th align="left">Neoantigen</th>
+<th align="left">Comments</th>
+</tr>
+</thead><tbody>
+<tr>
+<td align="left"><code>.....S...S......S...........S..............SS........S......S...S..S..S.....SS.S...S..S.S......S.S...S......SS.....SS...</code></td>
+<td align="left">CS 0.8</td>
+</tr>
+<tr>
+<td align="left"><code>..SSSS...S.S....S...........SS.............SS...S....S......S...S..SS.S...S.SS.S...S..SSS......S.S...S.S....SS....SSS...</code></td>
+<td align="left">CS 0.5</td>
+</tr>
+<tr>
+<td align="left"><code>PVLAKICQKIKLAMNSLCHSKMWIQTNTAFSQHCGAITGGGETVMTATSQCTQVEGRTTGMSIRIQTVMAFGVSIQKMEFHMRRNSVKVHSPGESFCWETQLGLIFTSLLNGSQRRRCL*</code></td>
+<td align="left">AOAH,p.E145fs,frameshift deletion</td>
+</tr>
+<tr>
+<td align="left"><code>PVLAKICQKIKLAMEQSVPFKDVDSDKYSVFPTLRGYHWRGRDCNDSDESVYPGRRPNNWDVHQDSNCNGIWGVDPKDGVPYEKKFCEGSQPRGIILLGDSAGAHFHISPEWITASQMSL</code></td>
+<td align="left">Ref</td>
+</tr>
+<tr>
+<td align="left"><code>PVLAKICQKIKLAMN---------------------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,134</td>
+</tr>
+<tr>
+<td align="left"><code>PVLAKICQKIKLAMN---------------------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,216</td>
+</tr>
+<tr>
+<td align="left"><code>-VLAKICQKIKLAMNS--------------------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,137</td>
+</tr>
+<tr>
+<td align="left"><code>-VLAKICQKIKLAMNS--------------------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,219</td>
+</tr>
+<tr>
+<td align="left"><code>--LAKICQKIKLAMNSL-------------------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,117</td>
+</tr>
+<tr>
+<td align="left"><code>--LAKICQKIKLAMNSL-------------------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,182</td>
+</tr>
+<tr>
+<td align="left"><code>---AKICQKIKLAMNSLC------------------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,102</td>
+</tr>
+<tr>
+<td align="left"><code>---AKICQKIKLAMNSLC------------------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,155</td>
+</tr>
+<tr>
+<td align="left"><code>----KICQKIKLAMNSLCH-----------------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,89</td>
+</tr>
+<tr>
+<td align="left"><code>----KICQKIKLAMNSLCH-----------------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,118</td>
+</tr>
+<tr>
+<td align="left"><code>-----ICQKIKLAMNSLCHS----------------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,99</td>
+</tr>
+<tr>
+<td align="left"><code>-----ICQKIKLAMNSLCHS----------------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,103</td>
+</tr>
+<tr>
+<td align="left"><code>------CQKIKLAMNSLCHSK---------------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,106</td>
+</tr>
+<tr>
+<td align="left"><code>------CQKIKLAMNSLCHSK---------------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,106</td>
+</tr>
+<tr>
+<td align="left"><code>-------QKIKLAMNSLCHSKM--------------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,92</td>
+</tr>
+<tr>
+<td align="left"><code>-------QKIKLAMNSLCHSKM--------------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,96</td>
+</tr>
+<tr>
+<td align="left"><code>--------KIKLAMNSLCHSKMW-------------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,107</td>
+</tr>
+<tr>
+<td align="left"><code>--------KIKLAMNSLCHSKMW-------------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,114</td>
+</tr>
+<tr>
+<td align="left"><code>--------KIKLAMNSL-------------------------------------------------------------------------------------------------------</code></td>
+<td align="left">HLA-A*32:01 ,469</td>
+</tr>
+<tr>
+<td align="left"><code>---------IKLAMNSLCHSKMWI------------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,185</td>
+</tr>
+<tr>
+<td align="left"><code>---------IKLAMNSLCHSKMWI------------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,178</td>
+</tr>
+<tr>
+<td align="left"><code>----------KLAMNSLCHSKMWIQ-----------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,247</td>
+</tr>
+<tr>
+<td align="left"><code>----------KLAMNSLCHSKMWIQ-----------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,222</td>
+</tr>
+<tr>
+<td align="left"><code>-----------LAMNSLCHSKMWIQT----------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,349</td>
+</tr>
+<tr>
+<td align="left"><code>-----------LAMNSLCHSKMWIQT----------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,272</td>
+</tr>
+<tr>
+<td align="left"><code>------------AMNSLCHSKMWIQTN---------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,479</td>
+</tr>
+<tr>
+<td align="left"><code>------------AMNSLCHSKMWIQTN---------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,356</td>
+</tr>
+<tr>
+<td align="left"><code>------------AMNSLCHSKM--------------------------------------------------------------------------------------------------</code></td>
+<td align="left">HLA-B*15:01 ,115</td>
+</tr>
+<tr>
+<td align="left"><code>-------------MNSLCHSKMWIQTNT--------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,474</td>
+</tr>
+<tr>
+<td align="left"><code>-------------MNSLCHSKM--------------------------------------------------------------------------------------------------</code></td>
+<td align="left">HLA-C*04:01 ,14122</td>
+</tr>
+<tr>
+<td align="left"><code>---------------SLCHSKMWIQTNTAF------------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,402</td>
+</tr>
+<tr>
+<td align="left"><code>----------------LCHSKMWIQTNTAFS-----------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,329</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------CHSKMWIQTNTAFSQ----------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,430</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------CHSKMWIQTNTAFSQ----------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,255</td>
+</tr>
+<tr>
+<td align="left"><code>------------------HSKMWIQTNTAFSQH---------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,355</td>
+</tr>
+<tr>
+<td align="left"><code>------------------HSKMWIQTNTAFSQH---------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,218</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------SKMWIQTNTAFSQHC--------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,388</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------SKMWIQTNTAFSQHC--------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,246</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------SKMWIQTNTAF------------------------------------------------------------------------------------------</code></td>
+<td align="left">HLA-A*32:01 ,488</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------SKMWIQTNTAF------------------------------------------------------------------------------------------</code></td>
+<td align="left">HLA-B*15:01 ,178</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------KMWIQTNTAFSQHCG-------------------------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,334</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------KMWIQTNTAF------------------------------------------------------------------------------------------</code></td>
+<td align="left">HLA-A*24:02 ,372</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------KMWIQTNTAFS-----------------------------------------------------------------------------------------</code></td>
+<td align="left">HLA-A*32:01 ,1260</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------KMWIQTNTAF------------------------------------------------------------------------------------------</code></td>
+<td align="left">HLA-A*32:01 ,20</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------KMWIQTNTA-------------------------------------------------------------------------------------------</code></td>
+<td align="left">HLA-A*32:01 ,367</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------KMWIQTNTAFS-----------------------------------------------------------------------------------------</code></td>
+<td align="left">HLA-B*15:01 ,462</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------KMWIQTNTAF------------------------------------------------------------------------------------------</code></td>
+<td align="left">HLA-B*15:01 ,7</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------MWIQTNTAF------------------------------------------------------------------------------------------</code></td>
+<td align="left">HLA-A*24:02 ,114</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------MWIQTNTAF------------------------------------------------------------------------------------------</code></td>
+<td align="left">HLA-B*15:01 ,167</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------MWIQTNTAF------------------------------------------------------------------------------------------</code></td>
+<td align="left">HLA-C*04:01 ,6912</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------TAFSQHCGAI-----------------------------------------------------------------------------------</code></td>
+<td align="left">HLA-C*03:03 ,1146</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------AFSQHCGAI-----------------------------------------------------------------------------------</code></td>
+<td align="left">HLA-C*04:01 ,14472</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------ITGGGETVM---------------------------------------------------------------------------</code></td>
+<td align="left">HLA-C*03:03 ,751</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------------------------------TQVEGRTTGM-----------------------------------------------------------</code></td>
+<td align="left">HLA-B*15:01 ,142</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------------------------------RTTGMSIRIQTVMAF-------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,185</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------------------------------RTTGMSIRIQTVMAF-------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,158</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------------------------------RTTGMSIRI-------------------------------------------------------</code></td>
+<td align="left">HLA-A*32:01 ,64</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------------------------------------TTGMSIRIQTVMAFG------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,154</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------------------------------------TTGMSIRIQTVMAFG------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,114</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------------------------------TGMSIRIQTVMAFGV-----------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,120</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------------------------------TGMSIRIQTVMAFGV-----------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,72</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------------------------------GMSIRIQTVMAFGVS----------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,116</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------------------------------GMSIRIQTVMAFGVS----------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,62</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------------------------------GMSIRIQTVM---------------------------------------------------</code></td>
+<td align="left">HLA-B*15:01 ,170</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------------------------------MSIRIQTVMAFGVSI---------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,127</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------------------------------MSIRIQTVMAFGVSI---------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,59</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------------------------------MSIRIQTVMAF-------------------------------------------------</code></td>
+<td align="left">HLA-A*32:01 ,1531</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------------------------------MSIRIQTVM---------------------------------------------------</code></td>
+<td align="left">HLA-A*32:01 ,878</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------------------------------MSIRIQTVMAF-------------------------------------------------</code></td>
+<td align="left">HLA-B*15:01 ,57</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------------------------------MSIRIQTVM---------------------------------------------------</code></td>
+<td align="left">HLA-B*15:01 ,114</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------------------------------MSIRIQTVM---------------------------------------------------</code></td>
+<td align="left">HLA-B*35:03 ,3262</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------------------------------MSIRIQTVM---------------------------------------------------</code></td>
+<td align="left">HLA-C*03:03 ,17</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------------------------------MSIRIQTVM---------------------------------------------------</code></td>
+<td align="left">HLA-C*04:01 ,13801</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------------------------------------------------SIRIQTVMAFGVSIQ--------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,177</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------------------------------------------------SIRIQTVMAFGVSIQ--------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,66</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------------------------------------------------SIRIQTVMAF-------------------------------------------------</code></td>
+<td align="left">HLA-A*32:01 ,782</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------------------------------------------------SIRIQTVMAF-------------------------------------------------</code></td>
+<td align="left">HLA-B*15:01 ,17</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------------------------------------IRIQTVMAFGVSIQK-------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,331</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------------------------------------IRIQTVMAFGVSIQK-------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,98</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------------------------------------IRIQTVMAF-------------------------------------------------</code></td>
+<td align="left">HLA-C*04:01 ,11860</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------------------------------------------RIQTVMAFGVSIQKM------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,156</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------------------------------------------RIQTVMAF-------------------------------------------------</code></td>
+<td align="left">HLA-A*32:01 ,1043</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------------------------------------------RIQTVMAF-------------------------------------------------</code></td>
+<td align="left">HLA-B*15:01 ,439</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------------------------------------IQTVMAFGVSIQKME-----------------------------------------</code></td>
+<td align="left">DRB1_1501 ,283</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------------------------------------QTVMAFGVSIQKMEF----------------------------------------</code></td>
+<td align="left">DRB1_1501 ,317</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------------------------------------QTVMAFGVSI---------------------------------------------</code></td>
+<td align="left">HLA-A*32:01 ,178</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------------------------------------TVMAFGVSIQKMEFH---------------------------------------</code></td>
+<td align="left">DRB1_1501 ,381</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------------------------------------TVMAFGVSI---------------------------------------------</code></td>
+<td align="left">HLA-A*32:01 ,25</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------------------------------------TVMAFGVSI---------------------------------------------</code></td>
+<td align="left">HLA-B*35:03 ,8078</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------------------------------------TVMAFGVSI---------------------------------------------</code></td>
+<td align="left">HLA-C*03:03 ,86</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------------------------------------------------------VMAFGVSIQKMEFHM--------------------------------------</code></td>
+<td align="left">DRB1_1501 ,460</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------------------------------------------MAFGVSIQKMEFHMR-------------------------------------</code></td>
+<td align="left">DRB1_1454 ,491</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------------------------------------------MAFGVSIQKM------------------------------------------</code></td>
+<td align="left">HLA-B*15:01 ,437</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------------------------------------------MAFGVSIQKM------------------------------------------</code></td>
+<td align="left">HLA-B*35:03 ,5051</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------------------------------------------MAFGVSIQKM------------------------------------------</code></td>
+<td align="left">HLA-C*03:03 ,232</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------------------------------------------------AFGVSIQKMEFHMRR------------------------------------</code></td>
+<td align="left">DRB1_1454 ,333</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------------------------------------------------AFGVSIQKMEFHMRR------------------------------------</code></td>
+<td align="left">DRB1_1501 ,370</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------------------------------------------FGVSIQKMEFHMRRN-----------------------------------</code></td>
+<td align="left">DRB1_1454 ,329</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------------------------------------------FGVSIQKMEFHMRRN-----------------------------------</code></td>
+<td align="left">DRB1_1501 ,388</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------------------------------------------GVSIQKMEFHMRRNS----------------------------------</code></td>
+<td align="left">DRB1_1454 ,319</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------------------------------------------GVSIQKMEFHMRRNS----------------------------------</code></td>
+<td align="left">DRB1_1501 ,405</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------------------------------------------VSIQKMEFHMRRNSV---------------------------------</code></td>
+<td align="left">DRB1_1454 ,248</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------------------------------------------VSIQKMEFHMRRNSV---------------------------------</code></td>
+<td align="left">DRB1_1501 ,353</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------------------------------------------------------------SIQKMEFHMRRNSVK--------------------------------</code></td>
+<td align="left">DRB1_1454 ,223</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------------------------------------------------------------SIQKMEFHMRRNSVK--------------------------------</code></td>
+<td align="left">DRB1_1501 ,304</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------------------------------------------------IQKMEFHMRRNSVKV-------------------------------</code></td>
+<td align="left">DRB1_1454 ,176</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------------------------------------------------IQKMEFHMRRNSVKV-------------------------------</code></td>
+<td align="left">DRB1_1501 ,218</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------------------------------------------------------QKMEFHMRRNSVKVH------------------------------</code></td>
+<td align="left">DRB1_1454 ,154</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------------------------------------------------------QKMEFHMRRNSVKVH------------------------------</code></td>
+<td align="left">DRB1_1501 ,202</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------------------------------------------------KMEFHMRRNSVKVHS-----------------------------</code></td>
+<td align="left">DRB1_1454 ,136</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------------------------------------------------KMEFHMRRNSVKVHS-----------------------------</code></td>
+<td align="left">DRB1_1501 ,193</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------------------------------------------------MEFHMRRNSVKVHSP----------------------------</code></td>
+<td align="left">DRB1_1454 ,177</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------------------------------------------------MEFHMRRNSVKVHSP----------------------------</code></td>
+<td align="left">DRB1_1501 ,273</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------------------------------------------------EFHMRRNSVKVHSPG---------------------------</code></td>
+<td align="left">DRB1_1454 ,263</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------------------------------------------------EFHMRRNSVKVHSPG---------------------------</code></td>
+<td align="left">DRB1_1501 ,447</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------------------------------------------------------------------FHMRRNSVKVHSPGE--------------------------</code></td>
+<td align="left">DRB1_1454 ,401</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------------------------------------------------------------------FHMRRNSVK--------------------------------</code></td>
+<td align="left">HLA-C*04:01 ,10366</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------------------------------------------------------------VKVHSPGESF------------------------</code></td>
+<td align="left">HLA-B*15:01 ,205</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------------------------------------------------------------------KVHSPGESF------------------------</code></td>
+<td align="left">HLA-A*32:01 ,81</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------------------------------------------------------------------KVHSPGESF------------------------</code></td>
+<td align="left">HLA-B*15:01 ,56</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------------------------------------------------------------------------ESFCWETQL------------------</code></td>
+<td align="left">HLA-B*35:03 ,14030</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------------------------------------------------------------------------ESFCWETQL------------------</code></td>
+<td align="left">HLA-C*03:03 ,963</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------------------------------------------------------------------FCWETQLGLIFTSLL----------</code></td>
+<td align="left">DRB1_1501 ,468</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------------------------------------------------------------------FCWETQLGL----------------</code></td>
+<td align="left">HLA-B*35:03 ,12270</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------------------------------------------------------------------FCWETQLGL----------------</code></td>
+<td align="left">HLA-C*03:03 ,584</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------------------------------------------------------------------CWETQLGLIFTSLLN---------</code></td>
+<td align="left">DRB1_1501 ,338</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------------------------------------------------------------------CWETQLGLIF--------------</code></td>
+<td align="left">HLA-A*24:02 ,695</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------------------------------------------------------------------CWETQLGLI---------------</code></td>
+<td align="left">HLA-A*24:02 ,2236</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------------------------------------------------------------------CWETQLGLI---------------</code></td>
+<td align="left">HLA-C*04:01 ,14240</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------------------------------------------------------------------------------------WETQLGLIFTSLLNG--------</code></td>
+<td align="left">DRB1_1501 ,300</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------------------------------------------------------------------------------------WETQLGLIF--------------</code></td>
+<td align="left">HLA-C*04:01 ,13851</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------------------------------------------------------------------------ETQLGLIFTSLLNGS-------</code></td>
+<td align="left">DRB1_1501 ,246</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------------------------------------------------------------------------------TQLGLIFTSLLNGSQ------</code></td>
+<td align="left">DRB1_1501 ,180</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------------------------------------------------------------------------------TQLGLIFTSL-----------</code></td>
+<td align="left">HLA-A*32:01 ,890</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------------------------------------------------------------------------------TQLGLIFTSL-----------</code></td>
+<td align="left">HLA-B*15:01 ,395</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------------------------------------------------------------------------QLGLIFTSLLNGSQR-----</code></td>
+<td align="left">DRB1_1454 ,356</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------------------------------------------------------------------------QLGLIFTSLLNGSQR-----</code></td>
+<td align="left">DRB1_1501 ,142</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------------------------------------------------------------------------LGLIFTSLLNGSQRR----</code></td>
+<td align="left">DRB1_1454 ,316</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------------------------------------------------------------------------LGLIFTSLLNGSQRR----</code></td>
+<td align="left">DRB1_1501 ,137</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------------------------------------------------------------------------LGLIFTSLL----------</code></td>
+<td align="left">HLA-C*03:03 ,1054</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------------------------------------------------------------------------GLIFTSLLNGSQRRR---</code></td>
+<td align="left">DRB1_1454 ,273</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------------------------------------------------------------------------GLIFTSLLNGSQRRR---</code></td>
+<td align="left">DRB1_1501 ,145</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------------------------------------------------------------------------------------------LIFTSLLNGSQRRRC--</code></td>
+<td align="left">DRB1_1454 ,267</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------------------------------------------------------------------------------------------LIFTSLLNGSQRRRC--</code></td>
+<td align="left">DRB1_1501 ,176</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------------------------------------------------------------------------------IFTSLLNGSQRRRCL-</code></td>
+<td align="left">DRB1_1454 ,275</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------------------------------------------------------------------------------IFTSLLNGSQRRRCL-</code></td>
+<td align="left">DRB1_1501 ,267</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------------------------------------------------------------------------------------FTSLLNGSQRRRCL*-</code></td>
+<td align="left">DRB1_1454 ,456</td>
+</tr>
+<tr>
+<td align="left"><code></code></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><code>........S.......S.....S...SS.S.S..S.S</code></td>
+<td align="left">CS 0.8</td>
+</tr>
+<tr>
+<td align="left"><code>......S.S....S..S.....S...SS.S.S..S.S</code></td>
+<td align="left">CS 0.5</td>
+</tr>
+<tr>
+<td align="left"><code>DGDKAFVDFLSDEIRRKEKFRSIKPSLRCLEVGSWN*</code></td>
+<td align="left">C1QBP,p.K91fs,frameshift deletion</td>
+</tr>
+<tr>
+<td align="left"><code>DGDKAFVDFLSDEIKEERKIQKHKTLPKMSGGWELEL</code></td>
+<td align="left">Ref</td>
+</tr>
+<tr>
+<td align="left"><code>----AFVDFLSDEI-----------------------</code></td>
+<td align="left">HLA-C*04:01 ,13907</td>
+</tr>
+<tr>
+<td align="left"><code>-----FVDFLSDEI-----------------------</code></td>
+<td align="left">HLA-B*35:03 ,5949</td>
+</tr>
+<tr>
+<td align="left"><code>-----FVDFLSDEI-----------------------</code></td>
+<td align="left">HLA-C*03:03 ,248</td>
+</tr>
+<tr>
+<td align="left"><code>-----FVDFLSDEI-----------------------</code></td>
+<td align="left">HLA-C*04:01 ,4627</td>
+</tr>
+<tr>
+<td align="left"><code>------------EIRRKEKFRSIKPSL----------</code></td>
+<td align="left">DRB1_1454 ,330</td>
+</tr>
+<tr>
+<td align="left"><code>------------EIRRKEKFRSIKPSL----------</code></td>
+<td align="left">DRB1_1501 ,482</td>
+</tr>
+<tr>
+<td align="left"><code>-------------IRRKEKFRSIKPSLR---------</code></td>
+<td align="left">DRB1_1454 ,54</td>
+</tr>
+<tr>
+<td align="left"><code>-------------IRRKEKFRSIKPSLR---------</code></td>
+<td align="left">DRB1_1501 ,47</td>
+</tr>
+<tr>
+<td align="left"><code>--------------RRKEKFRSIKPSLRC--------</code></td>
+<td align="left">DRB1_1454 ,36</td>
+</tr>
+<tr>
+<td align="left"><code>--------------RRKEKFRSIKPSLRC--------</code></td>
+<td align="left">DRB1_1501 ,30</td>
+</tr>
+<tr>
+<td align="left"><code>---------------RKEKFRSIKPSLRCL-------</code></td>
+<td align="left">DRB1_1454 ,23</td>
+</tr>
+<tr>
+<td align="left"><code>---------------RKEKFRSIKPSLRCL-------</code></td>
+<td align="left">DRB1_1501 ,19</td>
+</tr>
+<tr>
+<td align="left"><code>----------------KEKFRSIKPSLRCLE------</code></td>
+<td align="left">DRB1_1454 ,25</td>
+</tr>
+<tr>
+<td align="left"><code>----------------KEKFRSIKPSLRCLE------</code></td>
+<td align="left">DRB1_1501 ,21</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------EKFRSIKPSLRCLEV-----</code></td>
+<td align="left">DRB1_1454 ,32</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------EKFRSIKPSLRCLEV-----</code></td>
+<td align="left">DRB1_1501 ,26</td>
+</tr>
+<tr>
+<td align="left"><code>------------------KFRSIKPSLRCLEVG----</code></td>
+<td align="left">DRB1_1454 ,43</td>
+</tr>
+<tr>
+<td align="left"><code>------------------KFRSIKPSLRCLEVG----</code></td>
+<td align="left">DRB1_1501 ,34</td>
+</tr>
+<tr>
+<td align="left"><code>------------------KFRSIKPSL----------</code></td>
+<td align="left">HLA-C*04:01 ,14097</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------FRSIKPSLRCLEVGS---</code></td>
+<td align="left">DRB1_1454 ,135</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------FRSIKPSLRCLEVGS---</code></td>
+<td align="left">DRB1_1501 ,169</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------------SLRCLEVGSW--</code></td>
+<td align="left">HLA-A*32:01 ,892</td>
+</tr>
+<tr>
+<td align="left"><code></code></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><code>..SS...S..S...S...S..S..S....</code></td>
+<td align="left">CS 0.8</td>
+</tr>
+<tr>
+<td align="left"><code>..SS..SS..S..SS...S..S..S...S</code></td>
+<td align="left">CS 0.5</td>
+</tr>
+<tr>
+<td align="left"><code>SSLFAQRLKTLQDKVASGLCSFQAMSAR*</code></td>
+<td align="left">MYO1G,p.D864fs,frameshift deletion</td>
+</tr>
+<tr>
+<td align="left"><code>SSLFAQRLKTLQDKDGFGAVLFSSHVRKV</code></td>
+<td align="left">Ref</td>
+</tr>
+<tr>
+<td align="left"><code>SSLFAQRLKTLQDKV--------------</code></td>
+<td align="left">DRB1_1454 ,175</td>
+</tr>
+<tr>
+<td align="left"><code>SSLFAQRLKTLQDKV--------------</code></td>
+<td align="left">DRB1_1501 ,223</td>
+</tr>
+<tr>
+<td align="left"><code>-SLFAQRLKTLQDKVA-------------</code></td>
+<td align="left">DRB1_1454 ,223</td>
+</tr>
+<tr>
+<td align="left"><code>-SLFAQRLKTLQDKVA-------------</code></td>
+<td align="left">DRB1_1501 ,340</td>
+</tr>
+<tr>
+<td align="left"><code>-SLFAQRLKTL------------------</code></td>
+<td align="left">HLA-A*32:01 ,779</td>
+</tr>
+<tr>
+<td align="left"><code>--LFAQRLKTLQDKVAS------------</code></td>
+<td align="left">DRB1_1454 ,299</td>
+</tr>
+<tr>
+<td align="left"><code>--LFAQRLKTLQDKVAS------------</code></td>
+<td align="left">DRB1_1501 ,494</td>
+</tr>
+<tr>
+<td align="left"><code>--LFAQRLKTL------------------</code></td>
+<td align="left">HLA-A*24:02 ,2428</td>
+</tr>
+<tr>
+<td align="left"><code>--LFAQRLKTL------------------</code></td>
+<td align="left">HLA-C*04:01 ,14090</td>
+</tr>
+<tr>
+<td align="left"><code>----------LQDKVASGL----------</code></td>
+<td align="left">HLA-C*04:01 ,6533</td>
+</tr>
+<tr>
+<td align="left"><code>------------DKVASGLCSF-------</code></td>
+<td align="left">HLA-A*32:01 ,1169</td>
+</tr>
+<tr>
+<td align="left"><code>------------DKVASGLCSF-------</code></td>
+<td align="left">HLA-B*15:01 ,169</td>
+</tr>
+<tr>
+<td align="left"><code>-------------KVASGLCSFQAMSAR-</code></td>
+<td align="left">DRB1_1501 ,287</td>
+</tr>
+<tr>
+<td align="left"><code>-------------KVASGLCSF-------</code></td>
+<td align="left">HLA-A*24:02 ,1927</td>
+</tr>
+<tr>
+<td align="left"><code>-------------KVASGLCSF-------</code></td>
+<td align="left">HLA-A*32:01 ,25</td>
+</tr>
+<tr>
+<td align="left"><code>-------------KVASGLCSFQ------</code></td>
+<td align="left">HLA-B*15:01 ,439</td>
+</tr>
+<tr>
+<td align="left"><code>-------------KVASGLCSF-------</code></td>
+<td align="left">HLA-B*15:01 ,16</td>
+</tr>
+<tr>
+<td align="left"><code>-------------KVASGLCSF-------</code></td>
+<td align="left">HLA-C*03:03 ,346</td>
+</tr>
+<tr>
+<td align="left"><code>-------------KVASGLCSF-------</code></td>
+<td align="left">HLA-C*04:01 ,12626</td>
+</tr>
+<tr>
+<td align="left"><code>--------------VASGLCSFQAMSAR*-</code></td>
+<td align="left">DRB1_1501 ,235</td>
+</tr>
+<tr>
+<td align="left"><code>----------------SGLCSFQAM----</code></td>
+<td align="left">HLA-B*35:03 ,14230</td>
+</tr>
+<tr>
+<td align="left"><code>----------------SGLCSFQAM----</code></td>
+<td align="left">HLA-C*03:03 ,219</td>
+</tr>
+<tr>
+<td align="left"><code></code></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><code>....S.S.S..S........SS..SSSS........S...SS....S.SSS..........S......S.S...S..S..........S.......SS..</code></td>
+<td align="left">CS 0.8</td>
+</tr>
+<tr>
+<td align="left"><code>S...S.S.S..S..S....SSS..SSSS.......SS..SSS....S.SSS.S........S.....SS.S...S..SS..S......S.....S.SSSS</code></td>
+<td align="left">CS 0.5</td>
+</tr>
+<tr>
+<td align="left"><code>IGANLQKQYENWQPRPGTSRALTQLWMKSRSSARPYVATPRRSESSFTTMATGCPGPQSTGRSGSSTRTTRSTSLCPYMTCRRGWAARRSSSTTAPMLA*</code></td>
+<td align="left">RPTOR,p.R116fs,frameshift deletion</td>
+</tr>
+<tr>
+<td align="left"><code>IGANLQKQYENWQPRARYKQSLDPTVDEVKKLCTSLRRNAKEERVLFHYNGHGVPRPTVNGEVWVFNKNYTQYIPLSIYDLQTWMGSPSIFVYDCSNAGL</code></td>
+<td align="left">Ref</td>
+</tr>
+<tr>
+<td align="left"><code>------------QPRPGTSRAL------------------------------------------------------------------------------</code></td>
+<td align="left">HLA-B*35:03 ,13596</td>
+</tr>
+<tr>
+<td align="left"><code>---------------PGTSRALTQLWMKSR----------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,431</td>
+</tr>
+<tr>
+<td align="left"><code>---------------PGTSRALTQLWMKSR----------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,296</td>
+</tr>
+<tr>
+<td align="left"><code>----------------GTSRALTQLWMKSRS---------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,312</td>
+</tr>
+<tr>
+<td align="left"><code>----------------GTSRALTQLWMKSRS---------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,226</td>
+</tr>
+<tr>
+<td align="left"><code>----------------GTSRALTQLW--------------------------------------------------------------------------</code></td>
+<td align="left">HLA-A*32:01 ,1508</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------TSRALTQLWMKSRSS--------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,258</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------TSRALTQLWMKSRSS--------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,198</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------TSRALTQLW--------------------------------------------------------------------------</code></td>
+<td align="left">HLA-A*32:01 ,575</td>
+</tr>
+<tr>
+<td align="left"><code>------------------SRALTQLWMKSRSSA-------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,195</td>
+</tr>
+<tr>
+<td align="left"><code>------------------SRALTQLWMKSRSSA-------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,165</td>
+</tr>
+<tr>
+<td align="left"><code>------------------SRALTQLWM-------------------------------------------------------------------------</code></td>
+<td align="left">HLA-C*04:01 ,10065</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------RALTQLWMKSRSSAR------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,162</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------RALTQLWMKSRSSAR------------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,146</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------ALTQLWMKSRSSARP-----------------------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,200</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------ALTQLWMKSRSSARP-----------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,182</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------LTQLWMKSRSSARPY----------------------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,202</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------LTQLWMKSRSSARPY----------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,200</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------TQLWMKSRSSARPYV---------------------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,229</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------TQLWMKSRSSARPYV---------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,249</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------QLWMKSRSSARPYVA--------------------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,261</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------QLWMKSRSSARPYVA--------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,309</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------LWMKSRSSARPYVAT-------------------------------------------------------------</code></td>
+<td align="left">DRB1_1454 ,395</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------LWMKSRSSARPYVAT-------------------------------------------------------------</code></td>
+<td align="left">DRB1_1501 ,482</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------------WMKSRSSARPY----------------------------------------------------------------</code></td>
+<td align="left">HLA-B*15:01 ,74</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------MKSRSSARPY----------------------------------------------------------------</code></td>
+<td align="left">HLA-B*15:01 ,63</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------KSRSSARPY----------------------------------------------------------------</code></td>
+<td align="left">HLA-B*15:01 ,95</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------SRSSARPYV---------------------------------------------------------------</code></td>
+<td align="left">HLA-C*04:01 ,13022</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------------TPRRSESSF-----------------------------------------------------</code></td>
+<td align="left">HLA-B*35:03 ,11745</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------------RSESSFTTM--------------------------------------------------</code></td>
+<td align="left">HLA-C*03:03 ,137</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------------RSESSFTTM--------------------------------------------------</code></td>
+<td align="left">HLA-C*04:01 ,9241</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------------------------------------------TTRSTSLCPY----------------------</code></td>
+<td align="left">HLA-B*15:01 ,73</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------------------------------------------RSTSLCPYM---------------------</code></td>
+<td align="left">HLA-A*32:01 ,1349</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------------------------------------------RSTSLCPYM---------------------</code></td>
+<td align="left">HLA-C*03:03 ,402</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------------------------------------------RSTSLCPYM---------------------</code></td>
+<td align="left">HLA-C*04:01 ,10076</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------------------------------------------STSLCPYMTCRRGWA--------------</code></td>
+<td align="left">DRB1_1501 ,462</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------------------------------------------TSLCPYMTCRRGWAA-------------</code></td>
+<td align="left">DRB1_1501 ,347</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------------------------------------------------------------SLCPYMTCRRGWAAR------------</code></td>
+<td align="left">DRB1_1501 ,268</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------------------------------------------------LCPYMTCRRGWAARR-----------</code></td>
+<td align="left">DRB1_1454 ,316</td>
+</tr>
+<tr>
+<td align="left"><code>--------------------------------------------------------------------------LCPYMTCRRGWAARR-----------</code></td>
+<td align="left">DRB1_1501 ,155</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------------------------------------------------------CPYMTCRRGWAARRS----------</code></td>
+<td align="left">DRB1_1454 ,315</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------------------------------------------------------CPYMTCRRGWAARRS----------</code></td>
+<td align="left">DRB1_1501 ,141</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------------------------------------------------------CPYMTCRRGW---------------</code></td>
+<td align="left">HLA-A*24:02 ,584</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------------------------------------------------PYMTCRRGWAARRSS---------</code></td>
+<td align="left">DRB1_1454 ,309</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------------------------------------------------PYMTCRRGWAARRSS---------</code></td>
+<td align="left">DRB1_1501 ,142</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------------------------------------------------PYMTCRRGW---------------</code></td>
+<td align="left">HLA-A*24:02 ,735</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------------------------------------------------YMTCRRGWAARRSSS--------</code></td>
+<td align="left">DRB1_1454 ,377</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------------------------------------------------YMTCRRGWAARRSSS--------</code></td>
+<td align="left">DRB1_1501 ,168</td>
+</tr>
+<tr>
+<td align="left"><code>------------------------------------------------------------------------------MTCRRGWAARRSSST-------</code></td>
+<td align="left">DRB1_1501 ,311</td>
+</tr>
+<tr>
+<td align="left"><code>-------------------------------------------------------------------------------TCRRGWAARRSSSTT------</code></td>
+<td align="left">DRB1_1501 ,494</td>
+</tr>
+<tr>
+<td align="left"><code>---------------------------------------------------------------------------------------RRSSSTTAPM---</code></td>
+<td align="left">HLA-B*15:01 ,191</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------------------------------------------------------------RSSSTTAPM---</code></td>
+<td align="left">HLA-A*32:01 ,304</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------------------------------------------------------------RSSSTTAPM---</code></td>
+<td align="left">HLA-B*15:01 ,62</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------------------------------------------------------------RSSSTTAPM---</code></td>
+<td align="left">HLA-B*35:03 ,9732</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------------------------------------------------------------RSSSTTAPM---</code></td>
+<td align="left">HLA-C*03:03 ,22</td>
+</tr>
+<tr>
+<td align="left"><code>----------------------------------------------------------------------------------------RSSSTTAPM---</code></td>
+<td align="left">HLA-C*04:01 ,9112</td>
+</tr>
+<tr>
+<td align="left"><code>-----------------------------------------------------------------------------------------SSSTTAPML--</code></td>
+<td align="left">HLA-C*03:03 ,336</td>
+</tr>
+<tr>
+<td align="left"><code></code></td>
+<td align="left"></td>
+</tr>
+</tbody></table>
+
+</body>
+
+</html>

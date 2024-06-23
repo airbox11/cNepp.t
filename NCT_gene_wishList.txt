@@ -1,0 +1,558 @@
+GENE	TYPE
+ACTL8	Cancer Germline Antigen
+ADAM2	Cancer Germline Antigen
+ADAM29	Cancer Germline Antigen
+AKAP4	Cancer Germline Antigen
+BAGE	Cancer Germline Antigen
+BAGE2	Cancer Germline Antigen
+C15orf60	Cancer Germline Antigen
+C21orf99	Cancer Germline Antigen
+CAGE1	Cancer Germline Antigen
+CALR3	Cancer Germline Antigen
+CCDC83	Cancer Germline Antigen
+CPXCR1	Cancer Germline Antigen
+CSAG1	Cancer Germline Antigen
+CSAG2	Cancer Germline Antigen
+CT45A1	Cancer Germline Antigen
+CT45A2	Cancer Germline Antigen
+CT45A3	Cancer Germline Antigen
+CT45A4	Cancer Germline Antigen
+CT45A5	Cancer Germline Antigen
+CT45A6	Cancer Germline Antigen
+CT47A1	Cancer Germline Antigen
+CT47A10	Cancer Germline Antigen
+CT47A11	Cancer Germline Antigen
+CT47A2	Cancer Germline Antigen
+CT47A6	Cancer Germline Antigen
+CT47A7	Cancer Germline Antigen
+CT47A9	Cancer Germline Antigen
+CT47B1	Cancer Germline Antigen
+CTCFL	Cancer Germline Antigen
+CXorf48	Cancer Germline Antigen
+DDX53	Cancer Germline Antigen
+DMRT1	Cancer Germline Antigen
+DNAJB8	Cancer Germline Antigen
+DPPA2	Cancer Germline Antigen
+DSCR8	Cancer Germline Antigen
+FAM46D	Cancer Germline Antigen
+FATE1	Cancer Germline Antigen
+FMR1NB	Cancer Germline Antigen
+FTHL17	Cancer Germline Antigen
+GAGE1	Cancer Germline Antigen
+GAGE12D	Cancer Germline Antigen
+GAGE2A	Cancer Germline Antigen
+GAGE4	Cancer Germline Antigen
+GAGE8	Cancer Germline Antigen
+LUZP4	Cancer Germline Antigen
+MAGEA1	Cancer Germline Antigen
+MAGEA12	Cancer Germline Antigen
+MAGEA2	Cancer Germline Antigen
+MAGEA3	Cancer Germline Antigen
+MAGEA5	Cancer Germline Antigen
+MAGEA6	Cancer Germline Antigen
+MAGEA9B	Cancer Germline Antigen
+MAGEB1	Cancer Germline Antigen
+MAGEB3	Cancer Germline Antigen
+MAGEB4	Cancer Germline Antigen
+MAGEB6	Cancer Germline Antigen
+MAGEC1	Cancer Germline Antigen
+MAGEC2	Cancer Germline Antigen
+MAGEC3	Cancer Germline Antigen
+MORC1	Cancer Germline Antigen
+ODF1	Cancer Germline Antigen
+ODF3	Cancer Germline Antigen
+ODF4	Cancer Germline Antigen
+PAGE1	Cancer Germline Antigen
+PAGE3	Cancer Germline Antigen
+PAGE5	Cancer Germline Antigen
+PASD1	Cancer Germline Antigen
+PIWIL1	Cancer Germline Antigen
+POTEA	Cancer Germline Antigen
+POTEB	Cancer Germline Antigen
+POTEC	Cancer Germline Antigen
+POTED	Cancer Germline Antigen
+POTEG	Cancer Germline Antigen
+PRSS54	Cancer Germline Antigen
+PRSS55	Cancer Germline Antigen
+RBM46	Cancer Germline Antigen
+SAGE1	Cancer Germline Antigen
+SLCO6A1	Cancer Germline Antigen
+SPANXA2	Cancer Germline Antigen
+SPANXB2	Cancer Germline Antigen
+SPANXC	Cancer Germline Antigen
+SPANXE	Cancer Germline Antigen
+SPANXN1	Cancer Germline Antigen
+SPANXN2	Cancer Germline Antigen
+SPANXN4	Cancer Germline Antigen
+SPANXN5	Cancer Germline Antigen
+SPATA19	Cancer Germline Antigen
+SPINLW1	Cancer Germline Antigen
+SPO11	Cancer Germline Antigen
+SSX1	Cancer Germline Antigen
+SSX2	Cancer Germline Antigen
+SSX3	Cancer Germline Antigen
+SSX4	Cancer Germline Antigen
+SSX5	Cancer Germline Antigen
+SSX6	Cancer Germline Antigen
+SSX7	Cancer Germline Antigen
+SYCP1	Cancer Germline Antigen
+TEX14	Cancer Germline Antigen
+TFDP3	Cancer Germline Antigen
+TMPRSS12	Cancer Germline Antigen
+TSPY2	Cancer Germline Antigen
+TSPY3	Cancer Germline Antigen
+VENTXP1	Cancer Germline Antigen
+XAGE1D	Cancer Germline Antigen
+XAGE2	Cancer Germline Antigen
+XAGE5	Cancer Germline Antigen
+ZNF645	Cancer Germline Antigen
+ACKR4	Chemokine
+CCL1	Chemokine
+CCL11	Chemokine
+CCL12	Chemokine
+CCL13	Chemokine
+CCL14	Chemokine
+CCL15	Chemokine
+CCL16	Chemokine
+CCL17	Chemokine
+CCL18	Chemokine
+CCL19	Chemokine
+CCL2	Chemokine
+CCL20	Chemokine
+CCL21	Chemokine
+CCL22	Chemokine
+CCL23	Chemokine
+CCL24	Chemokine
+CCL25	Chemokine
+CCL26	Chemokine
+CCL27	Chemokine
+CCL28	Chemokine
+CCL3	Chemokine
+CCL3L1	Chemokine
+CCL3L3	Chemokine
+CCL4	Chemokine
+CCL4L1	Chemokine
+CCL4L2	Chemokine
+CCL5	Chemokine
+CCL6	Chemokine
+CCL7	Chemokine
+CCL8	Chemokine
+CCL9	Chemokine
+CCR1	Chemokine
+CCR10	Chemokine
+CCR2	Chemokine
+CCR3	Chemokine
+CCR4	Chemokine
+CCR5	Chemokine
+CCR6	Chemokine
+CCR7	Chemokine
+CCR8	Chemokine
+CCR9	Chemokine
+CCRL1	Chemokine
+CCRL2	Chemokine
+CKLF	Chemokine
+CX3CL1	Chemokine
+CX3CR1	Chemokine
+CXCL1	Chemokine
+CXCL10	Chemokine
+CXCL11	Chemokine
+CXCL12	Chemokine
+CXCL13	Chemokine
+CXCL14	Chemokine
+CXCL15	Chemokine
+CXCL16	Chemokine
+CXCL17	Chemokine
+CXCL2	Chemokine
+CXCL3	Chemokine
+CXCL4	Chemokine
+CXCL5	Chemokine
+CXCL6	Chemokine
+CXCL7	Chemokine
+CXCL7 	Chemokine
+CXCL9	Chemokine
+CXCR1	Chemokine
+CXCR2	Chemokine
+CXCR2P1	Chemokine
+CXCR3	Chemokine
+CXCR3B	Chemokine
+CXCR4	Chemokine
+CXCR5	Chemokine
+CXCR6	Chemokine
+CXCR7	Chemokine
+DARC	Chemokine
+PARC	Chemokine
+PITPNM3	Chemokine
+TARC	Chemokine
+XCL1	Chemokine
+XCL2	Chemokine
+XCR1	Chemokine
+AIMP1	Cytokine
+ANG	Cytokine
+ANGPT1	Cytokine
+ANGPT2	Cytokine
+ANGPTL1	Cytokine
+ANGPTL2	Cytokine
+AREG	Cytokine
+BDNF	Cytokine
+BMP10	Cytokine
+BMP13	Cytokine
+BMP2	Cytokine
+BMP3	Cytokine
+BMP4	Cytokine
+BMP5	Cytokine
+BMP6	Cytokine
+BMP7	Cytokine
+BTC	Cytokine
+CLCF1	Cytokine
+CNTF	Cytokine
+CSF1	Cytokine
+CSF2	Cytokine
+CSF3	Cytokine
+CTF1	Cytokine
+CTF2P	Cytokine
+DKK1	Cytokine
+EDA	Cytokine
+EDA2R	Cytokine
+EGF	Cytokine
+EGFL6	Cytokine
+EGFL7	Cytokine
+EGFL8	Cytokine
+EPO	Cytokine
+EREG	Cytokine
+FAS	Cytokine
+FASLG	Cytokine
+FGF11	Cytokine
+FGF12	Cytokine
+FGF13	Cytokine
+FGF14	Cytokine
+FGF15	Cytokine
+FGF16	Cytokine
+FGF17	Cytokine
+FGF18	Cytokine
+FGF19	Cytokine
+FGF20	Cytokine
+FGF21	Cytokine
+FGFBP1	Cytokine
+FGFBP2	Cytokine
+FGFBP3	Cytokine
+FLT3LG	Cytokine
+GDF1	Cytokine
+GDF10	Cytokine
+GDF15	Cytokine
+GDF2	Cytokine
+GDF3	Cytokine
+GDF5	Cytokine
+GDF6	Cytokine
+GDF9	Cytokine
+GDNF	Cytokine
+HBEGF	Cytokine
+HDGF	Cytokine
+HGF	Cytokine
+IFNA1	Cytokine
+IFNA10	Cytokine
+IFNA13	Cytokine
+IFNA14	Cytokine
+IFNA16	Cytokine
+IFNA17	Cytokine
+IFNA2	Cytokine
+IFNA21	Cytokine
+IFNA4	Cytokine
+IFNA5	Cytokine
+IFNA6	Cytokine
+IFNA7	Cytokine
+IFNA8	Cytokine
+IFNAR1	Cytokine
+IFNAR2	Cytokine
+IFNB1	Cytokine
+IFNE	Cytokine
+IFNG	Cytokine
+IFNGR1	Cytokine
+IFNGR2	Cytokine
+IFNK	Cytokine
+IFNW1	Cytokine
+IFNZ	Cytokine
+IGF1	Cytokine
+IGF2	Cytokine
+IL11	Cytokine
+IL12 	Cytokine
+IL12A	Cytokine
+IL12B	Cytokine
+IL12RB1	Cytokine
+IL12RB2	Cytokine
+IL13	Cytokine
+IL14	Cytokine
+IL15	Cytokine
+IL15RA	Cytokine
+IL16	Cytokine
+IL17A	Cytokine
+IL17B	Cytokine
+IL17C	Cytokine
+IL17D	Cytokine
+IL17E	Cytokine
+IL17F	Cytokine
+IL17RA	Cytokine
+IL17RB	Cytokine
+IL17RC	Cytokine
+IL18	Cytokine
+IL18BP	Cytokine
+IL19	Cytokine
+IL1A	Cytokine
+IL1B	Cytokine
+IL1R	Cytokine
+IL1R1	Cytokine
+IL1RA	Cytokine
+IL1RN	Cytokine
+IL2	Cytokine
+IL20	Cytokine
+IL21	Cytokine
+IL21R	Cytokine
+IL22	Cytokine
+IL23	Cytokine
+IL23 	Cytokine
+IL23A	Cytokine
+IL23R	Cytokine
+IL24	Cytokine
+IL25	Cytokine
+IL25 	Cytokine
+IL26	Cytokine
+IL27	Cytokine
+IL27B	Cytokine
+IL28A	Cytokine
+IL28B	Cytokine
+IL28RA	Cytokine
+IL29	Cytokine
+IL2RA	Cytokine
+IL2RB	Cytokine
+IL3	Cytokine
+IL31	Cytokine
+IL31RA	Cytokine
+IL32	Cytokine
+IL33	Cytokine
+IL34	Cytokine
+IL35	Cytokine
+IL36A	Cytokine
+IL36B	Cytokine
+IL36G	Cytokine
+IL36RA	Cytokine
+IL36RN	Cytokine
+IL37	Cytokine
+IL38	Cytokine
+IL4	Cytokine
+IL4R	Cytokine
+IL5	Cytokine
+IL7	Cytokine
+IL7R	Cytokine
+IL8	Cytokine
+IL8RA	Cytokine
+IL8RB	Cytokine
+IL9	Cytokine
+LIF	Cytokine
+LRIGI	Cytokine
+LTA	Cytokine
+LTB	Cytokine
+LTBR	Cytokine
+MDK	Cytokine
+MIA	Cytokine
+MSTN	Cytokine
+NGF	Cytokine
+NGFR	Cytokine
+NRG3	Cytokine
+NRG4	Cytokine
+NRGI	Cytokine
+NRTN	Cytokine
+NTF3	Cytokine
+OSM	Cytokine
+PDGFA	Cytokine
+PDGFB	Cytokine
+PDGFC	Cytokine
+PDGFD	Cytokine
+PF4	Cytokine
+PGF	Cytokine
+PPBP	Cytokine
+PRL	Cytokine
+PROK1	Cytokine
+PTN	Cytokine
+SCF	Cytokine
+SCG2	Cytokine
+SERPINF1	Cytokine
+SHH	Cytokine
+TDGF1	Cytokine
+TGFA	Cytokine
+TGFB2	Cytokine
+TGFB3	Cytokine
+TGFBR2	Cytokine
+TGFBR3	Cytokine
+THPO	Cytokine
+TMEFF1	Cytokine
+TNF	Cytokine
+TNF4	Cytokine
+TNFRSF10A	Cytokine
+TNFRSF10B	Cytokine
+TNFRSF10C	Cytokine
+TNFRSF10D	Cytokine
+TNFRSF11B	Cytokine
+TNFRSF12A	Cytokine
+TNFRSF19	Cytokine
+TNFRSF1A	Cytokine
+TNFRSF1B	Cytokine
+TNFRSF21	Cytokine
+TNFRSF25	Cytokine
+TNFRSF3	Cytokine
+TNFRSF5	Cytokine
+TNFRSF6	Cytokine
+TNFRSF7	Cytokine
+TNFSF10	Cytokine
+TNFSF11	Cytokine
+TNFSF12	Cytokine
+TNFSF14	Cytokine
+TNFSF15	Cytokine
+TNFSF8	Cytokine
+TPO	Cytokine
+TSLP	Cytokine
+VEGFA	Cytokine
+VEGFB	Cytokine
+VEGFC	Cytokine
+VEGFD	Cytokine
+VTN	Cytokine
+BTLA	immunoinhibitor
+CD160	immunoinhibitor
+CTLA4	immunoinhibitor
+IDO1	immunoinhibitor
+IL10	immunoinhibitor
+IL10RB	immunoinhibitor
+LAG3	immunoinhibitor
+PDCD1	immunoinhibitor
+TGFB1	immunoinhibitor
+TGFBR1	immunoinhibitor
+CD27	immunostimulator
+CD274	immunostimulator
+CD28	immunostimulator
+CD40	immunostimulator
+CD40LG	immunostimulator
+CD70	immunostimulator
+CD80	immunostimulator
+CD86	immunostimulator
+ICOS	immunostimulator
+ICOSLG	immunostimulator
+IL6	immunostimulator
+IL6R	immunostimulator
+PDCD1LG2	immunostimulator
+TMEM173	immunostimulator
+TNFRSF13B	immunostimulator
+TNFRSF13C	immunostimulator
+TNFRSF14	immunostimulator
+TNFRSF18	immunostimulator
+TNFRSF4	immunostimulator
+TNFRSF9	immunostimulator
+TNFSF13	immunostimulator
+TNFSF13B	immunostimulator
+TNFSF18	immunostimulator
+TNFSF4	immunostimulator
+TNFSF9	immunostimulator
+B2M	MHC_class_I
+CALR	MHC_class_I
+CANX	MHC_class_I
+ERAP1 	MHC_class_I
+ERAP2	MHC_class_I
+HLA-A	MHC_class_I
+HLA-B	MHC_class_I
+HLA-C	MHC_class_I
+IRF1  	MHC_class_I
+IRF2  	MHC_class_I
+JAK1	MHC_class_I
+JAK2	MHC_class_I
+NFKB1	MHC_class_I
+NLRC5	MHC_class_I
+PDIA3	MHC_class_I
+PSMB10	MHC_class_I
+PSMB8	MHC_class_I
+PSMB9	MHC_class_I
+STAT1	MHC_class_I
+TAP1	MHC_class_I
+TAP2	MHC_class_I
+TAPBP 	MHC_class_I
+HLA-DPA1	MHC_class_II
+HLA-DPB1	MHC_class_II
+HLA-DPB2	MHC_class_II
+HLA-DQA1	MHC_class_II
+HLA-DQA2	MHC_class_II
+HLA-DQB1	MHC_class_II
+HLA-DQB2	MHC_class_II
+HLA-DRB1	MHC_class_II
+HLA-DRB5	MHC_class_II
+HLA-DRB6	MHC_class_II
+HLA-E	MHC_non_class
+HLA-F	MHC_non_class
+HLA-G	MHC_non_class
+ALK	Common driver gene
+APC	Common driver gene
+ARID1A	Common driver gene
+ARID2	Common driver gene
+ATM	Common driver gene
+ATRX	Common driver gene
+BRAF	Common driver gene
+CDKN2A	Common driver gene
+CREBBP	Common driver gene
+CTNNB1	Common driver gene
+EGFR	Common driver gene
+FAT1	Common driver gene
+FAT3	Common driver gene
+FAT4	Common driver gene
+FBXW7	Common driver gene
+IDH1	Common driver gene
+KDM6A	Common driver gene
+KMT2C	Common driver gene
+KMT2D	Common driver gene
+KRAS	Common driver gene
+LRP1B	Common driver gene
+NF1	Common driver gene
+NOTCH1	Common driver gene
+NRAS	Common driver gene
+PTEN	Common driver gene
+RB1	Common driver gene
+RET	Common driver gene
+ROS1	Common driver gene
+SMAD4	Common driver gene
+TP53	Common driver gene
+ANKRD30A	NY-BR-1
+CTAG1A	NY-ESO-1
+CTAG1B	NY-ESO-1
+MLANA	Other Immunogenic Cancer Antigens
+TPTE	Other Immunogenic Cancer Antigens
+PIK3CA	PI3K
+PIK3CB	PI3K
+PIK3CD	PI3K
+PIK3CG	PI3K
+TYR	Tyrosinase 
+TNFRSF8	CD30
+CEACAM3	CEA
+CEACAM5	CEA
+MET	c-met 
+TNFRSF17	BCMA
+DLL3	delta like canonical Notch ligand 3
+PMEL	gp100
+HPSE	Heparanase
+ERBB2	Her2/neu
+CLDN6	manually_added
+ESR1	manually_added
+PIK3CA	manually_added
+CLDN18	manually_added
+MAGEA4	manually_added
+MAGEA8	manually_added
+PRAME	manually_added
+ANO9	ENSG00000185101,manually_added
+ARHGAP21	ENSG00000107863,manually_added
+CHD5	ENSG00000116254,manually_added
+CTNND2	ENSG00000169862,manually_added
+CTNS	ENSG00000040531,manually_added
+IL13RA1	ENSG00000131724,manually_added
+MAPKAPK2	ENSG00000162889,manually_added
+NPTX2	ENSG00000106236,manually_added
+OVOL2	ENSG00000125850,manually_added
+SDHA	ENSG00000073578,manually_added
+THRA	ENSG00000126351,manually_added
+TMCC3	ENSG00000057704,manually_added
+TNC	ENSG00000041982,manually_added
+UHMK1	ENSG00000152332,manually_added
+COL6A3	ENSG00000163359
+TACSTD2	ENSG00000184292

@@ -1,0 +1,16 @@
+# This script depends on tool netchop. Make sure it runs successfully based on the tutorial netchop.
+# This script is to visualize the neoepitope prediction results including MHC-I and MHC-II
+
+> Rscript run_visualization_neoepitope_prediction.R 
+
+    Required three arguments:
+    arg1: Path to MHC-I prediction result file
+    arg2: Path to MHC-II prediction result file
+    arg3: Path to your output file
+	
+Example:
+Rscript run_visualization_neoepitope_prediction.R classI_file classII_file output_file
+
+
+## For indel neoepitope visualization, it is embedded in the neoepitope_indels folder script
+## For fusion-based neoepitope visualization, it is also embedded in the fusion folder script

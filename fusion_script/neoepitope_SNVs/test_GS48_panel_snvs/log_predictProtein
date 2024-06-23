@@ -1,0 +1,47 @@
+Sender: LSF System <lsfadmin@odcf-cn33u24s04>
+Subject: Job 3953608: <predictProtein_GS48> in cluster <ODCF> Done
+
+Job <predictProtein_GS48> was submitted from host <odcf-worker01> by user <huangz> in cluster <ODCF> at Tue Sep  1 16:54:28 2020
+Job was executed on host(s) <odcf-cn33u24s04>, in queue <medium>, as user <huangz> in cluster <ODCF> at Tue Sep  1 16:54:28 2020
+</home/huangz> was used as the home directory.
+</icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_GS48_panel_snvs> was used as the working directory.
+Started at Tue Sep  1 16:54:28 2020
+Terminated at Tue Sep  1 16:55:17 2020
+Results reported at Tue Sep  1 16:55:17 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/run_predict_protein_fa.sh
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   13.82 sec.
+    Max Memory :                                 971 MB
+    Average Memory :                             130.78 MB
+    Total Requested Memory :                     2048.00 MB
+    Delta Memory :                               1077.00 MB
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                6
+    Run time :                                   46 sec.
+    Turnaround time :                            49 sec.
+
+The output (if any) follows:
+
+NOTICE: for SNPs, column 6 and beyond MAY BE heterozygosity status, quality score, read depth, RMS mapping quality, quality by depth, if these information can be recognized automatically
+NOTICE: for indels, column 6 and beyond MAY BE heterozygosity status, quality score, read depth, read count supporting indel call, RMS mapping quality, if these information can be recognized automatically
+NOTICE: Read 3776 lines and wrote 2600 different variants at 2775 genomic positions (1767 SNPs and 1008 indels)
+NOTICE: Among 2775 different variants at 2775 positions, 2301 are heterozygotes, 299 are homozygotes
+NOTICE: Among 1767 SNPs, 1220 are transitions, 547 are transversions (ratio=2.23)
+perl /icgc/ngs_share/annovar/annovar_Feb2016/convert2annovar.pl -format vcf4old /icgc/dkfzlsdf/analysis/D120/immunoinfor/panel_seq/GS48/E-2020-25802_TSO500_34643.genome.filtered.vcf > /icgc/dkfzlsdf/analysis/D120/immunoinfor/panel_seq/GS48/E-2020-25802_TSO500_34643.genome.filtered.vcf.annovar
+NOTICE: The --geneanno operation is set to ON by default
+NOTICE: Output files were written to /icgc/dkfzlsdf/analysis/D120/immunoinfor/panel_seq/GS48/E-2020-25802_TSO500_34643.genome.filtered.vcf.annovar.variant_function, /icgc/dkfzlsdf/analysis/D120/immunoinfor/panel_seq/GS48/E-2020-25802_TSO500_34643.genome.filtered.vcf.annovar.exonic_variant_function
+NOTICE: Reading gene annotation from /icgc/ngs_share/annovar/annovar_Feb2016/humandb/hg19_refGene.txt ... Done with 52068 transcripts (including 11837 without coding sequence annotation) for 26464 unique genes
+NOTICE: Processing next batch with 2775 unique variants in 2775 input lines
+NOTICE: Reading FASTA sequences from /icgc/ngs_share/annovar/annovar_Feb2016/humandb/hg19_refGeneMrna.fa ... Done with 681 sequences
+WARNING: A total of 356 sequences will be ignored due to lack of correct ORF annotation

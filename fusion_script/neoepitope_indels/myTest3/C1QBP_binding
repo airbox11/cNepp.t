@@ -1,0 +1,17 @@
+   26  HLA-A*32:01      SLRCLEVGSW  SLRCLEVSW  0  7  1  0  0   SLRCLEVGSW           C1QBP 0.3442460  1206.1  1.4881 <= WB
+    6  HLA-B*35:03       FVDFLSDEI  FVDFLSDEI  0  0  0  0  0    FVDFLSDEI           C1QBP 0.2067890  5336.7  0.7029 <= WB
+    6  HLA-C*03:03       FVDFLSDEI  FVDFLSDEI  0  0  0  0  0    FVDFLSDEI           C1QBP 0.4384690   435.1  0.9078 <= WB
+    5  HLA-C*04:01      AFVDFLSDEI  AFDFLSDEI  0  2  1  0  0   AFVDFLSDEI           C1QBP 0.1556730  9278.3  0.6705 <= WB
+    6  HLA-C*04:01       FVDFLSDEI  FVDFLSDEI  0  0  0  0  0    FVDFLSDEI           C1QBP 0.2352430  3922.6  0.1711 <= SB
+   19  HLA-C*04:01       KFRSIKPSL  KFRSIKPSL  0  0  0  0  0    KFRSIKPSL           C1QBP 0.1466480 10230.0  0.7935 <= WB
+  14     DRB1_1454      IRRKEKFRSIKPSLR           C1QBP    6   FRSIKPSLR     0.570         0.490        248.64     8.50      NA   <=WB
+  15     DRB1_1454      RRKEKFRSIKPSLRC           C1QBP    5   FRSIKPSLR     0.675         0.500        223.74     6.50      NA   <=WB
+  16     DRB1_1454      RKEKFRSIKPSLRCL           C1QBP    4   FRSIKPSLR     0.645         0.537        149.51     2.00      NA   <=SB
+  17     DRB1_1454      KEKFRSIKPSLRCLE           C1QBP    3   FRSIKPSLR     0.565         0.540        145.07     1.80      NA   <=SB
+  18     DRB1_1454      EKFRSIKPSLRCLEV           C1QBP    2   FRSIKPSLR     0.480         0.533        157.00     2.50      NA   <=WB
+  19     DRB1_1454      KFRSIKPSLRCLEVG           C1QBP    1   FRSIKPSLR     0.460         0.515        190.89     4.50      NA   <=WB
+  14     DRB1_1501      IRRKEKFRSIKPSLR           C1QBP    6   FRSIKPSLR     0.640         0.540        145.64    10.00      NA   <=WB
+  15     DRB1_1501      RRKEKFRSIKPSLRC           C1QBP    5   FRSIKPSLR     0.740         0.556        121.49     8.00      NA   <=WB
+  16     DRB1_1501      RKEKFRSIKPSLRCL           C1QBP    4   FRSIKPSLR     0.775         0.607         70.04     3.00      NA   <=WB
+  17     DRB1_1501      KEKFRSIKPSLRCLE           C1QBP    3   FRSIKPSLR     0.775         0.590         84.11     4.50      NA   <=WB
+  18     DRB1_1501      EKFRSIKPSLRCLEV           C1QBP    2   FRSIKPSLR     0.720         0.563        112.66     7.00      NA   <=WB

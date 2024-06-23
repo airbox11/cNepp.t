@@ -1,0 +1,1598 @@
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/bin/netMHCpan -a HLA-A02:01 -BA -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest2/FAT1_targeted.fa
+# Wed Nov 18 15:15:34 2020
+# User: huangz
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest2
+# Host: Linux odcf-worker01 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-A02:01           HLA allele
+# -BA      1                    Make Binding affinity prediction
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest2/FAT1_targeted.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/synlist.bin Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-A02:01           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest2/FAT1_targeted.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/threshold/%s.thr.%s Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/allelenames File with print names for alleles
+#	[-BA]                1                    Make Binding affinity prediction
+
+# NetMHCpan version 4.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//tmp/netMHCpanmyjgc3
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+# Make binding affinity predictions
+
+HLA-A02:01 : Distance to training data  0.000 (using nearest neighbor HLA-A02:01)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity     Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-A*02:01     VNVNVTDINDN  VNVNVTDIN  0  8  2  0  0  VNVNVTDINDN            FAT1 0.0053670 47179.2 96.3849
+    2  HLA-A*02:01     NVNVTDINDNT  NVNVTDINT  0  7  2  0  0  NVNVTDINDNT            FAT1 0.0211190 39786.2 70.1015
+    3  HLA-A*02:01     VNVTDINDNTP  VTDINDNTP  0  1  2  0  0  VNVTDINDNTP            FAT1 0.0120160 43904.3 86.7794
+    4  HLA-A*02:01     NVTDINDNTPV  NVTDINTPV  0  5  2  0  0  NVTDINDNTPV            FAT1 0.2017970  5632.9 10.1356
+    5  HLA-A*02:01     VTDINDNTPVF  VTINDNTPV  0  2  1  0  0   VTDINDNTPV            FAT1 0.0654660 24623.4 31.5925
+    6  HLA-A*02:01     TDINDNTPVFS  TINDNTPVF  0  1  1  0  0   TDINDNTPVF            FAT1 0.0196930 40404.8 72.5542
+    7  HLA-A*02:01     DINDNTPVFSA  DINDNVFSA  0  5  2  0  0  DINDNTPVFSA            FAT1 0.0606000 25954.5 33.7337
+    8  HLA-A*02:01     INDNTPVFSAK  INTPVFSAK  0  1  2  0  0  INDNTPVFSAK            FAT1 0.0245860 38321.4 64.6523
+    9  HLA-A*02:01     NDNTPVFSAKT  NTPVFSAKT  0  1  2  0  0  NDNTPVFSAKT            FAT1 0.0270120 37328.6 61.2228
+   10  HLA-A*02:01     DNTPVFSAKTP  NTPVFSATP  1  7  1  0  0   NTPVFSAKTP            FAT1 0.0137280 43098.5 83.4977
+   11  HLA-A*02:01     NTPVFSAKTPT  NTPVFSAPT  0  7  2  0  0  NTPVFSAKTPT            FAT1 0.0562480 27205.8 35.8614
+   12  HLA-A*02:01     TPVFSAKTPTR  TVFSAKTPT  0  1  1  0  0   TPVFSAKTPT            FAT1 0.0230660 38956.8 67.0145
+   13  HLA-A*02:01     PVFSAKTPTRQ  PVFSAKTPQ  0  8  2  0  0  PVFSAKTPTRQ            FAT1 0.0132890 43303.8 84.3368
+   14  HLA-A*02:01     VFSAKTPTRQS  VFSAKTPTS  0  8  2  0  0  VFSAKTPTRQS            FAT1 0.0168650 41660.2 77.5912
+   15  HLA-A*02:01     FSAKTPTRQSS  FSAKTPTSS  0  7  2  0  0  FSAKTPTRQSS            FAT1 0.0199080 40310.9 72.1844
+   16  HLA-A*02:01     SAKTPTRQSSV  SAKTPTSSV  0  6  2  0  0  SAKTPTRQSSV            FAT1 0.0452910 30630.1 42.6314
+   17  HLA-A*02:01     AKTPTRQSSVK  ATPTRQSSV  0  1  1  0  0   AKTPTRQSSV            FAT1 0.0165380 41807.9 78.1939
+   18  HLA-A*02:01     KTPTRQSSVKM  KTPTSSVKM  0  4  2  0  0  KTPTRQSSVKM            FAT1 0.0290940 36497.1 58.5122
+   19  HLA-A*02:01     TPTRQSSVKMP  TTRQSSVKM  0  1  1  0  0   TPTRQSSVKM            FAT1 0.0103170 44718.8 90.0394
+   20  HLA-A*02:01     PTRQSSVKMPF  RQSSVKMPF  2  0  0  0  0    RQSSVKMPF            FAT1 0.0339740 34620.0 52.8635
+   21  HLA-A*02:01     TRQSSVKMPFL  RQSSVMPFL  1  5  1  0  0   RQSSVKMPFL            FAT1 0.1145460 14478.4 18.9187
+   22  HLA-A*02:01     RQSSVKMPFLS  RQSSVMPFL  0  5  1  0  0   RQSSVKMPFL            FAT1 0.0978080 17352.9 22.0191
+   23  HLA-A*02:01     QSSVKMPFLSS  QSSMPFLSS  0  3  2  0  0  QSSVKMPFLSS            FAT1 0.0292890 36420.2 58.2738
+   24  HLA-A*02:01     SSVKMPFLSSL  SVMPFLSSL  1  2  1  0  0   SVKMPFLSSL            FAT1 0.2411780  3678.6  7.9730
+   25  HLA-A*02:01     SVKMPFLSSLS  SVMPFLSSL  0  2  1  0  0   SVKMPFLSSL            FAT1 0.1830710  6898.0 11.4098
+   26  HLA-A*02:01     VKMPFLSSLSS  KMFLSSLSS  1  2  1  0  0   KMPFLSSLSS            FAT1 0.0669210 24238.8 31.0072
+   27  HLA-A*02:01     KMPFLSSLSSR  KMLSSLSSR  0  2  2  0  0  KMPFLSSLSSR            FAT1 0.0669130 24240.8 31.0105
+   28  HLA-A*02:01     MPFLSSLSSRL  MLSSLSSRL  0  1  2  0  0  MPFLSSLSSRL            FAT1 0.3281650  1435.3  4.8907
+   29  HLA-A*02:01     PFLSSLSSRLW  FLSSLSSRL  1  0  0  0  0    FLSSLSSRL            FAT1 0.1119480 14891.2 19.3525
+   30  HLA-A*02:01     FLSSLSSRLWP  FLSSLSSRL  0  0  0  0  0    FLSSLSSRL            FAT1 0.2243350  4413.9  8.8220
+   31  HLA-A*02:01     LSSLSSRLWPM  LLSSRLWPM  0  1  2  0  0  LSSLSSRLWPM            FAT1 0.3210440  1550.2  5.0953
+   32  HLA-A*02:01     SSLSSRLWPMM  SLSSRLWPM  1  8  1  0  0   SLSSRLWPMM            FAT1 0.1947800  6077.2 10.5944
+   33  HLA-A*02:01     SLSSRLWPMMP  SLSSRLWPM  0  0  0  0  0    SLSSRLWPM            FAT1 0.2031560  5550.7 10.0467
+   34  HLA-A*02:01     LSSRLWPMMPM  LSLWPMMPM  0  2  2  0  0  LSSRLWPMMPM            FAT1 0.1258500 12811.6 17.2173
+   35  HLA-A*02:01     SSRLWPMMPMD  SLWPMMPMD  0  1  2  0  0  SSRLWPMMPMD            FAT1 0.0878640 19324.1 24.3348
+   36  HLA-A*02:01     SRLWPMMPMDL  RLWPMMPML  1  8  1  0  0   RLWPMMPMDL            FAT1 0.3945620   699.7  3.3799
+   37  HLA-A*02:01     RLWPMMPMDLP  RLWPMMPML  0  8  1  0  0   RLWPMMPMDL            FAT1 0.3549850  1073.8  4.2045
+   38  HLA-A*02:01     LWPMMPMDLPT  LMMPMDLPT  0  1  2  0  0  LWPMMPMDLPT            FAT1 0.3930760   711.1  3.4083
+   39  HLA-A*02:01     WPMMPMDLPTA  WMPMDLPTA  0  1  2  0  0  WPMMPMDLPTA            FAT1 0.2797330  2423.9  6.4345
+   40  HLA-A*02:01     PMMPMDLPTAT  MMMDLPTAT  1  2  1  0  0   MMPMDLPTAT            FAT1 0.2064640  5355.5  9.8465
+   41  HLA-A*02:01     MMPMDLPTATS  MMMDLPTAT  0  2  1  0  0   MMPMDLPTAT            FAT1 0.1809320  7059.5 11.5690
+   42  HLA-A*02:01     MPMDLPTATST  MMDLPTATS  0  1  1  0  0   MPMDLPTATS            FAT1 0.0571350 26946.0 35.4174
+   43  HLA-A*02:01     PMDLPTATSTT  MLPTATSTT  1  1  1  0  0   MDLPTATSTT            FAT1 0.0484990 29585.2 40.3597
+   44  HLA-A*02:01     MDLPTATSTTQ  MLPTATSTT  0  1  1  0  0   MDLPTATSTT            FAT1 0.0304980 35946.8 56.7958
+   45  HLA-A*02:01     DLPTATSTTQL  DLATSTTQL  0  2  2  0  0  DLPTATSTTQL            FAT1 0.0592520 26335.8 34.3720
+   46  HLA-A*02:01     LPTATSTTQLX  LATSTTQLX  0  1  2  0  0  LPTATSTTQLX            FAT1 0.0278440 36994.0 60.0466
+    1  HLA-A*02:01      VNVNVTDIND  VVNVTDIND  0  1  1  0  0   VNVNVTDIND            FAT1 0.0130380 43421.5 84.8165
+    2  HLA-A*02:01      NVNVTDINDN  NVNVTDINN  0  8  1  0  0   NVNVTDINDN            FAT1 0.0100100 44867.6 90.5657
+    3  HLA-A*02:01      VNVTDINDNT  VVTDINDNT  0  1  1  0  0   VNVTDINDNT            FAT1 0.0362130 33791.4 50.4801
+    4  HLA-A*02:01      NVTDINDNTP  NVTDINNTP  0  6  1  0  0   NVTDINDNTP            FAT1 0.0258750 37790.6 62.8301
+    5  HLA-A*02:01      VTDINDNTPV  VTINDNTPV  0  2  1  0  0   VTDINDNTPV            FAT1 0.2226770  4493.8  8.9107
+    6  HLA-A*02:01      TDINDNTPVF  TINDNTPVF  0  1  1  0  0   TDINDNTPVF            FAT1 0.0527910 28242.7 37.7159
+    7  HLA-A*02:01      DINDNTPVFS  DINDNTVFS  0  6  1  0  0   DINDNTPVFS            FAT1 0.0365060 33684.4 50.1682
+    8  HLA-A*02:01      INDNTPVFSA  INDNTVFSA  0  5  1  0  0   INDNTPVFSA            FAT1 0.0633500 25193.6 32.4940
+    9  HLA-A*02:01      NDNTPVFSAK  NDNPVFSAK  0  3  1  0  0   NDNTPVFSAK            FAT1 0.0252160 38061.1 63.7617
+   10  HLA-A*02:01      DNTPVFSAKT  DTPVFSAKT  0  1  1  0  0   DNTPVFSAKT            FAT1 0.0339260 34638.0 52.9146
+   11  HLA-A*02:01      NTPVFSAKTP  NTPVFSATP  0  7  1  0  0   NTPVFSAKTP            FAT1 0.0360250 33860.2 50.6802
+   12  HLA-A*02:01      TPVFSAKTPT  TVFSAKTPT  0  1  1  0  0   TPVFSAKTPT            FAT1 0.0703130 23365.3 29.7221
+   13  HLA-A*02:01      PVFSAKTPTR  PVFSATPTR  0  5  1  0  0   PVFSAKTPTR            FAT1 0.0293970 36377.6 58.1418
+   14  HLA-A*02:01      VFSAKTPTRQ  VFSAKTPTQ  0  8  1  0  0   VFSAKTPTRQ            FAT1 0.0193200 40568.2 73.1957
+   15  HLA-A*02:01      FSAKTPTRQS  FSATPTRQS  0  3  1  0  0   FSAKTPTRQS            FAT1 0.0292880 36420.6 58.2751
+   16  HLA-A*02:01      SAKTPTRQSS  SAKTPTQSS  0  6  1  0  0   SAKTPTRQSS            FAT1 0.0164490 41848.2 78.3579
+   17  HLA-A*02:01      AKTPTRQSSV  ATPTRQSSV  0  1  1  0  0   AKTPTRQSSV            FAT1 0.0588200 26459.2 34.5835
+   18  HLA-A*02:01      KTPTRQSSVK  KTPTRQSSV  0  0  0  0  0    KTPTRQSSV            FAT1 0.0334280 34825.1 53.4448
+   19  HLA-A*02:01      TPTRQSSVKM  TTRQSSVKM  0  1  1  0  0   TPTRQSSVKM            FAT1 0.0245850 38321.8 64.6537
+   20  HLA-A*02:01      PTRQSSVKMP  PTRQSSVMP  0  7  1  0  0   PTRQSSVKMP            FAT1 0.0093080 45209.7 91.7689
+   21  HLA-A*02:01      TRQSSVKMPF  TQSSVKMPF  0  1  1  0  0   TRQSSVKMPF            FAT1 0.0855850 19806.5 24.9300
+   22  HLA-A*02:01      RQSSVKMPFL  RQSSVMPFL  0  5  1  0  0   RQSSVKMPFL            FAT1 0.3635160   979.1  4.0071
+   23  HLA-A*02:01      QSSVKMPFLS  QSSVMPFLS  0  4  1  0  0   QSSVKMPFLS            FAT1 0.0404600 32273.8 46.5220
+   24  HLA-A*02:01      SSVKMPFLSS  SSVMPFLSS  0  3  1  0  0   SSVKMPFLSS            FAT1 0.0683560 23865.3 30.4594
+   25  HLA-A*02:01      SVKMPFLSSL  SVMPFLSSL  0  2  1  0  0   SVKMPFLSSL            FAT1 0.5252410   170.2  1.4896 <= WB
+   26  HLA-A*02:01      VKMPFLSSLS  VMPFLSSLS  0  1  1  0  0   VKMPFLSSLS            FAT1 0.1117490 14923.3 19.3859
+   27  HLA-A*02:01      KMPFLSSLSS  KMFLSSLSS  0  2  1  0  0   KMPFLSSLSS            FAT1 0.2371840  3841.0  8.1653
+   28  HLA-A*02:01      MPFLSSLSSR  MPFLSLSSR  0  4  1  0  0   MPFLSSLSSR            FAT1 0.0632260 25227.4 32.5495
+   29  HLA-A*02:01      PFLSSLSSRL  FLSSLSSRL  1  0  0  0  0    FLSSLSSRL            FAT1 0.4684600   314.6  2.1821
+   30  HLA-A*02:01      FLSSLSSRLW  FLSSLSSRL  0  0  0  0  0    FLSSLSSRL            FAT1 0.3905120   731.1  3.4574
+   31  HLA-A*02:01      LSSLSSRLWP  LSLSSRLWP  0  1  1  0  0   LSSLSSRLWP            FAT1 0.0357990 33943.1 50.9208
+   32  HLA-A*02:01      SSLSSRLWPM  SLSSRLWPM  0  1  1  0  0   SSLSSRLWPM            FAT1 0.4736000   297.5  2.1118
+   33  HLA-A*02:01      SLSSRLWPMM  SLSSRLWPM  0  8  1  0  0   SLSSRLWPMM            FAT1 0.4758370   290.4  2.0812
+   34  HLA-A*02:01      LSSRLWPMMP  LSSLWPMMP  0  3  1  0  0   LSSRLWPMMP            FAT1 0.0500540 29091.6 39.3646
+   35  HLA-A*02:01      SSRLWPMMPM  SSLWPMMPM  0  2  1  0  0   SSRLWPMMPM            FAT1 0.2052900  5424.0  9.9160
+   36  HLA-A*02:01      SRLWPMMPMD  SLWPMMPMD  0  1  1  0  0   SRLWPMMPMD            FAT1 0.1256340 12841.6 17.2471
+   37  HLA-A*02:01      RLWPMMPMDL  RLWPMMPML  0  8  1  0  0   RLWPMMPMDL            FAT1 0.6927930    27.8  0.3764 <= SB
+   38  HLA-A*02:01      LWPMMPMDLP  LWMMPMDLP  0  2  1  0  0   LWPMMPMDLP            FAT1 0.0425200 31562.4 44.8014
+   39  HLA-A*02:01      WPMMPMDLPT  WMMPMDLPT  0  1  1  0  0   WPMMPMDLPT            FAT1 0.5246470   171.3  1.4950 <= WB
+   40  HLA-A*02:01      PMMPMDLPTA  PMMPMLPTA  0  5  1  0  0   PMMPMDLPTA            FAT1 0.3672620   940.2  3.9297
+   41  HLA-A*02:01      MMPMDLPTAT  MMMDLPTAT  0  2  1  0  0   MMPMDLPTAT            FAT1 0.5373500   149.3  1.3766 <= WB
+   42  HLA-A*02:01      MPMDLPTATS  MMDLPTATS  0  1  1  0  0   MPMDLPTATS            FAT1 0.1936650  6151.0 10.6673
+   43  HLA-A*02:01      PMDLPTATST  PMDLPTATT  0  8  1  0  0   PMDLPTATST            FAT1 0.0681820 23910.3 30.5258
+   44  HLA-A*02:01      MDLPTATSTT  MLPTATSTT  0  1  1  0  0   MDLPTATSTT            FAT1 0.1464160 10255.7 14.6903
+   45  HLA-A*02:01      DLPTATSTTQ  DLPTATSTT  0  0  0  0  0    DLPTATSTT            FAT1 0.0223780 39247.9 68.1025
+   46  HLA-A*02:01      LPTATSTTQL  LTATSTTQL  0  1  1  0  0   LPTATSTTQL            FAT1 0.0868740 19532.2 24.5934
+   47  HLA-A*02:01      PTATSTTQLX  TATSTTQLX  1  0  0  0  0    TATSTTQLX            FAT1 0.0191280 40652.6 73.5260
+    1  HLA-A*02:01       VNVNVTDIN  VNVNVTDIN  0  0  0  0  0    VNVNVTDIN            FAT1 0.0079830 45862.5 94.0401
+    2  HLA-A*02:01       NVNVTDIND  NVNVTDIND  0  0  0  0  0    NVNVTDIND            FAT1 0.0135830 43166.2 83.7748
+    3  HLA-A*02:01       VNVTDINDN  VNVTDINDN  0  0  0  0  0    VNVTDINDN            FAT1 0.0048790 47429.0 96.7136
+    4  HLA-A*02:01       NVTDINDNT  NVTDINDNT  0  0  0  0  0    NVTDINDNT            FAT1 0.0501530 29060.5 39.3031
+    5  HLA-A*02:01       VTDINDNTP  VTDINDNTP  0  0  0  0  0    VTDINDNTP            FAT1 0.0293940 36378.8 58.1455
+    6  HLA-A*02:01       TDINDNTPV  TDINDNTPV  0  0  0  0  0    TDINDNTPV            FAT1 0.0716640 23026.2 29.2236
+    7  HLA-A*02:01       DINDNTPVF  DINDNTPVF  0  0  0  0  0    DINDNTPVF            FAT1 0.0490360 29413.8 39.9969
+    8  HLA-A*02:01       INDNTPVFS  INDNTPVFS  0  0  0  0  0    INDNTPVFS            FAT1 0.0264150 37570.5 62.0667
+    9  HLA-A*02:01       NDNTPVFSA  NDNTPVFSA  0  0  0  0  0    NDNTPVFSA            FAT1 0.0376090 33284.8 49.0699
+   10  HLA-A*02:01       DNTPVFSAK  DNTPVFSAK  0  0  0  0  0    DNTPVFSAK            FAT1 0.0214030 39664.1 69.6442
+   11  HLA-A*02:01       NTPVFSAKT  NTPVFSAKT  0  0  0  0  0    NTPVFSAKT            FAT1 0.0738700 22483.1 28.4409
+   12  HLA-A*02:01       TPVFSAKTP  TPVFSAKTP  0  0  0  0  0    TPVFSAKTP            FAT1 0.0113040 44243.8 88.1476
+   13  HLA-A*02:01       PVFSAKTPT  PVFSAKTPT  0  0  0  0  0    PVFSAKTPT            FAT1 0.0447980 30794.0 43.0016
+   14  HLA-A*02:01       VFSAKTPTR  VFSAKTPTR  0  0  0  0  0    VFSAKTPTR            FAT1 0.0306540 35886.2 56.6051
+   15  HLA-A*02:01       FSAKTPTRQ  FSAKTPTRQ  0  0  0  0  0    FSAKTPTRQ            FAT1 0.0235040 38772.6 66.3219
+   16  HLA-A*02:01       SAKTPTRQS  SAKTPTRQS  0  0  0  0  0    SAKTPTRQS            FAT1 0.0166980 41735.6 77.8990
+   17  HLA-A*02:01       AKTPTRQSS  AKTPTRQSS  0  0  0  0  0    AKTPTRQSS            FAT1 0.0068080 46449.3 95.4143
+   18  HLA-A*02:01       KTPTRQSSV  KTPTRQSSV  0  0  0  0  0    KTPTRQSSV            FAT1 0.1289920 12383.4 16.7893
+   19  HLA-A*02:01       TPTRQSSVK  TPTRQSSVK  0  0  0  0  0    TPTRQSSVK            FAT1 0.0117500 44030.9 87.2905
+   20  HLA-A*02:01       PTRQSSVKM  PTRQSSVKM  0  0  0  0  0    PTRQSSVKM            FAT1 0.0196580 40420.1 72.6144
+   21  HLA-A*02:01       TRQSSVKMP  TRQSSVKMP  0  0  0  0  0    TRQSSVKMP            FAT1 0.0078520 45927.6 94.2647
+   22  HLA-A*02:01       RQSSVKMPF  RQSSVKMPF  0  0  0  0  0    RQSSVKMPF            FAT1 0.1729030  7700.2 12.1973
+   23  HLA-A*02:01       QSSVKMPFL  QSSVKMPFL  0  0  0  0  0    QSSVKMPFL            FAT1 0.0954260 17806.0 22.5612
+   24  HLA-A*02:01       SSVKMPFLS  SSVKMPFLS  0  0  0  0  0    SSVKMPFLS            FAT1 0.0619890 25567.3 33.1046
+   25  HLA-A*02:01       SVKMPFLSS  SVKMPFLSS  0  0  0  0  0    SVKMPFLSS            FAT1 0.0727170 22765.4 28.8438
+   26  HLA-A*02:01       VKMPFLSSL  VKMPFLSSL  0  0  0  0  0    VKMPFLSSL            FAT1 0.1292820 12344.6 16.7503
+   27  HLA-A*02:01       KMPFLSSLS  KMPFLSSLS  0  0  0  0  0    KMPFLSSLS            FAT1 0.1761550  7434.0 11.9245
+   28  HLA-A*02:01       MPFLSSLSS  MPFLSSLSS  0  0  0  0  0    MPFLSSLSS            FAT1 0.0675970 24062.1 30.7489
+   29  HLA-A*02:01       PFLSSLSSR  PFLSSLSSR  0  0  0  0  0    PFLSSLSSR            FAT1 0.0177610 41258.3 75.9399
+   30  HLA-A*02:01       FLSSLSSRL  FLSSLSSRL  0  0  0  0  0    FLSSLSSRL            FAT1 0.7755110    11.3  0.1353 <= SB
+   31  HLA-A*02:01       LSSLSSRLW  LSSLSSRLW  0  0  0  0  0    LSSLSSRLW            FAT1 0.0355040 34051.6 51.2348
+   32  HLA-A*02:01       SSLSSRLWP  SSLSSRLWP  0  0  0  0  0    SSLSSRLWP            FAT1 0.0422610 31651.0 45.0108
+   33  HLA-A*02:01       SLSSRLWPM  SLSSRLWPM  0  0  0  0  0    SLSSRLWPM            FAT1 0.7452490    15.7  0.1950 <= SB
+   34  HLA-A*02:01       LSSRLWPMM  LSSRLWPMM  0  0  0  0  0    LSSRLWPMM            FAT1 0.0989640 17137.3 21.7787
+   35  HLA-A*02:01       SSRLWPMMP  SSRLWPMMP  0  0  0  0  0    SSRLWPMMP            FAT1 0.0357550 33959.3 50.9676
+   36  HLA-A*02:01       SRLWPMMPM  SRLWPMMPM  0  0  0  0  0    SRLWPMMPM            FAT1 0.1247670 12962.6 17.3667
+   37  HLA-A*02:01       RLWPMMPMD  RLWPMMPMD  0  0  0  0  0    RLWPMMPMD            FAT1 0.2221200  4521.0  8.9405
+   38  HLA-A*02:01       LWPMMPMDL  LWPMMPMDL  0  0  0  0  0    LWPMMPMDL            FAT1 0.0641150 24985.9 32.1514
+   39  HLA-A*02:01       WPMMPMDLP  WPMMPMDLP  0  0  0  0  0    WPMMPMDLP            FAT1 0.0347830 34318.3 52.0023
+   40  HLA-A*02:01       PMMPMDLPT  PMMPMDLPT  0  0  0  0  0    PMMPMDLPT            FAT1 0.2575660  3080.9  7.2780
+   41  HLA-A*02:01       MMPMDLPTA  MMPMDLPTA  0  0  0  0  0    MMPMDLPTA            FAT1 0.6667850    36.8  0.4832 <= SB
+   42  HLA-A*02:01       MPMDLPTAT  MPMDLPTAT  0  0  0  0  0    MPMDLPTAT            FAT1 0.0893550 19014.9 23.9520
+   43  HLA-A*02:01       PMDLPTATS  PMDLPTATS  0  0  0  0  0    PMDLPTATS            FAT1 0.0701630 23403.2 29.7775
+   44  HLA-A*02:01       MDLPTATST  MDLPTATST  0  0  0  0  0    MDLPTATST            FAT1 0.0348270 34302.0 51.9555
+   45  HLA-A*02:01       DLPTATSTT  DLPTATSTT  0  0  0  0  0    DLPTATSTT            FAT1 0.0625810 25404.1 32.8383
+   46  HLA-A*02:01       LPTATSTTQ  LPTATSTTQ  0  0  0  0  0    LPTATSTTQ            FAT1 0.0135900 43162.9 83.7615
+   47  HLA-A*02:01       PTATSTTQL  PTATSTTQL  0  0  0  0  0    PTATSTTQL            FAT1 0.0432310 31320.5 44.2276
+   48  HLA-A*02:01       TATSTTQLX  TATSTTQLX  0  0  0  0  0    TATSTTQLX            FAT1 0.0318290 35432.9 55.1687
+    1  HLA-A*02:01        VNVNVTDI  -VNVNVTDI  0  0  0  0  1     VNVNVTDI            FAT1 0.0200720 40239.5 71.9023
+    2  HLA-A*02:01        NVNVTDIN  NVNVTDIN-  0  0  0  8  1     NVNVTDIN            FAT1 0.0097480 44995.0 91.0147
+    3  HLA-A*02:01        VNVTDIND  VNVTDIND-  0  0  0  8  1     VNVTDIND            FAT1 0.0047960 47471.6 96.7695
+    4  HLA-A*02:01        NVTDINDN  NVTDINDN-  0  0  0  8  1     NVTDINDN            FAT1 0.0083710 45670.4 93.3750
+    5  HLA-A*02:01        VTDINDNT  VT-DINDNT  0  0  0  2  1     VTDINDNT            FAT1 0.0187430 40822.3 74.1882
+    6  HLA-A*02:01        TDINDNTP  -TDINDNTP  0  0  0  0  1     TDINDNTP            FAT1 0.0061670 46772.6 95.8460
+    7  HLA-A*02:01        DINDNTPV  DINDNT-PV  0  0  0  6  1     DINDNTPV            FAT1 0.0396760 32548.7 47.2018
+    8  HLA-A*02:01        INDNTPVF  -INDNTPVF  0  0  0  0  1     INDNTPVF            FAT1 0.0213600 39682.6 69.7122
+    9  HLA-A*02:01        NDNTPVFS  N-DNTPVFS  0  0  0  1  1     NDNTPVFS            FAT1 0.0082400 45735.2 93.5996
+   10  HLA-A*02:01        DNTPVFSA  D-NTPVFSA  0  0  0  1  1     DNTPVFSA            FAT1 0.0175860 41336.5 76.2624
+   11  HLA-A*02:01        NTPVFSAK  NT-PVFSAK  0  0  0  2  1     NTPVFSAK            FAT1 0.0275020 37131.2 60.5301
+   12  HLA-A*02:01        TPVFSAKT  -TPVFSAKT  0  0  0  0  1     TPVFSAKT            FAT1 0.0170290 41586.4 77.2890
+   13  HLA-A*02:01        PVFSAKTP  PVFSAKTP-  0  0  0  8  1     PVFSAKTP            FAT1 0.0103480 44703.9 89.9846
+   14  HLA-A*02:01        VFSAKTPT  -VFSAKTPT  0  0  0  0  1     VFSAKTPT            FAT1 0.0213300 39695.5 69.7596
+   15  HLA-A*02:01        FSAKTPTR  FS-AKTPTR  0  0  0  2  1     FSAKTPTR            FAT1 0.0244960 38358.7 64.7795
+   16  HLA-A*02:01        SAKTPTRQ  SAKTPTRQ-  0  0  0  8  1     SAKTPTRQ            FAT1 0.0070610 46322.3 95.2438
+   17  HLA-A*02:01        AKTPTRQS  -AKTPTRQS  0  0  0  0  1     AKTPTRQS            FAT1 0.0047310 47505.0 96.8133
+   18  HLA-A*02:01        KTPTRQSS  KTPTR-QSS  0  0  0  5  1     KTPTRQSS            FAT1 0.0127310 43566.0 85.4055
+   19  HLA-A*02:01        TPTRQSSV  -TPTRQSSV  0  0  0  0  1     TPTRQSSV            FAT1 0.0209330 39866.4 70.4214
+   20  HLA-A*02:01        PTRQSSVK  PTRQSSV-K  0  0  0  7  1     PTRQSSVK            FAT1 0.0073590 46173.2 95.0431
+   21  HLA-A*02:01        TRQSSVKM  -TRQSSVKM  0  0  0  0  1     TRQSSVKM            FAT1 0.0124230 43711.4 85.9973
+   22  HLA-A*02:01        RQSSVKMP  RQSSVKMP-  0  0  0  8  1     RQSSVKMP            FAT1 0.0272980 37213.3 60.8185
+   23  HLA-A*02:01        QSSVKMPF  -QSSVKMPF  0  0  0  0  1     QSSVKMPF            FAT1 0.0285350 36718.5 59.1956
+   24  HLA-A*02:01        SSVKMPFL  SSVK-MPFL  0  0  0  4  1     SSVKMPFL            FAT1 0.0547500 27650.4 36.6326
+   25  HLA-A*02:01        SVKMPFLS  SV-KMPFLS  0  0  0  2  1     SVKMPFLS            FAT1 0.0312500 35655.6 55.8765
+   26  HLA-A*02:01        VKMPFLSS  VKMPFL-SS  0  0  0  6  1     VKMPFLSS            FAT1 0.0206350 39995.1 70.9340
+   27  HLA-A*02:01        KMPFLSSL  KM-PFLSSL  0  0  0  2  1     KMPFLSSL            FAT1 0.3142640  1668.2  5.2977
+   28  HLA-A*02:01        MPFLSSLS  -MPFLSSLS  0  0  0  0  1     MPFLSSLS            FAT1 0.0348320 34300.1 51.9502
+   29  HLA-A*02:01        PFLSSLSS  -PFLSSLSS  0  0  0  0  1     PFLSSLSS            FAT1 0.0117650 44023.7 87.2617
+   30  HLA-A*02:01        FLSSLSSR  FL-SSLSSR  0  0  0  2  1     FLSSLSSR            FAT1 0.0937610 18129.7 22.9401
+   31  HLA-A*02:01        LSSLSSRL  -LSSLSSRL  0  0  0  0  1     LSSLSSRL            FAT1 0.0717570 23003.1 29.1893
+   32  HLA-A*02:01        SSLSSRLW  SSLSSRLW-  0  0  0  8  1     SSLSSRLW            FAT1 0.0224290 39226.3 68.0218
+   33  HLA-A*02:01        SLSSRLWP  SLSSRLWP-  0  0  0  8  1     SLSSRLWP            FAT1 0.1594980  8902.1 13.4046
+   34  HLA-A*02:01        LSSRLWPM  -LSSRLWPM  0  0  0  0  1     LSSRLWPM            FAT1 0.2113420  5080.2  9.5580
+   35  HLA-A*02:01        SSRLWPMM  SS-RLWPMM  0  0  0  2  1     SSRLWPMM            FAT1 0.0310520 35732.0 56.1186
+   36  HLA-A*02:01        SRLWPMMP  SRLWPMMP-  0  0  0  8  1     SRLWPMMP            FAT1 0.0237970 38649.9 65.8586
+   37  HLA-A*02:01        RLWPMMPM  RLWP-MMPM  0  0  0  4  1     RLWPMMPM            FAT1 0.4085560   601.4  3.1119
+   38  HLA-A*02:01        LWPMMPMD  -LWPMMPMD  0  0  0  0  1     LWPMMPMD            FAT1 0.0237580 38666.2 65.9203
+   39  HLA-A*02:01        WPMMPMDL  WPM-MPMDL  0  0  0  3  1     WPMMPMDL            FAT1 0.0475960 29875.7 40.9702
+   40  HLA-A*02:01        PMMPMDLP  PMMPMDLP-  0  0  0  8  1     PMMPMDLP            FAT1 0.0357460 33962.6 50.9772
+   41  HLA-A*02:01        MMPMDLPT  MM-PMDLPT  0  0  0  2  1     MMPMDLPT            FAT1 0.1669730  8210.5 12.7199
+   42  HLA-A*02:01        MPMDLPTA  -MPMDLPTA  0  0  0  0  1     MPMDLPTA            FAT1 0.0954510 17801.2 22.5555
+   43  HLA-A*02:01        PMDLPTAT  PMDLPTAT-  0  0  0  8  1     PMDLPTAT            FAT1 0.0205280 40041.4 71.1180
+   44  HLA-A*02:01        MDLPTATS  -MDLPTATS  0  0  0  0  1     MDLPTATS            FAT1 0.0298170 36212.7 57.6284
+   45  HLA-A*02:01        DLPTATST  DL-PTATST  0  0  0  2  1     DLPTATST            FAT1 0.0175640 41346.4 76.3030
+   46  HLA-A*02:01        LPTATSTT  -LPTATSTT  0  0  0  0  1     LPTATSTT            FAT1 0.0226150 39147.4 67.7277
+   47  HLA-A*02:01        PTATSTTQ  PTATSTTQ-  0  0  0  8  1     PTATSTTQ            FAT1 0.0060470 46833.4 95.9268
+   48  HLA-A*02:01        TATSTTQL  -TATSTTQL  0  0  0  0  1     TATSTTQL            FAT1 0.0238870 38612.3 65.7163
+   49  HLA-A*02:01        ATSTTQLX  AT-STTQLX  0  0  0  2  1     ATSTTQLX            FAT1 0.0166760 41745.5 77.9396
+-----------------------------------------------------------------------------------
+
+Protein FAT1. Allele HLA-A*02:01. Number of high binders 4. Number of weak binders 3. Number of peptides 190
+
+-----------------------------------------------------------------------------------
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/bin/netMHCpan -a HLA-A03:01 -BA -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest2/FAT1_targeted.fa
+# Wed Nov 18 15:15:34 2020
+# User: huangz
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest2
+# Host: Linux odcf-worker01 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-A03:01           HLA allele
+# -BA      1                    Make Binding affinity prediction
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest2/FAT1_targeted.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/synlist.bin Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-A03:01           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest2/FAT1_targeted.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/threshold/%s.thr.%s Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/allelenames File with print names for alleles
+#	[-BA]                1                    Make Binding affinity prediction
+
+# NetMHCpan version 4.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//tmp/netMHCpaniU1Aa3
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+# Make binding affinity predictions
+
+HLA-A03:01 : Distance to training data  0.000 (using nearest neighbor HLA-A03:01)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity     Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-A*03:01     VNVNVTDINDN  VNVNVTDIN  0  8  2  0  0  VNVNVTDINDN            FAT1 0.0085780 45568.2 95.8298
+    2  HLA-A*03:01     NVNVTDINDNT  NVNVTDINT  0  7  2  0  0  NVNVTDINDNT            FAT1 0.0111930 44297.0 93.4296
+    3  HLA-A*03:01     VNVTDINDNTP  VTDINDNTP  0  1  2  0  0  VNVTDINDNTP            FAT1 0.0091470 45288.6 95.5532
+    4  HLA-A*03:01     NVTDINDNTPV  NVTDINTPV  0  5  2  0  0  NVTDINDNTPV            FAT1 0.0236680 38703.9 67.6324
+    5  HLA-A*03:01     VTDINDNTPVF  VTNDNTPVF  0  2  2  0  0  VTDINDNTPVF            FAT1 0.0419200 31767.9 39.3521
+    6  HLA-A*03:01     TDINDNTPVFS  TINDNTPVF  0  1  1  0  0   TDINDNTPVF            FAT1 0.0185430 40910.7 78.7150
+    7  HLA-A*03:01     DINDNTPVFSA  DINTPVFSA  0  2  2  0  0  DINDNTPVFSA            FAT1 0.0208970 39881.9 73.5607
+    8  HLA-A*03:01     INDNTPVFSAK  INTPVFSAK  0  1  2  0  0  INDNTPVFSAK            FAT1 0.1188850 13814.4 10.3860
+    9  HLA-A*03:01     NDNTPVFSAKT  NNTPVFSAK  0  1  1  0  0   NDNTPVFSAK            FAT1 0.0263680 37589.6 62.3286
+   10  HLA-A*03:01     DNTPVFSAKTP  DNTPVFSAK  0  0  0  0  0    DNTPVFSAK            FAT1 0.0146660 42663.3 86.9838
+   11  HLA-A*03:01     NTPVFSAKTPT  NTFSAKTPT  0  2  2  0  0  NTPVFSAKTPT            FAT1 0.0276360 37077.4 59.9428
+   12  HLA-A*03:01     TPVFSAKTPTR  TFSAKTPTR  0  1  2  0  0  TPVFSAKTPTR            FAT1 0.0650620 24731.2 22.9255
+   13  HLA-A*03:01     PVFSAKTPTRQ  PVFAKTPTR  0  3  1  0  0   PVFSAKTPTR            FAT1 0.0383100 33033.3 43.4355
+   14  HLA-A*03:01     VFSAKTPTRQS  VFSAKTPTR  0  0  0  0  0    VFSAKTPTR            FAT1 0.0304280 35974.1 54.9589
+   15  HLA-A*03:01     FSAKTPTRQSS  FSAKTPTSS  0  7  2  0  0  FSAKTPTRQSS            FAT1 0.0237660 38662.9 67.4312
+   16  HLA-A*03:01     SAKTPTRQSSV  SAKTPTSSV  0  6  2  0  0  SAKTPTRQSSV            FAT1 0.0369680 33516.5 45.1531
+   17  HLA-A*03:01     AKTPTRQSSVK  KTTRQSSVK  1  2  1  0  0   KTPTRQSSVK            FAT1 0.1352270 11575.6  8.7626
+   18  HLA-A*03:01     KTPTRQSSVKM  KTRQSSVKM  0  1  2  0  0  KTPTRQSSVKM            FAT1 0.1005580 16844.2 12.9500
+   19  HLA-A*03:01     TPTRQSSVKMP  TTRQSSVKM  0  1  1  0  0   TPTRQSSVKM            FAT1 0.0189270 40741.1 77.8759
+   20  HLA-A*03:01     PTRQSSVKMPF  RQSSVKMPF  2  0  0  0  0    RQSSVKMPF            FAT1 0.0516900 28581.2 30.6199
+   21  HLA-A*03:01     TRQSSVKMPFL  RQSSVKMFL  1  7  1  0  0   RQSSVKMPFL            FAT1 0.0516250 28601.3 30.6674
+   22  HLA-A*03:01     RQSSVKMPFLS  RQSSVKMLS  0  7  2  0  0  RQSSVKMPFLS            FAT1 0.0695830 23550.6 20.9989
+   23  HLA-A*03:01     QSSVKMPFLSS  QVKMPFLSS  0  1  2  0  0  QSSVKMPFLSS            FAT1 0.0540640 27856.4 28.9655
+   24  HLA-A*03:01     SSVKMPFLSSL  SSMPFLSSL  0  2  2  0  0  SSVKMPFLSSL            FAT1 0.0734520 22585.1 19.5591
+   25  HLA-A*03:01     SVKMPFLSSLS  SVKMPFLLS  0  7  2  0  0  SVKMPFLSSLS            FAT1 0.0773860 21643.9 18.2562
+   26  HLA-A*03:01     VKMPFLSSLSS  KMFLSSLSS  1  2  1  0  0   KMPFLSSLSS            FAT1 0.0759890 21973.5 18.7003
+   27  HLA-A*03:01     KMPFLSSLSSR  KMLSSLSSR  0  2  2  0  0  KMPFLSSLSSR            FAT1 0.4224340   517.6  1.2429 <= WB
+   28  HLA-A*03:01     MPFLSSLSSRL  MLSSLSSRL  0  1  2  0  0  MPFLSSLSSRL            FAT1 0.0779650 21508.7 18.0722
+   29  HLA-A*03:01     PFLSSLSSRLW  FLSSLSSLW  1  7  1  0  0   FLSSLSSRLW            FAT1 0.0383990 33001.6 43.3251
+   30  HLA-A*03:01     FLSSLSSRLWP  FLLSSRLWP  0  2  2  0  0  FLSSLSSRLWP            FAT1 0.0414030 31946.2 39.8906
+   31  HLA-A*03:01     LSSLSSRLWPM  LLSSRLWPM  0  1  2  0  0  LSSLSSRLWPM            FAT1 0.0836880 20217.3 16.4644
+   32  HLA-A*03:01     SSLSSRLWPMM  SSLSSRLMM  0  7  2  0  0  SSLSSRLWPMM            FAT1 0.0758580 22004.7 18.7419
+   33  HLA-A*03:01     SLSSRLWPMMP  SLSSWPMMP  0  4  2  0  0  SLSSRLWPMMP            FAT1 0.0564940 27133.5 27.3958
+   34  HLA-A*03:01     LSSRLWPMMPM  LSSWPMMPM  0  3  2  0  0  LSSRLWPMMPM            FAT1 0.1112120 15010.3 11.3321
+   35  HLA-A*03:01     SSRLWPMMPMD  SSRWPMMPM  0  3  1  0  0   SSRLWPMMPM            FAT1 0.0653730 24648.1 22.7891
+   36  HLA-A*03:01     SRLWPMMPMDL  RLWPMMPML  1  8  1  0  0   RLWPMMPMDL            FAT1 0.0813100 20744.2 17.0902
+   37  HLA-A*03:01     RLWPMMPMDLP  RLWPMMPLP  0  7  2  0  0  RLWPMMPMDLP            FAT1 0.0799620 21049.0 17.4835
+   38  HLA-A*03:01     LWPMMPMDLPT  LMMPMDLPT  0  1  2  0  0  LWPMMPMDLPT            FAT1 0.0485410 29571.8 33.0821
+   39  HLA-A*03:01     WPMMPMDLPTA  WPMMPMPTA  0  6  2  0  0  WPMMPMDLPTA            FAT1 0.0323010 35252.4 52.0000
+   40  HLA-A*03:01     PMMPMDLPTAT  MMMDLPTAT  1  2  1  0  0   MMPMDLPTAT            FAT1 0.0293260 36405.6 56.9228
+   41  HLA-A*03:01     MMPMDLPTATS  MMDLPTATS  0  1  2  0  0  MMPMDLPTATS            FAT1 0.0455080 30558.3 35.7945
+   42  HLA-A*03:01     MPMDLPTATST  MPMPTATST  0  3  2  0  0  MPMDLPTATST            FAT1 0.0288440 36595.9 57.7841
+   43  HLA-A*03:01     PMDLPTATSTT  MLPTATSTT  1  1  1  0  0   MDLPTATSTT            FAT1 0.0160160 42044.7 84.1988
+   44  HLA-A*03:01     MDLPTATSTTQ  MPTATSTTQ  0  1  2  0  0  MDLPTATSTTQ            FAT1 0.0234290 38804.1 68.1232
+   45  HLA-A*03:01     DLPTATSTTQL  LTATSTTQL  1  1  1  0  0   LPTATSTTQL            FAT1 0.0244800 38365.4 65.9651
+   46  HLA-A*03:01     LPTATSTTQLX  LPTATSTLX  0  7  2  0  0  LPTATSTTQLX            FAT1 0.0329920 34989.8 50.9084
+    1  HLA-A*03:01      VNVNVTDIND  VVNVTDIND  0  1  1  0  0   VNVNVTDIND            FAT1 0.0152160 42410.2 85.8704
+    2  HLA-A*03:01      NVNVTDINDN  NVNVTDINN  0  8  1  0  0   NVNVTDINDN            FAT1 0.0165810 41788.5 82.9753
+    3  HLA-A*03:01      VNVTDINDNT  VVTDINDNT  0  1  1  0  0   VNVTDINDNT            FAT1 0.0150860 42469.9 86.1336
+    4  HLA-A*03:01      NVTDINDNTP  NVTDINNTP  0  6  1  0  0   NVTDINDNTP            FAT1 0.0110920 44345.4 93.6043
+    5  HLA-A*03:01      VTDINDNTPV  VTINDNTPV  0  2  1  0  0   VTDINDNTPV            FAT1 0.0435100 31226.1 37.7301
+    6  HLA-A*03:01      TDINDNTPVF  TINDNTPVF  0  1  1  0  0   TDINDNTPVF            FAT1 0.0483610 29629.4 33.2393
+    7  HLA-A*03:01      DINDNTPVFS  DINNTPVFS  0  3  1  0  0   DINDNTPVFS            FAT1 0.0293720 36387.5 56.8406
+    8  HLA-A*03:01      INDNTPVFSA  INNTPVFSA  0  2  1  0  0   INDNTPVFSA            FAT1 0.0396850 32545.5 41.7825
+    9  HLA-A*03:01      NDNTPVFSAK  NNTPVFSAK  0  1  1  0  0   NDNTPVFSAK            FAT1 0.1295600 12307.5  9.2790
+   10  HLA-A*03:01      DNTPVFSAKT  DNTPVFSAK  0  0  0  0  0    DNTPVFSAK            FAT1 0.0327260 35090.7 51.3286
+   11  HLA-A*03:01      NTPVFSAKTP  NTPVFSATP  0  7  1  0  0   NTPVFSAKTP            FAT1 0.0188240 40786.5 78.1010
+   12  HLA-A*03:01      TPVFSAKTPT  TVFSAKTPT  0  1  1  0  0   TPVFSAKTPT            FAT1 0.0478500 29793.7 33.6856
+   13  HLA-A*03:01      PVFSAKTPTR  PVFAKTPTR  0  3  1  0  0   PVFSAKTPTR            FAT1 0.1791440  7197.4  5.9855
+   14  HLA-A*03:01      VFSAKTPTRQ  VFSAKTPTR  0  0  0  0  0    VFSAKTPTR            FAT1 0.0744470 22343.2 19.2101
+   15  HLA-A*03:01      FSAKTPTRQS  FSATPTRQS  0  3  1  0  0   FSAKTPTRQS            FAT1 0.0407750 32164.0 40.5648
+   16  HLA-A*03:01      SAKTPTRQSS  SAKTPTRSS  0  7  1  0  0   SAKTPTRQSS            FAT1 0.0376410 33273.3 44.2779
+   17  HLA-A*03:01      AKTPTRQSSV  ATPTRQSSV  0  1  1  0  0   AKTPTRQSSV            FAT1 0.0440370 31048.6 37.2130
+   18  HLA-A*03:01      KTPTRQSSVK  KTTRQSSVK  0  2  1  0  0   KTPTRQSSVK            FAT1 0.4684910   314.4  0.8810 <= WB
+   19  HLA-A*03:01      TPTRQSSVKM  TTRQSSVKM  0  1  1  0  0   TPTRQSSVKM            FAT1 0.0586380 26511.4 26.1570
+   20  HLA-A*03:01      PTRQSSVKMP  PTRQSSVKM  0  0  0  0  0    PTRQSSVKM            FAT1 0.0176920 41289.2 80.5695
+   21  HLA-A*03:01      TRQSSVKMPF  RQSSVKMPF  1  0  0  0  0    RQSSVKMPF            FAT1 0.0925180 18375.1 14.4396
+   22  HLA-A*03:01      RQSSVKMPFL  RQSSVKMFL  0  7  1  0  0   RQSSVKMPFL            FAT1 0.1253480 12881.4  9.6877
+   23  HLA-A*03:01      QSSVKMPFLS  QSSVMPFLS  0  4  1  0  0   QSSVKMPFLS            FAT1 0.0623710 25461.9 24.2200
+   24  HLA-A*03:01      SSVKMPFLSS  SVKMPFLSS  0  1  1  0  0   SSVKMPFLSS            FAT1 0.1287010 12422.5  9.3599
+   25  HLA-A*03:01      SVKMPFLSSL  SVMPFLSSL  0  2  1  0  0   SVKMPFLSSL            FAT1 0.1386680 11152.5  8.4644
+   26  HLA-A*03:01      VKMPFLSSLS  VMPFLSSLS  0  1  1  0  0   VKMPFLSSLS            FAT1 0.0695290 23564.3 21.0212
+   27  HLA-A*03:01      KMPFLSSLSS  KMFLSSLSS  0  2  1  0  0   KMPFLSSLSS            FAT1 0.2518240  3278.4  3.6242
+   28  HLA-A*03:01      MPFLSSLSSR  MFLSSLSSR  0  1  1  0  0   MPFLSSLSSR            FAT1 0.2135630  4959.6  4.6700
+   29  HLA-A*03:01      PFLSSLSSRL  FLSSLSSRL  1  0  0  0  0    FLSSLSSRL            FAT1 0.0477480 29826.6 33.7747
+   30  HLA-A*03:01      FLSSLSSRLW  FLSSLSSLW  0  7  1  0  0   FLSSLSSRLW            FAT1 0.0870490 19495.3 15.6340
+   31  HLA-A*03:01      LSSLSSRLWP  LSLSSRLWP  0  1  1  0  0   LSSLSSRLWP            FAT1 0.0464500 30248.4 34.9386
+   32  HLA-A*03:01      SSLSSRLWPM  SLSSRLWPM  0  1  1  0  0   SSLSSRLWPM            FAT1 0.1617960  8683.5  6.8969
+   33  HLA-A*03:01      SLSSRLWPMM  SLSSRLWPM  0  8  1  0  0   SLSSRLWPMM            FAT1 0.1472780 10160.5  7.8181
+   34  HLA-A*03:01      LSSRLWPMMP  LSRLWPMMP  0  1  1  0  0   LSSRLWPMMP            FAT1 0.0588180 26459.8 26.0550
+   35  HLA-A*03:01      SSRLWPMMPM  SSRWPMMPM  0  3  1  0  0   SSRLWPMMPM            FAT1 0.1997980  5756.1  5.1293
+   36  HLA-A*03:01      SRLWPMMPMD  RLWPMMPMD  1  0  0  0  0    RLWPMMPMD            FAT1 0.0574120 26865.4 26.8520
+   37  HLA-A*03:01      RLWPMMPMDL  RLWPMPMDL  0  4  1  0  0   RLWPMMPMDL            FAT1 0.2028370  5569.9  5.0153
+   38  HLA-A*03:01      LWPMMPMDLP  LWMMPMDLP  0  2  1  0  0   LWPMMPMDLP            FAT1 0.0312280 35664.0 53.6951
+   39  HLA-A*03:01      WPMMPMDLPT  WMMPMDLPT  0  1  1  0  0   WPMMPMDLPT            FAT1 0.0672430 24154.5 21.9709
+   40  HLA-A*03:01      PMMPMDLPTA  PMMPMDLPA  0  8  1  0  0   PMMPMDLPTA            FAT1 0.0470980 30037.1 34.3538
+   41  HLA-A*03:01      MMPMDLPTAT  MMMDLPTAT  0  2  1  0  0   MMPMDLPTAT            FAT1 0.0869970 19506.2 15.6461
+   42  HLA-A*03:01      MPMDLPTATS  MMDLPTATS  0  1  1  0  0   MPMDLPTATS            FAT1 0.0765550 21839.4 18.5203
+   43  HLA-A*03:01      PMDLPTATST  PMLPTATST  0  2  1  0  0   PMDLPTATST            FAT1 0.0224370 39222.9 70.1717
+   44  HLA-A*03:01      MDLPTATSTT  MLPTATSTT  0  1  1  0  0   MDLPTATSTT            FAT1 0.0350100 34234.1 47.8618
+   45  HLA-A*03:01      DLPTATSTTQ  DLTATSTTQ  0  2  1  0  0   DLPTATSTTQ            FAT1 0.0280950 36893.7 59.1226
+   46  HLA-A*03:01      LPTATSTTQL  LTATSTTQL  0  1  1  0  0   LPTATSTTQL            FAT1 0.0526850 28275.1 29.9003
+   47  HLA-A*03:01      PTATSTTQLX  PTATSTTLX  0  7  1  0  0   PTATSTTQLX            FAT1 0.0386470 32913.1 43.0174
+    1  HLA-A*03:01       VNVNVTDIN  VNVNVTDIN  0  0  0  0  0    VNVNVTDIN            FAT1 0.0164950 41827.4 83.1615
+    2  HLA-A*03:01       NVNVTDIND  NVNVTDIND  0  0  0  0  0    NVNVTDIND            FAT1 0.0130000 43439.4 90.3044
+    3  HLA-A*03:01       VNVTDINDN  VNVTDINDN  0  0  0  0  0    VNVTDINDN            FAT1 0.0092080 45258.7 95.5236
+    4  HLA-A*03:01       NVTDINDNT  NVTDINDNT  0  0  0  0  0    NVTDINDNT            FAT1 0.0138620 43036.1 88.6113
+    5  HLA-A*03:01       VTDINDNTP  VTDINDNTP  0  0  0  0  0    VTDINDNTP            FAT1 0.0147720 42614.4 86.7692
+    6  HLA-A*03:01       TDINDNTPV  TDINDNTPV  0  0  0  0  0    TDINDNTPV            FAT1 0.0218170 39486.8 71.5361
+    7  HLA-A*03:01       DINDNTPVF  DINDNTPVF  0  0  0  0  0    DINDNTPVF            FAT1 0.0371520 33449.8 44.9130
+    8  HLA-A*03:01       INDNTPVFS  INDNTPVFS  0  0  0  0  0    INDNTPVFS            FAT1 0.0305650 35920.8 54.7425
+    9  HLA-A*03:01       NDNTPVFSA  NDNTPVFSA  0  0  0  0  0    NDNTPVFSA            FAT1 0.0260840 37705.3 62.8636
+   10  HLA-A*03:01       DNTPVFSAK  DNTPVFSAK  0  0  0  0  0    DNTPVFSAK            FAT1 0.1014850 16676.1 12.8023
+   11  HLA-A*03:01       NTPVFSAKT  NTPVFSAKT  0  0  0  0  0    NTPVFSAKT            FAT1 0.0245250 38346.7 65.8727
+   12  HLA-A*03:01       TPVFSAKTP  TPVFSAKTP  0  0  0  0  0    TPVFSAKTP            FAT1 0.0123850 43729.4 91.3680
+   13  HLA-A*03:01       PVFSAKTPT  PVFSAKTPT  0  0  0  0  0    PVFSAKTPT            FAT1 0.0290500 36514.5 57.4160
+   14  HLA-A*03:01       VFSAKTPTR  VFSAKTPTR  0  0  0  0  0    VFSAKTPTR            FAT1 0.1681700  8104.8  6.5304
+   15  HLA-A*03:01       FSAKTPTRQ  FSAKTPTRQ  0  0  0  0  0    FSAKTPTRQ            FAT1 0.0588220 26458.6 26.0527
+   16  HLA-A*03:01       SAKTPTRQS  SAKTPTRQS  0  0  0  0  0    SAKTPTRQS            FAT1 0.0414770 31920.6 39.8135
+   17  HLA-A*03:01       AKTPTRQSS  AKTPTRQSS  0  0  0  0  0    AKTPTRQSS            FAT1 0.0135710 43171.8 89.2004
+   18  HLA-A*03:01       KTPTRQSSV  KTPTRQSSV  0  0  0  0  0    KTPTRQSSV            FAT1 0.0824360 20493.0 16.7885
+   19  HLA-A*03:01       TPTRQSSVK  TPTRQSSVK  0  0  0  0  0    TPTRQSSVK            FAT1 0.0647390 24817.8 23.0736
+   20  HLA-A*03:01       PTRQSSVKM  PTRQSSVKM  0  0  0  0  0    PTRQSSVKM            FAT1 0.0411340 32039.3 40.1771
+   21  HLA-A*03:01       TRQSSVKMP  TRQSSVKMP  0  0  0  0  0    TRQSSVKMP            FAT1 0.0114560 44171.1 92.9747
+   22  HLA-A*03:01       RQSSVKMPF  RQSSVKMPF  0  0  0  0  0    RQSSVKMPF            FAT1 0.1623500  8631.6  6.8650
+   23  HLA-A*03:01       QSSVKMPFL  QSSVKMPFL  0  0  0  0  0    QSSVKMPFL            FAT1 0.0602500 26053.0 25.2918
+   24  HLA-A*03:01       SSVKMPFLS  SSVKMPFLS  0  0  0  0  0    SSVKMPFLS            FAT1 0.0775730 21600.2 18.1968
+   25  HLA-A*03:01       SVKMPFLSS  SVKMPFLSS  0  0  0  0  0    SVKMPFLSS            FAT1 0.1619720  8667.0  6.8867
+   26  HLA-A*03:01       VKMPFLSSL  VKMPFLSSL  0  0  0  0  0    VKMPFLSSL            FAT1 0.0519860 28489.8 30.4035
+   27  HLA-A*03:01       KMPFLSSLS  KMPFLSSLS  0  0  0  0  0    KMPFLSSLS            FAT1 0.1312760 12081.1  9.1174
+   28  HLA-A*03:01       MPFLSSLSS  MPFLSSLSS  0  0  0  0  0    MPFLSSLSS            FAT1 0.0751170 22181.8 18.9774
+   29  HLA-A*03:01       PFLSSLSSR  PFLSSLSSR  0  0  0  0  0    PFLSSLSSR            FAT1 0.0783320 21423.5 17.9591
+   30  HLA-A*03:01       FLSSLSSRL  FLSSLSSRL  0  0  0  0  0    FLSSLSSRL            FAT1 0.0874160 19418.0 15.5482
+   31  HLA-A*03:01       LSSLSSRLW  LSSLSSRLW  0  0  0  0  0    LSSLSSRLW            FAT1 0.0606640 25936.5 25.0721
+   32  HLA-A*03:01       SSLSSRLWP  SSLSSRLWP  0  0  0  0  0    SSLSSRLWP            FAT1 0.0583870 26583.4 26.2993
+   33  HLA-A*03:01       SLSSRLWPM  SLSSRLWPM  0  0  0  0  0    SLSSRLWPM            FAT1 0.1904270  6370.3  5.4809
+   34  HLA-A*03:01       LSSRLWPMM  LSSRLWPMM  0  0  0  0  0    LSSRLWPMM            FAT1 0.0853950 19847.3 16.0225
+   35  HLA-A*03:01       SSRLWPMMP  SSRLWPMMP  0  0  0  0  0    SSRLWPMMP            FAT1 0.0699780 23450.1 20.8478
+   36  HLA-A*03:01       SRLWPMMPM  SRLWPMMPM  0  0  0  0  0    SRLWPMMPM            FAT1 0.0940470 18073.7 14.1286
+   37  HLA-A*03:01       RLWPMMPMD  RLWPMMPMD  0  0  0  0  0    RLWPMMPMD            FAT1 0.0963520 17628.5 13.6994
+   38  HLA-A*03:01       LWPMMPMDL  LWPMMPMDL  0  0  0  0  0    LWPMMPMDL            FAT1 0.0344440 34444.4 48.7013
+   39  HLA-A*03:01       WPMMPMDLP  WPMMPMDLP  0  0  0  0  0    WPMMPMDLP            FAT1 0.0233620 38832.3 68.2608
+   40  HLA-A*03:01       PMMPMDLPT  PMMPMDLPT  0  0  0  0  0    PMMPMDLPT            FAT1 0.0365680 33661.9 45.6767
+   41  HLA-A*03:01       MMPMDLPTA  MMPMDLPTA  0  0  0  0  0    MMPMDLPTA            FAT1 0.0520630 28466.1 30.3472
+   42  HLA-A*03:01       MPMDLPTAT  MPMDLPTAT  0  0  0  0  0    MPMDLPTAT            FAT1 0.0449580 30740.7 36.3152
+   43  HLA-A*03:01       PMDLPTATS  PMDLPTATS  0  0  0  0  0    PMDLPTATS            FAT1 0.0303140 36018.5 55.1573
+   44  HLA-A*03:01       MDLPTATST  MDLPTATST  0  0  0  0  0    MDLPTATST            FAT1 0.0240780 38532.6 66.7906
+   45  HLA-A*03:01       DLPTATSTT  DLPTATSTT  0  0  0  0  0    DLPTATSTT            FAT1 0.0135140 43198.5 89.3158
+   46  HLA-A*03:01       LPTATSTTQ  LPTATSTTQ  0  0  0  0  0    LPTATSTTQ            FAT1 0.0345380 34409.4 48.5617
+   47  HLA-A*03:01       PTATSTTQL  PTATSTTQL  0  0  0  0  0    PTATSTTQL            FAT1 0.0311220 35705.0 53.8626
+   48  HLA-A*03:01       TATSTTQLX  TATSTTQLX  0  0  0  0  0    TATSTTQLX            FAT1 0.0495940 29236.8 32.2235
+    1  HLA-A*03:01        VNVNVTDI  VNVNV-TDI  0  0  0  5  1     VNVNVTDI            FAT1 0.0174310 41405.9 81.1347
+    2  HLA-A*03:01        NVNVTDIN  NVNVTDIN-  0  0  0  8  1     NVNVTDIN            FAT1 0.0130120 43433.7 90.2836
+    3  HLA-A*03:01        VNVTDIND  VNVTDIND-  0  0  0  8  1     VNVTDIND            FAT1 0.0067510 46478.0 96.7180
+    4  HLA-A*03:01        NVTDINDN  NVTDINDN-  0  0  0  8  1     NVTDINDN            FAT1 0.0075070 46099.3 96.3505
+    5  HLA-A*03:01        VTDINDNT  VTDINDNT-  0  0  0  8  1     VTDINDNT            FAT1 0.0128830 43494.4 90.5067
+    6  HLA-A*03:01        TDINDNTP  TDINDNTP-  0  0  0  8  1     TDINDNTP            FAT1 0.0072960 46204.7 96.4531
+    7  HLA-A*03:01        DINDNTPV  DINDNTPV-  0  0  0  8  1     DINDNTPV            FAT1 0.0131730 43358.1 90.0052
+    8  HLA-A*03:01        INDNTPVF  I-NDNTPVF  0  0  0  1  1     INDNTPVF            FAT1 0.0233580 38833.9 68.2690
+    9  HLA-A*03:01        NDNTPVFS  NDNTPVFS-  0  0  0  8  1     NDNTPVFS            FAT1 0.0112270 44280.7 93.3708
+   10  HLA-A*03:01        DNTPVFSA  DNTPVFSA-  0  0  0  8  1     DNTPVFSA            FAT1 0.0142760 42843.7 87.7733
+   11  HLA-A*03:01        NTPVFSAK  NT-PVFSAK  0  0  0  2  1     NTPVFSAK            FAT1 0.1651930  8370.1  6.7016
+   12  HLA-A*03:01        TPVFSAKT  TPVFSAKT-  0  0  0  8  1     TPVFSAKT            FAT1 0.0125340 43658.9 91.1103
+   13  HLA-A*03:01        PVFSAKTP  PVFSAKTP-  0  0  0  8  1     PVFSAKTP            FAT1 0.0169930 41602.6 82.0832
+   14  HLA-A*03:01        VFSAKTPT  VFSAKTPT-  0  0  0  8  1     VFSAKTPT            FAT1 0.0232960 38860.0 68.3963
+   15  HLA-A*03:01        FSAKTPTR  FS-AKTPTR  0  0  0  2  1     FSAKTPTR            FAT1 0.0644700 24890.1 23.2031
+   16  HLA-A*03:01        SAKTPTRQ  SAKTPTRQ-  0  0  0  8  1     SAKTPTRQ            FAT1 0.0206250 39999.4 74.1593
+   17  HLA-A*03:01        AKTPTRQS  A-KTPTRQS  0  0  0  1  1     AKTPTRQS            FAT1 0.0110780 44352.2 93.6285
+   18  HLA-A*03:01        KTPTRQSS  KTPTRQSS-  0  0  0  8  1     KTPTRQSS            FAT1 0.0277260 37041.3 59.7820
+   19  HLA-A*03:01        TPTRQSSV  TPT-RQSSV  0  0  0  3  1     TPTRQSSV            FAT1 0.0164790 41834.6 83.1962
+   20  HLA-A*03:01        PTRQSSVK  PTRQSSV-K  0  0  0  7  1     PTRQSSVK            FAT1 0.0617580 25631.3 24.5243
+   21  HLA-A*03:01        TRQSSVKM  -TRQSSVKM  0  0  0  0  1     TRQSSVKM            FAT1 0.0235090 38770.5 67.9589
+   22  HLA-A*03:01        RQSSVKMP  RQSSVKMP-  0  0  0  8  1     RQSSVKMP            FAT1 0.0491290 29384.2 32.6000
+   23  HLA-A*03:01        QSSVKMPF  QSS-VKMPF  0  0  0  3  1     QSSVKMPF            FAT1 0.0424530 31585.3 38.8004
+   24  HLA-A*03:01        SSVKMPFL  SSVKMPFL-  0  0  0  8  1     SSVKMPFL            FAT1 0.0420310 31729.8 39.2365
+   25  HLA-A*03:01        SVKMPFLS  SVKMPFLS-  0  0  0  8  1     SVKMPFLS            FAT1 0.0662960 24403.2 22.3845
+   26  HLA-A*03:01        VKMPFLSS  -VKMPFLSS  0  0  0  0  1     VKMPFLSS            FAT1 0.0268560 37391.6 61.4092
+   27  HLA-A*03:01        KMPFLSSL  KM-PFLSSL  0  0  0  2  1     KMPFLSSL            FAT1 0.0744540 22341.5 19.2076
+   28  HLA-A*03:01        MPFLSSLS  MPFLSSLS-  0  0  0  8  1     MPFLSSLS            FAT1 0.0416940 31845.7 39.5875
+   29  HLA-A*03:01        PFLSSLSS  -PFLSSLSS  0  0  0  0  1     PFLSSLSS            FAT1 0.0162660 41931.1 83.6574
+   30  HLA-A*03:01        FLSSLSSR  FLS-SLSSR  0  0  0  3  1     FLSSLSSR            FAT1 0.1488530  9988.8  7.7133
+   31  HLA-A*03:01        LSSLSSRL  LSSLSSRL-  0  0  0  8  1     LSSLSSRL            FAT1 0.0329650 35000.0 50.9510
+   32  HLA-A*03:01        SSLSSRLW  SSLSSRLW-  0  0  0  8  1     SSLSSRLW            FAT1 0.0499120 29136.3 31.9677
+   33  HLA-A*03:01        SLSSRLWP  SLSSRLWP-  0  0  0  8  1     SLSSRLWP            FAT1 0.0650920 24723.2 22.9123
+   34  HLA-A*03:01        LSSRLWPM  LSS-RLWPM  0  0  0  3  1     LSSRLWPM            FAT1 0.0546040 27694.1 28.6001
+   35  HLA-A*03:01        SSRLWPMM  SSRLWPMM-  0  0  0  8  1     SSRLWPMM            FAT1 0.0625870 25402.4 24.1127
+   36  HLA-A*03:01        SRLWPMMP  SRLWPMMP-  0  0  0  8  1     SRLWPMMP            FAT1 0.0305930 35909.9 54.6983
+   37  HLA-A*03:01        RLWPMMPM  RLW-PMMPM  0  0  0  3  1     RLWPMMPM            FAT1 0.1912790  6311.8  5.4489
+   38  HLA-A*03:01        LWPMMPMD  LWPMMPMD-  0  0  0  8  1     LWPMMPMD            FAT1 0.0134150 43244.8 89.5162
+   39  HLA-A*03:01        WPMMPMDL  WPMMP-MDL  0  0  0  5  1     WPMMPMDL            FAT1 0.0294050 36374.5 56.7816
+   40  HLA-A*03:01        PMMPMDLP  PMMPMDLP-  0  0  0  8  1     PMMPMDLP            FAT1 0.0202990 40140.8 74.8768
+   41  HLA-A*03:01        MMPMDLPT  MM-PMDLPT  0  0  0  2  1     MMPMDLPT            FAT1 0.0265680 37508.3 61.9518
+   42  HLA-A*03:01        MPMDLPTA  MPMDLPTA-  0  0  0  8  1     MPMDLPTA            FAT1 0.0296100 36293.9 56.4153
+   43  HLA-A*03:01        PMDLPTAT  PMDLPTAT-  0  0  0  8  1     PMDLPTAT            FAT1 0.0135940 43161.1 89.1538
+   44  HLA-A*03:01        MDLPTATS  -MDLPTATS  0  0  0  0  1     MDLPTATS            FAT1 0.0189870 40714.6 77.7448
+   45  HLA-A*03:01        DLPTATST  DLPTATST-  0  0  0  8  1     DLPTATST            FAT1 0.0091640 45280.2 95.5450
+   46  HLA-A*03:01        LPTATSTT  LPTATSTT-  0  0  0  8  1     LPTATSTT            FAT1 0.0148210 42591.9 86.6700
+   47  HLA-A*03:01        PTATSTTQ  PTATSTTQ-  0  0  0  8  1     PTATSTTQ            FAT1 0.0130100 43434.6 90.2871
+   48  HLA-A*03:01        TATSTTQL  -TATSTTQL  0  0  0  0  1     TATSTTQL            FAT1 0.0195410 40471.3 76.5341
+   49  HLA-A*03:01        ATSTTQLX  ATS-TTQLX  0  0  0  3  1     ATSTTQLX            FAT1 0.0444120 30922.8 36.8463
+-----------------------------------------------------------------------------------
+
+Protein FAT1. Allele HLA-A*03:01. Number of high binders 0. Number of weak binders 2. Number of peptides 190
+
+-----------------------------------------------------------------------------------
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/bin/netMHCpan -a HLA-B07:02 -BA -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest2/FAT1_targeted.fa
+# Wed Nov 18 15:15:34 2020
+# User: huangz
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest2
+# Host: Linux odcf-worker01 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-B07:02           HLA allele
+# -BA      1                    Make Binding affinity prediction
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest2/FAT1_targeted.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/synlist.bin Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-B07:02           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest2/FAT1_targeted.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/threshold/%s.thr.%s Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/allelenames File with print names for alleles
+#	[-BA]                1                    Make Binding affinity prediction
+
+# NetMHCpan version 4.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//tmp/netMHCpanFXYDc3
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+# Make binding affinity predictions
+
+HLA-B07:02 : Distance to training data  0.000 (using nearest neighbor HLA-B07:02)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity     Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-B*07:02     VNVNVTDINDN  VNVNVTDIN  0  8  2  0  0  VNVNVTDINDN            FAT1 0.0050150 47359.2 97.0897
+    2  HLA-B*07:02     NVNVTDINDNT  NVNVTDINT  0  7  2  0  0  NVNVTDINDNT            FAT1 0.0097070 45015.0 92.5571
+    3  HLA-B*07:02     VNVTDINDNTP  VTDINDNTP  0  1  2  0  0  VNVTDINDNTP            FAT1 0.0074590 46123.3 95.6714
+    4  HLA-B*07:02     NVTDINDNTPV  NVINDNTPV  0  2  2  0  0  NVTDINDNTPV            FAT1 0.0382550 33053.0 35.5914
+    5  HLA-B*07:02     VTDINDNTPVF  VINDNTPVF  0  1  2  0  0  VTDINDNTPVF            FAT1 0.0445870 30864.3 29.8005
+    6  HLA-B*07:02     TDINDNTPVFS  TINDNTPVF  0  1  1  0  0   TDINDNTPVF            FAT1 0.0165580 41798.9 74.6567
+    7  HLA-B*07:02     DINDNTPVFSA  DINDNTFSA  0  6  2  0  0  DINDNTPVFSA            FAT1 0.0240480 38545.1 56.8067
+    8  HLA-B*07:02     INDNTPVFSAK  INTPVFSAK  0  1  2  0  0  INDNTPVFSAK            FAT1 0.0142610 42850.7 80.9373
+    9  HLA-B*07:02     NDNTPVFSAKT  NDNTPVFST  0  8  2  0  0  NDNTPVFSAKT            FAT1 0.0125190 43666.0 85.6825
+   10  HLA-B*07:02     DNTPVFSAKTP  DPVFSAKTP  0  1  2  0  0  DNTPVFSAKTP            FAT1 0.0169630 41616.1 73.5790
+   11  HLA-B*07:02     NTPVFSAKTPT  TPFSAKTPT  1  2  1  0  0   TPVFSAKTPT            FAT1 0.0912430 18630.4 11.9135
+   12  HLA-B*07:02     TPVFSAKTPTR  TPFSAKTPT  0  2  1  0  0   TPVFSAKTPT            FAT1 0.0781370 21468.7 14.6759
+   13  HLA-B*07:02     PVFSAKTPTRQ  PVFSAKTPQ  0  8  2  0  0  PVFSAKTPTRQ            FAT1 0.0089570 45381.7 94.2365
+   14  HLA-B*07:02     VFSAKTPTRQS  VAKTPTRQS  0  1  2  0  0  VFSAKTPTRQS            FAT1 0.0249350 38176.9 54.9672
+   15  HLA-B*07:02     FSAKTPTRQSS  FSAPTRQSS  0  3  2  0  0  FSAKTPTRQSS            FAT1 0.0490300 29415.7 26.6408
+   16  HLA-B*07:02     SAKTPTRQSSV  SAKTPTSSV  0  6  2  0  0  SAKTPTRQSSV            FAT1 0.1296010 12302.1  7.2801
+   17  HLA-B*07:02     AKTPTRQSSVK  APTRQSSVK  0  1  2  0  0  AKTPTRQSSVK            FAT1 0.0523020 28392.6 24.6791
+   18  HLA-B*07:02     KTPTRQSSVKM  TPRQSSVKM  1  2  1  0  0   TPTRQSSVKM            FAT1 0.2220460  4524.6  3.1681
+   19  HLA-B*07:02     TPTRQSSVKMP  TPRQSSVKM  0  2  1  0  0   TPTRQSSVKM            FAT1 0.1778910  7295.7  4.5369
+   20  HLA-B*07:02     PTRQSSVKMPF  PTRQSSMPF  0  6  2  0  0  PTRQSSVKMPF            FAT1 0.0532540 28101.6 24.1496
+   21  HLA-B*07:02     TRQSSVKMPFL  RQSSVKMPL  1  8  1  0  0   RQSSVKMPFL            FAT1 0.0505320 28941.5 25.7063
+   22  HLA-B*07:02     RQSSVKMPFLS  RQSSVKMPL  0  8  1  0  0   RQSSVKMPFL            FAT1 0.0436610 31175.1 30.5084
+   23  HLA-B*07:02     QSSVKMPFLSS  QVKMPFLSS  0  1  2  0  0  QSSVKMPFLSS            FAT1 0.0330330 34974.3 41.8212
+   24  HLA-B*07:02     SSVKMPFLSSL  SSMPFLSSL  0  2  2  0  0  SSVKMPFLSSL            FAT1 0.1304850 12185.0  7.2084
+   25  HLA-B*07:02     SVKMPFLSSLS  SVKMPFSSL  0  6  1  0  0   SVKMPFLSSL            FAT1 0.0813800 20728.5 13.8830
+   26  HLA-B*07:02     VKMPFLSSLSS  VPFLSSLSS  0  1  2  0  0  VKMPFLSSLSS            FAT1 0.1498380  9882.9  5.9044
+   27  HLA-B*07:02     KMPFLSSLSSR  KPFLSSLSS  0  1  1  0  0   KMPFLSSLSS            FAT1 0.0715840 23046.2 16.4961
+   28  HLA-B*07:02     MPFLSSLSSRL  MPFLSSLSL  0  8  2  0  0  MPFLSSLSSRL            FAT1 0.5625830   113.6  0.3255 <= SB
+   29  HLA-B*07:02     PFLSSLSSRLW  FLSSLSSLW  1  7  1  0  0   FLSSLSSRLW            FAT1 0.0202540 40160.3 65.1808
+   30  HLA-B*07:02     FLSSLSSRLWP  FLSSLSSRL  0  0  0  0  0    FLSSLSSRL            FAT1 0.0265280 37524.6 52.0645
+   31  HLA-B*07:02     LSSLSSRLWPM  LSSLSSRPM  0  7  2  0  0  LSSLSSRLWPM            FAT1 0.0922940 18419.7 11.7284
+   32  HLA-B*07:02     SSLSSRLWPMM  SSLSSRLMM  0  7  2  0  0  SSLSSRLWPMM            FAT1 0.0830100 20366.1 13.5394
+   33  HLA-B*07:02     SLSSRLWPMMP  SLSSRLWPM  0  0  0  0  0    SLSSRLWPM            FAT1 0.0302150 36057.1 45.8138
+   34  HLA-B*07:02     LSSRLWPMMPM  SSRWPMMPM  1  3  1  0  0   SSRLWPMMPM            FAT1 0.1412460 10845.7  6.4404
+   35  HLA-B*07:02     SSRLWPMMPMD  SSRWPMMPM  0  3  1  0  0   SSRLWPMMPM            FAT1 0.1043460 16167.8  9.8874
+   36  HLA-B*07:02     SRLWPMMPMDL  SRLWPMMPL  0  8  2  0  0  SRLWPMMPMDL            FAT1 0.0659200 24502.7 18.4015
+   37  HLA-B*07:02     RLWPMMPMDLP  RPMMPMDLP  0  1  2  0  0  RLWPMMPMDLP            FAT1 0.0918240 18513.6 11.8112
+   38  HLA-B*07:02     LWPMMPMDLPT  WPMMPMLPT  1  6  1  0  0   WPMMPMDLPT            FAT1 0.1515590  9700.6  5.8076
+   39  HLA-B*07:02     WPMMPMDLPTA  WPMMPLPTA  0  5  2  0  0  WPMMPMDLPTA            FAT1 0.3550140  1073.4  1.2909 <= WB
+   40  HLA-B*07:02     PMMPMDLPTAT  MPMDLPTAT  1  1  1  0  0   MMPMDLPTAT            FAT1 0.1110410 15038.1  9.0818
+   41  HLA-B*07:02     MMPMDLPTATS  MPMLPTATS  1  3  1  0  0   MPMDLPTATS            FAT1 0.1812140  7038.0  4.4063
+   42  HLA-B*07:02     MPMDLPTATST  MPMPTATST  0  3  2  0  0  MPMDLPTATST            FAT1 0.3467310  1174.1  1.3527 <= WB
+   43  HLA-B*07:02     PMDLPTATSTT  MLPTATSTT  1  1  1  0  0   MDLPTATSTT            FAT1 0.0141330 42910.1 81.2892
+   44  HLA-B*07:02     MDLPTATSTTQ  MPTATSTTQ  0  1  2  0  0  MDLPTATSTTQ            FAT1 0.0942690 18030.3 11.3806
+   45  HLA-B*07:02     DLPTATSTTQL  LPTATSTTL  1  8  1  0  0   LPTATSTTQL            FAT1 0.2385670  3784.0  2.8079
+   46  HLA-B*07:02     LPTATSTTQLX  LPATSTTQL  0  2  1  0  0   LPTATSTTQL            FAT1 0.2090750  5206.3  3.4762
+    1  HLA-B*07:02      VNVNVTDIND  VVNVTDIND  0  1  1  0  0   VNVNVTDIND            FAT1 0.0090200 45350.9 94.0954
+    2  HLA-B*07:02      NVNVTDINDN  NVNVTINDN  0  5  1  0  0   NVNVTDINDN            FAT1 0.0127750 43545.2 85.0207
+    3  HLA-B*07:02      VNVTDINDNT  VVTDINDNT  0  1  1  0  0   VNVTDINDNT            FAT1 0.0121730 43829.8 86.5770
+    4  HLA-B*07:02      NVTDINDNTP  NVTDINNTP  0  6  1  0  0   NVTDINDNTP            FAT1 0.0170500 41576.9 73.3475
+    5  HLA-B*07:02      VTDINDNTPV  VTINDNTPV  0  2  1  0  0   VTDINDNTPV            FAT1 0.0618210 25613.9 19.9835
+    6  HLA-B*07:02      TDINDNTPVF  TINDNTPVF  0  1  1  0  0   TDINDNTPVF            FAT1 0.0717110 23014.5 16.4570
+    7  HLA-B*07:02      DINDNTPVFS  DINDNTPVF  0  0  0  0  0    DINDNTPVF            FAT1 0.0249220 38182.3 54.9909
+    8  HLA-B*07:02      INDNTPVFSA  INNTPVFSA  0  2  1  0  0   INDNTPVFSA            FAT1 0.0256620 37877.8 53.6425
+    9  HLA-B*07:02      NDNTPVFSAK  NDNPVFSAK  0  3  1  0  0   NDNTPVFSAK            FAT1 0.0288970 36575.0 47.8913
+   10  HLA-B*07:02      DNTPVFSAKT  DNTPVFSAT  0  8  1  0  0   DNTPVFSAKT            FAT1 0.0171810 41518.1 72.9989
+   11  HLA-B*07:02      NTPVFSAKTP  NPVFSAKTP  0  1  1  0  0   NTPVFSAKTP            FAT1 0.0562830 27195.6 22.5021
+   12  HLA-B*07:02      TPVFSAKTPT  TPFSAKTPT  0  2  1  0  0   TPVFSAKTPT            FAT1 0.3629140   985.5  1.2168 <= WB
+   13  HLA-B*07:02      PVFSAKTPTR  PVFSATPTR  0  5  1  0  0   PVFSAKTPTR            FAT1 0.0154330 42310.8 77.7258
+   14  HLA-B*07:02      VFSAKTPTRQ  FSAKTPTRQ  1  0  0  0  0    FSAKTPTRQ            FAT1 0.0177470 41264.6 71.4928
+   15  HLA-B*07:02      FSAKTPTRQS  FAKTPTRQS  0  1  1  0  0   FSAKTPTRQS            FAT1 0.0785150 21381.1 14.5808
+   16  HLA-B*07:02      SAKTPTRQSS  SAKPTRQSS  0  3  1  0  0   SAKTPTRQSS            FAT1 0.1192490 13760.1  8.1878
+   17  HLA-B*07:02      AKTPTRQSSV  AKTPTRSSV  0  6  1  0  0   AKTPTRQSSV            FAT1 0.0695690 23554.1 17.1306
+   18  HLA-B*07:02      KTPTRQSSVK  KPTRQSSVK  0  1  1  0  0   KTPTRQSSVK            FAT1 0.0993530 17065.3 10.5831
+   19  HLA-B*07:02      TPTRQSSVKM  TPRQSSVKM  0  2  1  0  0   TPTRQSSVKM            FAT1 0.6290500    55.3  0.1871 <= SB
+   20  HLA-B*07:02      PTRQSSVKMP  PTRQSSVKM  0  0  0  0  0    PTRQSSVKM            FAT1 0.0166220 41769.9 74.4864
+   21  HLA-B*07:02      TRQSSVKMPF  TQSSVKMPF  0  1  1  0  0   TRQSSVKMPF            FAT1 0.0999840 16949.2 10.4932
+   22  HLA-B*07:02      RQSSVKMPFL  RQSSVKMPL  0  8  1  0  0   RQSSVKMPFL            FAT1 0.1570620  9139.9  5.4981
+   23  HLA-B*07:02      QSSVKMPFLS  QSSVKMFLS  0  6  1  0  0   QSSVKMPFLS            FAT1 0.0227460 39091.9 59.5135
+   24  HLA-B*07:02      SSVKMPFLSS  SVKMPFLSS  0  1  1  0  0   SSVKMPFLSS            FAT1 0.0893630 19013.2 12.2680
+   25  HLA-B*07:02      SVKMPFLSSL  SVKMPLSSL  0  5  1  0  0   SVKMPFLSSL            FAT1 0.3836800   787.2  1.0636 <= WB
+   26  HLA-B*07:02      VKMPFLSSLS  VKMPFLSSL  0  0  0  0  0    VKMPFLSSL            FAT1 0.0444660 30904.8 29.8926
+   27  HLA-B*07:02      KMPFLSSLSS  KPFLSSLSS  0  1  1  0  0   KMPFLSSLSS            FAT1 0.3017510  1910.1  1.8036 <= WB
+   28  HLA-B*07:02      MPFLSSLSSR  MPFLSSLSS  0  0  0  0  0    MPFLSSLSS            FAT1 0.1997020  5762.0  3.7569
+   29  HLA-B*07:02      PFLSSLSSRL  FLSSLSSRL  1  0  0  0  0    FLSSLSSRL            FAT1 0.0590320 26398.6 21.1236
+   30  HLA-B*07:02      FLSSLSSRLW  FLSSLSSRL  0  0  0  0  0    FLSSLSSRL            FAT1 0.0616400 25664.1 20.0562
+   31  HLA-B*07:02      LSSLSSRLWP  LSLSSRLWP  0  1  1  0  0   LSSLSSRLWP            FAT1 0.0256860 37868.0 53.5988
+   32  HLA-B*07:02      SSLSSRLWPM  SSLSSRLPM  0  7  1  0  0   SSLSSRLWPM            FAT1 0.2526730  3248.4  2.5210
+   33  HLA-B*07:02      SLSSRLWPMM  SLSSRLWPM  0  8  1  0  0   SLSSRLWPMM            FAT1 0.1165420 14169.1  8.4556
+   34  HLA-B*07:02      LSSRLWPMMP  LSSRLWPMM  0  0  0  0  0    LSSRLWPMM            FAT1 0.0344580 34439.2 40.0074
+   35  HLA-B*07:02      SSRLWPMMPM  SSRWPMMPM  0  3  1  0  0   SSRLWPMMPM            FAT1 0.4053820   622.4  0.9385 <= WB
+   36  HLA-B*07:02      SRLWPMMPMD  SRLWPMMPM  0  0  0  0  0    SRLWPMMPM            FAT1 0.0570600 26967.9 22.0844
+   37  HLA-B*07:02      RLWPMMPMDL  RLWPMPMDL  0  4  1  0  0   RLWPMMPMDL            FAT1 0.1135250 14639.3  8.7951
+   38  HLA-B*07:02      LWPMMPMDLP  LPMMPMDLP  0  1  1  0  0   LWPMMPMDLP            FAT1 0.1020590 16572.9 10.1972
+   39  HLA-B*07:02      WPMMPMDLPT  WPMMPMLPT  0  6  1  0  0   WPMMPMDLPT            FAT1 0.4904070   248.1  0.5455 <= WB
+   40  HLA-B*07:02      PMMPMDLPTA  PMMPMDLPA  0  8  1  0  0   PMMPMDLPTA            FAT1 0.0317730 35454.4 43.5342
+   41  HLA-B*07:02      MMPMDLPTAT  MPMDLPTAT  0  1  1  0  0   MMPMDLPTAT            FAT1 0.3681420   931.3  1.1747 <= WB
+   42  HLA-B*07:02      MPMDLPTATS  MPMLPTATS  0  3  1  0  0   MPMDLPTATS            FAT1 0.4714040   304.7  0.6243 <= WB
+   43  HLA-B*07:02      PMDLPTATST  MDLPTATST  1  0  0  0  0    MDLPTATST            FAT1 0.0199930 40273.9 65.8271
+   44  HLA-B*07:02      MDLPTATSTT  MLPTATSTT  0  1  1  0  0   MDLPTATSTT            FAT1 0.0464020 30264.2 28.4332
+   45  HLA-B*07:02      DLPTATSTTQ  LPTATSTTQ  1  0  0  0  0    LPTATSTTQ            FAT1 0.0663040 24401.1 18.2630
+   46  HLA-B*07:02      LPTATSTTQL  LPATSTTQL  0  2  1  0  0   LPTATSTTQL            FAT1 0.6293680    55.2  0.1867 <= SB
+   47  HLA-B*07:02      PTATSTTQLX  TATSTTQLX  1  0  0  0  0    TATSTTQLX            FAT1 0.0218080 39490.7 61.6110
+    1  HLA-B*07:02       VNVNVTDIN  VNVNVTDIN  0  0  0  0  0    VNVNVTDIN            FAT1 0.0112260 44281.2 89.0253
+    2  HLA-B*07:02       NVNVTDIND  NVNVTDIND  0  0  0  0  0    NVNVTDIND            FAT1 0.0159020 42096.6 76.4423
+    3  HLA-B*07:02       VNVTDINDN  VNVTDINDN  0  0  0  0  0    VNVTDINDN            FAT1 0.0061280 46792.3 96.4438
+    4  HLA-B*07:02       NVTDINDNT  NVTDINDNT  0  0  0  0  0    NVTDINDNT            FAT1 0.0221620 39339.7 60.8009
+    5  HLA-B*07:02       VTDINDNTP  VTDINDNTP  0  0  0  0  0    VTDINDNTP            FAT1 0.0179520 41173.1 70.9473
+    6  HLA-B*07:02       TDINDNTPV  TDINDNTPV  0  0  0  0  0    TDINDNTPV            FAT1 0.0530820 28153.9 24.2453
+    7  HLA-B*07:02       DINDNTPVF  DINDNTPVF  0  0  0  0  0    DINDNTPVF            FAT1 0.0954400 17803.3 11.1744
+    8  HLA-B*07:02       INDNTPVFS  INDNTPVFS  0  0  0  0  0    INDNTPVFS            FAT1 0.0126560 43601.4 85.3283
+    9  HLA-B*07:02       NDNTPVFSA  NDNTPVFSA  0  0  0  0  0    NDNTPVFSA            FAT1 0.0452510 30643.4 29.2947
+   10  HLA-B*07:02       DNTPVFSAK  DNTPVFSAK  0  0  0  0  0    DNTPVFSAK            FAT1 0.0286640 36667.3 48.2649
+   11  HLA-B*07:02       NTPVFSAKT  NTPVFSAKT  0  0  0  0  0    NTPVFSAKT            FAT1 0.0259890 37744.1 53.0466
+   12  HLA-B*07:02       TPVFSAKTP  TPVFSAKTP  0  0  0  0  0    TPVFSAKTP            FAT1 0.1351430 11586.1  6.8560
+   13  HLA-B*07:02       PVFSAKTPT  PVFSAKTPT  0  0  0  0  0    PVFSAKTPT            FAT1 0.0413700 31957.6 32.4843
+   14  HLA-B*07:02       VFSAKTPTR  VFSAKTPTR  0  0  0  0  0    VFSAKTPTR            FAT1 0.0238570 38624.8 57.2037
+   15  HLA-B*07:02       FSAKTPTRQ  FSAKTPTRQ  0  0  0  0  0    FSAKTPTRQ            FAT1 0.0380760 33117.1 35.7935
+   16  HLA-B*07:02       SAKTPTRQS  SAKTPTRQS  0  0  0  0  0    SAKTPTRQS            FAT1 0.1428590 10658.1  6.3374
+   17  HLA-B*07:02       AKTPTRQSS  AKTPTRQSS  0  0  0  0  0    AKTPTRQSS            FAT1 0.0387490 32876.8 35.0339
+   18  HLA-B*07:02       KTPTRQSSV  KTPTRQSSV  0  0  0  0  0    KTPTRQSSV            FAT1 0.1467380 10220.0  6.0895
+   19  HLA-B*07:02       TPTRQSSVK  TPTRQSSVK  0  0  0  0  0    TPTRQSSVK            FAT1 0.1456660 10339.3  6.1580
+   20  HLA-B*07:02       PTRQSSVKM  PTRQSSVKM  0  0  0  0  0    PTRQSSVKM            FAT1 0.0970880 17488.7 10.9062
+   21  HLA-B*07:02       TRQSSVKMP  TRQSSVKMP  0  0  0  0  0    TRQSSVKMP            FAT1 0.0150560 42483.7 78.7575
+   22  HLA-B*07:02       RQSSVKMPF  RQSSVKMPF  0  0  0  0  0    RQSSVKMPF            FAT1 0.2124110  5021.8  3.3969
+   23  HLA-B*07:02       QSSVKMPFL  QSSVKMPFL  0  0  0  0  0    QSSVKMPFL            FAT1 0.0653400 24657.0 18.6108
+   24  HLA-B*07:02       SSVKMPFLS  SSVKMPFLS  0  0  0  0  0    SSVKMPFLS            FAT1 0.0333050 34871.5 41.4609
+   25  HLA-B*07:02       SVKMPFLSS  SVKMPFLSS  0  0  0  0  0    SVKMPFLSS            FAT1 0.1850130  6754.6  4.2602
+   26  HLA-B*07:02       VKMPFLSSL  VKMPFLSSL  0  0  0  0  0    VKMPFLSSL            FAT1 0.1715410  7814.6  4.8017
+   27  HLA-B*07:02       KMPFLSSLS  KMPFLSSLS  0  0  0  0  0    KMPFLSSLS            FAT1 0.0406790 32197.4 33.1282
+   28  HLA-B*07:02       MPFLSSLSS  MPFLSSLSS  0  0  0  0  0    MPFLSSLSS            FAT1 0.4367760   443.2  0.7756 <= WB
+   29  HLA-B*07:02       PFLSSLSSR  PFLSSLSSR  0  0  0  0  0    PFLSSLSSR            FAT1 0.0104010 44678.2 91.0031
+   30  HLA-B*07:02       FLSSLSSRL  FLSSLSSRL  0  0  0  0  0    FLSSLSSRL            FAT1 0.2063870  5360.0  3.5517
+   31  HLA-B*07:02       LSSLSSRLW  LSSLSSRLW  0  0  0  0  0    LSSLSSRLW            FAT1 0.0516870 28582.1 25.0225
+   32  HLA-B*07:02       SSLSSRLWP  SSLSSRLWP  0  0  0  0  0    SSLSSRLWP            FAT1 0.0406180 32218.6 33.1866
+   33  HLA-B*07:02       SLSSRLWPM  SLSSRLWPM  0  0  0  0  0    SLSSRLWPM            FAT1 0.2266110  4306.6  3.0596
+   34  HLA-B*07:02       LSSRLWPMM  LSSRLWPMM  0  0  0  0  0    LSSRLWPMM            FAT1 0.1133800 14662.3  8.8118
+   35  HLA-B*07:02       SSRLWPMMP  SSRLWPMMP  0  0  0  0  0    SSRLWPMMP            FAT1 0.0475920 29877.0 27.5905
+   36  HLA-B*07:02       SRLWPMMPM  SRLWPMMPM  0  0  0  0  0    SRLWPMMPM            FAT1 0.1850900  6749.0  4.2572
+   37  HLA-B*07:02       RLWPMMPMD  RLWPMMPMD  0  0  0  0  0    RLWPMMPMD            FAT1 0.0299460 36162.2 46.2346
+   38  HLA-B*07:02       LWPMMPMDL  LWPMMPMDL  0  0  0  0  0    LWPMMPMDL            FAT1 0.0394270 32636.5 34.3448
+   39  HLA-B*07:02       WPMMPMDLP  WPMMPMDLP  0  0  0  0  0    WPMMPMDLP            FAT1 0.1822570  6959.0  4.3662
+   40  HLA-B*07:02       PMMPMDLPT  PMMPMDLPT  0  0  0  0  0    PMMPMDLPT            FAT1 0.0322800 35260.4 42.8329
+   41  HLA-B*07:02       MMPMDLPTA  MMPMDLPTA  0  0  0  0  0    MMPMDLPTA            FAT1 0.0654120 24637.8 18.5848
+   42  HLA-B*07:02       MPMDLPTAT  MPMDLPTAT  0  0  0  0  0    MPMDLPTAT            FAT1 0.4989630   226.1  0.5105 <= WB
+   43  HLA-B*07:02       PMDLPTATS  PMDLPTATS  0  0  0  0  0    PMDLPTATS            FAT1 0.0220330 39394.7 61.0961
+   44  HLA-B*07:02       MDLPTATST  MDLPTATST  0  0  0  0  0    MDLPTATST            FAT1 0.0461490 30347.1 28.6209
+   45  HLA-B*07:02       DLPTATSTT  DLPTATSTT  0  0  0  0  0    DLPTATSTT            FAT1 0.0341760 34544.4 40.3551
+   46  HLA-B*07:02       LPTATSTTQ  LPTATSTTQ  0  0  0  0  0    LPTATSTTQ            FAT1 0.1937760  6143.6  3.9387
+   47  HLA-B*07:02       PTATSTTQL  PTATSTTQL  0  0  0  0  0    PTATSTTQL            FAT1 0.0644960 24883.1 18.9152
+   48  HLA-B*07:02       TATSTTQLX  TATSTTQLX  0  0  0  0  0    TATSTTQLX            FAT1 0.0647110 24825.3 18.8377
+    1  HLA-B*07:02        VNVNVTDI  -VNVNVTDI  0  0  0  0  1     VNVNVTDI            FAT1 0.0166780 41744.6 74.3374
+    2  HLA-B*07:02        NVNVTDIN  NVNVTDIN-  0  0  0  8  1     NVNVTDIN            FAT1 0.0133660 43267.7 83.3975
+    3  HLA-B*07:02        VNVTDIND  VNVTDIND-  0  0  0  8  1     VNVTDIND            FAT1 0.0044620 47643.4 97.4106
+    4  HLA-B*07:02        NVTDINDN  NVTDINDN-  0  0  0  8  1     NVTDINDN            FAT1 0.0094440 45143.3 93.1460
+    5  HLA-B*07:02        VTDINDNT  VTDINDNT-  0  0  0  8  1     VTDINDNT            FAT1 0.0133490 43275.6 83.4442
+    6  HLA-B*07:02        TDINDNTP  TDINDNTP-  0  0  0  8  1     TDINDNTP            FAT1 0.0105470 44607.7 90.6762
+    7  HLA-B*07:02        DINDNTPV  DINDNT-PV  0  0  0  6  1     DINDNTPV            FAT1 0.0337600 34700.3 40.8681
+    8  HLA-B*07:02        INDNTPVF  -INDNTPVF  0  0  0  0  1     INDNTPVF            FAT1 0.0343610 34475.3 40.1270
+    9  HLA-B*07:02        NDNTPVFS  NDNTPVFS-  0  0  0  8  1     NDNTPVFS            FAT1 0.0119180 43950.9 87.2363
+   10  HLA-B*07:02        DNTPVFSA  D-NTPVFSA  0  0  0  1  1     DNTPVFSA            FAT1 0.0171050 41552.2 73.2012
+   11  HLA-B*07:02        NTPVFSAK  NT-PVFSAK  0  0  0  2  1     NTPVFSAK            FAT1 0.0285710 36704.2 48.4152
+   12  HLA-B*07:02        TPVFSAKT  TPVFSAKT-  0  0  0  8  1     TPVFSAKT            FAT1 0.1019870 16585.8 10.2075
+   13  HLA-B*07:02        PVFSAKTP  -PVFSAKTP  0  0  0  0  1     PVFSAKTP            FAT1 0.0201820 40191.6 65.3591
+   14  HLA-B*07:02        VFSAKTPT  -VFSAKTPT  0  0  0  0  1     VFSAKTPT            FAT1 0.0288550 36591.6 47.9575
+   15  HLA-B*07:02        FSAKTPTR  FSA-KTPTR  0  0  0  3  1     FSAKTPTR            FAT1 0.0345310 34412.0 39.9194
+   16  HLA-B*07:02        SAKTPTRQ  SAKTPTRQ-  0  0  0  8  1     SAKTPTRQ            FAT1 0.0409040 32119.1 32.9157
+   17  HLA-B*07:02        AKTPTRQS  AKTPTRQS-  0  0  0  8  1     AKTPTRQS            FAT1 0.0187780 40806.8 68.8361
+   18  HLA-B*07:02        KTPTRQSS  KT-PTRQSS  0  0  0  2  1     KTPTRQSS            FAT1 0.0353990 34090.3 38.8784
+   19  HLA-B*07:02        TPTRQSSV  TPT-RQSSV  0  0  0  3  1     TPTRQSSV            FAT1 0.2717450  2642.7  2.2199
+   20  HLA-B*07:02        PTRQSSVK  -PTRQSSVK  0  0  0  0  1     PTRQSSVK            FAT1 0.0294080 36373.3 47.0866
+   21  HLA-B*07:02        TRQSSVKM  -TRQSSVKM  0  0  0  0  1     TRQSSVKM            FAT1 0.0692470 23636.3 17.2410
+   22  HLA-B*07:02        RQSSVKMP  RQSSVKMP-  0  0  0  8  1     RQSSVKMP            FAT1 0.0418560 31790.0 32.0343
+   23  HLA-B*07:02        QSSVKMPF  QSS-VKMPF  0  0  0  3  1     QSSVKMPF            FAT1 0.0596260 26229.5 20.8644
+   24  HLA-B*07:02        SSVKMPFL  SSV-KMPFL  0  0  0  3  1     SSVKMPFL            FAT1 0.0481800 29687.5 27.1932
+   25  HLA-B*07:02        SVKMPFLS  SVKMPFLS-  0  0  0  8  1     SVKMPFLS            FAT1 0.0638740 25051.2 19.1560
+   26  HLA-B*07:02        VKMPFLSS  VKM-PFLSS  0  0  0  3  1     VKMPFLSS            FAT1 0.0331230 34940.2 41.7020
+   27  HLA-B*07:02        KMPFLSSL  KM-PFLSSL  0  0  0  2  1     KMPFLSSL            FAT1 0.1171900 14070.1  8.3915
+   28  HLA-B*07:02        MPFLSSLS  MPFLSSLS-  0  0  0  8  1     MPFLSSLS            FAT1 0.2341040  3971.2  2.8987
+   29  HLA-B*07:02        PFLSSLSS  -PFLSSLSS  0  0  0  0  1     PFLSSLSS            FAT1 0.0682550 23891.4 17.5811
+   30  HLA-B*07:02        FLSSLSSR  FLSSLSSR-  0  0  0  8  1     FLSSLSSR            FAT1 0.0394090 32642.9 34.3630
+   31  HLA-B*07:02        LSSLSSRL  LSS-LSSRL  0  0  0  3  1     LSSLSSRL            FAT1 0.0635340 25143.5 19.2930
+   32  HLA-B*07:02        SSLSSRLW  SSLSSR-LW  0  0  0  6  1     SSLSSRLW            FAT1 0.0373360 33383.3 36.6322
+   33  HLA-B*07:02        SLSSRLWP  SLSSRLWP-  0  0  0  8  1     SLSSRLWP            FAT1 0.0347770 34320.5 39.6233
+   34  HLA-B*07:02        LSSRLWPM  LSSRLW-PM  0  0  0  6  1     LSSRLWPM            FAT1 0.1063550 15820.2  9.6371
+   35  HLA-B*07:02        SSRLWPMM  SSR-LWPMM  0  0  0  3  1     SSRLWPMM            FAT1 0.1275240 12581.7  7.4487
+   36  HLA-B*07:02        SRLWPMMP  SRLWPMMP-  0  0  0  8  1     SRLWPMMP            FAT1 0.0315210 35551.2 43.8856
+   37  HLA-B*07:02        RLWPMMPM  RLW-PMMPM  0  0  0  3  1     RLWPMMPM            FAT1 0.2146790  4900.0  3.3431
+   38  HLA-B*07:02        LWPMMPMD  -LWPMMPMD  0  0  0  0  1     LWPMMPMD            FAT1 0.0089330 45393.5 94.2902
+   39  HLA-B*07:02        WPMMPMDL  WPMMP-MDL  0  0  0  5  1     WPMMPMDL            FAT1 0.5190160   182.0  0.4439 <= SB
+   40  HLA-B*07:02        PMMPMDLP  -PMMPMDLP  0  0  0  0  1     PMMPMDLP            FAT1 0.0275710 37103.5 50.1640
+   41  HLA-B*07:02        MMPMDLPT  MM-PMDLPT  0  0  0  2  1     MMPMDLPT            FAT1 0.0391920 32719.6 34.5824
+   42  HLA-B*07:02        MPMDLPTA  MPM-DLPTA  0  0  0  3  1     MPMDLPTA            FAT1 0.3207780  1554.7  1.5803 <= WB
+   43  HLA-B*07:02        PMDLPTAT  -PMDLPTAT  0  0  0  0  1     PMDLPTAT            FAT1 0.0684460 23842.1 17.5156
+   44  HLA-B*07:02        MDLPTATS  MDLPTATS-  0  0  0  8  1     MDLPTATS            FAT1 0.0275410 37115.5 50.2187
+   45  HLA-B*07:02        DLPTATST  DL-PTATST  0  0  0  2  1     DLPTATST            FAT1 0.0175650 41345.9 71.9771
+   46  HLA-B*07:02        LPTATSTT  LPTATSTT-  0  0  0  8  1     LPTATSTT            FAT1 0.1609340  8764.9  5.2998
+   47  HLA-B*07:02        PTATSTTQ  -PTATSTTQ  0  0  0  0  1     PTATSTTQ            FAT1 0.0267890 37418.7 51.5889
+   48  HLA-B*07:02        TATSTTQL  TAT-STTQL  0  0  0  3  1     TATSTTQL            FAT1 0.0984250 17237.5 10.7155
+   49  HLA-B*07:02        ATSTTQLX  ATS-TTQLX  0  0  0  3  1     ATSTTQLX            FAT1 0.0236490 38711.9 57.6362
+-----------------------------------------------------------------------------------
+
+Protein FAT1. Allele HLA-B*07:02. Number of high binders 4. Number of weak binders 12. Number of peptides 190
+
+-----------------------------------------------------------------------------------
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/bin/netMHCpan -a HLA-B15:01 -BA -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest2/FAT1_targeted.fa
+# Wed Nov 18 15:15:34 2020
+# User: huangz
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest2
+# Host: Linux odcf-worker01 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-B15:01           HLA allele
+# -BA      1                    Make Binding affinity prediction
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest2/FAT1_targeted.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/synlist.bin Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-B15:01           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest2/FAT1_targeted.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/threshold/%s.thr.%s Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/allelenames File with print names for alleles
+#	[-BA]                1                    Make Binding affinity prediction
+
+# NetMHCpan version 4.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//tmp/netMHCpanaNZIb3
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+# Make binding affinity predictions
+
+HLA-B15:01 : Distance to training data  0.000 (using nearest neighbor HLA-B15:01)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity     Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-B*15:01     VNVNVTDINDN  VNVNVTDIN  0  8  2  0  0  VNVNVTDINDN            FAT1 0.0089920 45364.6 95.9778
+    2  HLA-B*15:01     NVNVTDINDNT  NVNVTDINT  0  7  2  0  0  NVNVTDINDNT            FAT1 0.0103290 44713.1 95.3798
+    3  HLA-B*15:01     VNVTDINDNTP  VNVTDINTP  0  6  2  0  0  VNVTDINDNTP            FAT1 0.0104850 44637.7 95.3100
+    4  HLA-B*15:01     NVTDINDNTPV  NVINDNTPV  0  2  2  0  0  NVTDINDNTPV            FAT1 0.0502690 29024.0 48.1550
+    5  HLA-B*15:01     VTDINDNTPVF  VINDNTPVF  0  1  2  0  0  VTDINDNTPVF            FAT1 0.2329410  4021.5  6.7331
+    6  HLA-B*15:01     TDINDNTPVFS  TINDNTPVF  0  1  1  0  0   TDINDNTPVF            FAT1 0.0606040 25953.4 40.6103
+    7  HLA-B*15:01     DINDNTPVFSA  DINDNTPVF  0  0  0  0  0    DINDNTPVF            FAT1 0.0252710 38038.4 75.6990
+    8  HLA-B*15:01     INDNTPVFSAK  INTPVFSAK  0  1  2  0  0  INDNTPVFSAK            FAT1 0.0273080 37209.2 72.9213
+    9  HLA-B*15:01     NDNTPVFSAKT  NTPVFSAKT  0  1  2  0  0  NDNTPVFSAKT            FAT1 0.0113290 44231.9 94.8159
+   10  HLA-B*15:01     DNTPVFSAKTP  DNTPVFSAP  0  8  2  0  0  DNTPVFSAKTP            FAT1 0.0099590 44892.4 95.5453
+   11  HLA-B*15:01     NTPVFSAKTPT  NVFSAKTPT  0  1  2  0  0  NTPVFSAKTPT            FAT1 0.0333550 34852.7 65.1548
+   12  HLA-B*15:01     TPVFSAKTPTR  TVFSAKTPT  0  1  1  0  0   TPVFSAKTPT            FAT1 0.0194580 40507.7 84.0265
+   13  HLA-B*15:01     PVFSAKTPTRQ  PVFSAKTPQ  0  8  2  0  0  PVFSAKTPTRQ            FAT1 0.0193410 40559.0 84.1967
+   14  HLA-B*15:01     VFSAKTPTRQS  VAKTPTRQS  0  1  2  0  0  VFSAKTPTRQS            FAT1 0.0236420 38714.8 77.9992
+   15  HLA-B*15:01     FSAKTPTRQSS  FSAKTPTSS  0  7  2  0  0  FSAKTPTRQSS            FAT1 0.0485650 29564.1 49.5823
+   16  HLA-B*15:01     SAKTPTRQSSV  SAKTPTSSV  0  6  2  0  0  SAKTPTRQSSV            FAT1 0.0694970 23572.5 35.3840
+   17  HLA-B*15:01     AKTPTRQSSVK  AKTPTSSVK  0  5  2  0  0  AKTPTRQSSVK            FAT1 0.0308200 35821.8 68.3204
+   18  HLA-B*15:01     KTPTRQSSVKM  KTRQSSVKM  0  1  2  0  0  KTPTRQSSVKM            FAT1 0.1422170 10732.4 14.9067
+   19  HLA-B*15:01     TPTRQSSVKMP  TTRQSSVKM  0  1  1  0  0   TPTRQSSVKM            FAT1 0.0285180 36725.2 71.2901
+   20  HLA-B*15:01     PTRQSSVKMPF  RQSSVKMPF  2  0  0  0  0    RQSSVKMPF            FAT1 0.3346890  1337.4  3.2246
+   21  HLA-B*15:01     TRQSSVKMPFL  TQSSVKMPF  0  1  1  0  0   TRQSSVKMPF            FAT1 0.2025250  5588.7  8.6645
+   22  HLA-B*15:01     RQSSVKMPFLS  RQSSVKMPF  0  0  0  0  0    RQSSVKMPF            FAT1 0.2314140  4088.5  6.8168
+   23  HLA-B*15:01     QSSVKMPFLSS  QVKMPFLSS  0  1  2  0  0  QSSVKMPFLSS            FAT1 0.0511650 28744.0 47.4368
+   24  HLA-B*15:01     SSVKMPFLSSL  SSMPFLSSL  0  2  2  0  0  SSVKMPFLSSL            FAT1 0.2010340  5679.6  8.7749
+   25  HLA-B*15:01     SVKMPFLSSLS  SVMPFLSSL  0  2  1  0  0   SVKMPFLSSL            FAT1 0.1084780 15460.9 21.3194
+   26  HLA-B*15:01     VKMPFLSSLSS  KMFLSSLSS  1  2  1  0  0   KMPFLSSLSS            FAT1 0.0716190 23037.5 34.2953
+   27  HLA-B*15:01     KMPFLSSLSSR  KMLSSLSSR  0  2  2  0  0  KMPFLSSLSSR            FAT1 0.0749400 22224.3 32.6674
+   28  HLA-B*15:01     MPFLSSLSSRL  MLSSLSSRL  0  1  2  0  0  MPFLSSLSSRL            FAT1 0.1636080  8514.9 12.1447
+   29  HLA-B*15:01     PFLSSLSSRLW  FLSSLSSLW  1  7  1  0  0   FLSSLSSRLW            FAT1 0.1018370 16612.7 22.9982
+   30  HLA-B*15:01     FLSSLSSRLWP  FLSSLSSLW  0  7  1  0  0   FLSSLSSRLW            FAT1 0.0878660 19323.7 27.3500
+   31  HLA-B*15:01     LSSLSSRLWPM  LLSSRLWPM  0  1  2  0  0  LSSLSSRLWPM            FAT1 0.2169290  4782.2  7.6477
+   32  HLA-B*15:01     SSLSSRLWPMM  SSLSSRLMM  0  7  2  0  0  SSLSSRLWPMM            FAT1 0.1251240 12912.7 17.7729
+   33  HLA-B*15:01     SLSSRLWPMMP  SLSSRLWPM  0  0  0  0  0    SLSSRLWPM            FAT1 0.0692050 23647.1 35.5355
+   34  HLA-B*15:01     LSSRLWPMMPM  LSSRLMMPM  0  5  2  0  0  LSSRLWPMMPM            FAT1 0.2207520  4588.4  7.4092
+   35  HLA-B*15:01     SSRLWPMMPMD  SSRWPMMPM  0  3  1  0  0   SSRLWPMMPM            FAT1 0.0921160 18455.2 25.9057
+   36  HLA-B*15:01     SRLWPMMPMDL  RLWPMMPML  1  8  1  0  0   RLWPMMPMDL            FAT1 0.0729440 22709.5 33.6283
+   37  HLA-B*15:01     RLWPMMPMDLP  RLWPMMPML  0  8  1  0  0   RLWPMMPMDL            FAT1 0.0601310 26086.5 40.9314
+   38  HLA-B*15:01     LWPMMPMDLPT  LMMPMDLPT  0  1  2  0  0  LWPMMPMDLPT            FAT1 0.1292290 12351.7 17.0080
+   39  HLA-B*15:01     WPMMPMDLPTA  WMPMDLPTA  0  1  2  0  0  WPMMPMDLPTA            FAT1 0.0729120 22717.4 33.6442
+   40  HLA-B*15:01     PMMPMDLPTAT  MMMDLPTAT  1  2  1  0  0   MMPMDLPTAT            FAT1 0.0693490 23610.3 35.4608
+   41  HLA-B*15:01     MMPMDLPTATS  MMPMPTATS  0  4  2  0  0  MMPMDLPTATS            FAT1 0.0953930 17812.3 24.8764
+   42  HLA-B*15:01     MPMDLPTATST  MPMPTATST  0  3  2  0  0  MPMDLPTATST            FAT1 0.0370130 33500.2 60.9445
+   43  HLA-B*15:01     PMDLPTATSTT  MLPTATSTT  1  1  1  0  0   MDLPTATSTT            FAT1 0.0210960 39796.1 81.6429
+   44  HLA-B*15:01     MDLPTATSTTQ  MDLATSTTQ  0  3  2  0  0  MDLPTATSTTQ            FAT1 0.0287720 36624.5 70.9477
+   45  HLA-B*15:01     DLPTATSTTQL  LTATSTTQL  1  1  1  0  0   LPTATSTTQL            FAT1 0.0537580 27948.8 45.4257
+   46  HLA-B*15:01     LPTATSTTQLX  LATSTTQLX  0  1  2  0  0  LPTATSTTQLX            FAT1 0.0609100 25867.6 40.4026
+    1  HLA-B*15:01      VNVNVTDIND  VVNVTDIND  0  1  1  0  0   VNVNVTDIND            FAT1 0.0181700 41076.1 85.8815
+    2  HLA-B*15:01      NVNVTDINDN  NVNVTDINN  0  8  1  0  0   NVNVTDINDN            FAT1 0.0162000 41961.1 88.6870
+    3  HLA-B*15:01      VNVTDINDNT  VVTDINDNT  0  1  1  0  0   VNVTDINDNT            FAT1 0.0209890 39842.2 81.7986
+    4  HLA-B*15:01      NVTDINDNTP  NVTDINNTP  0  6  1  0  0   NVTDINDNTP            FAT1 0.0176150 41323.5 86.6719
+    5  HLA-B*15:01      VTDINDNTPV  VTINDNTPV  0  2  1  0  0   VTDINDNTPV            FAT1 0.1437830 10552.1 14.6739
+    6  HLA-B*15:01      TDINDNTPVF  TINDNTPVF  0  1  1  0  0   TDINDNTPVF            FAT1 0.3618940   996.4  2.6574
+    7  HLA-B*15:01      DINDNTPVFS  DINDNTPVF  0  0  0  0  0    DINDNTPVF            FAT1 0.0573330 26888.3 42.8260
+    8  HLA-B*15:01      INDNTPVFSA  INNTPVFSA  0  2  1  0  0   INDNTPVFSA            FAT1 0.0516860 28582.4 47.0223
+    9  HLA-B*15:01      NDNTPVFSAK  NNTPVFSAK  0  1  1  0  0   NDNTPVFSAK            FAT1 0.0320720 35339.8 66.7570
+   10  HLA-B*15:01      DNTPVFSAKT  DNTPVFSAT  0  8  1  0  0   DNTPVFSAKT            FAT1 0.0174110 41414.9 86.9624
+   11  HLA-B*15:01      NTPVFSAKTP  NTVFSAKTP  0  2  1  0  0   NTPVFSAKTP            FAT1 0.0271120 37288.2 73.1855
+   12  HLA-B*15:01      TPVFSAKTPT  TVFSAKTPT  0  1  1  0  0   TPVFSAKTPT            FAT1 0.0797080 21106.9 30.5528
+   13  HLA-B*15:01      PVFSAKTPTR  PVFSATPTR  0  5  1  0  0   PVFSAKTPTR            FAT1 0.0308990 35791.2 68.2218
+   14  HLA-B*15:01      VFSAKTPTRQ  VSAKTPTRQ  0  1  1  0  0   VFSAKTPTRQ            FAT1 0.0407060 32188.0 56.9979
+   15  HLA-B*15:01      FSAKTPTRQS  FSAKTTRQS  0  5  1  0  0   FSAKTPTRQS            FAT1 0.0693510 23609.8 35.4598
+   16  HLA-B*15:01      SAKTPTRQSS  SAKTPTQSS  0  6  1  0  0   SAKTPTRQSS            FAT1 0.0685010 23827.9 35.9009
+   17  HLA-B*15:01      AKTPTRQSSV  AKTPTQSSV  0  5  1  0  0   AKTPTRQSSV            FAT1 0.0644730 24889.3 38.1528
+   18  HLA-B*15:01      KTPTRQSSVK  KTTRQSSVK  0  2  1  0  0   KTPTRQSSVK            FAT1 0.0539660 27886.0 45.2695
+   19  HLA-B*15:01      TPTRQSSVKM  TTRQSSVKM  0  1  1  0  0   TPTRQSSVKM            FAT1 0.2004880  5713.2  8.8154
+   20  HLA-B*15:01      PTRQSSVKMP  PTRQSSVKM  0  0  0  0  0    PTRQSSVKM            FAT1 0.0281810 36859.4 71.7444
+   21  HLA-B*15:01      TRQSSVKMPF  TQSSVKMPF  0  1  1  0  0   TRQSSVKMPF            FAT1 0.6907160    28.4  0.1312 <= SB
+   22  HLA-B*15:01      RQSSVKMPFL  RQSSVKMPF  0  0  0  0  0    RQSSVKMPF            FAT1 0.5453080   137.0  0.6843 <= WB
+   23  HLA-B*15:01      QSSVKMPFLS  QSVKMPFLS  0  1  1  0  0   QSSVKMPFLS            FAT1 0.0402860 32334.6 57.4372
+   24  HLA-B*15:01      SSVKMPFLSS  SVKMPFLSS  0  1  1  0  0   SSVKMPFLSS            FAT1 0.1468260 10210.3 14.2216
+   25  HLA-B*15:01      SVKMPFLSSL  SVMPFLSSL  0  2  1  0  0   SVKMPFLSSL            FAT1 0.3977840   675.8  2.0715
+   26  HLA-B*15:01      VKMPFLSSLS  VMPFLSSLS  0  1  1  0  0   VKMPFLSSLS            FAT1 0.1180550 13939.0 19.1455
+   27  HLA-B*15:01      KMPFLSSLSS  KMFLSSLSS  0  2  1  0  0   KMPFLSSLSS            FAT1 0.2564420  3118.6  5.6380
+   28  HLA-B*15:01      MPFLSSLSSR  MPFLSSLSR  0  7  1  0  0   MPFLSSLSSR            FAT1 0.0672160 24161.5 36.6091
+   29  HLA-B*15:01      PFLSSLSSRL  FLSSLSSRL  1  0  0  0  0    FLSSLSSRL            FAT1 0.1748840  7536.9 10.9562
+   30  HLA-B*15:01      FLSSLSSRLW  FLSSLSSLW  0  7  1  0  0   FLSSLSSRLW            FAT1 0.3344500  1340.9  3.2298
+   31  HLA-B*15:01      LSSLSSRLWP  LSSLSSRLW  0  0  0  0  0    LSSLSSRLW            FAT1 0.0598160 26175.6 41.1413
+   32  HLA-B*15:01      SSLSSRLWPM  SSLSSRLPM  0  7  1  0  0   SSLSSRLWPM            FAT1 0.3745960   868.5  2.4247
+   33  HLA-B*15:01      SLSSRLWPMM  SLSSRLWPM  0  8  1  0  0   SLSSRLWPMM            FAT1 0.3165080  1628.2  3.6536
+   34  HLA-B*15:01      LSSRLWPMMP  LSSRLWPMM  0  0  0  0  0    LSSRLWPMM            FAT1 0.0670000 24218.0 36.7294
+   35  HLA-B*15:01      SSRLWPMMPM  SSRWPMMPM  0  3  1  0  0   SSRLWPMMPM            FAT1 0.4077410   606.7  1.9271 <= WB
+   36  HLA-B*15:01      SRLWPMMPMD  SRLWPMMPM  0  0  0  0  0    SRLWPMMPM            FAT1 0.0526010 28300.9 46.3065
+   37  HLA-B*15:01      RLWPMMPMDL  RLWPMPMDL  0  4  1  0  0   RLWPMMPMDL            FAT1 0.2383100  3794.5  6.4465
+   38  HLA-B*15:01      LWPMMPMDLP  LWMMPMDLP  0  2  1  0  0   LWPMMPMDLP            FAT1 0.0358410 33927.7 62.2894
+   39  HLA-B*15:01      WPMMPMDLPT  WMMPMDLPT  0  1  1  0  0   WPMMPMDLPT            FAT1 0.2177450  4740.2  7.5929
+   40  HLA-B*15:01      PMMPMDLPTA  PMMPMDLPA  0  8  1  0  0   PMMPMDLPTA            FAT1 0.1413370 10835.1 15.0385
+   41  HLA-B*15:01      MMPMDLPTAT  MMMDLPTAT  0  2  1  0  0   MMPMDLPTAT            FAT1 0.2821970  2360.1  4.7199
+   42  HLA-B*15:01      MPMDLPTATS  MMDLPTATS  0  1  1  0  0   MPMDLPTATS            FAT1 0.0980950 17299.1 24.0886
+   43  HLA-B*15:01      PMDLPTATST  PMLPTATST  0  2  1  0  0   PMDLPTATST            FAT1 0.0350800 34208.2 63.1627
+   44  HLA-B*15:01      MDLPTATSTT  MLPTATSTT  0  1  1  0  0   MDLPTATSTT            FAT1 0.0976270 17387.0 24.2251
+   45  HLA-B*15:01      DLPTATSTTQ  DLTATSTTQ  0  2  1  0  0   DLPTATSTTQ            FAT1 0.0371810 33439.3 60.7517
+   46  HLA-B*15:01      LPTATSTTQL  LTATSTTQL  0  1  1  0  0   LPTATSTTQL            FAT1 0.1992670  5789.2  8.9058
+   47  HLA-B*15:01      PTATSTTQLX  PTATSTTLX  0  7  1  0  0   PTATSTTQLX            FAT1 0.0504800 28957.8 47.9817
+    1  HLA-B*15:01       VNVNVTDIN  VNVNVTDIN  0  0  0  0  0    VNVNVTDIN            FAT1 0.0298760 36189.6 69.4993
+    2  HLA-B*15:01       NVNVTDIND  NVNVTDIND  0  0  0  0  0    NVNVTDIND            FAT1 0.0149490 42532.9 90.4012
+    3  HLA-B*15:01       VNVTDINDN  VNVTDINDN  0  0  0  0  0    VNVTDINDN            FAT1 0.0139160 43011.0 91.6610
+    4  HLA-B*15:01       NVTDINDNT  NVTDINDNT  0  0  0  0  0    NVTDINDNT            FAT1 0.0169670 41614.3 87.5947
+    5  HLA-B*15:01       VTDINDNTP  VTDINDNTP  0  0  0  0  0    VTDINDNTP            FAT1 0.0196110 40440.7 83.8038
+    6  HLA-B*15:01       TDINDNTPV  TDINDNTPV  0  0  0  0  0    TDINDNTPV            FAT1 0.0594860 26269.2 41.3591
+    7  HLA-B*15:01       DINDNTPVF  DINDNTPVF  0  0  0  0  0    DINDNTPVF            FAT1 0.2247440  4394.5  7.1859
+    8  HLA-B*15:01       INDNTPVFS  INDNTPVFS  0  0  0  0  0    INDNTPVFS            FAT1 0.0148750 42567.0 90.4915
+    9  HLA-B*15:01       NDNTPVFSA  NDNTPVFSA  0  0  0  0  0    NDNTPVFSA            FAT1 0.0298140 36213.9 69.5767
+   10  HLA-B*15:01       DNTPVFSAK  DNTPVFSAK  0  0  0  0  0    DNTPVFSAK            FAT1 0.0289940 36536.6 70.6484
+   11  HLA-B*15:01       NTPVFSAKT  NTPVFSAKT  0  0  0  0  0    NTPVFSAKT            FAT1 0.0270680 37306.0 73.2448
+   12  HLA-B*15:01       TPVFSAKTP  TPVFSAKTP  0  0  0  0  0    TPVFSAKTP            FAT1 0.0196530 40422.3 83.7427
+   13  HLA-B*15:01       PVFSAKTPT  PVFSAKTPT  0  0  0  0  0    PVFSAKTPT            FAT1 0.0460540 30378.3 51.8528
+   14  HLA-B*15:01       VFSAKTPTR  VFSAKTPTR  0  0  0  0  0    VFSAKTPTR            FAT1 0.0304330 35972.1 68.8037
+   15  HLA-B*15:01       FSAKTPTRQ  FSAKTPTRQ  0  0  0  0  0    FSAKTPTRQ            FAT1 0.0880780 19279.4 27.2698
+   16  HLA-B*15:01       SAKTPTRQS  SAKTPTRQS  0  0  0  0  0    SAKTPTRQS            FAT1 0.0639680 25025.7 38.4679
+   17  HLA-B*15:01       AKTPTRQSS  AKTPTRQSS  0  0  0  0  0    AKTPTRQSS            FAT1 0.0328240 35053.5 65.8179
+   18  HLA-B*15:01       KTPTRQSSV  KTPTRQSSV  0  0  0  0  0    KTPTRQSSV            FAT1 0.0976670 17379.4 24.2134
+   19  HLA-B*15:01       TPTRQSSVK  TPTRQSSVK  0  0  0  0  0    TPTRQSSVK            FAT1 0.0225820 39161.4 79.4959
+   20  HLA-B*15:01       PTRQSSVKM  PTRQSSVKM  0  0  0  0  0    PTRQSSVKM            FAT1 0.1327550 11889.4 16.3972
+   21  HLA-B*15:01       TRQSSVKMP  TRQSSVKMP  0  0  0  0  0    TRQSSVKMP            FAT1 0.0154360 42309.4 89.7750
+   22  HLA-B*15:01       RQSSVKMPF  RQSSVKMPF  0  0  0  0  0    RQSSVKMPF            FAT1 0.7980120     8.9  0.0138 <= SB
+   23  HLA-B*15:01       QSSVKMPFL  QSSVKMPFL  0  0  0  0  0    QSSVKMPFL            FAT1 0.0800100 21038.0 30.4231
+   24  HLA-B*15:01       SSVKMPFLS  SSVKMPFLS  0  0  0  0  0    SSVKMPFLS            FAT1 0.0740960 22428.2 33.0543
+   25  HLA-B*15:01       SVKMPFLSS  SVKMPFLSS  0  0  0  0  0    SVKMPFLSS            FAT1 0.1817070  7000.6 10.3451
+   26  HLA-B*15:01       VKMPFLSSL  VKMPFLSSL  0  0  0  0  0    VKMPFLSSL            FAT1 0.2728320  2611.8  5.0415
+   27  HLA-B*15:01       KMPFLSSLS  KMPFLSSLS  0  0  0  0  0    KMPFLSSLS            FAT1 0.1752770  7505.0 10.9210
+   28  HLA-B*15:01       MPFLSSLSS  MPFLSSLSS  0  0  0  0  0    MPFLSSLSS            FAT1 0.0921250 18453.4 25.9029
+   29  HLA-B*15:01       PFLSSLSSR  PFLSSLSSR  0  0  0  0  0    PFLSSLSSR            FAT1 0.0152570 42391.4 90.0256
+   30  HLA-B*15:01       FLSSLSSRL  FLSSLSSRL  0  0  0  0  0    FLSSLSSRL            FAT1 0.4098020   593.4  1.8985 <= WB
+   31  HLA-B*15:01       LSSLSSRLW  LSSLSSRLW  0  0  0  0  0    LSSLSSRLW            FAT1 0.1626500  8603.6 12.2552
+   32  HLA-B*15:01       SSLSSRLWP  SSLSSRLWP  0  0  0  0  0    SSLSSRLWP            FAT1 0.0510940 28766.1 47.4932
+   33  HLA-B*15:01       SLSSRLWPM  SLSSRLWPM  0  0  0  0  0    SLSSRLWPM            FAT1 0.4749890   293.1  1.2150 <= WB
+   34  HLA-B*15:01       LSSRLWPMM  LSSRLWPMM  0  0  0  0  0    LSSRLWPMM            FAT1 0.2356340  3906.0  6.5857
+   35  HLA-B*15:01       SSRLWPMMP  SSRLWPMMP  0  0  0  0  0    SSRLWPMMP            FAT1 0.0726800 22774.5 33.7598
+   36  HLA-B*15:01       SRLWPMMPM  SRLWPMMPM  0  0  0  0  0    SRLWPMMPM            FAT1 0.1507600  9784.8 13.6899
+   37  HLA-B*15:01       RLWPMMPMD  RLWPMMPMD  0  0  0  0  0    RLWPMMPMD            FAT1 0.0597170 26203.6 41.2066
+   38  HLA-B*15:01       LWPMMPMDL  LWPMMPMDL  0  0  0  0  0    LWPMMPMDL            FAT1 0.0650830 24725.6 37.7968
+   39  HLA-B*15:01       WPMMPMDLP  WPMMPMDLP  0  0  0  0  0    WPMMPMDLP            FAT1 0.0311890 35679.1 67.8596
+   40  HLA-B*15:01       PMMPMDLPT  PMMPMDLPT  0  0  0  0  0    PMMPMDLPT            FAT1 0.1091850 15343.1 21.1477
+   41  HLA-B*15:01       MMPMDLPTA  MMPMDLPTA  0  0  0  0  0    MMPMDLPTA            FAT1 0.2708210  2669.3  5.1123
+   42  HLA-B*15:01       MPMDLPTAT  MPMDLPTAT  0  0  0  0  0    MPMDLPTAT            FAT1 0.0750510 22197.7 32.6172
+   43  HLA-B*15:01       PMDLPTATS  PMDLPTATS  0  0  0  0  0    PMDLPTATS            FAT1 0.0298360 36205.2 69.5492
+   44  HLA-B*15:01       MDLPTATST  MDLPTATST  0  0  0  0  0    MDLPTATST            FAT1 0.0424920 31572.0 55.1297
+   45  HLA-B*15:01       DLPTATSTT  DLPTATSTT  0  0  0  0  0    DLPTATSTT            FAT1 0.0384300 32990.5 59.3787
+   46  HLA-B*15:01       LPTATSTTQ  LPTATSTTQ  0  0  0  0  0    LPTATSTTQ            FAT1 0.0424140 31598.6 55.2113
+   47  HLA-B*15:01       PTATSTTQL  PTATSTTQL  0  0  0  0  0    PTATSTTQL            FAT1 0.0752160 22158.1 32.5425
+   48  HLA-B*15:01       TATSTTQLX  TATSTTQLX  0  0  0  0  0    TATSTTQLX            FAT1 0.1194190 13734.8 18.8659
+    1  HLA-B*15:01        VNVNVTDI  VNV-NVTDI  0  0  0  3  1     VNVNVTDI            FAT1 0.0297660 36232.7 69.6366
+    2  HLA-B*15:01        NVNVTDIN  NVNVTDIN-  0  0  0  8  1     NVNVTDIN            FAT1 0.0153420 42352.4 89.9089
+    3  HLA-B*15:01        VNVTDIND  VNVTDIND-  0  0  0  8  1     VNVTDIND            FAT1 0.0081370 45786.2 96.3603
+    4  HLA-B*15:01        NVTDINDN  NVTDINDN-  0  0  0  8  1     NVTDINDN            FAT1 0.0079550 45876.4 96.4417
+    5  HLA-B*15:01        VTDINDNT  VTDINDNT-  0  0  0  8  1     VTDINDNT            FAT1 0.0132140 43338.9 92.5171
+    6  HLA-B*15:01        TDINDNTP  TDINDNTP-  0  0  0  8  1     TDINDNTP            FAT1 0.0119400 43940.4 94.0707
+    7  HLA-B*15:01        DINDNTPV  DINDNT-PV  0  0  0  6  1     DINDNTPV            FAT1 0.0225120 39191.0 79.5947
+    8  HLA-B*15:01        INDNTPVF  I-NDNTPVF  0  0  0  1  1     INDNTPVF            FAT1 0.1139650 14569.7 20.0369
+    9  HLA-B*15:01        NDNTPVFS  NDNTPVFS-  0  0  0  8  1     NDNTPVFS            FAT1 0.0089000 45409.8 96.0190
+   10  HLA-B*15:01        DNTPVFSA  DNTPVFSA-  0  0  0  8  1     DNTPVFSA            FAT1 0.0161970 41962.4 88.6913
+   11  HLA-B*15:01        NTPVFSAK  NT-PVFSAK  0  0  0  2  1     NTPVFSAK            FAT1 0.0306860 35873.8 68.4878
+   12  HLA-B*15:01        TPVFSAKT  TPVFSAKT-  0  0  0  8  1     TPVFSAKT            FAT1 0.0137110 43106.5 91.9110
+   13  HLA-B*15:01        PVFSAKTP  PVFSAKTP-  0  0  0  8  1     PVFSAKTP            FAT1 0.0229730 38996.0 78.9438
+   14  HLA-B*15:01        VFSAKTPT  V-FSAKTPT  0  0  0  1  1     VFSAKTPT            FAT1 0.0276900 37055.7 72.4063
+   15  HLA-B*15:01        FSAKTPTR  FSAKTPTR-  0  0  0  8  1     FSAKTPTR            FAT1 0.0506590 28901.8 47.8393
+   16  HLA-B*15:01        SAKTPTRQ  SAKTPTRQ-  0  0  0  8  1     SAKTPTRQ            FAT1 0.0315620 35535.4 67.3939
+   17  HLA-B*15:01        AKTPTRQS  AKTPTRQS-  0  0  0  8  1     AKTPTRQS            FAT1 0.0154120 42320.4 89.8092
+   18  HLA-B*15:01        KTPTRQSS  KTPTRQSS-  0  0  0  8  1     KTPTRQSS            FAT1 0.0276050 37089.8 72.5209
+   19  HLA-B*15:01        TPTRQSSV  TPTRQSSV-  0  0  0  8  1     TPTRQSSV            FAT1 0.0164980 41826.0 88.2626
+   20  HLA-B*15:01        PTRQSSVK  PTRQ-SSVK  0  0  0  4  1     PTRQSSVK            FAT1 0.0195300 40476.1 83.9217
+   21  HLA-B*15:01        TRQSSVKM  T-RQSSVKM  0  0  0  1  1     TRQSSVKM            FAT1 0.0616670 25656.6 39.8983
+   22  HLA-B*15:01        RQSSVKMP  RQSSVKMP-  0  0  0  8  1     RQSSVKMP            FAT1 0.1593970  8911.9 12.6305
+   23  HLA-B*15:01        QSSVKMPF  -QSSVKMPF  0  0  0  0  1     QSSVKMPF            FAT1 0.2839690  2315.3  4.6593
+   24  HLA-B*15:01        SSVKMPFL  SSVK-MPFL  0  0  0  4  1     SSVKMPFL            FAT1 0.0652250 24687.6 37.7177
+   25  HLA-B*15:01        SVKMPFLS  SVKMPFLS-  0  0  0  8  1     SVKMPFLS            FAT1 0.0957670 17740.4 24.7673
+   26  HLA-B*15:01        VKMPFLSS  VKMPFLSS-  0  0  0  8  1     VKMPFLSS            FAT1 0.0512250 28725.3 47.3890
+   27  HLA-B*15:01        KMPFLSSL  KM-PFLSSL  0  0  0  2  1     KMPFLSSL            FAT1 0.2347070  3945.4  6.6364
+   28  HLA-B*15:01        MPFLSSLS  MPFLSSLS-  0  0  0  8  1     MPFLSSLS            FAT1 0.0486210 29546.2 49.5343
+   29  HLA-B*15:01        PFLSSLSS  -PFLSSLSS  0  0  0  0  1     PFLSSLSS            FAT1 0.0151700 42431.3 90.1317
+   30  HLA-B*15:01        FLSSLSSR  FLSSLSSR-  0  0  0  8  1     FLSSLSSR            FAT1 0.0812840 20750.0 29.8841
+   31  HLA-B*15:01        LSSLSSRL  LSS-LSSRL  0  0  0  3  1     LSSLSSRL            FAT1 0.0806240 20898.8 30.1594
+   32  HLA-B*15:01        SSLSSRLW  SSLSSR-LW  0  0  0  6  1     SSLSSRLW            FAT1 0.0679890 23960.3 36.1787
+   33  HLA-B*15:01        SLSSRLWP  SLSSRLWP-  0  0  0  8  1     SLSSRLWP            FAT1 0.0749020 22233.5 32.6846
+   34  HLA-B*15:01        LSSRLWPM  LSS-RLWPM  0  0  0  3  1     LSSRLWPM            FAT1 0.1589840  8951.8 12.6781
+   35  HLA-B*15:01        SSRLWPMM  SSR-LWPMM  0  0  0  3  1     SSRLWPMM            FAT1 0.1072060 15675.2 21.6284
+   36  HLA-B*15:01        SRLWPMMP  SRLWPMMP-  0  0  0  8  1     SRLWPMMP            FAT1 0.0259690 37752.2 74.7263
+   37  HLA-B*15:01        RLWPMMPM  RLW-PMMPM  0  0  0  3  1     RLWPMMPM            FAT1 0.3268020  1456.6  3.3962
+   38  HLA-B*15:01        LWPMMPMD  LWPMMPMD-  0  0  0  8  1     LWPMMPMD            FAT1 0.0112660 44262.0 94.8927
+   39  HLA-B*15:01        WPMMPMDL  WPM-MPMDL  0  0  0  3  1     WPMMPMDL            FAT1 0.0416000 31878.1 56.0628
+   40  HLA-B*15:01        PMMPMDLP  PMMPMDLP-  0  0  0  8  1     PMMPMDLP            FAT1 0.0488260 29480.7 49.3585
+   41  HLA-B*15:01        MMPMDLPT  MMPMDLPT-  0  0  0  8  1     MMPMDLPT            FAT1 0.1018860 16603.9 22.9854
+   42  HLA-B*15:01        MPMDLPTA  MPMDLPTA-  0  0  0  8  1     MPMDLPTA            FAT1 0.0485580 29566.3 49.5883
+   43  HLA-B*15:01        PMDLPTAT  PMDLPTAT-  0  0  0  8  1     PMDLPTAT            FAT1 0.0154070 42322.6 89.8163
+   44  HLA-B*15:01        MDLPTATS  MDLPTATS-  0  0  0  8  1     MDLPTATS            FAT1 0.0255120 37939.4 75.3587
+   45  HLA-B*15:01        DLPTATST  DLPTATST-  0  0  0  8  1     DLPTATST            FAT1 0.0193250 40566.0 84.2200
+   46  HLA-B*15:01        LPTATSTT  LPTATSTT-  0  0  0  8  1     LPTATSTT            FAT1 0.0254320 37972.2 75.4716
+   47  HLA-B*15:01        PTATSTTQ  PTATSTTQ-  0  0  0  8  1     PTATSTTQ            FAT1 0.0136050 43155.9 92.0402
+   48  HLA-B*15:01        TATSTTQL  TAT-STTQL  0  0  0  3  1     TATSTTQL            FAT1 0.0442190 30987.5 53.5326
+   49  HLA-B*15:01        ATSTTQLX  ATS-TTQLX  0  0  0  3  1     ATSTTQLX            FAT1 0.0564490 27146.8 43.4618
+-----------------------------------------------------------------------------------
+
+Protein FAT1. Allele HLA-B*15:01. Number of high binders 2. Number of weak binders 4. Number of peptides 190
+
+-----------------------------------------------------------------------------------
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/bin/netMHCpan -a HLA-C03:04 -BA -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest2/FAT1_targeted.fa
+# Wed Nov 18 15:15:34 2020
+# User: huangz
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest2
+# Host: Linux odcf-worker01 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-C03:04           HLA allele
+# -BA      1                    Make Binding affinity prediction
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest2/FAT1_targeted.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/synlist.bin Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-C03:04           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest2/FAT1_targeted.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/threshold/%s.thr.%s Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/allelenames File with print names for alleles
+#	[-BA]                1                    Make Binding affinity prediction
+
+# NetMHCpan version 4.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//tmp/netMHCpan3Sgwc3
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+# Make binding affinity predictions
+
+HLA-C03:04 : Distance to training data  0.000 (using nearest neighbor HLA-C03:03)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity     Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-C*03:04     VNVNVTDINDN  VNVNVTDIN  0  8  2  0  0  VNVNVTDINDN            FAT1 0.0016620 49108.9 97.3950
+    2  HLA-C*03:04     NVNVTDINDNT  NVNVTDINT  0  7  2  0  0  NVNVTDINDNT            FAT1 0.0043330 47710.0 90.6274
+    3  HLA-C*03:04     VNVTDINDNTP  VTDINDNTP  0  1  2  0  0  VNVTDINDNTP            FAT1 0.0044130 47668.7 90.3214
+    4  HLA-C*03:04     NVTDINDNTPV  NVINDNTPV  0  2  2  0  0  NVTDINDNTPV            FAT1 0.0536740 27974.2 22.6134
+    5  HLA-C*03:04     VTDINDNTPVF  VTNDNTPVF  0  2  2  0  0  VTDINDNTPVF            FAT1 0.1406550 10915.3  7.7143
+    6  HLA-C*03:04     TDINDNTPVFS  TINDNTPVF  0  1  1  0  0   TDINDNTPVF            FAT1 0.0203330 40126.0 47.6758
+    7  HLA-C*03:04     DINDNTPVFSA  DINDNTPVA  0  8  2  0  0  DINDNTPVFSA            FAT1 0.0143790 42796.0 58.4501
+    8  HLA-C*03:04     INDNTPVFSAK  INDPVFSAK  0  3  2  0  0  INDNTPVFSAK            FAT1 0.0092900 45218.6 72.1144
+    9  HLA-C*03:04     NDNTPVFSAKT  NTPVFSAKT  0  1  2  0  0  NDNTPVFSAKT            FAT1 0.0047110 47515.3 89.1350
+   10  HLA-C*03:04     DNTPVFSAKTP  DPVFSAKTP  0  1  2  0  0  DNTPVFSAKTP            FAT1 0.0040150 47874.4 91.8439
+   11  HLA-C*03:04     NTPVFSAKTPT  NTFSAKTPT  0  2  2  0  0  NTPVFSAKTPT            FAT1 0.0228760 39037.0 44.1918
+   12  HLA-C*03:04     TPVFSAKTPTR  TPVFSTPTR  0  5  2  0  0  TPVFSAKTPTR            FAT1 0.0117560 44028.0 64.7539
+   13  HLA-C*03:04     PVFSAKTPTRQ  FSAKTPTRQ  2  0  0  0  0    FSAKTPTRQ            FAT1 0.0077270 45989.7 77.4235
+   14  HLA-C*03:04     VFSAKTPTRQS  FSAKTPTQS  1  7  1  0  0   FSAKTPTRQS            FAT1 0.0118890 43964.7 64.4199
+   15  HLA-C*03:04     FSAKTPTRQSS  FSAKTPTSS  0  7  2  0  0  FSAKTPTRQSS            FAT1 0.0492020 29361.0 24.4604
+   16  HLA-C*03:04     SAKTPTRQSSV  SAKTPTSSV  0  6  2  0  0  SAKTPTRQSSV            FAT1 0.0712060 23140.6 17.1667
+   17  HLA-C*03:04     AKTPTRQSSVK  ATPTRQSSV  0  1  1  0  0   AKTPTRQSSV            FAT1 0.0088690 45425.0 73.4672
+   18  HLA-C*03:04     KTPTRQSSVKM  KTRQSSVKM  0  1  2  0  0  KTPTRQSSVKM            FAT1 0.0581590 26649.1 20.9619
+   19  HLA-C*03:04     TPTRQSSVKMP  TPTRQSSVM  0  8  1  0  0   TPTRQSSVKM            FAT1 0.0158300 42129.4 55.3694
+   20  HLA-C*03:04     PTRQSSVKMPF  RQSSVKMPF  2  0  0  0  0    RQSSVKMPF            FAT1 0.0294660 36350.5 37.0212
+   21  HLA-C*03:04     TRQSSVKMPFL  TSSVKMPFL  0  1  2  0  0  TRQSSVKMPFL            FAT1 0.0348320 34300.1 32.6168
+   22  HLA-C*03:04     RQSSVKMPFLS  RQSSVKMPL  0  8  1  0  0   RQSSVKMPFL            FAT1 0.0206690 39980.4 47.1644
+   23  HLA-C*03:04     QSSVKMPFLSS  QSSMPFLSS  0  3  2  0  0  QSSVKMPFLSS            FAT1 0.0132810 43307.5 60.9242
+   24  HLA-C*03:04     SSVKMPFLSSL  SSMPFLSSL  0  2  2  0  0  SSVKMPFLSSL            FAT1 0.2667510  2789.4  2.7979
+   25  HLA-C*03:04     SVKMPFLSSLS  SVMPFLSSL  0  2  1  0  0   SVKMPFLSSL            FAT1 0.0636040 25124.5 19.2387
+   26  HLA-C*03:04     VKMPFLSSLSS  VPFLSSLSS  0  1  2  0  0  VKMPFLSSLSS            FAT1 0.0291660 36468.7 37.3096
+   27  HLA-C*03:04     KMPFLSSLSSR  MPFSSLSSR  1  3  1  0  0   MPFLSSLSSR            FAT1 0.0169150 41637.7 53.3807
+   28  HLA-C*03:04     MPFLSSLSSRL  MPFLSSLSL  0  8  2  0  0  MPFLSSLSSRL            FAT1 0.2690270  2721.6  2.7552
+   29  HLA-C*03:04     PFLSSLSSRLW  FLSSLSSLW  1  7  1  0  0   FLSSLSSRLW            FAT1 0.0261430 37681.2 40.3098
+   30  HLA-C*03:04     FLSSLSSRLWP  FLSSLSSRL  0  0  0  0  0    FLSSLSSRL            FAT1 0.0303410 36008.0 36.2684
+   31  HLA-C*03:04     LSSLSSRLWPM  LSSLSSRPM  0  7  2  0  0  LSSLSSRLWPM            FAT1 0.1458040 10323.8  7.3485
+   32  HLA-C*03:04     SSLSSRLWPMM  SSLSSRLMM  0  7  2  0  0  SSLSSRLWPMM            FAT1 0.0989380 17142.1 11.9283
+   33  HLA-C*03:04     SLSSRLWPMMP  SLSSRLWPM  0  0  0  0  0    SLSSRLWPM            FAT1 0.0159550 42072.5 55.1040
+   34  HLA-C*03:04     LSSRLWPMMPM  LSLWPMMPM  0  2  2  0  0  LSSRLWPMMPM            FAT1 0.2197320  4639.3  3.9317
+   35  HLA-C*03:04     SSRLWPMMPMD  SSLWPMMPM  0  2  1  0  0   SSRLWPMMPM            FAT1 0.0651930 24696.2 18.7707
+   36  HLA-C*03:04     SRLWPMMPMDL  SRLWPMMPL  0  8  2  0  0  SRLWPMMPMDL            FAT1 0.0595710 26245.1 20.5055
+   37  HLA-C*03:04     RLWPMMPMDLP  RLWPMMPML  0  8  1  0  0   RLWPMMPMDL            FAT1 0.0182660 41033.5 50.9794
+   38  HLA-C*03:04     LWPMMPMDLPT  LMMPMDLPT  0  1  2  0  0  LWPMMPMDLPT            FAT1 0.0382730 33046.6 30.2771
+   39  HLA-C*03:04     WPMMPMDLPTA  WPMMPLPTA  0  5  2  0  0  WPMMPMDLPTA            FAT1 0.0738000 22500.2 16.5507
+   40  HLA-C*03:04     PMMPMDLPTAT  MPMDLPTAT  2  0  0  0  0    MPMDLPTAT            FAT1 0.0302590 36039.9 36.3388
+   41  HLA-C*03:04     MMPMDLPTATS  MMPMPTATS  0  4  2  0  0  MMPMDLPTATS            FAT1 0.0414860 31917.5 28.3421
+   42  HLA-C*03:04     MPMDLPTATST  MPMDLPTAT  0  8  2  0  0  MPMDLPTATST            FAT1 0.0629570 25301.0 19.4382
+   43  HLA-C*03:04     PMDLPTATSTT  MLPTATSTT  1  1  1  0  0   MDLPTATSTT            FAT1 0.0079650 45871.5 76.5561
+   44  HLA-C*03:04     MDLPTATSTTQ  MPTATSTTQ  0  1  2  0  0  MDLPTATSTTQ            FAT1 0.0165890 41784.9 53.9602
+   45  HLA-C*03:04     DLPTATSTTQL  LPTATSTTL  1  8  1  0  0   LPTATSTTQL            FAT1 0.0666430 24311.8 18.3627
+   46  HLA-C*03:04     LPTATSTTQLX  LPTATSTTL  0  8  1  0  0   LPTATSTTQL            FAT1 0.0514640 28651.2 23.4780
+    1  HLA-C*03:04      VNVNVTDIND  VVNVTDIND  0  1  1  0  0   VNVNVTDIND            FAT1 0.0057570 46980.6 84.9106
+    2  HLA-C*03:04      NVNVTDINDN  NVNVTDINN  0  8  1  0  0   NVNVTDINDN            FAT1 0.0045010 47623.4 89.9838
+    3  HLA-C*03:04      VNVTDINDNT  VVTDINDNT  0  1  1  0  0   VNVTDINDNT            FAT1 0.0099810 44881.7 69.9035
+    4  HLA-C*03:04      NVTDINDNTP  NVTDINNTP  0  6  1  0  0   NVTDINDNTP            FAT1 0.0095100 45111.0 71.4075
+    5  HLA-C*03:04      VTDINDNTPV  VTINDNTPV  0  2  1  0  0   VTDINDNTPV            FAT1 0.1744530  7572.2  5.6830
+    6  HLA-C*03:04      TDINDNTPVF  TINDNTPVF  0  1  1  0  0   TDINDNTPVF            FAT1 0.1719130  7783.2  5.8111
+    7  HLA-C*03:04      DINDNTPVFS  DINDNTPVF  0  0  0  0  0    DINDNTPVF            FAT1 0.0261230 37689.4 40.3315
+    8  HLA-C*03:04      INDNTPVFSA  INNTPVFSA  0  2  1  0  0   INDNTPVFSA            FAT1 0.0177770 41251.2 51.8486
+    9  HLA-C*03:04      NDNTPVFSAK  NNTPVFSAK  0  1  1  0  0   NDNTPVFSAK            FAT1 0.0110950 44344.0 66.6462
+   10  HLA-C*03:04      DNTPVFSAKT  DTPVFSAKT  0  1  1  0  0   DNTPVFSAKT            FAT1 0.0075420 46081.9 78.0977
+   11  HLA-C*03:04      NTPVFSAKTP  NTPVFSATP  0  7  1  0  0   NTPVFSAKTP            FAT1 0.0113210 44235.7 65.9854
+   12  HLA-C*03:04      TPVFSAKTPT  TVFSAKTPT  0  1  1  0  0   TPVFSAKTPT            FAT1 0.0503230 29007.1 23.9564
+   13  HLA-C*03:04      PVFSAKTPTR  PVFSATPTR  0  5  1  0  0   PVFSAKTPTR            FAT1 0.0084450 45633.8 74.8297
+   14  HLA-C*03:04      VFSAKTPTRQ  FSAKTPTRQ  1  0  0  0  0    FSAKTPTRQ            FAT1 0.0164080 41866.7 54.2819
+   15  HLA-C*03:04      FSAKTPTRQS  FSAKTPTQS  0  7  1  0  0   FSAKTPTRQS            FAT1 0.0614920 25705.2 19.8899
+   16  HLA-C*03:04      SAKTPTRQSS  SATPTRQSS  0  2  1  0  0   SAKTPTRQSS            FAT1 0.0298880 36184.9 36.6569
+   17  HLA-C*03:04      AKTPTRQSSV  ATPTRQSSV  0  1  1  0  0   AKTPTRQSSV            FAT1 0.0478950 29779.2 25.0554
+   18  HLA-C*03:04      KTPTRQSSVK  KTPTRQSSV  0  0  0  0  0    KTPTRQSSV            FAT1 0.0216850 39543.3 45.7293
+   19  HLA-C*03:04      TPTRQSSVKM  TTRQSSVKM  0  1  1  0  0   TPTRQSSVKM            FAT1 0.0955730 17777.7 12.4289
+   20  HLA-C*03:04      PTRQSSVKMP  PTRQSSVKM  0  0  0  0  0    PTRQSSVKM            FAT1 0.0063130 46698.8 82.7488
+   21  HLA-C*03:04      TRQSSVKMPF  TQSSVKMPF  0  1  1  0  0   TRQSSVKMPF            FAT1 0.1019790 16587.2 11.5131
+   22  HLA-C*03:04      RQSSVKMPFL  RQSSVKMPL  0  8  1  0  0   RQSSVKMPFL            FAT1 0.1317130 12024.2  8.4053
+   23  HLA-C*03:04      QSSVKMPFLS  QSSVKMPFL  0  0  0  0  0    QSSVKMPFL            FAT1 0.0186110 40880.6 50.3662
+   24  HLA-C*03:04      SSVKMPFLSS  SSVMPFLSS  0  3  1  0  0   SSVKMPFLSS            FAT1 0.0527990 28240.3 22.9296
+   25  HLA-C*03:04      SVKMPFLSSL  SVMPFLSSL  0  2  1  0  0   SVKMPFLSSL            FAT1 0.3988320   668.1  1.1924 <= WB
+   26  HLA-C*03:04      VKMPFLSSLS  VKMPFLSSL  0  0  0  0  0    VKMPFLSSL            FAT1 0.0516850 28582.7 23.3853
+   27  HLA-C*03:04      KMPFLSSLSS  MPFLSSLSS  1  0  0  0  0    MPFLSSLSS            FAT1 0.0536370 27985.4 22.6268
+   28  HLA-C*03:04      MPFLSSLSSR  MPFLSSLSR  0  7  1  0  0   MPFLSSLSSR            FAT1 0.0580140 26691.0 21.0101
+   29  HLA-C*03:04      PFLSSLSSRL  FLSSLSSRL  1  0  0  0  0    FLSSLSSRL            FAT1 0.1057800 15918.9 10.9950
+   30  HLA-C*03:04      FLSSLSSRLW  FLSSLSSLW  0  7  1  0  0   FLSSLSSRLW            FAT1 0.1261330 12772.5  8.8835
+   31  HLA-C*03:04      LSSLSSRLWP  LSSLSSRLW  0  0  0  0  0    LSSLSSRLW            FAT1 0.0263900 37580.6 40.0413
+   32  HLA-C*03:04      SSLSSRLWPM  SSLSSRLPM  0  7  1  0  0   SSLSSRLWPM            FAT1 0.3109260  1729.6  2.0783
+   33  HLA-C*03:04      SLSSRLWPMM  SLSSRLWPM  0  8  1  0  0   SLSSRLWPMM            FAT1 0.1018910 16603.0 11.5251
+   34  HLA-C*03:04      LSSRLWPMMP  LSSRLWPMM  0  0  0  0  0    LSSRLWPMM            FAT1 0.0326740 35110.4 34.2752
+   35  HLA-C*03:04      SSRLWPMMPM  SSLWPMMPM  0  2  1  0  0   SSRLWPMMPM            FAT1 0.3494500  1140.0  1.6327 <= WB
+   36  HLA-C*03:04      SRLWPMMPMD  SRLWPMMPM  0  0  0  0  0    SRLWPMMPM            FAT1 0.0520430 28472.2 23.2352
+   37  HLA-C*03:04      RLWPMMPMDL  RLWPMPMDL  0  4  1  0  0   RLWPMMPMDL            FAT1 0.1175640 14013.3  9.6969
+   38  HLA-C*03:04      LWPMMPMDLP  LPMMPMDLP  0  1  1  0  0   LWPMMPMDLP            FAT1 0.0225880 39158.8 44.5624
+   39  HLA-C*03:04      WPMMPMDLPT  WMMPMDLPT  0  1  1  0  0   WPMMPMDLPT            FAT1 0.1175430 14016.5  9.6989
+   40  HLA-C*03:04      PMMPMDLPTA  MMPMDLPTA  1  0  0  0  0    MMPMDLPTA            FAT1 0.0393890 32649.9 29.5733
+   41  HLA-C*03:04      MMPMDLPTAT  MMMDLPTAT  0  2  1  0  0   MMPMDLPTAT            FAT1 0.1446580 10452.7  7.4282
+   42  HLA-C*03:04      MPMDLPTATS  MPMDLTATS  0  5  1  0  0   MPMDLPTATS            FAT1 0.1136380 14621.4 10.0866
+   43  HLA-C*03:04      PMDLPTATST  PMLPTATST  0  2  1  0  0   PMDLPTATST            FAT1 0.0090280 45346.9 72.9563
+   44  HLA-C*03:04      MDLPTATSTT  MLPTATSTT  0  1  1  0  0   MDLPTATSTT            FAT1 0.0434800 31236.2 27.2395
+   45  HLA-C*03:04      DLPTATSTTQ  LPTATSTTQ  1  0  0  0  0    LPTATSTTQ            FAT1 0.0145330 42724.8 58.1231
+   46  HLA-C*03:04      LPTATSTTQL  LPTATSTTL  0  8  1  0  0   LPTATSTTQL            FAT1 0.2664150  2799.6  2.8042
+   47  HLA-C*03:04      PTATSTTQLX  TATSTTQLX  1  0  0  0  0    TATSTTQLX            FAT1 0.0192180 40613.0 49.3705
+    1  HLA-C*03:04       VNVNVTDIN  VNVNVTDIN  0  0  0  0  0    VNVNVTDIN            FAT1 0.0092750 45225.9 72.1626
+    2  HLA-C*03:04       NVNVTDIND  NVNVTDIND  0  0  0  0  0    NVNVTDIND            FAT1 0.0101420 44803.6 69.4327
+    3  HLA-C*03:04       VNVTDINDN  VNVTDINDN  0  0  0  0  0    VNVTDINDN            FAT1 0.0043310 47711.0 90.6350
+    4  HLA-C*03:04       NVTDINDNT  NVTDINDNT  0  0  0  0  0    NVTDINDNT            FAT1 0.0251590 38084.5 41.4021
+    5  HLA-C*03:04       VTDINDNTP  VTDINDNTP  0  0  0  0  0    VTDINDNTP            FAT1 0.0295800 36305.7 36.9211
+    6  HLA-C*03:04       TDINDNTPV  TDINDNTPV  0  0  0  0  0    TDINDNTPV            FAT1 0.0559430 27295.8 21.7861
+    7  HLA-C*03:04       DINDNTPVF  DINDNTPVF  0  0  0  0  0    DINDNTPVF            FAT1 0.2406230  3700.8  3.3667
+    8  HLA-C*03:04       INDNTPVFS  INDNTPVFS  0  0  0  0  0    INDNTPVFS            FAT1 0.0180250 41140.7 51.4077
+    9  HLA-C*03:04       NDNTPVFSA  NDNTPVFSA  0  0  0  0  0    NDNTPVFSA            FAT1 0.0131300 43378.3 61.3034
+   10  HLA-C*03:04       DNTPVFSAK  DNTPVFSAK  0  0  0  0  0    DNTPVFSAK            FAT1 0.0152660 42387.3 56.5669
+   11  HLA-C*03:04       NTPVFSAKT  NTPVFSAKT  0  0  0  0  0    NTPVFSAKT            FAT1 0.0344180 34454.1 32.9047
+   12  HLA-C*03:04       TPVFSAKTP  TPVFSAKTP  0  0  0  0  0    TPVFSAKTP            FAT1 0.0284500 36752.3 37.9981
+   13  HLA-C*03:04       PVFSAKTPT  PVFSAKTPT  0  0  0  0  0    PVFSAKTPT            FAT1 0.0309080 35787.7 35.7659
+   14  HLA-C*03:04       VFSAKTPTR  VFSAKTPTR  0  0  0  0  0    VFSAKTPTR            FAT1 0.0181100 41102.8 51.2567
+   15  HLA-C*03:04       FSAKTPTRQ  FSAKTPTRQ  0  0  0  0  0    FSAKTPTRQ            FAT1 0.1065500 15786.8 10.9060
+   16  HLA-C*03:04       SAKTPTRQS  SAKTPTRQS  0  0  0  0  0    SAKTPTRQS            FAT1 0.0507160 28884.0 23.7916
+   17  HLA-C*03:04       AKTPTRQSS  AKTPTRQSS  0  0  0  0  0    AKTPTRQSS            FAT1 0.0135500 43181.6 60.2486
+   18  HLA-C*03:04       KTPTRQSSV  KTPTRQSSV  0  0  0  0  0    KTPTRQSSV            FAT1 0.1917310  6281.0  4.9076
+   19  HLA-C*03:04       TPTRQSSVK  TPTRQSSVK  0  0  0  0  0    TPTRQSSVK            FAT1 0.0263710 37588.4 40.0620
+   20  HLA-C*03:04       PTRQSSVKM  PTRQSSVKM  0  0  0  0  0    PTRQSSVKM            FAT1 0.0731870 22649.9 16.6928
+   21  HLA-C*03:04       TRQSSVKMP  TRQSSVKMP  0  0  0  0  0    TRQSSVKMP            FAT1 0.0068070 46449.8 80.8281
+   22  HLA-C*03:04       RQSSVKMPF  RQSSVKMPF  0  0  0  0  0    RQSSVKMPF            FAT1 0.2721330  2631.6  2.6969
+   23  HLA-C*03:04       QSSVKMPFL  QSSVKMPFL  0  0  0  0  0    QSSVKMPFL            FAT1 0.2034080  5535.6  4.4567
+   24  HLA-C*03:04       SSVKMPFLS  SSVKMPFLS  0  0  0  0  0    SSVKMPFLS            FAT1 0.0561130 27245.6 21.7224
+   25  HLA-C*03:04       SVKMPFLSS  SVKMPFLSS  0  0  0  0  0    SVKMPFLSS            FAT1 0.0755780 22071.5 16.1388
+   26  HLA-C*03:04       VKMPFLSSL  VKMPFLSSL  0  0  0  0  0    VKMPFLSSL            FAT1 0.4066140   614.2  1.1286 <= WB
+   27  HLA-C*03:04       KMPFLSSLS  KMPFLSSLS  0  0  0  0  0    KMPFLSSLS            FAT1 0.0433440 31282.2 27.3137
+   28  HLA-C*03:04       MPFLSSLSS  MPFLSSLSS  0  0  0  0  0    MPFLSSLSS            FAT1 0.2112670  5084.3  4.1985
+   29  HLA-C*03:04       PFLSSLSSR  PFLSSLSSR  0  0  0  0  0    PFLSSLSSR            FAT1 0.0049440 47395.6 88.1932
+   30  HLA-C*03:04       FLSSLSSRL  FLSSLSSRL  0  0  0  0  0    FLSSLSSRL            FAT1 0.5615510   114.9  0.3950 <= SB
+   31  HLA-C*03:04       LSSLSSRLW  LSSLSSRLW  0  0  0  0  0    LSSLSSRLW            FAT1 0.1584760  9001.1  6.5406
+   32  HLA-C*03:04       SSLSSRLWP  SSLSSRLWP  0  0  0  0  0    SSLSSRLWP            FAT1 0.0340720 34583.3 33.1669
+   33  HLA-C*03:04       SLSSRLWPM  SLSSRLWPM  0  0  0  0  0    SLSSRLWPM            FAT1 0.3054640  1834.9  2.1597
+   34  HLA-C*03:04       LSSRLWPMM  LSSRLWPMM  0  0  0  0  0    LSSRLWPMM            FAT1 0.3236860  1506.5  1.9053 <= WB
+   35  HLA-C*03:04       SSRLWPMMP  SSRLWPMMP  0  0  0  0  0    SSRLWPMMP            FAT1 0.0329650 35000.0 34.0496
+   36  HLA-C*03:04       SRLWPMMPM  SRLWPMMPM  0  0  0  0  0    SRLWPMMPM            FAT1 0.2969070  2012.9  2.2871
+   37  HLA-C*03:04       RLWPMMPMD  RLWPMMPMD  0  0  0  0  0    RLWPMMPMD            FAT1 0.0251920 38070.9 41.3641
+   38  HLA-C*03:04       LWPMMPMDL  LWPMMPMDL  0  0  0  0  0    LWPMMPMDL            FAT1 0.0898250 18918.4 13.3394
+   39  HLA-C*03:04       WPMMPMDLP  WPMMPMDLP  0  0  0  0  0    WPMMPMDLP            FAT1 0.0523160 28388.3 23.1208
+   40  HLA-C*03:04       PMMPMDLPT  PMMPMDLPT  0  0  0  0  0    PMMPMDLPT            FAT1 0.0374130 33355.5 30.8527
+   41  HLA-C*03:04       MMPMDLPTA  MMPMDLPTA  0  0  0  0  0    MMPMDLPTA            FAT1 0.2368690  3854.2  3.4563
+   42  HLA-C*03:04       MPMDLPTAT  MPMDLPTAT  0  0  0  0  0    MPMDLPTAT            FAT1 0.2698560  2697.3  2.7396
+   43  HLA-C*03:04       PMDLPTATS  PMDLPTATS  0  0  0  0  0    PMDLPTATS            FAT1 0.0181920 41066.4 51.1109
+   44  HLA-C*03:04       MDLPTATST  MDLPTATST  0  0  0  0  0    MDLPTATST            FAT1 0.0305370 35931.7 36.1003
+   45  HLA-C*03:04       DLPTATSTT  DLPTATSTT  0  0  0  0  0    DLPTATSTT            FAT1 0.0368810 33548.1 31.2117
+   46  HLA-C*03:04       LPTATSTTQ  LPTATSTTQ  0  0  0  0  0    LPTATSTTQ            FAT1 0.0648530 24787.2 18.8663
+   47  HLA-C*03:04       PTATSTTQL  PTATSTTQL  0  0  0  0  0    PTATSTTQL            FAT1 0.1239110 13083.3  9.0853
+   48  HLA-C*03:04       TATSTTQLX  TATSTTQLX  0  0  0  0  0    TATSTTQLX            FAT1 0.1510610  9753.0  6.9850
+    1  HLA-C*03:04        VNVNVTDI  -VNVNVTDI  0  0  0  0  1     VNVNVTDI            FAT1 0.0253130 38021.1 41.2247
+    2  HLA-C*03:04        NVNVTDIN  NVNVTDIN-  0  0  0  8  1     NVNVTDIN            FAT1 0.0048650 47436.2 88.5125
+    3  HLA-C*03:04        VNVTDIND  VNVTDIND-  0  0  0  8  1     VNVTDIND            FAT1 0.0019470 48957.7 96.9483
+    4  HLA-C*03:04        NVTDINDN  NVTDINDN-  0  0  0  8  1     NVTDINDN            FAT1 0.0032200 48288.0 94.8852
+    5  HLA-C*03:04        VTDINDNT  VTDINDNT-  0  0  0  8  1     VTDINDNT            FAT1 0.0136950 43113.9 59.9023
+    6  HLA-C*03:04        TDINDNTP  TDINDNTP-  0  0  0  8  1     TDINDNTP            FAT1 0.0029180 48446.1 95.4263
+    7  HLA-C*03:04        DINDNTPV  DINDN-TPV  0  0  0  5  1     DINDNTPV            FAT1 0.0345370 34409.8 32.8220
+    8  HLA-C*03:04        INDNTPVF  I-NDNTPVF  0  0  0  1  1     INDNTPVF            FAT1 0.0916240 18553.7 13.0288
+    9  HLA-C*03:04        NDNTPVFS  N-DNTPVFS  0  0  0  1  1     NDNTPVFS            FAT1 0.0029820 48412.5 95.3260
+   10  HLA-C*03:04        DNTPVFSA  D-NTPVFSA  0  0  0  1  1     DNTPVFSA            FAT1 0.0057600 46979.0 84.8989
+   11  HLA-C*03:04        NTPVFSAK  NT-PVFSAK  0  0  0  2  1     NTPVFSAK            FAT1 0.0156410 42215.7 55.7707
+   12  HLA-C*03:04        TPVFSAKT  TPVFSAKT-  0  0  0  8  1     TPVFSAKT            FAT1 0.0135620 43176.0 60.2185
+   13  HLA-C*03:04        PVFSAKTP  PVFSAKTP-  0  0  0  8  1     PVFSAKTP            FAT1 0.0059790 46867.8 84.0474
+   14  HLA-C*03:04        VFSAKTPT  -VFSAKTPT  0  0  0  0  1     VFSAKTPT            FAT1 0.0152050 42415.2 56.6964
+   15  HLA-C*03:04        FSAKTPTR  FSAKTPTR-  0  0  0  8  1     FSAKTPTR            FAT1 0.0444540 30908.8 26.7348
+   16  HLA-C*03:04        SAKTPTRQ  SAKTPTRQ-  0  0  0  8  1     SAKTPTRQ            FAT1 0.0112640 44263.0 66.1520
+   17  HLA-C*03:04        AKTPTRQS  AKTPTRQS-  0  0  0  8  1     AKTPTRQS            FAT1 0.0044740 47637.3 90.0880
+   18  HLA-C*03:04        KTPTRQSS  KTPTRQSS-  0  0  0  8  1     KTPTRQSS            FAT1 0.0106950 44536.3 67.8158
+   19  HLA-C*03:04        TPTRQSSV  TPT-RQSSV  0  0  0  3  1     TPTRQSSV            FAT1 0.0304190 35977.6 36.2015
+   20  HLA-C*03:04        PTRQSSVK  -PTRQSSVK  0  0  0  0  1     PTRQSSVK            FAT1 0.0045460 47600.2 89.8019
+   21  HLA-C*03:04        TRQSSVKM  -TRQSSVKM  0  0  0  0  1     TRQSSVKM            FAT1 0.0353820 34096.6 32.2344
+   22  HLA-C*03:04        RQSSVKMP  RQSSVKMP-  0  0  0  8  1     RQSSVKMP            FAT1 0.0115460 44128.1 65.3275
+   23  HLA-C*03:04        QSSVKMPF  QSS-VKMPF  0  0  0  3  1     QSSVKMPF            FAT1 0.0771990 21687.7 15.7872
+   24  HLA-C*03:04        SSVKMPFL  SSVK-MPFL  0  0  0  4  1     SSVKMPFL            FAT1 0.1214550 13435.6  9.3230
+   25  HLA-C*03:04        SVKMPFLS  SVKMPFLS-  0  0  0  8  1     SVKMPFLS            FAT1 0.0148790 42565.1 57.3885
+   26  HLA-C*03:04        VKMPFLSS  VKMPFLSS-  0  0  0  8  1     VKMPFLSS            FAT1 0.0183620 40990.9 50.8087
+   27  HLA-C*03:04        KMPFLSSL  KM-PFLSSL  0  0  0  2  1     KMPFLSSL            FAT1 0.1303050 12208.7  8.5212
+   28  HLA-C*03:04        MPFLSSLS  MPFLSSLS-  0  0  0  8  1     MPFLSSLS            FAT1 0.0619730 25571.8 19.7416
+   29  HLA-C*03:04        PFLSSLSS  -PFLSSLSS  0  0  0  0  1     PFLSSLSS            FAT1 0.0112980 44246.7 66.0526
+   30  HLA-C*03:04        FLSSLSSR  FLSSLSSR-  0  0  0  8  1     FLSSLSSR            FAT1 0.0270300 37321.3 39.3876
+   31  HLA-C*03:04        LSSLSSRL  LSS-LSSRL  0  0  0  3  1     LSSLSSRL            FAT1 0.1255660 12851.1  8.9328
+   32  HLA-C*03:04        SSLSSRLW  SSL-SSRLW  0  0  0  3  1     SSLSSRLW            FAT1 0.0416810 31850.2 28.2309
+   33  HLA-C*03:04        SLSSRLWP  SLSSRLWP-  0  0  0  8  1     SLSSRLWP            FAT1 0.0121070 43861.1 63.8724
+   34  HLA-C*03:04        LSSRLWPM  LS-SRLWPM  0  0  0  2  1     LSSRLWPM            FAT1 0.1525230  9600.0  6.8974
+   35  HLA-C*03:04        SSRLWPMM  SSRLWPM-M  0  0  0  7  1     SSRLWPMM            FAT1 0.0868900 19528.8 13.8460
+   36  HLA-C*03:04        SRLWPMMP  SRLWPMMP-  0  0  0  8  1     SRLWPMMP            FAT1 0.0178710 41209.2 51.6815
+   37  HLA-C*03:04        RLWPMMPM  RLWPM-MPM  0  0  0  5  1     RLWPMMPM            FAT1 0.1886510  6493.9  5.0323
+   38  HLA-C*03:04        LWPMMPMD  LWPMMPMD-  0  0  0  8  1     LWPMMPMD            FAT1 0.0041600 47799.4 91.2892
+   39  HLA-C*03:04        WPMMPMDL  WPMM-PMDL  0  0  0  4  1     WPMMPMDL            FAT1 0.1529650  9554.1  6.8709
+   40  HLA-C*03:04        PMMPMDLP  PMMPMDLP-  0  0  0  8  1     PMMPMDLP            FAT1 0.0077790 45963.9 77.2340
+   41  HLA-C*03:04        MMPMDLPT  MM-PMDLPT  0  0  0  2  1     MMPMDLPT            FAT1 0.0441740 31002.6 26.8736
+   42  HLA-C*03:04        MPMDLPTA  MPMD-LPTA  0  0  0  4  1     MPMDLPTA            FAT1 0.1094540 15298.5 10.5703
+   43  HLA-C*03:04        PMDLPTAT  -PMDLPTAT  0  0  0  0  1     PMDLPTAT            FAT1 0.0150120 42503.9 57.1062
+   44  HLA-C*03:04        MDLPTATS  M-DLPTATS  0  0  0  1  1     MDLPTATS            FAT1 0.0142250 42867.4 58.7771
+   45  HLA-C*03:04        DLPTATST  DLPTATST-  0  0  0  8  1     DLPTATST            FAT1 0.0085380 45588.0 74.5308
+   46  HLA-C*03:04        LPTATSTT  LPTATSTT-  0  0  0  8  1     LPTATSTT            FAT1 0.0294000 36376.5 37.0846
+   47  HLA-C*03:04        PTATSTTQ  -PTATSTTQ  0  0  0  0  1     PTATSTTQ            FAT1 0.0051270 47301.9 87.4535
+   48  HLA-C*03:04        TATSTTQL  TAT-STTQL  0  0  0  3  1     TATSTTQL            FAT1 0.2008600  5690.3  4.5484
+   49  HLA-C*03:04        ATSTTQLX  ATS-TTQLX  0  0  0  3  1     ATSTTQLX            FAT1 0.0155670 42249.5 55.9278
+-----------------------------------------------------------------------------------
+
+Protein FAT1. Allele HLA-C*03:04. Number of high binders 1. Number of weak binders 4. Number of peptides 190
+
+-----------------------------------------------------------------------------------
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/bin/netMHCpan -a HLA-C07:02 -BA -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest2/FAT1_targeted.fa
+# Wed Nov 18 15:15:34 2020
+# User: huangz
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest2
+# Host: Linux odcf-worker01 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-C07:02           HLA allele
+# -BA      1                    Make Binding affinity prediction
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest2/FAT1_targeted.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/synlist.bin Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-C07:02           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest2/FAT1_targeted.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/threshold/%s.thr.%s Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//Linux_x86_64/data/allelenames File with print names for alleles
+#	[-BA]                1                    Make Binding affinity prediction
+
+# NetMHCpan version 4.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-4.0//tmp/netMHCpanFjgQb3
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+# Make binding affinity predictions
+
+HLA-C07:02 : Distance to training data  0.000 (using nearest neighbor HLA-C07:02)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity     Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-C*07:02     VNVNVTDINDN  VNVNVTDIN  0  8  2  0  0  VNVNVTDINDN            FAT1 0.0032520 48271.3 97.5486
+    2  HLA-C*07:02     NVNVTDINDNT  NVNDINDNT  0  3  2  0  0  NVNVTDINDNT            FAT1 0.0054940 47114.4 95.8586
+    3  HLA-C*07:02     VNVTDINDNTP  VTDINDNTP  0  1  2  0  0  VNVTDINDNTP            FAT1 0.0060410 46836.4 95.4463
+    4  HLA-C*07:02     NVTDINDNTPV  NVTDINTPV  0  5  2  0  0  NVTDINDNTPV            FAT1 0.0267370 37439.8 54.2964
+    5  HLA-C*07:02     VTDINDNTPVF  VTDDNTPVF  0  3  2  0  0  VTDINDNTPVF            FAT1 0.1064100 15810.8 11.7921
+    6  HLA-C*07:02     TDINDNTPVFS  TINDNTPVF  0  1  1  0  0   TDINDNTPVF            FAT1 0.0227820 39076.7 60.3417
+    7  HLA-C*07:02     DINDNTPVFSA  DINDNTPVF  0  0  0  0  0    DINDNTPVF            FAT1 0.0198150 40351.5 65.5339
+    8  HLA-C*07:02     INDNTPVFSAK  INDPVFSAK  0  3  2  0  0  INDNTPVFSAK            FAT1 0.0207730 39935.4 63.8091
+    9  HLA-C*07:02     NDNTPVFSAKT  NTPVFSAKT  0  1  2  0  0  NDNTPVFSAKT            FAT1 0.0100250 44860.4 87.4060
+   10  HLA-C*07:02     DNTPVFSAKTP  NTPVFSATP  1  7  1  0  0   NTPVFSAKTP            FAT1 0.0067720 46467.4 94.6981
+   11  HLA-C*07:02     NTPVFSAKTPT  NTPVFSAPT  0  7  2  0  0  NTPVFSAKTPT            FAT1 0.0162620 41932.9 72.7989
+   12  HLA-C*07:02     TPVFSAKTPTR  TFSAKTPTR  0  1  2  0  0  TPVFSAKTPTR            FAT1 0.0282580 36828.7 52.2343
+   13  HLA-C*07:02     PVFSAKTPTRQ  VFSAKTPTQ  1  8  1  0  0   VFSAKTPTRQ            FAT1 0.0103530 44701.4 86.6254
+   14  HLA-C*07:02     VFSAKTPTRQS  VFSAKTPTS  0  8  2  0  0  VFSAKTPTRQS            FAT1 0.0234470 38796.6 59.2789
+   15  HLA-C*07:02     FSAKTPTRQSS  FSAPTRQSS  0  3  2  0  0  FSAKTPTRQSS            FAT1 0.0202820 40148.1 64.6565
+   16  HLA-C*07:02     SAKTPTRQSSV  SAPTRQSSV  0  2  2  0  0  SAKTPTRQSSV            FAT1 0.0566620 27084.3 27.4946
+   17  HLA-C*07:02     AKTPTRQSSVK  AKTPTRSVK  0  6  2  0  0  AKTPTRQSSVK            FAT1 0.0180460 41131.3 69.0578
+   18  HLA-C*07:02     KTPTRQSSVKM  KTPTRSVKM  0  5  2  0  0  KTPTRQSSVKM            FAT1 0.0602170 26062.3 25.6705
+   19  HLA-C*07:02     TPTRQSSVKMP  TTRQSSVKM  0  1  1  0  0   TPTRQSSVKM            FAT1 0.0139210 43008.6 78.0296
+   20  HLA-C*07:02     PTRQSSVKMPF  TRQSSVMPF  1  6  1  0  0   TRQSSVKMPF            FAT1 0.0970310 17499.4 13.6135
+   21  HLA-C*07:02     TRQSSVKMPFL  TRQSKMPFL  0  4  2  0  0  TRQSSVKMPFL            FAT1 0.1831000  6895.9  4.3708
+   22  HLA-C*07:02     RQSSVKMPFLS  RQSSVKMFL  0  7  1  0  0   RQSSVKMPFL            FAT1 0.0400660 32411.6 39.1841
+   23  HLA-C*07:02     QSSVKMPFLSS  QSSVKMPFL  0  0  0  0  0    QSSVKMPFL            FAT1 0.0191540 40641.1 66.8506
+   24  HLA-C*07:02     SSVKMPFLSSL  SKMPFLSSL  0  1  2  0  0  SSVKMPFLSSL            FAT1 0.1481660 10063.3  6.6969
+   25  HLA-C*07:02     SVKMPFLSSLS  SVMPFLSSL  0  2  1  0  0   SVKMPFLSSL            FAT1 0.0603290 26030.7 25.6145
+   26  HLA-C*07:02     VKMPFLSSLSS  VKMPFLSSL  0  0  0  0  0    VKMPFLSSL            FAT1 0.0453420 30613.3 34.8477
+   27  HLA-C*07:02     KMPFLSSLSSR  KMPFLSSLR  0  8  2  0  0  KMPFLSSLSSR            FAT1 0.0442470 30978.1 35.6995
+   28  HLA-C*07:02     MPFLSSLSSRL  MPFLSSLSL  0  8  2  0  0  MPFLSSLSSRL            FAT1 0.0925960 18359.6 14.5784
+   29  HLA-C*07:02     PFLSSLSSRLW  FLSSLSSLW  1  7  1  0  0   FLSSLSSRLW            FAT1 0.0406400 32211.0 38.6880
+   30  HLA-C*07:02     FLSSLSSRLWP  FLSSLSSRL  0  0  0  0  0    FLSSLSSRL            FAT1 0.0323980 35215.4 46.9933
+   31  HLA-C*07:02     LSSLSSRLWPM  LSSSRLWPM  0  2  2  0  0  LSSLSSRLWPM            FAT1 0.0783590 21417.2 18.4029
+   32  HLA-C*07:02     SSLSSRLWPMM  SSLSSRLWM  0  8  2  0  0  SSLSSRLWPMM            FAT1 0.0738420 22490.0 19.9569
+   33  HLA-C*07:02     SLSSRLWPMMP  SLSSRLWPM  0  0  0  0  0    SLSSRLWPM            FAT1 0.0293760 36385.9 50.7185
+   34  HLA-C*07:02     LSSRLWPMMPM  LRLWPMMPM  0  1  2  0  0  LSSRLWPMMPM            FAT1 0.1928160  6207.7  3.8918
+   35  HLA-C*07:02     SSRLWPMMPMD  SRLWPMMPM  0  1  1  0  0   SSRLWPMMPM            FAT1 0.0930660 18266.5 14.4743
+   36  HLA-C*07:02     SRLWPMMPMDL  SRLWPMMPL  0  8  2  0  0  SRLWPMMPMDL            FAT1 0.2577230  3075.7  1.8530 <= WB
+   37  HLA-C*07:02     RLWPMMPMDLP  RLWPMPMDL  0  4  1  0  0   RLWPMMPMDL            FAT1 0.0454490 30577.8 34.7694
+   38  HLA-C*07:02     LWPMMPMDLPT  LWPMMPMDL  0  0  0  0  0    LWPMMPMDL            FAT1 0.0394900 32614.3 39.6916
+   39  HLA-C*07:02     WPMMPMDLPTA  WMPMDLPTA  0  1  2  0  0  WPMMPMDLPTA            FAT1 0.0399450 32454.1 39.2907
+   40  HLA-C*07:02     PMMPMDLPTAT  MMMDLPTAT  1  2  1  0  0   MMPMDLPTAT            FAT1 0.0211890 39756.1 63.0911
+   41  HLA-C*07:02     MMPMDLPTATS  MMPMPTATS  0  4  2  0  0  MMPMDLPTATS            FAT1 0.0310860 35718.9 48.5280
+   42  HLA-C*07:02     MPMDLPTATST  MPMDLPTAT  0  8  2  0  0  MPMDLPTATST            FAT1 0.0246520 38294.0 57.4182
+   43  HLA-C*07:02     PMDLPTATSTT  MLPTATSTT  1  1  1  0  0   MDLPTATSTT            FAT1 0.0092640 45231.3 89.2170
+   44  HLA-C*07:02     MDLPTATSTTQ  MPTATSTTQ  0  1  2  0  0  MDLPTATSTTQ            FAT1 0.0106460 44560.0 85.9281
+   45  HLA-C*07:02     DLPTATSTTQL  DLPTATSTL  0  8  2  0  0  DLPTATSTTQL            FAT1 0.0394360 32633.3 39.7392
+   46  HLA-C*07:02     LPTATSTTQLX  LATSTTQLX  0  1  2  0  0  LPTATSTTQLX            FAT1 0.0227720 39080.9 60.3590
+    1  HLA-C*07:02      VNVNVTDIND  VNVNVTIND  0  6  1  0  0   VNVNVTDIND            FAT1 0.0051770 47276.3 96.0975
+    2  HLA-C*07:02      NVNVTDINDN  NVNVTDINN  0  8  1  0  0   NVNVTDINDN            FAT1 0.0051680 47280.9 96.1043
+    3  HLA-C*07:02      VNVTDINDNT  VVTDINDNT  0  1  1  0  0   VNVTDINDNT            FAT1 0.0089970 45362.1 89.8524
+    4  HLA-C*07:02      NVTDINDNTP  NVTDINNTP  0  6  1  0  0   NVTDINDNTP            FAT1 0.0088200 45449.1 90.2498
+    5  HLA-C*07:02      VTDINDNTPV  VTDINNTPV  0  5  1  0  0   VTDINDNTPV            FAT1 0.0548330 27625.6 28.5125
+    6  HLA-C*07:02      TDINDNTPVF  TINDNTPVF  0  1  1  0  0   TDINDNTPVF            FAT1 0.1025970 16476.7 12.4971
+    7  HLA-C*07:02      DINDNTPVFS  DINDNTPVF  0  0  0  0  0    DINDNTPVF            FAT1 0.0308220 35821.1 48.8427
+    8  HLA-C*07:02      INDNTPVFSA  INNTPVFSA  0  2  1  0  0   INDNTPVFSA            FAT1 0.0265290 37524.2 54.5784
+    9  HLA-C*07:02      NDNTPVFSAK  NNTPVFSAK  0  1  1  0  0   NDNTPVFSAK            FAT1 0.0234850 38780.6 59.2202
+   10  HLA-C*07:02      DNTPVFSAKT  DTPVFSAKT  0  1  1  0  0   DNTPVFSAKT            FAT1 0.0151770 42428.1 75.1249
+   11  HLA-C*07:02      NTPVFSAKTP  NTPVFSATP  0  7  1  0  0   NTPVFSAKTP            FAT1 0.0140580 42944.9 77.7128
+   12  HLA-C*07:02      TPVFSAKTPT  TVFSAKTPT  0  1  1  0  0   TPVFSAKTPT            FAT1 0.0231430 38924.4 59.7483
+   13  HLA-C*07:02      PVFSAKTPTR  VFSAKTPTR  1  0  0  0  0    VFSAKTPTR            FAT1 0.0326940 35102.8 46.6641
+   14  HLA-C*07:02      VFSAKTPTRQ  VFSAKTPTQ  0  8  1  0  0   VFSAKTPTRQ            FAT1 0.0343700 34472.0 44.8022
+   15  HLA-C*07:02      FSAKTPTRQS  FAKTPTRQS  0  1  1  0  0   FSAKTPTRQS            FAT1 0.0323230 35244.0 47.0800
+   16  HLA-C*07:02      SAKTPTRQSS  SAKPTRQSS  0  3  1  0  0   SAKTPTRQSS            FAT1 0.0267770 37423.6 54.2421
+   17  HLA-C*07:02      AKTPTRQSSV  ATPTRQSSV  0  1  1  0  0   AKTPTRQSSV            FAT1 0.0634360 25170.2 24.1154
+   18  HLA-C*07:02      KTPTRQSSVK  KTPTRSSVK  0  5  1  0  0   KTPTRQSSVK            FAT1 0.0405060 32257.7 38.8026
+   19  HLA-C*07:02      TPTRQSSVKM  TTRQSSVKM  0  1  1  0  0   TPTRQSSVKM            FAT1 0.0564590 27143.8 27.6033
+   20  HLA-C*07:02      PTRQSSVKMP  PTRQSSVKM  0  0  0  0  0    PTRQSSVKM            FAT1 0.0097010 45017.9 88.1771
+   21  HLA-C*07:02      TRQSSVKMPF  TRQSSVMPF  0  6  1  0  0   TRQSSVKMPF            FAT1 0.2993320  1960.7  1.1707 <= WB
+   22  HLA-C*07:02      RQSSVKMPFL  RQSSVKMFL  0  7  1  0  0   RQSSVKMPFL            FAT1 0.1551320  9332.7  6.1584
+   23  HLA-C*07:02      QSSVKMPFLS  QSSVKMPFL  0  0  0  0  0    QSSVKMPFL            FAT1 0.0277820 37018.9 52.8796
+   24  HLA-C*07:02      SSVKMPFLSS  SSKMPFLSS  0  2  1  0  0   SSVKMPFLSS            FAT1 0.0374850 33329.5 41.5427
+   25  HLA-C*07:02      SVKMPFLSSL  SKMPFLSSL  0  1  1  0  0   SVKMPFLSSL            FAT1 0.2288910  4201.6  2.5695
+   26  HLA-C*07:02      VKMPFLSSLS  VKMPFLSSL  0  0  0  0  0    VKMPFLSSL            FAT1 0.0918830 18501.8 14.7363
+   27  HLA-C*07:02      KMPFLSSLSS  KMFLSSLSS  0  2  1  0  0   KMPFLSSLSS            FAT1 0.0400440 32419.4 39.2035
+   28  HLA-C*07:02      MPFLSSLSSR  MFLSSLSSR  0  1  1  0  0   MPFLSSLSSR            FAT1 0.0755250 22084.1 19.3672
+   29  HLA-C*07:02      PFLSSLSSRL  FLSSLSSRL  1  0  0  0  0    FLSSLSSRL            FAT1 0.0812790 20751.2 17.4865
+   30  HLA-C*07:02      FLSSLSSRLW  FLSSLSSLW  0  7  1  0  0   FLSSLSSRLW            FAT1 0.1020080 16582.0 12.6079
+   31  HLA-C*07:02      LSSLSSRLWP  LSSLSSRLW  0  0  0  0  0    LSSLSSRLW            FAT1 0.0252660 38040.5 56.4700
+   32  HLA-C*07:02      SSLSSRLWPM  SSLSRLWPM  0  3  1  0  0   SSLSSRLWPM            FAT1 0.1691230  8021.7  5.1901
+   33  HLA-C*07:02      SLSSRLWPMM  SLSSRLWPM  0  8  1  0  0   SLSSRLWPMM            FAT1 0.1195920 13709.2  9.6989
+   34  HLA-C*07:02      LSSRLWPMMP  LSSRLWPMM  0  0  0  0  0    LSSRLWPMM            FAT1 0.0289470 36555.2 51.3002
+   35  HLA-C*07:02      SSRLWPMMPM  SRLWPMMPM  0  1  1  0  0   SSRLWPMMPM            FAT1 0.3154320  1647.3  0.9881 <= WB
+   36  HLA-C*07:02      SRLWPMMPMD  SRLWPMMPM  0  0  0  0  0    SRLWPMMPM            FAT1 0.1786060  7239.5  4.6168
+   37  HLA-C*07:02      RLWPMMPMDL  RWPMMPMDL  0  1  1  0  0   RLWPMMPMDL            FAT1 0.1924530  6232.2  3.9081
+   38  HLA-C*07:02      LWPMMPMDLP  LWPMMPMDL  0  0  0  0  0    LWPMMPMDL            FAT1 0.0681020 23931.0 22.0792
+   39  HLA-C*07:02      WPMMPMDLPT  WMMPMDLPT  0  1  1  0  0   WPMMPMDLPT            FAT1 0.0469350 30090.1 33.6754
+   40  HLA-C*07:02      PMMPMDLPTA  MMPMDLPTA  1  0  0  0  0    MMPMDLPTA            FAT1 0.0386620 32907.8 40.4338
+   41  HLA-C*07:02      MMPMDLPTAT  MMMDLPTAT  0  2  1  0  0   MMPMDLPTAT            FAT1 0.0681520 23918.0 22.0586
+   42  HLA-C*07:02      MPMDLPTATS  MPMDLPATS  0  6  1  0  0   MPMDLPTATS            FAT1 0.0456250 30519.7 34.6406
+   43  HLA-C*07:02      PMDLPTATST  PMDLPTATT  0  8  1  0  0   PMDLPTATST            FAT1 0.0103510 44702.4 86.6302
+   44  HLA-C*07:02      MDLPTATSTT  MLPTATSTT  0  1  1  0  0   MDLPTATSTT            FAT1 0.0270380 37318.1 53.8883
+   45  HLA-C*07:02      DLPTATSTTQ  DLPTATTTQ  0  6  1  0  0   DLPTATSTTQ            FAT1 0.0122130 43810.8 82.1053
+   46  HLA-C*07:02      LPTATSTTQL  LTATSTTQL  0  1  1  0  0   LPTATSTTQL            FAT1 0.0711740 23148.6 20.9073
+   47  HLA-C*07:02      PTATSTTQLX  TATSTTQLX  1  0  0  0  0    TATSTTQLX            FAT1 0.0140710 42938.9 77.6827
+    1  HLA-C*07:02       VNVNVTDIN  VNVNVTDIN  0  0  0  0  0    VNVNVTDIN            FAT1 0.0111480 44318.6 84.7245
+    2  HLA-C*07:02       NVNVTDIND  NVNVTDIND  0  0  0  0  0    NVNVTDIND            FAT1 0.0081060 45801.6 91.8006
+    3  HLA-C*07:02       VNVTDINDN  VNVTDINDN  0  0  0  0  0    VNVTDINDN            FAT1 0.0064460 46631.6 95.1410
+    4  HLA-C*07:02       NVTDINDNT  NVTDINDNT  0  0  0  0  0    NVTDINDNT            FAT1 0.0185160 40922.7 68.1215
+    5  HLA-C*07:02       VTDINDNTP  VTDINDNTP  0  0  0  0  0    VTDINDNTP            FAT1 0.0214760 39632.8 62.5958
+    6  HLA-C*07:02       TDINDNTPV  TDINDNTPV  0  0  0  0  0    TDINDNTPV            FAT1 0.0348660 34287.5 44.2601
+    7  HLA-C*07:02       DINDNTPVF  DINDNTPVF  0  0  0  0  0    DINDNTPVF            FAT1 0.1941470  6119.0  3.8319
+    8  HLA-C*07:02       INDNTPVFS  INDNTPVFS  0  0  0  0  0    INDNTPVFS            FAT1 0.0283970 36773.4 52.0458
+    9  HLA-C*07:02       NDNTPVFSA  NDNTPVFSA  0  0  0  0  0    NDNTPVFSA            FAT1 0.0207470 39946.7 63.8540
+   10  HLA-C*07:02       DNTPVFSAK  DNTPVFSAK  0  0  0  0  0    DNTPVFSAK            FAT1 0.0401710 32374.8 39.0916
+   11  HLA-C*07:02       NTPVFSAKT  NTPVFSAKT  0  0  0  0  0    NTPVFSAKT            FAT1 0.0468790 30108.4 33.7172
+   12  HLA-C*07:02       TPVFSAKTP  TPVFSAKTP  0  0  0  0  0    TPVFSAKTP            FAT1 0.0119160 43951.9 82.8357
+   13  HLA-C*07:02       PVFSAKTPT  PVFSAKTPT  0  0  0  0  0    PVFSAKTPT            FAT1 0.0170600 41572.5 71.0952
+   14  HLA-C*07:02       VFSAKTPTR  VFSAKTPTR  0  0  0  0  0    VFSAKTPTR            FAT1 0.1424230 10708.5  7.1789
+   15  HLA-C*07:02       FSAKTPTRQ  FSAKTPTRQ  0  0  0  0  0    FSAKTPTRQ            FAT1 0.0465580 30213.1 33.9567
+   16  HLA-C*07:02       SAKTPTRQS  SAKTPTRQS  0  0  0  0  0    SAKTPTRQS            FAT1 0.0448440 30778.6 35.2287
+   17  HLA-C*07:02       AKTPTRQSS  AKTPTRQSS  0  0  0  0  0    AKTPTRQSS            FAT1 0.0255570 37920.9 56.0207
+   18  HLA-C*07:02       KTPTRQSSV  KTPTRQSSV  0  0  0  0  0    KTPTRQSSV            FAT1 0.1690180  8030.8  5.1965
+   19  HLA-C*07:02       TPTRQSSVK  TPTRQSSVK  0  0  0  0  0    TPTRQSSVK            FAT1 0.0223690 39251.7 61.0545
+   20  HLA-C*07:02       PTRQSSVKM  PTRQSSVKM  0  0  0  0  0    PTRQSSVKM            FAT1 0.0530360 28168.0 29.6169
+   21  HLA-C*07:02       TRQSSVKMP  TRQSSVKMP  0  0  0  0  0    TRQSSVKMP            FAT1 0.0344010 34460.4 44.7683
+   22  HLA-C*07:02       RQSSVKMPF  RQSSVKMPF  0  0  0  0  0    RQSSVKMPF            FAT1 0.2356070  3907.1  2.3869
+   23  HLA-C*07:02       QSSVKMPFL  QSSVKMPFL  0  0  0  0  0    QSSVKMPFL            FAT1 0.1715460  7814.1  5.0416
+   24  HLA-C*07:02       SSVKMPFLS  SSVKMPFLS  0  0  0  0  0    SSVKMPFLS            FAT1 0.0364080 33720.2 42.6172
+   25  HLA-C*07:02       SVKMPFLSS  SVKMPFLSS  0  0  0  0  0    SVKMPFLSS            FAT1 0.0716580 23027.7 20.7348
+   26  HLA-C*07:02       VKMPFLSSL  VKMPFLSSL  0  0  0  0  0    VKMPFLSSL            FAT1 0.4318900   467.2  0.3048 <= SB
+   27  HLA-C*07:02       KMPFLSSLS  KMPFLSSLS  0  0  0  0  0    KMPFLSSLS            FAT1 0.0596160 26232.3 25.9710
+   28  HLA-C*07:02       MPFLSSLSS  MPFLSSLSS  0  0  0  0  0    MPFLSSLSS            FAT1 0.0717700 22999.8 20.6948
+   29  HLA-C*07:02       PFLSSLSSR  PFLSSLSSR  0  0  0  0  0    PFLSSLSSR            FAT1 0.0400000 32434.8 39.2423
+   30  HLA-C*07:02       FLSSLSSRL  FLSSLSSRL  0  0  0  0  0    FLSSLSSRL            FAT1 0.2794250  2432.0  1.4542 <= WB
+   31  HLA-C*07:02       LSSLSSRLW  LSSLSSRLW  0  0  0  0  0    LSSLSSRLW            FAT1 0.1009650 16770.2 12.8043
+   32  HLA-C*07:02       SSLSSRLWP  SSLSSRLWP  0  0  0  0  0    SSLSSRLWP            FAT1 0.0337860 34690.5 45.4488
+   33  HLA-C*07:02       SLSSRLWPM  SLSSRLWPM  0  0  0  0  0    SLSSRLWPM            FAT1 0.2797690  2422.9  1.4486 <= WB
+   34  HLA-C*07:02       LSSRLWPMM  LSSRLWPMM  0  0  0  0  0    LSSRLWPMM            FAT1 0.1616900  8693.5  5.6745
+   35  HLA-C*07:02       SSRLWPMMP  SSRLWPMMP  0  0  0  0  0    SSRLWPMMP            FAT1 0.0372290 33422.0 41.7939
+   36  HLA-C*07:02       SRLWPMMPM  SRLWPMMPM  0  0  0  0  0    SRLWPMMPM            FAT1 0.5567460   121.0  0.0653 <= SB
+   37  HLA-C*07:02       RLWPMMPMD  RLWPMMPMD  0  0  0  0  0    RLWPMMPMD            FAT1 0.0277650 37025.7 52.9027
+   38  HLA-C*07:02       LWPMMPMDL  LWPMMPMDL  0  0  0  0  0    LWPMMPMDL            FAT1 0.3243740  1495.4  0.9030 <= WB
+   39  HLA-C*07:02       WPMMPMDLP  WPMMPMDLP  0  0  0  0  0    WPMMPMDLP            FAT1 0.0211770 39761.2 63.1118
+   40  HLA-C*07:02       PMMPMDLPT  PMMPMDLPT  0  0  0  0  0    PMMPMDLPT            FAT1 0.0237610 38665.0 58.7940
+   41  HLA-C*07:02       MMPMDLPTA  MMPMDLPTA  0  0  0  0  0    MMPMDLPTA            FAT1 0.1642260  8458.2  5.4902
+   42  HLA-C*07:02       MPMDLPTAT  MPMDLPTAT  0  0  0  0  0    MPMDLPTAT            FAT1 0.0931700 18246.0 14.4513
+   43  HLA-C*07:02       PMDLPTATS  PMDLPTATS  0  0  0  0  0    PMDLPTATS            FAT1 0.0182890 41023.3 68.5737
+   44  HLA-C*07:02       MDLPTATST  MDLPTATST  0  0  0  0  0    MDLPTATST            FAT1 0.0218440 39475.3 61.9607
+   45  HLA-C*07:02       DLPTATSTT  DLPTATSTT  0  0  0  0  0    DLPTATSTT            FAT1 0.0318140 35438.6 47.6698
+   46  HLA-C*07:02       LPTATSTTQ  LPTATSTTQ  0  0  0  0  0    LPTATSTTQ            FAT1 0.0254140 37979.6 56.2415
+   47  HLA-C*07:02       PTATSTTQL  PTATSTTQL  0  0  0  0  0    PTATSTTQL            FAT1 0.0541840 27820.2 28.8882
+   48  HLA-C*07:02       TATSTTQLX  TATSTTQLX  0  0  0  0  0    TATSTTQLX            FAT1 0.0573610 26880.2 27.1204
+    1  HLA-C*07:02        VNVNVTDI  V-NVNVTDI  0  0  0  1  1     VNVNVTDI            FAT1 0.0335130 34793.1 45.7528
+    2  HLA-C*07:02        NVNVTDIN  NVNVTDIN-  0  0  0  8  1     NVNVTDIN            FAT1 0.0061690 46771.6 95.3498
+    3  HLA-C*07:02        VNVTDIND  VNVTDIND-  0  0  0  8  1     VNVTDIND            FAT1 0.0036740 48051.4 97.2305
+    4  HLA-C*07:02        NVTDINDN  NVTDINDN-  0  0  0  8  1     NVTDINDN            FAT1 0.0049650 47384.9 96.2573
+    5  HLA-C*07:02        VTDINDNT  VTDINDNT-  0  0  0  8  1     VTDINDNT            FAT1 0.0124920 43678.8 81.4191
+    6  HLA-C*07:02        TDINDNTP  T-DINDNTP  0  0  0  1  1     TDINDNTP            FAT1 0.0053310 47197.6 95.9815
+    7  HLA-C*07:02        DINDNTPV  DINDNT-PV  0  0  0  6  1     DINDNTPV            FAT1 0.0289130 36568.6 51.3463
+    8  HLA-C*07:02        INDNTPVF  I-NDNTPVF  0  0  0  1  1     INDNTPVF            FAT1 0.0990120 17128.3 13.1936
+    9  HLA-C*07:02        NDNTPVFS  N-DNTPVFS  0  0  0  1  1     NDNTPVFS            FAT1 0.0065940 46557.0 95.0294
+   10  HLA-C*07:02        DNTPVFSA  DNTPVF-SA  0  0  0  6  1     DNTPVFSA            FAT1 0.0126780 43590.9 80.9616
+   11  HLA-C*07:02        NTPVFSAK  NTP-VFSAK  0  0  0  3  1     NTPVFSAK            FAT1 0.0368920 33544.1 42.1283
+   12  HLA-C*07:02        TPVFSAKT  TPV-FSAKT  0  0  0  3  1     TPVFSAKT            FAT1 0.0128910 43490.6 80.4378
+   13  HLA-C*07:02        PVFSAKTP  PVFSAKTP-  0  0  0  8  1     PVFSAKTP            FAT1 0.0059440 46885.6 95.5194
+   14  HLA-C*07:02        VFSAKTPT  VFSAKTPT-  0  0  0  8  1     VFSAKTPT            FAT1 0.0423790 31610.6 37.2151
+   15  HLA-C*07:02        FSAKTPTR  FSA-KTPTR  0  0  0  3  1     FSAKTPTR            FAT1 0.0535870 28000.5 29.2610
+   16  HLA-C*07:02        SAKTPTRQ  SAKTPTRQ-  0  0  0  8  1     SAKTPTRQ            FAT1 0.0167560 41709.4 71.7442
+   17  HLA-C*07:02        AKTPTRQS  AKTPTRQS-  0  0  0  8  1     AKTPTRQS            FAT1 0.0099640 44890.0 87.5512
+   18  HLA-C*07:02        KTPTRQSS  KTPTRQSS-  0  0  0  8  1     KTPTRQSS            FAT1 0.0189950 40711.1 67.1673
+   19  HLA-C*07:02        TPTRQSSV  T-PTRQSSV  0  0  0  1  1     TPTRQSSV            FAT1 0.0351790 34171.6 43.9189
+   20  HLA-C*07:02        PTRQSSVK  PTRQS-SVK  0  0  0  5  1     PTRQSSVK            FAT1 0.0089000 45409.8 90.0760
+   21  HLA-C*07:02        TRQSSVKM  TRQSSV-KM  0  0  0  6  1     TRQSSVKM            FAT1 0.1539170  9456.2  6.2490
+   22  HLA-C*07:02        RQSSVKMP  RQSSVKMP-  0  0  0  8  1     RQSSVKMP            FAT1 0.0172090 41505.5 70.7771
+   23  HLA-C*07:02        QSSVKMPF  QSSVK-MPF  0  0  0  5  1     QSSVKMPF            FAT1 0.0597550 26192.9 25.9015
+   24  HLA-C*07:02        SSVKMPFL  SSV-KMPFL  0  0  0  3  1     SSVKMPFL            FAT1 0.1033970 16334.7 12.3465
+   25  HLA-C*07:02        SVKMPFLS  SVKMPFLS-  0  0  0  8  1     SVKMPFLS            FAT1 0.0270230 37324.1 53.9086
+   26  HLA-C*07:02        VKMPFLSS  VKMPFLSS-  0  0  0  8  1     VKMPFLSS            FAT1 0.0341400 34557.9 45.0546
+   27  HLA-C*07:02        KMPFLSSL  KMP-FLSSL  0  0  0  3  1     KMPFLSSL            FAT1 0.1758440  7459.1  4.7827
+   28  HLA-C*07:02        MPFLSSLS  MPFLSSLS-  0  0  0  8  1     MPFLSSLS            FAT1 0.0338570 34663.9 45.3697
+   29  HLA-C*07:02        PFLSSLSS  PFLSSLSS-  0  0  0  8  1     PFLSSLSS            FAT1 0.0136010 43157.8 78.7697
+   30  HLA-C*07:02        FLSSLSSR  FL-SSLSSR  0  0  0  2  1     FLSSLSSR            FAT1 0.0462480 30314.6 34.1845
+   31  HLA-C*07:02        LSSLSSRL  LSSLS-SRL  0  0  0  5  1     LSSLSSRL            FAT1 0.0595500 26251.0 26.0041
+   32  HLA-C*07:02        SSLSSRLW  SSLSSR-LW  0  0  0  6  1     SSLSSRLW            FAT1 0.0476780 29849.2 33.1209
+   33  HLA-C*07:02        SLSSRLWP  SLSSRLWP-  0  0  0  8  1     SLSSRLWP            FAT1 0.0231690 38913.4 59.7082
+   34  HLA-C*07:02        LSSRLWPM  LS-SRLWPM  0  0  0  2  1     LSSRLWPM            FAT1 0.1021930 16548.9 12.5731
+   35  HLA-C*07:02        SSRLWPMM  SSRLWPM-M  0  0  0  7  1     SSRLWPMM            FAT1 0.0994360 17050.0 13.1037
+   36  HLA-C*07:02        SRLWPMMP  SRLWPMMP-  0  0  0  8  1     SRLWPMMP            FAT1 0.0712090 23139.9 20.8948
+   37  HLA-C*07:02        RLWPMMPM  -RLWPMMPM  0  0  0  0  1     RLWPMMPM            FAT1 0.1823730  6950.3  4.4076
+   38  HLA-C*07:02        LWPMMPMD  LWPMMPMD-  0  0  0  8  1     LWPMMPMD            FAT1 0.0243310 38427.3 57.9138
+   39  HLA-C*07:02        WPMMPMDL  WPMM-PMDL  0  0  0  4  1     WPMMPMDL            FAT1 0.0928230 18314.6 14.5281
+   40  HLA-C*07:02        PMMPMDLP  PMMPMDLP-  0  0  0  8  1     PMMPMDLP            FAT1 0.0082710 45719.9 91.4422
+   41  HLA-C*07:02        MMPMDLPT  MMPMDLPT-  0  0  0  8  1     MMPMDLPT            FAT1 0.0376090 33284.8 41.4210
+   42  HLA-C*07:02        MPMDLPTA  MPMDLP-TA  0  0  0  6  1     MPMDLPTA            FAT1 0.0552850 27490.8 28.2507
+   43  HLA-C*07:02        PMDLPTAT  -PMDLPTAT  0  0  0  0  1     PMDLPTAT            FAT1 0.0121310 43849.7 82.3069
+   44  HLA-C*07:02        MDLPTATS  M-DLPTATS  0  0  0  1  1     MDLPTATS            FAT1 0.0141380 42907.8 77.5278
+   45  HLA-C*07:02        DLPTATST  DLPTATST-  0  0  0  8  1     DLPTATST            FAT1 0.0127410 43561.2 80.8067
+   46  HLA-C*07:02        LPTATSTT  LPTATSTT-  0  0  0  8  1     LPTATSTT            FAT1 0.0172870 41470.5 70.6106
+   47  HLA-C*07:02        PTATSTTQ  -PTATSTTQ  0  0  0  0  1     PTATSTTQ            FAT1 0.0047160 47512.7 96.4450
+   48  HLA-C*07:02        TATSTTQL  TATS-TTQL  0  0  0  4  1     TATSTTQL            FAT1 0.0499810 29114.6 31.5223
+   49  HLA-C*07:02        ATSTTQLX  ATS-TTQLX  0  0  0  3  1     ATSTTQLX            FAT1 0.0154810 42288.8 74.4663
+-----------------------------------------------------------------------------------
+
+Protein FAT1. Allele HLA-C*07:02. Number of high binders 2. Number of weak binders 6. Number of peptides 190
+
+-----------------------------------------------------------------------------------
+# NetMHCIIpan version 3.2
+
+# Input is in FASTA format
+
+# Peptide length 15
+
+# Threshold for Strong binding peptides (%Rank)	2%
+# Threshold for Weak binding peptides (%Rank)	10%
+
+# Allele: DRB1_0101
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Seq        Allele              Peptide        Identity  Pos        Core  Core_Rel 1-log50k(aff)  Affinity(nM)    %Rank Exp_Bind  BindingLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+   1     DRB1_0101      VNVNVTDINDNTPVF            FAT1    5   TDINDNTPV     0.310         0.183       6938.30    95.00      NA       
+   2     DRB1_0101      NVNVTDINDNTPVFS            FAT1    6   INDNTPVFS     0.350         0.221       4592.39    95.00      NA       
+   3     DRB1_0101      VNVTDINDNTPVFSA            FAT1    5   INDNTPVFS     0.500         0.263       2912.08    90.00      NA       
+   4     DRB1_0101      NVTDINDNTPVFSAK            FAT1    4   INDNTPVFS     0.595         0.280       2405.42    90.00      NA       
+   5     DRB1_0101      VTDINDNTPVFSAKT            FAT1    3   INDNTPVFS     0.525         0.304       1871.25    85.00      NA       
+   6     DRB1_0101      TDINDNTPVFSAKTP            FAT1    2   INDNTPVFS     0.415         0.300       1947.01    85.00      NA       
+   7     DRB1_0101      DINDNTPVFSAKTPT            FAT1    4   NTPVFSAKT     0.460         0.302       1899.94    85.00      NA       
+   8     DRB1_0101      INDNTPVFSAKTPTR            FAT1    6   VFSAKTPTR     0.355         0.373        886.68    75.00      NA       
+   9     DRB1_0101      NDNTPVFSAKTPTRQ            FAT1    5   VFSAKTPTR     0.480         0.428        489.43    60.00      NA       
+  10     DRB1_0101      DNTPVFSAKTPTRQS            FAT1    5   FSAKTPTRQ     0.460         0.479        280.94    46.00      NA       
+  11     DRB1_0101      NTPVFSAKTPTRQSS            FAT1    4   FSAKTPTRQ     0.505         0.505        211.46    40.00      NA       
+  12     DRB1_0101      TPVFSAKTPTRQSSV            FAT1    3   FSAKTPTRQ     0.610         0.516        188.72    38.00      NA       
+  13     DRB1_0101      PVFSAKTPTRQSSVK            FAT1    2   FSAKTPTRQ     0.630         0.491        247.78    44.00      NA       
+  14     DRB1_0101      VFSAKTPTRQSSVKM            FAT1    1   FSAKTPTRQ     0.650         0.451        380.42    55.00      NA       
+  15     DRB1_0101      FSAKTPTRQSSVKMP            FAT1    5   PTRQSSVKM     0.335         0.361       1002.14    75.00      NA       
+  16     DRB1_0101      SAKTPTRQSSVKMPF            FAT1    4   PTRQSSVKM     0.670         0.360       1013.05    75.00      NA       
+  17     DRB1_0101      AKTPTRQSSVKMPFL            FAT1    3   PTRQSSVKM     0.575         0.412        581.83    65.00      NA       
+  18     DRB1_0101      KTPTRQSSVKMPFLS            FAT1    2   PTRQSSVKM     0.460         0.425        501.23    60.00      NA       
+  19     DRB1_0101      TPTRQSSVKMPFLSS            FAT1    6   SVKMPFLSS     0.345         0.451        380.96    55.00      NA       
+  20     DRB1_0101      PTRQSSVKMPFLSSL            FAT1    5   SVKMPFLSS     0.440         0.495        235.81    43.00      NA       
+  21     DRB1_0101      TRQSSVKMPFLSSLS            FAT1    4   SVKMPFLSS     0.340         0.529        162.75    35.00      NA       
+  22     DRB1_0101      RQSSVKMPFLSSLSS            FAT1    3   SVKMPFLSS     0.295         0.565        110.46    27.00      NA       
+  23     DRB1_0101      QSSVKMPFLSSLSSR            FAT1    5   MPFLSSLSS     0.325         0.619         61.97    16.00      NA       
+  24     DRB1_0101      SSVKMPFLSSLSSRL            FAT1    6   FLSSLSSRL     0.830         0.811          7.76     0.17      NA   <=SB
+  25     DRB1_0101      SVKMPFLSSLSSRLW            FAT1    5   FLSSLSSRL     0.835         0.837          5.82     0.04      NA   <=SB
+  26     DRB1_0101      VKMPFLSSLSSRLWP            FAT1    4   FLSSLSSRL     0.815         0.840          5.63     0.03      NA   <=SB
+  27     DRB1_0101      KMPFLSSLSSRLWPM            FAT1    3   FLSSLSSRL     0.805         0.844          5.43     0.02      NA   <=SB
+  28     DRB1_0101      MPFLSSLSSRLWPMM            FAT1    2   FLSSLSSRL     0.775         0.831          6.25     0.05      NA   <=SB
+  29     DRB1_0101      PFLSSLSSRLWPMMP            FAT1    1   FLSSLSSRL     0.770         0.810          7.78     0.20      NA   <=SB
+  30     DRB1_0101      FLSSLSSRLWPMMPM            FAT1    1   LSSLSSRLW     0.245         0.762         13.16     1.20      NA   <=SB
+  31     DRB1_0101      LSSLSSRLWPMMPMD            FAT1    2   SLSSRLWPM     0.210         0.545        137.34    31.00      NA       
+  32     DRB1_0101      SSLSSRLWPMMPMDL            FAT1    6   LWPMMPMDL     0.475         0.574        100.69    25.00      NA       
+  33     DRB1_0101      SLSSRLWPMMPMDLP            FAT1    5   LWPMMPMDL     0.575         0.586         88.34    22.00      NA       
+  34     DRB1_0101      LSSRLWPMMPMDLPT            FAT1    4   LWPMMPMDL     0.705         0.589         85.10    22.00      NA       
+  35     DRB1_0101      SSRLWPMMPMDLPTA            FAT1    3   LWPMMPMDL     0.710         0.598         77.07    20.00      NA       
+  36     DRB1_0101      SRLWPMMPMDLPTAT            FAT1    2   LWPMMPMDL     0.640         0.593         82.11    21.00      NA       
+  37     DRB1_0101      RLWPMMPMDLPTATS            FAT1    1   LWPMMPMDL     0.515         0.572        102.90    25.00      NA       
+  38     DRB1_0101      LWPMMPMDLPTATST            FAT1    3   MMPMDLPTA     0.475         0.517        185.97    37.00      NA       
+  39     DRB1_0101      WPMMPMDLPTATSTT            FAT1    2   MMPMDLPTA     0.640         0.453        370.18    55.00      NA       
+  40     DRB1_0101      PMMPMDLPTATSTTQ            FAT1    1   MMPMDLPTA     0.585         0.422        519.01    60.00      NA       
+  41     DRB1_0101      MMPMDLPTATSTTQL            FAT1    0   MMPMDLPTA     0.345         0.385        777.51    70.00      NA       
+  42     DRB1_0101      MPMDLPTATSTTQL*            FAT1    3   DLPTATSTT     0.195         0.284       2308.78    90.00      NA       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 7 Number of weak binders: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+# NetMHCIIpan version 3.2
+
+# Input is in FASTA format
+
+# Peptide length 15
+
+# Threshold for Strong binding peptides (%Rank)	2%
+# Threshold for Weak binding peptides (%Rank)	10%
+
+# Allele: DRB1_0401
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Seq        Allele              Peptide        Identity  Pos        Core  Core_Rel 1-log50k(aff)  Affinity(nM)    %Rank Exp_Bind  BindingLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+   1     DRB1_0401      VNVNVTDINDNTPVF            FAT1    3   NVTDINDNT     0.275         0.239       3749.03    85.00      NA       
+   2     DRB1_0401      NVNVTDINDNTPVFS            FAT1    6   INDNTPVFS     0.260         0.250       3347.29    80.00      NA       
+   3     DRB1_0401      VNVTDINDNTPVFSA            FAT1    5   INDNTPVFS     0.455         0.278       2469.80    75.00      NA       
+   4     DRB1_0401      NVTDINDNTPVFSAK            FAT1    4   INDNTPVFS     0.580         0.286       2268.98    70.00      NA       
+   5     DRB1_0401      VTDINDNTPVFSAKT            FAT1    3   INDNTPVFS     0.605         0.287       2242.60    70.00      NA       
+   6     DRB1_0401      TDINDNTPVFSAKTP            FAT1    2   INDNTPVFS     0.610         0.262       2921.13    80.00      NA       
+   7     DRB1_0401      DINDNTPVFSAKTPT            FAT1    1   INDNTPVFS     0.530         0.240       3735.31    85.00      NA       
+   8     DRB1_0401      INDNTPVFSAKTPTR            FAT1    6   VFSAKTPTR     0.625         0.307       1803.63    65.00      NA       
+   9     DRB1_0401      NDNTPVFSAKTPTRQ            FAT1    5   VFSAKTPTR     0.670         0.373        883.98    39.00      NA       
+  10     DRB1_0401      DNTPVFSAKTPTRQS            FAT1    4   VFSAKTPTR     0.635         0.413        573.40    27.00      NA       
+  11     DRB1_0401      NTPVFSAKTPTRQSS            FAT1    3   VFSAKTPTR     0.605         0.432        464.88    22.00      NA       
+  12     DRB1_0401      TPVFSAKTPTRQSSV            FAT1    2   VFSAKTPTR     0.535         0.431        472.57    22.00      NA       
+  13     DRB1_0401      PVFSAKTPTRQSSVK            FAT1    2   FSAKTPTRQ     0.465         0.399        666.51    31.00      NA       
+  14     DRB1_0401      VFSAKTPTRQSSVKM            FAT1    1   FSAKTPTRQ     0.590         0.346       1187.80    48.00      NA       
+  15     DRB1_0401      FSAKTPTRQSSVKMP            FAT1    0   FSAKTPTRQ     0.350         0.256       3141.34    80.00      NA       
+  16     DRB1_0401      SAKTPTRQSSVKMPF            FAT1    4   PTRQSSVKM     0.465         0.236       3891.66    85.00      NA       
+  17     DRB1_0401      AKTPTRQSSVKMPFL            FAT1    3   PTRQSSVKM     0.400         0.266       2806.50    75.00      NA       
+  18     DRB1_0401      KTPTRQSSVKMPFLS            FAT1    2   PTRQSSVKM     0.300         0.275       2550.04    75.00      NA       
+  19     DRB1_0401      TPTRQSSVKMPFLSS            FAT1    6   SVKMPFLSS     0.310         0.303       1891.02    65.00      NA       
+  20     DRB1_0401      PTRQSSVKMPFLSSL            FAT1    5   SVKMPFLSS     0.410         0.325       1479.56    55.00      NA       
+  21     DRB1_0401      TRQSSVKMPFLSSLS            FAT1    4   SVKMPFLSS     0.340         0.358       1038.47    44.00      NA       
+  22     DRB1_0401      RQSSVKMPFLSSLSS            FAT1    6   MPFLSSLSS     0.335         0.401        653.47    30.00      NA       
+  23     DRB1_0401      QSSVKMPFLSSLSSR            FAT1    5   MPFLSSLSS     0.375         0.483        267.66    12.00      NA       
+  24     DRB1_0401      SSVKMPFLSSLSSRL            FAT1    6   FLSSLSSRL     0.790         0.635         51.65     0.60      NA   <=SB
+  25     DRB1_0401      SVKMPFLSSLSSRLW            FAT1    5   FLSSLSSRL     0.805         0.667         36.53     0.17      NA   <=SB
+  26     DRB1_0401      VKMPFLSSLSSRLWP            FAT1    4   FLSSLSSRL     0.820         0.674         34.19     0.15      NA   <=SB
+  27     DRB1_0401      KMPFLSSLSSRLWPM            FAT1    3   FLSSLSSRL     0.830         0.676         33.30     0.12      NA   <=SB
+  28     DRB1_0401      MPFLSSLSSRLWPMM            FAT1    2   FLSSLSSRL     0.830         0.649         44.82     0.40      NA   <=SB
+  29     DRB1_0401      PFLSSLSSRLWPMMP            FAT1    1   FLSSLSSRL     0.850         0.609         68.91     1.10      NA   <=SB
+  30     DRB1_0401      FLSSLSSRLWPMMPM            FAT1    0   FLSSLSSRL     0.635         0.521        177.36     7.00      NA   <=WB
+  31     DRB1_0401      LSSLSSRLWPMMPMD            FAT1    3   LSSRLWPMM     0.235         0.336       1321.38    55.00      NA       
+  32     DRB1_0401      SSLSSRLWPMMPMDL            FAT1    6   LWPMMPMDL     0.380         0.367        943.99    41.00      NA       
+  33     DRB1_0401      SLSSRLWPMMPMDLP            FAT1    5   LWPMMPMDL     0.480         0.379        828.67    37.00      NA       
+  34     DRB1_0401      LSSRLWPMMPMDLPT            FAT1    4   LWPMMPMDL     0.535         0.385        773.99    35.00      NA       
+  35     DRB1_0401      SSRLWPMMPMDLPTA            FAT1    3   LWPMMPMDL     0.485         0.403        639.80    30.00      NA       
+  36     DRB1_0401      SRLWPMMPMDLPTAT            FAT1    2   LWPMMPMDL     0.375         0.409        598.52    28.00      NA       
+  37     DRB1_0401      RLWPMMPMDLPTATS            FAT1    4   MMPMDLPTA     0.420         0.406        615.27    29.00      NA       
+  38     DRB1_0401      LWPMMPMDLPTATST            FAT1    3   MMPMDLPTA     0.555         0.382        803.64    36.00      NA       
+  39     DRB1_0401      WPMMPMDLPTATSTT            FAT1    2   MMPMDLPTA     0.555         0.354       1083.49    45.00      NA       
+  40     DRB1_0401      PMMPMDLPTATSTTQ            FAT1    1   MMPMDLPTA     0.500         0.332       1383.88    55.00      NA       
+  41     DRB1_0401      MMPMDLPTATSTTQL            FAT1    1   MPMDLPTAT     0.230         0.305       1845.10    65.00      NA       
+  42     DRB1_0401      MPMDLPTATSTTQL*            FAT1    3   DLPTATSTT     0.315         0.249       3367.19    80.00      NA       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 6 Number of weak binders: 1
+--------------------------------------------------------------------------------------------------------------------------------------------

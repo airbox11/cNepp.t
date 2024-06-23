@@ -1,0 +1,1086 @@
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/bin/netMHCpan -a HLA-A24:02 -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest3/C1QBP_refPeptide.fa
+# Wed Nov 18 11:46:46 2020
+# User: huangz
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest3
+# Host: Linux odcf-worker01 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-A24:02           HLA allele
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest3/C1QBP_refPeptide.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/synlist Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-A24:02           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest3/C1QBP_refPeptide.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/threshold/%s.thr Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/allelenames File with print names for alleles
+
+# NetMHCpan version 3.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/tmp/netMHCpan6KpyRf
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+HLA-A24:02 : Distance to training data  0.000 (using nearest neighbor HLA-A24:02)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity   Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-A*24:02     DGDKAFVDFLS  DGKAFVDFL  0  2  1  0  0   DGDKAFVDFL           C1QBP 0.01063 44569.6   65.00
+    2  HLA-A*24:02     GDKAFVDFLSD  GDKAFVDFL  0  0  0  0  0    GDKAFVDFL           C1QBP 0.00520 47263.5   90.00
+    3  HLA-A*24:02     DKAFVDFLSDE  KFVDFLSDE  1  1  1  0  0   KAFVDFLSDE           C1QBP 0.00644 46635.6   80.00
+    4  HLA-A*24:02     KAFVDFLSDEI  AFVFLSDEI  1  3  1  0  0   AFVDFLSDEI           C1QBP 0.08845 19202.8   11.00
+    5  HLA-A*24:02     AFVDFLSDEIK  AFVFLSDEI  0  3  1  0  0   AFVDFLSDEI           C1QBP 0.05706 26967.6   17.00
+    6  HLA-A*24:02     FVDFLSDEIKE  FFLSDEIKE  0  1  2  0  0  FVDFLSDEIKE           C1QBP 0.01161 44096.2   60.00
+    7  HLA-A*24:02     VDFLSDEIKEE  VFLSDEIKE  0  1  1  0  0   VDFLSDEIKE           C1QBP 0.00383 47971.4   95.00
+    8  HLA-A*24:02     DFLSDEIKEER  DFLSIKEER  0  4  2  0  0  DFLSDEIKEER           C1QBP 0.00944 45145.2   70.00
+    9  HLA-A*24:02     FLSDEIKEERK  FLSDEIERK  0  6  2  0  0  FLSDEIKEERK           C1QBP 0.00778 45962.4   75.00
+   10  HLA-A*24:02     LSDEIKEERKI  LSDEIKEKI  0  7  2  0  0  LSDEIKEERKI           C1QBP 0.01360 43160.1   55.00
+   11  HLA-A*24:02     SDEIKEERKIQ  SEIKEERKI  0  1  1  0  0   SDEIKEERKI           C1QBP 0.00324 48277.0   95.00
+   12  HLA-A*24:02     DEIKEERKIQK  DEIERKIQK  0  3  2  0  0  DEIKEERKIQK           C1QBP 0.00242 48706.8  100.00
+   13  HLA-A*24:02     EIKEERKIQKH  EIKEERIQK  0  6  1  0  0   EIKEERKIQK           C1QBP 0.00166 49107.9  100.00
+   14  HLA-A*24:02     IKEERKIQKHK  IERKIQKHK  0  1  2  0  0  IKEERKIQKHK           C1QBP 0.00312 48339.3   95.00
+   15  HLA-A*24:02     KEERKIQKHKT  KRKIQKHKT  0  1  2  0  0  KEERKIQKHKT           C1QBP 0.00326 48268.7   95.00
+   16  HLA-A*24:02     EERKIQKHKTL  RKIQKHKTL  2  0  0  0  0    RKIQKHKTL           C1QBP 0.00871 45503.7   70.00
+   17  HLA-A*24:02     ERKIQKHKTLP  ERIQKHKTL  0  2  1  0  0   ERKIQKHKTL           C1QBP 0.00535 47185.8   85.00
+   18  HLA-A*24:02     RKIQKHKTLPK  RQKHKTLPK  0  1  2  0  0  RKIQKHKTLPK           C1QBP 0.01579 42148.1   50.00
+   19  HLA-A*24:02     KIQKHKTLPKM  KIQKHLPKM  0  5  2  0  0  KIQKHKTLPKM           C1QBP 0.02467 38287.8   36.00
+   20  HLA-A*24:02     IQKHKTLPKMS  IQHKTLPKM  0  2  1  0  0   IQKHKTLPKM           C1QBP 0.01224 43796.1   60.00
+   21  HLA-A*24:02     QKHKTLPKMSG  KHKTLPMSG  1  6  1  0  0   KHKTLPKMSG           C1QBP 0.01075 44509.8   65.00
+   22  HLA-A*24:02     KHKTLPKMSGG  KHLPKMSGG  0  2  2  0  0  KHKTLPKMSGG           C1QBP 0.01650 41823.3   48.00
+   23  HLA-A*24:02     HKTLPKMSGGW  HLPKMSGGW  0  1  2  0  0  HKTLPKMSGGW           C1QBP 0.05175 28563.3   19.00
+   24  HLA-A*24:02     KTLPKMSGGWE  KLPKMSGGW  0  1  1  0  0   KTLPKMSGGW           C1QBP 0.02990 36181.7   31.00
+   25  HLA-A*24:02     TLPKMSGGWEL  TLPKMSWEL  0  6  2  0  0  TLPKMSGGWEL           C1QBP 0.14213 10741.9    6.00
+   26  HLA-A*24:02     LPKMSGGWELE  LPMSGGWEL  0  2  1  0  0   LPKMSGGWEL           C1QBP 0.02181 39489.4   40.00
+   27  HLA-A*24:02     PKMSGGWELEL  KMSGGWELL  1  8  1  0  0   KMSGGWELEL           C1QBP 0.06823 23898.1   14.00
+    1  HLA-A*24:02      DGDKAFVDFL  DGKAFVDFL  0  2  1  0  0   DGDKAFVDFL           C1QBP 0.02805 36910.5   33.00
+    2  HLA-A*24:02      GDKAFVDFLS  GKAFVDFLS  0  1  1  0  0   GDKAFVDFLS           C1QBP 0.01407 42940.3   55.00
+    3  HLA-A*24:02      DKAFVDFLSD  KAFVDFLSD  1  0  0  0  0    KAFVDFLSD           C1QBP 0.00757 46065.9   75.00
+    4  HLA-A*24:02      KAFVDFLSDE  KFVDFLSDE  0  1  1  0  0   KAFVDFLSDE           C1QBP 0.01689 41649.4   48.00
+    5  HLA-A*24:02      AFVDFLSDEI  AFVFLSDEI  0  3  1  0  0   AFVDFLSDEI           C1QBP 0.19899  5806.5    4.00
+    6  HLA-A*24:02      FVDFLSDEIK  FVDFLSDEI  0  0  0  0  0    FVDFLSDEI           C1QBP 0.02312 38934.1   38.00
+    7  HLA-A*24:02      VDFLSDEIKE  VFLSDEIKE  0  1  1  0  0   VDFLSDEIKE           C1QBP 0.01319 43350.6   60.00
+    8  HLA-A*24:02      DFLSDEIKEE  DFLSEIKEE  0  4  1  0  0   DFLSDEIKEE           C1QBP 0.00631 46698.8   80.00
+    9  HLA-A*24:02      FLSDEIKEER  FLSEIKEER  0  3  1  0  0   FLSDEIKEER           C1QBP 0.01440 42788.2   55.00
+   10  HLA-A*24:02      LSDEIKEERK  LSDEIKERK  0  6  1  0  0   LSDEIKEERK           C1QBP 0.00680 46453.9   80.00
+   11  HLA-A*24:02      SDEIKEERKI  SEIKEERKI  0  1  1  0  0   SDEIKEERKI           C1QBP 0.01280 43534.4   60.00
+   12  HLA-A*24:02      DEIKEERKIQ  DEIKEERKI  0  0  0  0  0    DEIKEERKI           C1QBP 0.00189 48985.3  100.00
+   13  HLA-A*24:02      EIKEERKIQK  EIKEERIQK  0  6  1  0  0   EIKEERKIQK           C1QBP 0.00387 47952.2   95.00
+   14  HLA-A*24:02      IKEERKIQKH  IEERKIQKH  0  1  1  0  0   IKEERKIQKH           C1QBP 0.00216 48844.0  100.00
+   15  HLA-A*24:02      KEERKIQKHK  KEERKIQHK  0  7  1  0  0   KEERKIQKHK           C1QBP 0.00576 46978.0   85.00
+   16  HLA-A*24:02      EERKIQKHKT  EERKIQHKT  0  6  1  0  0   EERKIQKHKT           C1QBP 0.00308 48361.7  100.00
+   17  HLA-A*24:02      ERKIQKHKTL  ERIQKHKTL  0  2  1  0  0   ERKIQKHKTL           C1QBP 0.01576 42163.1   50.00
+   18  HLA-A*24:02      RKIQKHKTLP  RKIQKHTLP  0  6  1  0  0   RKIQKHKTLP           C1QBP 0.01311 43390.0   60.00
+   19  HLA-A*24:02      KIQKHKTLPK  KQKHKTLPK  0  1  1  0  0   KIQKHKTLPK           C1QBP 0.02206 39381.9   39.00
+   20  HLA-A*24:02      IQKHKTLPKM  IQHKTLPKM  0  2  1  0  0   IQKHKTLPKM           C1QBP 0.04595 30412.8   21.00
+   21  HLA-A*24:02      QKHKTLPKMS  QHKTLPKMS  0  1  1  0  0   QKHKTLPKMS           C1QBP 0.00689 46408.1   80.00
+   22  HLA-A*24:02      KHKTLPKMSG  KHKTLPMSG  0  6  1  0  0   KHKTLPKMSG           C1QBP 0.03172 35476.2   29.00
+   23  HLA-A*24:02      HKTLPKMSGG  HTLPKMSGG  0  1  1  0  0   HKTLPKMSGG           C1QBP 0.01159 44106.2   60.00
+   24  HLA-A*24:02      KTLPKMSGGW  KLPKMSGGW  0  1  1  0  0   KTLPKMSGGW           C1QBP 0.12969 12290.2    6.50
+   25  HLA-A*24:02      TLPKMSGGWE  TLPKMSGGW  0  0  0  0  0    TLPKMSGGW           C1QBP 0.03655 33669.5   26.00
+   26  HLA-A*24:02      LPKMSGGWEL  LPMSGGWEL  0  2  1  0  0   LPKMSGGWEL           C1QBP 0.07567 22048.8   13.00
+   27  HLA-A*24:02      PKMSGGWELE  PKMSGGWEL  0  0  0  0  0    PKMSGGWEL           C1QBP 0.01894 40734.5   44.00
+   28  HLA-A*24:02      KMSGGWELEL  KMSGGWELL  0  8  1  0  0   KMSGGWELEL           C1QBP 0.18630  6661.4    4.00
+    1  HLA-A*24:02       DGDKAFVDF  DGDKAFVDF  0  0  0  0  0    DGDKAFVDF           C1QBP 0.04860 29552.9   20.00
+    2  HLA-A*24:02       GDKAFVDFL  GDKAFVDFL  0  0  0  0  0    GDKAFVDFL           C1QBP 0.03734 33380.1   26.00
+    3  HLA-A*24:02       DKAFVDFLS  DKAFVDFLS  0  0  0  0  0    DKAFVDFLS           C1QBP 0.01079 44490.6   65.00
+    4  HLA-A*24:02       KAFVDFLSD  KAFVDFLSD  0  0  0  0  0    KAFVDFLSD           C1QBP 0.01950 40490.2   43.00
+    5  HLA-A*24:02       AFVDFLSDE  AFVDFLSDE  0  0  0  0  0    AFVDFLSDE           C1QBP 0.02506 38123.7   36.00
+    6  HLA-A*24:02       FVDFLSDEI  FVDFLSDEI  0  0  0  0  0    FVDFLSDEI           C1QBP 0.07423 22394.8   13.00
+    7  HLA-A*24:02       VDFLSDEIK  VDFLSDEIK  0  0  0  0  0    VDFLSDEIK           C1QBP 0.00903 45345.9   70.00
+    8  HLA-A*24:02       DFLSDEIKE  DFLSDEIKE  0  0  0  0  0    DFLSDEIKE           C1QBP 0.00909 45316.0   70.00
+    9  HLA-A*24:02       FLSDEIKEE  FLSDEIKEE  0  0  0  0  0    FLSDEIKEE           C1QBP 0.00724 46233.7   80.00
+   10  HLA-A*24:02       LSDEIKEER  LSDEIKEER  0  0  0  0  0    LSDEIKEER           C1QBP 0.00936 45182.3   70.00
+   11  HLA-A*24:02       SDEIKEERK  SDEIKEERK  0  0  0  0  0    SDEIKEERK           C1QBP 0.00315 48324.6   95.00
+   12  HLA-A*24:02       DEIKEERKI  DEIKEERKI  0  0  0  0  0    DEIKEERKI           C1QBP 0.00917 45278.8   70.00
+   13  HLA-A*24:02       EIKEERKIQ  EIKEERKIQ  0  0  0  0  0    EIKEERKIQ           C1QBP 0.00127 49316.6  100.00
+   14  HLA-A*24:02       IKEERKIQK  IKEERKIQK  0  0  0  0  0    IKEERKIQK           C1QBP 0.00551 47107.8   85.00
+   15  HLA-A*24:02       KEERKIQKH  KEERKIQKH  0  0  0  0  0    KEERKIQKH           C1QBP 0.00315 48323.5   95.00
+   16  HLA-A*24:02       EERKIQKHK  EERKIQKHK  0  0  0  0  0    EERKIQKHK           C1QBP 0.00414 47809.7   95.00
+   17  HLA-A*24:02       ERKIQKHKT  ERKIQKHKT  0  0  0  0  0    ERKIQKHKT           C1QBP 0.00365 48062.3   95.00
+   18  HLA-A*24:02       RKIQKHKTL  RKIQKHKTL  0  0  0  0  0    RKIQKHKTL           C1QBP 0.04390 31095.3   22.00
+   19  HLA-A*24:02       KIQKHKTLP  KIQKHKTLP  0  0  0  0  0    KIQKHKTLP           C1QBP 0.01452 42732.2   55.00
+   20  HLA-A*24:02       IQKHKTLPK  IQKHKTLPK  0  0  0  0  0    IQKHKTLPK           C1QBP 0.03435 34478.0   27.00
+   21  HLA-A*24:02       QKHKTLPKM  QKHKTLPKM  0  0  0  0  0    QKHKTLPKM           C1QBP 0.01775 41261.9   46.00
+   22  HLA-A*24:02       KHKTLPKMS  KHKTLPKMS  0  0  0  0  0    KHKTLPKMS           C1QBP 0.01477 42617.2   55.00
+   23  HLA-A*24:02       HKTLPKMSG  HKTLPKMSG  0  0  0  0  0    HKTLPKMSG           C1QBP 0.00824 45735.7   75.00
+   24  HLA-A*24:02       KTLPKMSGG  KTLPKMSGG  0  0  0  0  0    KTLPKMSGG           C1QBP 0.02826 36829.5   32.00
+   25  HLA-A*24:02       TLPKMSGGW  TLPKMSGGW  0  0  0  0  0    TLPKMSGGW           C1QBP 0.17793  7292.9    4.50
+   26  HLA-A*24:02       LPKMSGGWE  LPKMSGGWE  0  0  0  0  0    LPKMSGGWE           C1QBP 0.00507 47331.1   90.00
+   27  HLA-A*24:02       PKMSGGWEL  PKMSGGWEL  0  0  0  0  0    PKMSGGWEL           C1QBP 0.08521 19888.1   11.00
+   28  HLA-A*24:02       KMSGGWELE  KMSGGWELE  0  0  0  0  0    KMSGGWELE           C1QBP 0.03885 32842.3   25.00
+   29  HLA-A*24:02       MSGGWELEL  MSGGWELEL  0  0  0  0  0    MSGGWELEL           C1QBP 0.11689 14115.7    7.50
+    1  HLA-A*24:02        DGDKAFVD  DGDKAFVD-  0  0  0  8  1     DGDKAFVD           C1QBP 0.00246 48688.3  100.00
+    2  HLA-A*24:02        GDKAFVDF  G-DKAFVDF  0  0  0  1  1     GDKAFVDF           C1QBP 0.03253 35163.6   29.00
+    3  HLA-A*24:02        DKAFVDFL  D-KAFVDFL  0  0  0  1  1     DKAFVDFL           C1QBP 0.01686 41660.7   48.00
+    4  HLA-A*24:02        KAFVDFLS  K-AFVDFLS  0  0  0  1  1     KAFVDFLS           C1QBP 0.01525 42393.7   55.00
+    5  HLA-A*24:02        AFVDFLSD  AFVDFLSD-  0  0  0  8  1     AFVDFLSD           C1QBP 0.01374 43094.8   55.00
+    6  HLA-A*24:02        FVDFLSDE  FVDFLSDE-  0  0  0  8  1     FVDFLSDE           C1QBP 0.00550 47108.8   85.00
+    7  HLA-A*24:02        VDFLSDEI  VDFLS-DEI  0  0  0  5  1     VDFLSDEI           C1QBP 0.02319 38903.8   38.00
+    8  HLA-A*24:02        DFLSDEIK  DFLS-DEIK  0  0  0  4  1     DFLSDEIK           C1QBP 0.00663 46537.9   80.00
+    9  HLA-A*24:02        FLSDEIKE  -FLSDEIKE  0  0  0  0  1     FLSDEIKE           C1QBP 0.00494 47397.7   90.00
+   10  HLA-A*24:02        LSDEIKEE  LSDEIKEE-  0  0  0  8  1     LSDEIKEE           C1QBP 0.00224 48804.9  100.00
+   11  HLA-A*24:02        SDEIKEER  S-DEIKEER  0  0  0  1  1     SDEIKEER           C1QBP 0.00271 48556.2  100.00
+   12  HLA-A*24:02        DEIKEERK  DEIKE-ERK  0  0  0  5  1     DEIKEERK           C1QBP 0.00158 49153.0  100.00
+   13  HLA-A*24:02        EIKEERKI  E-IKEERKI  0  0  0  1  1     EIKEERKI           C1QBP 0.00542 47152.1   85.00
+   14  HLA-A*24:02        IKEERKIQ  IKEERKIQ-  0  0  0  8  1     IKEERKIQ           C1QBP 0.00139 49255.8  100.00
+   15  HLA-A*24:02        KEERKIQK  KE-ERKIQK  0  0  0  2  1     KEERKIQK           C1QBP 0.00405 47854.8   95.00
+   16  HLA-A*24:02        EERKIQKH  EERKIQKH-  0  0  0  8  1     EERKIQKH           C1QBP 0.00144 49228.6  100.00
+   17  HLA-A*24:02        ERKIQKHK  ER-KIQKHK  0  0  0  2  1     ERKIQKHK           C1QBP 0.00334 48223.3   95.00
+   18  HLA-A*24:02        RKIQKHKT  RKIQK-HKT  0  0  0  5  1     RKIQKHKT           C1QBP 0.00430 47727.6   90.00
+   19  HLA-A*24:02        KIQKHKTL  K-IQKHKTL  0  0  0  1  1     KIQKHKTL           C1QBP 0.02641 37573.3   34.00
+   20  HLA-A*24:02        IQKHKTLP  IQKHKTLP-  0  0  0  8  1     IQKHKTLP           C1QBP 0.00803 45841.2   75.00
+   21  HLA-A*24:02        QKHKTLPK  -QKHKTLPK  0  0  0  0  1     QKHKTLPK           C1QBP 0.00695 46376.0   80.00
+   22  HLA-A*24:02        KHKTLPKM  KH-KTLPKM  0  0  0  2  1     KHKTLPKM           C1QBP 0.03150 35557.3   30.00
+   23  HLA-A*24:02        HKTLPKMS  -HKTLPKMS  0  0  0  0  1     HKTLPKMS           C1QBP 0.00286 48477.0  100.00
+   24  HLA-A*24:02        KTLPKMSG  KTLPK-MSG  0  0  0  5  1     KTLPKMSG           C1QBP 0.01255 43650.4   60.00
+   25  HLA-A*24:02        TLPKMSGG  TLPKMSG-G  0  0  0  7  1     TLPKMSGG           C1QBP 0.00793 45891.3   75.00
+   26  HLA-A*24:02        LPKMSGGW  L-PKMSGGW  0  0  0  1  1     LPKMSGGW           C1QBP 0.03356 34773.9   28.00
+   27  HLA-A*24:02        PKMSGGWE  PKMSGGWE-  0  0  0  8  1     PKMSGGWE           C1QBP 0.00471 47518.3   90.00
+   28  HLA-A*24:02        KMSGGWEL  K-MSGGWEL  0  0  0  1  1     KMSGGWEL           C1QBP 0.14076 10902.5    6.00
+   29  HLA-A*24:02        MSGGWELE  MS-GGWELE  0  0  0  2  1     MSGGWELE           C1QBP 0.00922 45255.3   70.00
+   30  HLA-A*24:02        SGGWELEL  SGGWEL-EL  0  0  0  6  1     SGGWELEL           C1QBP 0.02740 37171.8   33.00
+-----------------------------------------------------------------------------------
+
+Protein C1QBP. Allele HLA-A*24:02. Number of high binders 0. Number of weak binders 0. Number of peptides 114
+
+-----------------------------------------------------------------------------------
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/bin/netMHCpan -a HLA-A32:01 -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest3/C1QBP_refPeptide.fa
+# Wed Nov 18 11:46:46 2020
+# User: huangz
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest3
+# Host: Linux odcf-worker01 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-A32:01           HLA allele
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest3/C1QBP_refPeptide.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/synlist Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-A32:01           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest3/C1QBP_refPeptide.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/threshold/%s.thr Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/allelenames File with print names for alleles
+
+# NetMHCpan version 3.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/tmp/netMHCpanwtMwPf
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+HLA-A32:01 : Distance to training data  0.000 (using nearest neighbor HLA-A32:01)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity   Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-A*32:01     DGDKAFVDFLS  DGAFVDFLS  0  2  2  0  0  DGDKAFVDFLS           C1QBP 0.00561 47055.8   90.00
+    2  HLA-A*32:01     GDKAFVDFLSD  KAFVDFLSD  2  0  0  0  0    KAFVDFLSD           C1QBP 0.00670 46503.1   85.00
+    3  HLA-A*32:01     DKAFVDFLSDE  KAFVDFLSE  1  8  1  0  0   KAFVDFLSDE           C1QBP 0.01044 44658.4   75.00
+    4  HLA-A*32:01     KAFVDFLSDEI  KAFVDFLSI  0  8  2  0  0  KAFVDFLSDEI           C1QBP 0.21812  4720.9    5.00
+    5  HLA-A*32:01     AFVDFLSDEIK  AFVDFLSIK  0  7  2  0  0  AFVDFLSDEIK           C1QBP 0.02694 37357.3   45.00
+    6  HLA-A*32:01     FVDFLSDEIKE  FVFLSDEIK  0  2  1  0  0   FVDFLSDEIK           C1QBP 0.01175 44032.8   70.00
+    7  HLA-A*32:01     VDFLSDEIKEE  VLSDEIKEE  0  1  2  0  0  VDFLSDEIKEE           C1QBP 0.00350 48140.9   95.00
+    8  HLA-A*32:01     DFLSDEIKEER  FLSDIKEER  1  4  1  0  0   FLSDEIKEER           C1QBP 0.01054 44611.1   75.00
+    9  HLA-A*32:01     FLSDEIKEERK  FLSIKEERK  0  3  2  0  0  FLSDEIKEERK           C1QBP 0.01444 42765.9   65.00
+   10  HLA-A*32:01     LSDEIKEERKI  LSIKEERKI  0  2  2  0  0  LSDEIKEERKI           C1QBP 0.01562 42226.1   65.00
+   11  HLA-A*32:01     SDEIKEERKIQ  SEIKEERKI  0  1  1  0  0   SDEIKEERKI           C1QBP 0.00237 48733.1  100.00
+   12  HLA-A*32:01     DEIKEERKIQK  EIKEERIQK  1  6  1  0  0   EIKEERKIQK           C1QBP 0.00363 48073.2   95.00
+   13  HLA-A*32:01     EIKEERKIQKH  EIKRKIQKH  0  3  2  0  0  EIKEERKIQKH           C1QBP 0.00316 48318.8  100.00
+   14  HLA-A*32:01     IKEERKIQKHK  KERKIQKHK  1  1  1  0  0   KEERKIQKHK           C1QBP 0.00515 47290.6   90.00
+   15  HLA-A*32:01     KEERKIQKHKT  KERKIQKHK  0  1  1  0  0   KEERKIQKHK           C1QBP 0.00336 48212.8   95.00
+   16  HLA-A*32:01     EERKIQKHKTL  EERKIHKTL  0  5  2  0  0  EERKIQKHKTL           C1QBP 0.00582 46948.0   90.00
+   17  HLA-A*32:01     ERKIQKHKTLP  RIQKHKTLP  1  1  1  0  0   RKIQKHKTLP           C1QBP 0.00524 47242.0   90.00
+   18  HLA-A*32:01     RKIQKHKTLPK  RQKHKTLPK  0  1  2  0  0  RKIQKHKTLPK           C1QBP 0.04743 29928.1   29.00
+   19  HLA-A*32:01     KIQKHKTLPKM  KIHKTLPKM  0  2  2  0  0  KIQKHKTLPKM           C1QBP 0.09340 18200.4   15.00
+   20  HLA-A*32:01     IQKHKTLPKMS  IQKHKTLPM  0  8  1  0  0   IQKHKTLPKM           C1QBP 0.01527 42387.7   65.00
+   21  HLA-A*32:01     QKHKTLPKMSG  KHKTLPMSG  1  6  1  0  0   KHKTLPKMSG           C1QBP 0.00679 46457.9   85.00
+   22  HLA-A*32:01     KHKTLPKMSGG  KTLPKMSGG  0  1  2  0  0  KHKTLPKMSGG           C1QBP 0.02907 36507.4   42.00
+   23  HLA-A*32:01     HKTLPKMSGGW  KTLPMSGGW  1  4  1  0  0   KTLPKMSGGW           C1QBP 0.16984  7959.6    7.00
+   24  HLA-A*32:01     KTLPKMSGGWE  KTLPMSGGW  0  4  1  0  0   KTLPKMSGGW           C1QBP 0.11891 13811.3   12.00
+   25  HLA-A*32:01     TLPKMSGGWEL  TLMSGGWEL  0  2  2  0  0  TLPKMSGGWEL           C1QBP 0.13240 11935.0   10.00
+   26  HLA-A*32:01     LPKMSGGWELE  LMSGGWELE  0  1  2  0  0  LPKMSGGWELE           C1QBP 0.01705 41577.8   60.00
+   27  HLA-A*32:01     PKMSGGWELEL  KMSGWELEL  1  3  1  0  0   KMSGGWELEL           C1QBP 0.14403 10524.0    9.00
+    1  HLA-A*32:01      DGDKAFVDFL  DGKAFVDFL  0  2  1  0  0   DGDKAFVDFL           C1QBP 0.01455 42717.8   65.00
+    2  HLA-A*32:01      GDKAFVDFLS  GKAFVDFLS  0  1  1  0  0   GDKAFVDFLS           C1QBP 0.01265 43606.1   70.00
+    3  HLA-A*32:01      DKAFVDFLSD  KAFVDFLSD  1  0  0  0  0    KAFVDFLSD           C1QBP 0.01767 41299.9   60.00
+    4  HLA-A*32:01      KAFVDFLSDE  KAFVDFLSE  0  8  1  0  0   KAFVDFLSDE           C1QBP 0.04274 31488.0   32.00
+    5  HLA-A*32:01      AFVDFLSDEI  AFVDFLSEI  0  7  1  0  0   AFVDFLSDEI           C1QBP 0.11976 13684.3   12.00
+    6  HLA-A*32:01      FVDFLSDEIK  FVFLSDEIK  0  2  1  0  0   FVDFLSDEIK           C1QBP 0.04630 30297.2   30.00
+    7  HLA-A*32:01      VDFLSDEIKE  VFLSDEIKE  0  1  1  0  0   VDFLSDEIKE           C1QBP 0.00827 45719.4   80.00
+    8  HLA-A*32:01      DFLSDEIKEE  FLSDEIKEE  1  0  0  0  0    FLSDEIKEE           C1QBP 0.00470 47520.4   95.00
+    9  HLA-A*32:01      FLSDEIKEER  FLSDIKEER  0  4  1  0  0   FLSDEIKEER           C1QBP 0.03345 34818.4   38.00
+   10  HLA-A*32:01      LSDEIKEERK  LSDEIKERK  0  6  1  0  0   LSDEIKEERK           C1QBP 0.01214 43844.5   70.00
+   11  HLA-A*32:01      SDEIKEERKI  SEIKEERKI  0  1  1  0  0   SDEIKEERKI           C1QBP 0.01036 44696.6   75.00
+   12  HLA-A*32:01      DEIKEERKIQ  DEIKEERKI  0  0  0  0  0    DEIKEERKI           C1QBP 0.00205 48903.7  100.00
+   13  HLA-A*32:01      EIKEERKIQK  EIKEERIQK  0  6  1  0  0   EIKEERKIQK           C1QBP 0.01065 44560.0   75.00
+   14  HLA-A*32:01      IKEERKIQKH  IKEERIQKH  0  5  1  0  0   IKEERKIQKH           C1QBP 0.00363 48071.7   95.00
+   15  HLA-A*32:01      KEERKIQKHK  KERKIQKHK  0  1  1  0  0   KEERKIQKHK           C1QBP 0.01334 43280.3   70.00
+   16  HLA-A*32:01      EERKIQKHKT  EERKIQHKT  0  6  1  0  0   EERKIQKHKT           C1QBP 0.00242 48707.8  100.00
+   17  HLA-A*32:01      ERKIQKHKTL  RKIQKHKTL  1  0  0  0  0    RKIQKHKTL           C1QBP 0.01174 44033.7   70.00
+   18  HLA-A*32:01      RKIQKHKTLP  RIQKHKTLP  0  1  1  0  0   RKIQKHKTLP           C1QBP 0.02891 36569.0   43.00
+   19  HLA-A*32:01      KIQKHKTLPK  KIQKHTLPK  0  5  1  0  0   KIQKHKTLPK           C1QBP 0.09960 17019.2   14.00
+   20  HLA-A*32:01      IQKHKTLPKM  IQKHKTLPM  0  8  1  0  0   IQKHKTLPKM           C1QBP 0.09696 17512.5   15.00
+   21  HLA-A*32:01      QKHKTLPKMS  QKHKTLPKM  0  0  0  0  0    QKHKTLPKM           C1QBP 0.00522 47252.3   90.00
+   22  HLA-A*32:01      KHKTLPKMSG  KHKTLPMSG  0  6  1  0  0   KHKTLPKMSG           C1QBP 0.02315 38921.9   49.00
+   23  HLA-A*32:01      HKTLPKMSGG  HTLPKMSGG  0  1  1  0  0   HKTLPKMSGG           C1QBP 0.04352 31224.4   31.00
+   24  HLA-A*32:01      KTLPKMSGGW  KTLPMSGGW  0  4  1  0  0   KTLPKMSGGW           C1QBP 0.48104   274.5    0.60 <= WB
+   25  HLA-A*32:01      TLPKMSGGWE  TLPKMSGGW  0  0  0  0  0    TLPKMSGGW           C1QBP 0.04049 32264.3   33.00
+   26  HLA-A*32:01      LPKMSGGWEL  LKMSGGWEL  0  1  1  0  0   LPKMSGGWEL           C1QBP 0.06565 24573.3   22.00
+   27  HLA-A*32:01      PKMSGGWELE  KMSGGWELE  1  0  0  0  0    KMSGGWELE           C1QBP 0.02188 39461.2   55.00
+   28  HLA-A*32:01      KMSGGWELEL  KMSGWELEL  0  3  1  0  0   KMSGGWELEL           C1QBP 0.43110   471.2    0.90 <= WB
+    1  HLA-A*32:01       DGDKAFVDF  DGDKAFVDF  0  0  0  0  0    DGDKAFVDF           C1QBP 0.01853 40916.0   60.00
+    2  HLA-A*32:01       GDKAFVDFL  GDKAFVDFL  0  0  0  0  0    GDKAFVDFL           C1QBP 0.03560 34017.0   37.00
+    3  HLA-A*32:01       DKAFVDFLS  DKAFVDFLS  0  0  0  0  0    DKAFVDFLS           C1QBP 0.00967 45030.6   75.00
+    4  HLA-A*32:01       KAFVDFLSD  KAFVDFLSD  0  0  0  0  0    KAFVDFLSD           C1QBP 0.07108 23172.0   20.00
+    5  HLA-A*32:01       AFVDFLSDE  AFVDFLSDE  0  0  0  0  0    AFVDFLSDE           C1QBP 0.01939 40538.4   55.00
+    6  HLA-A*32:01       FVDFLSDEI  FVDFLSDEI  0  0  0  0  0    FVDFLSDEI           C1QBP 0.13937 11067.8    9.50
+    7  HLA-A*32:01       VDFLSDEIK  VDFLSDEIK  0  0  0  0  0    VDFLSDEIK           C1QBP 0.01673 41722.1   60.00
+    8  HLA-A*32:01       DFLSDEIKE  DFLSDEIKE  0  0  0  0  0    DFLSDEIKE           C1QBP 0.00479 47472.1   95.00
+    9  HLA-A*32:01       FLSDEIKEE  FLSDEIKEE  0  0  0  0  0    FLSDEIKEE           C1QBP 0.01205 43889.6   70.00
+   10  HLA-A*32:01       LSDEIKEER  LSDEIKEER  0  0  0  0  0    LSDEIKEER           C1QBP 0.01789 41199.9   60.00
+   11  HLA-A*32:01       SDEIKEERK  SDEIKEERK  0  0  0  0  0    SDEIKEERK           C1QBP 0.00342 48185.2   95.00
+   12  HLA-A*32:01       DEIKEERKI  DEIKEERKI  0  0  0  0  0    DEIKEERKI           C1QBP 0.00904 45341.5   80.00
+   13  HLA-A*32:01       EIKEERKIQ  EIKEERKIQ  0  0  0  0  0    EIKEERKIQ           C1QBP 0.00328 48256.7   95.00
+   14  HLA-A*32:01       IKEERKIQK  IKEERKIQK  0  0  0  0  0    IKEERKIQK           C1QBP 0.00924 45243.5   80.00
+   15  HLA-A*32:01       KEERKIQKH  KEERKIQKH  0  0  0  0  0    KEERKIQKH           C1QBP 0.00917 45276.8   80.00
+   16  HLA-A*32:01       EERKIQKHK  EERKIQKHK  0  0  0  0  0    EERKIQKHK           C1QBP 0.00519 47267.6   90.00
+   17  HLA-A*32:01       ERKIQKHKT  ERKIQKHKT  0  0  0  0  0    ERKIQKHKT           C1QBP 0.00212 48868.3  100.00
+   18  HLA-A*32:01       RKIQKHKTL  RKIQKHKTL  0  0  0  0  0    RKIQKHKTL           C1QBP 0.06618 24433.1   22.00
+   19  HLA-A*32:01       KIQKHKTLP  KIQKHKTLP  0  0  0  0  0    KIQKHKTLP           C1QBP 0.06149 25706.6   23.00
+   20  HLA-A*32:01       IQKHKTLPK  IQKHKTLPK  0  0  0  0  0    IQKHKTLPK           C1QBP 0.10204 16576.6   14.00
+   21  HLA-A*32:01       QKHKTLPKM  QKHKTLPKM  0  0  0  0  0    QKHKTLPKM           C1QBP 0.03221 35287.9   39.00
+   22  HLA-A*32:01       KHKTLPKMS  KHKTLPKMS  0  0  0  0  0    KHKTLPKMS           C1QBP 0.00919 45266.5   80.00
+   23  HLA-A*32:01       HKTLPKMSG  HKTLPKMSG  0  0  0  0  0    HKTLPKMSG           C1QBP 0.00867 45525.4   80.00
+   24  HLA-A*32:01       KTLPKMSGG  KTLPKMSGG  0  0  0  0  0    KTLPKMSGG           C1QBP 0.16365  8510.6    7.50
+   25  HLA-A*32:01       TLPKMSGGW  TLPKMSGGW  0  0  0  0  0    TLPKMSGGW           C1QBP 0.20923  5197.4    5.00
+   26  HLA-A*32:01       LPKMSGGWE  LPKMSGGWE  0  0  0  0  0    LPKMSGGWE           C1QBP 0.00543 47145.5   90.00
+   27  HLA-A*32:01       PKMSGGWEL  PKMSGGWEL  0  0  0  0  0    PKMSGGWEL           C1QBP 0.04101 32083.0   33.00
+   28  HLA-A*32:01       KMSGGWELE  KMSGGWELE  0  0  0  0  0    KMSGGWELE           C1QBP 0.09598 17699.6   15.00
+   29  HLA-A*32:01       MSGGWELEL  MSGGWELEL  0  0  0  0  0    MSGGWELEL           C1QBP 0.34868  1149.6    1.70 <= WB
+    1  HLA-A*32:01        DGDKAFVD  DGDKAFVD-  0  0  0  8  1     DGDKAFVD           C1QBP 0.00101 49454.4  100.00
+    2  HLA-A*32:01        GDKAFVDF  G-DKAFVDF  0  0  0  1  1     GDKAFVDF           C1QBP 0.01431 42828.9   65.00
+    3  HLA-A*32:01        DKAFVDFL  DKAFVDF-L  0  0  0  7  1     DKAFVDFL           C1QBP 0.00929 45220.0   80.00
+    4  HLA-A*32:01        KAFVDFLS  KAFVDFLS-  0  0  0  8  1     KAFVDFLS           C1QBP 0.04126 31994.9   33.00
+    5  HLA-A*32:01        AFVDFLSD  AFVDFLSD-  0  0  0  8  1     AFVDFLSD           C1QBP 0.00792 45894.8   85.00
+    6  HLA-A*32:01        FVDFLSDE  FVDFLSDE-  0  0  0  8  1     FVDFLSDE           C1QBP 0.00663 46538.9   85.00
+    7  HLA-A*32:01        VDFLSDEI  -VDFLSDEI  0  0  0  0  1     VDFLSDEI           C1QBP 0.01815 41086.8   60.00
+    8  HLA-A*32:01        DFLSDEIK  D-FLSDEIK  0  0  0  1  1     DFLSDEIK           C1QBP 0.00387 47951.7   95.00
+    9  HLA-A*32:01        FLSDEIKE  FLSDEIKE-  0  0  0  8  1     FLSDEIKE           C1QBP 0.00530 47214.4   90.00
+   10  HLA-A*32:01        LSDEIKEE  LSDEIKEE-  0  0  0  8  1     LSDEIKEE           C1QBP 0.00299 48408.3  100.00
+   11  HLA-A*32:01        SDEIKEER  S-DEIKEER  0  0  0  1  1     SDEIKEER           C1QBP 0.00318 48311.0  100.00
+   12  HLA-A*32:01        DEIKEERK  DEIK-EERK  0  0  0  4  1     DEIKEERK           C1QBP 0.00123 49341.1  100.00
+   13  HLA-A*32:01        EIKEERKI  EIKEER-KI  0  0  0  6  1     EIKEERKI           C1QBP 0.00600 46854.7   90.00
+   14  HLA-A*32:01        IKEERKIQ  IKEERKIQ-  0  0  0  8  1     IKEERKIQ           C1QBP 0.00087 49529.4  100.00
+   15  HLA-A*32:01        KEERKIQK  KE-ERKIQK  0  0  0  2  1     KEERKIQK           C1QBP 0.00869 45514.5   80.00
+   16  HLA-A*32:01        EERKIQKH  EERKIQ-KH  0  0  0  6  1     EERKIQKH           C1QBP 0.00124 49335.3  100.00
+   17  HLA-A*32:01        ERKIQKHK  ER-KIQKHK  0  0  0  2  1     ERKIQKHK           C1QBP 0.00252 48656.7  100.00
+   18  HLA-A*32:01        RKIQKHKT  RKIQKHKT-  0  0  0  8  1     RKIQKHKT           C1QBP 0.00329 48250.4   95.00
+   19  HLA-A*32:01        KIQKHKTL  KIQKHK-TL  0  0  0  6  1     KIQKHKTL           C1QBP 0.06047 25990.2   24.00
+   20  HLA-A*32:01        IQKHKTLP  IQKHKTLP-  0  0  0  8  1     IQKHKTLP           C1QBP 0.01061 44579.2   75.00
+   21  HLA-A*32:01        QKHKTLPK  -QKHKTLPK  0  0  0  0  1     QKHKTLPK           C1QBP 0.01161 44098.6   70.00
+   22  HLA-A*32:01        KHKTLPKM  K-HKTLPKM  0  0  0  1  1     KHKTLPKM           C1QBP 0.03244 35199.0   39.00
+   23  HLA-A*32:01        HKTLPKMS  HKTLPKMS-  0  0  0  8  1     HKTLPKMS           C1QBP 0.00216 48844.5  100.00
+   24  HLA-A*32:01        KTLPKMSG  KTLPK-MSG  0  0  0  5  1     KTLPKMSG           C1QBP 0.04613 30354.7   30.00
+   25  HLA-A*32:01        TLPKMSGG  TL-PKMSGG  0  0  0  2  1     TLPKMSGG           C1QBP 0.00697 46366.5   85.00
+   26  HLA-A*32:01        LPKMSGGW  -LPKMSGGW  0  0  0  0  1     LPKMSGGW           C1QBP 0.02913 36482.5   42.00
+   27  HLA-A*32:01        PKMSGGWE  PKMSGGWE-  0  0  0  8  1     PKMSGGWE           C1QBP 0.00200 48927.5  100.00
+   28  HLA-A*32:01        KMSGGWEL  KMSGG-WEL  0  0  0  5  1     KMSGGWEL           C1QBP 0.25407  3199.7    3.50
+   29  HLA-A*32:01        MSGGWELE  MSGGWELE-  0  0  0  8  1     MSGGWELE           C1QBP 0.01784 41223.1   60.00
+   30  HLA-A*32:01        SGGWELEL  S-GGWELEL  0  0  0  1  1     SGGWELEL           C1QBP 0.02353 38760.5   49.00
+-----------------------------------------------------------------------------------
+
+Protein C1QBP. Allele HLA-A*32:01. Number of high binders 0. Number of weak binders 3. Number of peptides 114
+
+-----------------------------------------------------------------------------------
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/bin/netMHCpan -a HLA-B15:01 -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest3/C1QBP_refPeptide.fa
+# Wed Nov 18 11:46:47 2020
+# User: huangz
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest3
+# Host: Linux odcf-worker01 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-B15:01           HLA allele
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest3/C1QBP_refPeptide.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/synlist Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-B15:01           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest3/C1QBP_refPeptide.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/threshold/%s.thr Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/allelenames File with print names for alleles
+
+# NetMHCpan version 3.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/tmp/netMHCpanHx97Y7
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+HLA-B15:01 : Distance to training data  0.000 (using nearest neighbor HLA-B15:01)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity   Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-B*15:01     DGDKAFVDFLS  GKAFVDFLS  1  1  1  0  0   GDKAFVDFLS           C1QBP 0.01049 44632.8  100.00
+    2  HLA-B*15:01     GDKAFVDFLSD  GAFVDFLSD  0  1  2  0  0  GDKAFVDFLSD           C1QBP 0.01418 42889.7   95.00
+    3  HLA-B*15:01     DKAFVDFLSDE  KAFVDFLSE  1  8  1  0  0   KAFVDFLSDE           C1QBP 0.01977 40370.7   85.00
+    4  HLA-B*15:01     KAFVDFLSDEI  KAFVDFLSI  0  8  2  0  0  KAFVDFLSDEI           C1QBP 0.10110 16746.1   25.00
+    5  HLA-B*15:01     AFVDFLSDEIK  FVFLSDEIK  1  2  1  0  0   FVDFLSDEIK           C1QBP 0.03328 34879.1   65.00
+    6  HLA-B*15:01     FVDFLSDEIKE  FVFLSDEIK  0  2  1  0  0   FVDFLSDEIK           C1QBP 0.02087 39895.7   85.00
+    7  HLA-B*15:01     VDFLSDEIKEE  VLSDEIKEE  0  1  2  0  0  VDFLSDEIKEE           C1QBP 0.01136 44217.1   95.00
+    8  HLA-B*15:01     DFLSDEIKEER  FLSEIKEER  1  3  1  0  0   FLSDEIKEER           C1QBP 0.01312 43382.5   95.00
+    9  HLA-B*15:01     FLSDEIKEERK  FLSDEIKEK  0  8  2  0  0  FLSDEIKEERK           C1QBP 0.02324 38885.6   80.00
+   10  HLA-B*15:01     LSDEIKEERKI  LEIKEERKI  0  1  2  0  0  LSDEIKEERKI           C1QBP 0.02524 38049.9   80.00
+   11  HLA-B*15:01     SDEIKEERKIQ  SIKEERKIQ  0  1  2  0  0  SDEIKEERKIQ           C1QBP 0.01588 42105.2   90.00
+   12  HLA-B*15:01     DEIKEERKIQK  EIKEERIQK  1  6  1  0  0   EIKEERKIQK           C1QBP 0.00847 45624.0  100.00
+   13  HLA-B*15:01     EIKEERKIQKH  EIKEERKIH  0  8  2  0  0  EIKEERKIQKH           C1QBP 0.01781 41236.9   90.00
+   14  HLA-B*15:01     IKEERKIQKHK  IERKIQKHK  0  1  2  0  0  IKEERKIQKHK           C1QBP 0.02454 38340.9   80.00
+   15  HLA-B*15:01     KEERKIQKHKT  KERKIQKHK  0  1  1  0  0   KEERKIQKHK           C1QBP 0.01205 43890.1   95.00
+   16  HLA-B*15:01     EERKIQKHKTL  EERKIHKTL  0  5  2  0  0  EERKIQKHKTL           C1QBP 0.03675 33595.6   65.00
+   17  HLA-B*15:01     ERKIQKHKTLP  RIQKHKTLP  1  1  1  0  0   RKIQKHKTLP           C1QBP 0.01131 44240.0   95.00
+   18  HLA-B*15:01     RKIQKHKTLPK  RQKHKTLPK  0  1  2  0  0  RKIQKHKTLPK           C1QBP 0.06687 24251.1   38.00
+   19  HLA-B*15:01     KIQKHKTLPKM  IQKHKTLPM  1  8  1  0  0   IQKHKTLPKM           C1QBP 0.21245  5019.5    9.00
+   20  HLA-B*15:01     IQKHKTLPKMS  IQKHKTLPM  0  8  1  0  0   IQKHKTLPKM           C1QBP 0.15609  9236.1   15.00
+   21  HLA-B*15:01     QKHKTLPKMSG  QKHKTLMSG  0  6  2  0  0  QKHKTLPKMSG           C1QBP 0.01832 41007.8   85.00
+   22  HLA-B*15:01     KHKTLPKMSGG  KTLPKMSGG  0  1  2  0  0  KHKTLPKMSGG           C1QBP 0.02124 39735.0   85.00
+   23  HLA-B*15:01     HKTLPKMSGGW  HLPKMSGGW  0  1  2  0  0  HKTLPKMSGGW           C1QBP 0.08035 20960.8   32.00
+   24  HLA-B*15:01     KTLPKMSGGWE  KTLPMSGGW  0  4  1  0  0   KTLPKMSGGW           C1QBP 0.04629 30300.5   55.00
+   25  HLA-B*15:01     TLPKMSGGWEL  TLMSGGWEL  0  2  2  0  0  TLPKMSGGWEL           C1QBP 0.12573 12828.1   19.00
+   26  HLA-B*15:01     LPKMSGGWELE  LKMSGGWEL  0  1  1  0  0   LPKMSGGWEL           C1QBP 0.04060 32223.5   60.00
+   27  HLA-B*15:01     PKMSGGWELEL  KMSGGWLEL  1  6  1  0  0   KMSGGWELEL           C1QBP 0.09125 18628.4   28.00
+    1  HLA-B*15:01      DGDKAFVDFL  DGKAFVDFL  0  2  1  0  0   DGDKAFVDFL           C1QBP 0.03377 34696.1   65.00
+    2  HLA-B*15:01      GDKAFVDFLS  GKAFVDFLS  0  1  1  0  0   GDKAFVDFLS           C1QBP 0.03225 35273.0   70.00
+    3  HLA-B*15:01      DKAFVDFLSD  KAFVDFLSD  1  0  0  0  0    KAFVDFLSD           C1QBP 0.02405 38545.5   80.00
+    4  HLA-B*15:01      KAFVDFLSDE  KAFVDFLSE  0  8  1  0  0   KAFVDFLSDE           C1QBP 0.07389 22478.5   34.00
+    5  HLA-B*15:01      AFVDFLSDEI  AFVDFLSEI  0  7  1  0  0   AFVDFLSDEI           C1QBP 0.10272 16455.1   24.00
+    6  HLA-B*15:01      FVDFLSDEIK  FVFLSDEIK  0  2  1  0  0   FVDFLSDEIK           C1QBP 0.06814 23921.4   37.00
+    7  HLA-B*15:01      VDFLSDEIKE  VDFLSDEIE  0  8  1  0  0   VDFLSDEIKE           C1QBP 0.01753 41359.8   90.00
+    8  HLA-B*15:01      DFLSDEIKEE  FLSDEIKEE  1  0  0  0  0    FLSDEIKEE           C1QBP 0.01708 41563.0   90.00
+    9  HLA-B*15:01      FLSDEIKEER  FLSDEIKER  0  7  1  0  0   FLSDEIKEER           C1QBP 0.03402 34602.0   65.00
+   10  HLA-B*15:01      LSDEIKEERK  LSDEIKEEK  0  8  1  0  0   LSDEIKEERK           C1QBP 0.01617 41976.5   90.00
+   11  HLA-B*15:01      SDEIKEERKI  SEIKEERKI  0  1  1  0  0   SDEIKEERKI           C1QBP 0.03934 32665.8   60.00
+   12  HLA-B*15:01      DEIKEERKIQ  DIKEERKIQ  0  1  1  0  0   DEIKEERKIQ           C1QBP 0.01506 42480.5   90.00
+   13  HLA-B*15:01      EIKEERKIQK  EIKEERIQK  0  6  1  0  0   EIKEERKIQK           C1QBP 0.01705 41579.2   90.00
+   14  HLA-B*15:01      IKEERKIQKH  IKEERIQKH  0  5  1  0  0   IKEERKIQKH           C1QBP 0.01948 40496.7   85.00
+   15  HLA-B*15:01      KEERKIQKHK  KERKIQKHK  0  1  1  0  0   KEERKIQKHK           C1QBP 0.03960 32575.8   60.00
+   16  HLA-B*15:01      EERKIQKHKT  EERKIQHKT  0  6  1  0  0   EERKIQKHKT           C1QBP 0.01738 41429.2   90.00
+   17  HLA-B*15:01      ERKIQKHKTL  EKIQKHKTL  0  1  1  0  0   ERKIQKHKTL           C1QBP 0.03993 32458.0   60.00
+   18  HLA-B*15:01      RKIQKHKTLP  RIQKHKTLP  0  1  1  0  0   RKIQKHKTLP           C1QBP 0.04098 32094.1   60.00
+   19  HLA-B*15:01      KIQKHKTLPK  KQKHKTLPK  0  1  1  0  0   KIQKHKTLPK           C1QBP 0.10304 16398.8   24.00
+   20  HLA-B*15:01      IQKHKTLPKM  IQKHKTLPM  0  8  1  0  0   IQKHKTLPKM           C1QBP 0.56898   106.0    0.70 <= WB
+   21  HLA-B*15:01      QKHKTLPKMS  QKHKTLPKM  0  0  0  0  0    QKHKTLPKM           C1QBP 0.03463 34375.9   65.00
+   22  HLA-B*15:01      KHKTLPKMSG  KHKTLPMSG  0  6  1  0  0   KHKTLPKMSG           C1QBP 0.03498 34245.6   65.00
+   23  HLA-B*15:01      HKTLPKMSGG  HTLPKMSGG  0  1  1  0  0   HKTLPKMSGG           C1QBP 0.05102 28789.1   48.00
+   24  HLA-B*15:01      KTLPKMSGGW  KTLPMSGGW  0  4  1  0  0   KTLPKMSGGW           C1QBP 0.17441  7575.4   13.00
+   25  HLA-B*15:01      TLPKMSGGWE  TLPKMSGGW  0  0  0  0  0    TLPKMSGGW           C1QBP 0.07046 23327.9   36.00
+   26  HLA-B*15:01      LPKMSGGWEL  LKMSGGWEL  0  1  1  0  0   LPKMSGGWEL           C1QBP 0.18104  7051.0   12.00
+   27  HLA-B*15:01      PKMSGGWELE  KMSGGWELE  1  0  0  0  0    KMSGGWELE           C1QBP 0.03077 35842.0   70.00
+   28  HLA-B*15:01      KMSGGWELEL  KMSGGWLEL  0  6  1  0  0   KMSGGWELEL           C1QBP 0.30997  1747.6    4.50
+    1  HLA-B*15:01       DGDKAFVDF  DGDKAFVDF  0  0  0  0  0    DGDKAFVDF           C1QBP 0.04387 31104.4   55.00
+    2  HLA-B*15:01       GDKAFVDFL  GDKAFVDFL  0  0  0  0  0    GDKAFVDFL           C1QBP 0.07584 22009.0   34.00
+    3  HLA-B*15:01       DKAFVDFLS  DKAFVDFLS  0  0  0  0  0    DKAFVDFLS           C1QBP 0.02149 39628.1   85.00
+    4  HLA-B*15:01       KAFVDFLSD  KAFVDFLSD  0  0  0  0  0    KAFVDFLSD           C1QBP 0.06406 25000.8   40.00
+    5  HLA-B*15:01       AFVDFLSDE  AFVDFLSDE  0  0  0  0  0    AFVDFLSDE           C1QBP 0.04170 31844.4   60.00
+    6  HLA-B*15:01       FVDFLSDEI  FVDFLSDEI  0  0  0  0  0    FVDFLSDEI           C1QBP 0.09136 18606.6   28.00
+    7  HLA-B*15:01       VDFLSDEIK  VDFLSDEIK  0  0  0  0  0    VDFLSDEIK           C1QBP 0.03153 35546.5   70.00
+    8  HLA-B*15:01       DFLSDEIKE  DFLSDEIKE  0  0  0  0  0    DFLSDEIKE           C1QBP 0.00540 47161.3  100.00
+    9  HLA-B*15:01       FLSDEIKEE  FLSDEIKEE  0  0  0  0  0    FLSDEIKEE           C1QBP 0.05756 26821.8   44.00
+   10  HLA-B*15:01       LSDEIKEER  LSDEIKEER  0  0  0  0  0    LSDEIKEER           C1QBP 0.01505 42488.8   90.00
+   11  HLA-B*15:01       SDEIKEERK  SDEIKEERK  0  0  0  0  0    SDEIKEERK           C1QBP 0.00725 46228.7  100.00
+   12  HLA-B*15:01       DEIKEERKI  DEIKEERKI  0  0  0  0  0    DEIKEERKI           C1QBP 0.03159 35523.1   70.00
+   13  HLA-B*15:01       EIKEERKIQ  EIKEERKIQ  0  0  0  0  0    EIKEERKIQ           C1QBP 0.02650 37538.0   75.00
+   14  HLA-B*15:01       IKEERKIQK  IKEERKIQK  0  0  0  0  0    IKEERKIQK           C1QBP 0.01801 41145.5   90.00
+   15  HLA-B*15:01       KEERKIQKH  KEERKIQKH  0  0  0  0  0    KEERKIQKH           C1QBP 0.03176 35459.7   70.00
+   16  HLA-B*15:01       EERKIQKHK  EERKIQKHK  0  0  0  0  0    EERKIQKHK           C1QBP 0.03207 35342.5   70.00
+   17  HLA-B*15:01       ERKIQKHKT  ERKIQKHKT  0  0  0  0  0    ERKIQKHKT           C1QBP 0.00703 46338.9  100.00
+   18  HLA-B*15:01       RKIQKHKTL  RKIQKHKTL  0  0  0  0  0    RKIQKHKTL           C1QBP 0.09825 17269.4   26.00
+   19  HLA-B*15:01       KIQKHKTLP  KIQKHKTLP  0  0  0  0  0    KIQKHKTLP           C1QBP 0.03953 32599.5   60.00
+   20  HLA-B*15:01       IQKHKTLPK  IQKHKTLPK  0  0  0  0  0    IQKHKTLPK           C1QBP 0.17227  7753.2   13.00
+   21  HLA-B*15:01       QKHKTLPKM  QKHKTLPKM  0  0  0  0  0    QKHKTLPKM           C1QBP 0.11687 14118.6   21.00
+   22  HLA-B*15:01       KHKTLPKMS  KHKTLPKMS  0  0  0  0  0    KHKTLPKMS           C1QBP 0.02239 39242.4   80.00
+   23  HLA-B*15:01       HKTLPKMSG  HKTLPKMSG  0  0  0  0  0    HKTLPKMSG           C1QBP 0.03420 34534.0   65.00
+   24  HLA-B*15:01       KTLPKMSGG  KTLPKMSGG  0  0  0  0  0    KTLPKMSGG           C1QBP 0.07968 21114.2   32.00
+   25  HLA-B*15:01       TLPKMSGGW  TLPKMSGGW  0  0  0  0  0    TLPKMSGGW           C1QBP 0.17814  7275.8   12.00
+   26  HLA-B*15:01       LPKMSGGWE  LPKMSGGWE  0  0  0  0  0    LPKMSGGWE           C1QBP 0.04760 29875.7   55.00
+   27  HLA-B*15:01       PKMSGGWEL  PKMSGGWEL  0  0  0  0  0    PKMSGGWEL           C1QBP 0.06906 23685.3   37.00
+   28  HLA-B*15:01       KMSGGWELE  KMSGGWELE  0  0  0  0  0    KMSGGWELE           C1QBP 0.09236 18406.4   27.00
+   29  HLA-B*15:01       MSGGWELEL  MSGGWELEL  0  0  0  0  0    MSGGWELEL           C1QBP 0.15455  9391.6   15.00
+    1  HLA-B*15:01        DGDKAFVD  DGDKAFVD-  0  0  0  8  1     DGDKAFVD           C1QBP 0.00357 48107.6  100.00
+    2  HLA-B*15:01        GDKAFVDF  GDK-AFVDF  0  0  0  3  1     GDKAFVDF           C1QBP 0.04844 29603.8   50.00
+    3  HLA-B*15:01        DKAFVDFL  -DKAFVDFL  0  0  0  0  1     DKAFVDFL           C1QBP 0.02131 39704.1   85.00
+    4  HLA-B*15:01        KAFVDFLS  KAFVDFLS-  0  0  0  8  1     KAFVDFLS           C1QBP 0.08778 19341.3   29.00
+    5  HLA-B*15:01        AFVDFLSD  AFVDFLSD-  0  0  0  8  1     AFVDFLSD           C1QBP 0.02358 38738.7   80.00
+    6  HLA-B*15:01        FVDFLSDE  FVDFLSDE-  0  0  0  8  1     FVDFLSDE           C1QBP 0.01901 40705.4   85.00
+    7  HLA-B*15:01        VDFLSDEI  VDFL-SDEI  0  0  0  4  1     VDFLSDEI           C1QBP 0.02854 36715.3   75.00
+    8  HLA-B*15:01        DFLSDEIK  D-FLSDEIK  0  0  0  1  1     DFLSDEIK           C1QBP 0.00737 46168.2  100.00
+    9  HLA-B*15:01        FLSDEIKE  FLSDEIKE-  0  0  0  8  1     FLSDEIKE           C1QBP 0.03482 34305.3   65.00
+   10  HLA-B*15:01        LSDEIKEE  LSDEIKEE-  0  0  0  8  1     LSDEIKEE           C1QBP 0.00853 45590.4  100.00
+   11  HLA-B*15:01        SDEIKEER  SD-EIKEER  0  0  0  2  1     SDEIKEER           C1QBP 0.00444 47654.8  100.00
+   12  HLA-B*15:01        DEIKEERK  DEIKEERK-  0  0  0  8  1     DEIKEERK           C1QBP 0.00560 47062.5  100.00
+   13  HLA-B*15:01        EIKEERKI  EIKEERKI-  0  0  0  8  1     EIKEERKI           C1QBP 0.01782 41233.3   90.00
+   14  HLA-B*15:01        IKEERKIQ  -IKEERKIQ  0  0  0  0  1     IKEERKIQ           C1QBP 0.00912 45303.3  100.00
+   15  HLA-B*15:01        KEERKIQK  KE-ERKIQK  0  0  0  2  1     KEERKIQK           C1QBP 0.01410 42924.9   95.00
+   16  HLA-B*15:01        EERKIQKH  EERKIQKH-  0  0  0  8  1     EERKIQKH           C1QBP 0.01397 42987.7   95.00
+   17  HLA-B*15:01        ERKIQKHK  -ERKIQKHK  0  0  0  0  1     ERKIQKHK           C1QBP 0.01188 43967.5   95.00
+   18  HLA-B*15:01        RKIQKHKT  RKIQKHKT-  0  0  0  8  1     RKIQKHKT           C1QBP 0.01745 41396.0   90.00
+   19  HLA-B*15:01        KIQKHKTL  KIQKH-KTL  0  0  0  5  1     KIQKHKTL           C1QBP 0.05384 27923.4   46.00
+   20  HLA-B*15:01        IQKHKTLP  IQKHKTLP-  0  0  0  8  1     IQKHKTLP           C1QBP 0.12538 12876.4   19.00
+   21  HLA-B*15:01        QKHKTLPK  -QKHKTLPK  0  0  0  0  1     QKHKTLPK           C1QBP 0.03634 33746.5   65.00
+   22  HLA-B*15:01        KHKTLPKM  K-HKTLPKM  0  0  0  1  1     KHKTLPKM           C1QBP 0.04706 30050.4   55.00
+   23  HLA-B*15:01        HKTLPKMS  HKTLPKMS-  0  0  0  8  1     HKTLPKMS           C1QBP 0.01503 42495.6   90.00
+   24  HLA-B*15:01        KTLPKMSG  KTLPKMSG-  0  0  0  8  1     KTLPKMSG           C1QBP 0.03634 33746.1   65.00
+   25  HLA-B*15:01        TLPKMSGG  TLPKMSGG-  0  0  0  8  1     TLPKMSGG           C1QBP 0.02934 36400.5   70.00
+   26  HLA-B*15:01        LPKMSGGW  LPKMSGG-W  0  0  0  7  1     LPKMSGGW           C1QBP 0.05743 26859.6   44.00
+   27  HLA-B*15:01        PKMSGGWE  PKMSGGWE-  0  0  0  8  1     PKMSGGWE           C1QBP 0.01205 43889.1   95.00
+   28  HLA-B*15:01        KMSGGWEL  KM-SGGWEL  0  0  0  2  1     KMSGGWEL           C1QBP 0.15534  9311.7   15.00
+   29  HLA-B*15:01        MSGGWELE  MSGGWELE-  0  0  0  8  1     MSGGWELE           C1QBP 0.02701 37329.0   75.00
+   30  HLA-B*15:01        SGGWELEL  S-GGWELEL  0  0  0  1  1     SGGWELEL           C1QBP 0.02364 38716.5   80.00
+-----------------------------------------------------------------------------------
+
+Protein C1QBP. Allele HLA-B*15:01. Number of high binders 0. Number of weak binders 1. Number of peptides 114
+
+-----------------------------------------------------------------------------------
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/bin/netMHCpan -a HLA-B35:03 -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest3/C1QBP_refPeptide.fa
+# Wed Nov 18 11:46:47 2020
+# User: huangz
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest3
+# Host: Linux odcf-worker01 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-B35:03           HLA allele
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest3/C1QBP_refPeptide.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/synlist Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-B35:03           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest3/C1QBP_refPeptide.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/threshold/%s.thr Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/allelenames File with print names for alleles
+
+# NetMHCpan version 3.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/tmp/netMHCpangQ7QK7
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+HLA-B35:03 : Distance to training data  0.000 (using nearest neighbor HLA-B35:03)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity   Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-B*35:03     DGDKAFVDFLS  DGAFVDFLS  0  2  2  0  0  DGDKAFVDFLS           C1QBP 0.00388 47944.4   80.00
+    2  HLA-B*35:03     GDKAFVDFLSD  GAFVDFLSD  0  1  2  0  0  GDKAFVDFLSD           C1QBP 0.00299 48407.3   90.00
+    3  HLA-B*35:03     DKAFVDFLSDE  KAFVDFLSE  1  8  1  0  0   KAFVDFLSDE           C1QBP 0.00329 48253.5   85.00
+    4  HLA-B*35:03     KAFVDFLSDEI  KAFVDFLSI  0  8  2  0  0  KAFVDFLSDEI           C1QBP 0.02578 37829.1   17.00
+    5  HLA-B*35:03     AFVDFLSDEIK  FVDFLSDEI  1  0  0  0  0    FVDFLSDEI           C1QBP 0.00805 45827.3   55.00
+    6  HLA-B*35:03     FVDFLSDEIKE  FVDFLSDEI  0  0  0  0  0    FVDFLSDEI           C1QBP 0.01101 44384.8   39.00
+    7  HLA-B*35:03     VDFLSDEIKEE  DFLSDEIEE  1  7  1  0  0   DFLSDEIKEE           C1QBP 0.00169 49092.4  100.00
+    8  HLA-B*35:03     DFLSDEIKEER  FLSDIKEER  1  4  1  0  0   FLSDEIKEER           C1QBP 0.00325 48271.3   85.00
+    9  HLA-B*35:03     FLSDEIKEERK  FLSDIKEER  0  4  1  0  0   FLSDEIKEER           C1QBP 0.00255 48639.3   90.00
+   10  HLA-B*35:03     LSDEIKEERKI  LSDEIKEEI  0  8  2  0  0  LSDEIKEERKI           C1QBP 0.00798 45861.6   55.00
+   11  HLA-B*35:03     SDEIKEERKIQ  SEIKEERKI  0  1  1  0  0   SDEIKEERKI           C1QBP 0.00160 49143.5  100.00
+   12  HLA-B*35:03     DEIKEERKIQK  DEIERKIQK  0  3  2  0  0  DEIKEERKIQK           C1QBP 0.00146 49214.2  100.00
+   13  HLA-B*35:03     EIKEERKIQKH  EIKEEIQKH  0  5  2  0  0  EIKEERKIQKH           C1QBP 0.00169 49094.6  100.00
+   14  HLA-B*35:03     IKEERKIQKHK  IERKIQKHK  0  1  2  0  0  IKEERKIQKHK           C1QBP 0.00108 49420.7  100.00
+   15  HLA-B*35:03     KEERKIQKHKT  KEEIQKHKT  0  3  2  0  0  KEERKIQKHKT           C1QBP 0.00116 49374.8  100.00
+   16  HLA-B*35:03     EERKIQKHKTL  EEIQKHKTL  0  2  2  0  0  EERKIQKHKTL           C1QBP 0.00649 46609.9   60.00
+   17  HLA-B*35:03     ERKIQKHKTLP  EIQKHKTLP  0  1  2  0  0  ERKIQKHKTLP           C1QBP 0.00219 48829.7   95.00
+   18  HLA-B*35:03     RKIQKHKTLPK  RKIQKTLPK  0  4  2  0  0  RKIQKHKTLPK           C1QBP 0.00254 48644.6   90.00
+   19  HLA-B*35:03     KIQKHKTLPKM  IQKHKTLPM  1  8  1  0  0   IQKHKTLPKM           C1QBP 0.00667 46519.2   60.00
+   20  HLA-B*35:03     IQKHKTLPKMS  IQKHKTLPM  0  8  1  0  0   IQKHKTLPKM           C1QBP 0.00420 47777.1   80.00
+   21  HLA-B*35:03     QKHKTLPKMSG  KHTLPKMSG  1  2  1  0  0   KHKTLPKMSG           C1QBP 0.00250 48666.7   95.00
+   22  HLA-B*35:03     KHKTLPKMSGG  KHLPKMSGG  0  2  2  0  0  KHKTLPKMSGG           C1QBP 0.00283 48492.7   90.00
+   23  HLA-B*35:03     HKTLPKMSGGW  HKTLPKMSW  0  8  2  0  0  HKTLPKMSGGW           C1QBP 0.00414 47808.2   80.00
+   24  HLA-B*35:03     KTLPKMSGGWE  LPKMSGGWE  2  0  0  0  0    LPKMSGGWE           C1QBP 0.00352 48132.0   85.00
+   25  HLA-B*35:03     TLPKMSGGWEL  LPMSGGWEL  1  2  1  0  0   LPKMSGGWEL           C1QBP 0.18043  7098.1    0.90 <= WB
+   26  HLA-B*35:03     LPKMSGGWELE  LPMSGGWEL  0  2  1  0  0   LPKMSGGWEL           C1QBP 0.14359 10573.8    1.40 <= WB
+   27  HLA-B*35:03     PKMSGGWELEL  MSGGWELEL  2  0  0  0  0    MSGGWELEL           C1QBP 0.01028 44737.2   42.00
+    1  HLA-B*35:03      DGDKAFVDFL  DGDKAFVFL  0  7  1  0  0   DGDKAFVDFL           C1QBP 0.01779 41247.2   25.00
+    2  HLA-B*35:03      GDKAFVDFLS  GDAFVDFLS  0  2  1  0  0   GDKAFVDFLS           C1QBP 0.00256 48632.5   90.00
+    3  HLA-B*35:03      DKAFVDFLSD  DAFVDFLSD  0  1  1  0  0   DKAFVDFLSD           C1QBP 0.00825 45729.7   50.00
+    4  HLA-B*35:03      KAFVDFLSDE  KAFVDFLSE  0  8  1  0  0   KAFVDFLSDE           C1QBP 0.00742 46143.8   55.00
+    5  HLA-B*35:03      AFVDFLSDEI  FVDFLSDEI  1  0  0  0  0    FVDFLSDEI           C1QBP 0.03473 34337.6   12.00
+    6  HLA-B*35:03      FVDFLSDEIK  FVDFLSDEI  0  0  0  0  0    FVDFLSDEI           C1QBP 0.02665 37473.4   16.00
+    7  HLA-B*35:03      VDFLSDEIKE  VFLSDEIKE  0  1  1  0  0   VDFLSDEIKE           C1QBP 0.00267 48578.9   90.00
+    8  HLA-B*35:03      DFLSDEIKEE  DFLSDEIEE  0  7  1  0  0   DFLSDEIKEE           C1QBP 0.00369 48043.6   80.00
+    9  HLA-B*35:03      FLSDEIKEER  FLSDIKEER  0  4  1  0  0   FLSDEIKEER           C1QBP 0.00872 45497.3   48.00
+   10  HLA-B*35:03      LSDEIKEERK  LSDEIKEEK  0  8  1  0  0   LSDEIKEERK           C1QBP 0.00323 48283.8   85.00
+   11  HLA-B*35:03      SDEIKEERKI  SEIKEERKI  0  1  1  0  0   SDEIKEERKI           C1QBP 0.00409 47837.7   80.00
+   12  HLA-B*35:03      DEIKEERKIQ  DEIEERKIQ  0  3  1  0  0   DEIKEERKIQ           C1QBP 0.00243 48703.1   95.00
+   13  HLA-B*35:03      EIKEERKIQK  EIKEERIQK  0  6  1  0  0   EIKEERKIQK           C1QBP 0.00249 48669.9   95.00
+   14  HLA-B*35:03      IKEERKIQKH  IKEERKIQH  0  8  1  0  0   IKEERKIQKH           C1QBP 0.00178 49048.9  100.00
+   15  HLA-B*35:03      KEERKIQKHK  KERKIQKHK  0  1  1  0  0   KEERKIQKHK           C1QBP 0.00129 49306.4  100.00
+   16  HLA-B*35:03      EERKIQKHKT  EERKIQHKT  0  6  1  0  0   EERKIQKHKT           C1QBP 0.00190 48984.2  100.00
+   17  HLA-B*35:03      ERKIQKHKTL  EKIQKHKTL  0  1  1  0  0   ERKIQKHKTL           C1QBP 0.00535 47187.9   70.00
+   18  HLA-B*35:03      RKIQKHKTLP  RKIQKHKTL  0  0  0  0  0    RKIQKHKTL           C1QBP 0.00302 48392.1   90.00
+   19  HLA-B*35:03      KIQKHKTLPK  KIQKHTLPK  0  5  1  0  0   KIQKHKTLPK           C1QBP 0.00409 47834.1   80.00
+   20  HLA-B*35:03      IQKHKTLPKM  IQKHKTLPM  0  8  1  0  0   IQKHKTLPKM           C1QBP 0.01520 42416.2   29.00
+   21  HLA-B*35:03      QKHKTLPKMS  QHKTLPKMS  0  1  1  0  0   QKHKTLPKMS           C1QBP 0.00221 48818.6   95.00
+   22  HLA-B*35:03      KHKTLPKMSG  KHTLPKMSG  0  2  1  0  0   KHKTLPKMSG           C1QBP 0.00570 47011.6   65.00
+   23  HLA-B*35:03      HKTLPKMSGG  HTLPKMSGG  0  1  1  0  0   HKTLPKMSGG           C1QBP 0.00404 47862.0   80.00
+   24  HLA-B*35:03      KTLPKMSGGW  KTLPMSGGW  0  4  1  0  0   KTLPKMSGGW           C1QBP 0.00628 46714.4   60.00
+   25  HLA-B*35:03      TLPKMSGGWE  TPKMSGGWE  0  1  1  0  0   TLPKMSGGWE           C1QBP 0.00752 46093.4   55.00
+   26  HLA-B*35:03      LPKMSGGWEL  LPMSGGWEL  0  2  1  0  0   LPKMSGGWEL           C1QBP 0.44171   420.1    0.08 <= SB
+   27  HLA-B*35:03      PKMSGGWELE  PKMSGGWEL  0  0  0  0  0    PKMSGGWEL           C1QBP 0.00314 48329.3   85.00
+   28  HLA-B*35:03      KMSGGWELEL  KMSGGWLEL  0  6  1  0  0   KMSGGWELEL           C1QBP 0.02679 37418.7   16.00
+    1  HLA-B*35:03       DGDKAFVDF  DGDKAFVDF  0  0  0  0  0    DGDKAFVDF           C1QBP 0.03552 34044.2   11.00
+    2  HLA-B*35:03       GDKAFVDFL  GDKAFVDFL  0  0  0  0  0    GDKAFVDFL           C1QBP 0.00575 46985.6   65.00
+    3  HLA-B*35:03       DKAFVDFLS  DKAFVDFLS  0  0  0  0  0    DKAFVDFLS           C1QBP 0.00754 46083.9   55.00
+    4  HLA-B*35:03       KAFVDFLSD  KAFVDFLSD  0  0  0  0  0    KAFVDFLSD           C1QBP 0.02077 39934.6   21.00
+    5  HLA-B*35:03       AFVDFLSDE  AFVDFLSDE  0  0  0  0  0    AFVDFLSDE           C1QBP 0.00582 46948.0   65.00
+    6  HLA-B*35:03       FVDFLSDEI  FVDFLSDEI  0  0  0  0  0    FVDFLSDEI           C1QBP 0.19676  5948.7    0.70 <= WB
+    7  HLA-B*35:03       VDFLSDEIK  VDFLSDEIK  0  0  0  0  0    VDFLSDEIK           C1QBP 0.00395 47910.2   80.00
+    8  HLA-B*35:03       DFLSDEIKE  DFLSDEIKE  0  0  0  0  0    DFLSDEIKE           C1QBP 0.00657 46569.6   60.00
+    9  HLA-B*35:03       FLSDEIKEE  FLSDEIKEE  0  0  0  0  0    FLSDEIKEE           C1QBP 0.01070 44536.3   40.00
+   10  HLA-B*35:03       LSDEIKEER  LSDEIKEER  0  0  0  0  0    LSDEIKEER           C1QBP 0.00959 45074.0   44.00
+   11  HLA-B*35:03       SDEIKEERK  SDEIKEERK  0  0  0  0  0    SDEIKEERK           C1QBP 0.00103 49446.4  100.00
+   12  HLA-B*35:03       DEIKEERKI  DEIKEERKI  0  0  0  0  0    DEIKEERKI           C1QBP 0.00980 44970.7   43.00
+   13  HLA-B*35:03       EIKEERKIQ  EIKEERKIQ  0  0  0  0  0    EIKEERKIQ           C1QBP 0.00361 48083.6   85.00
+   14  HLA-B*35:03       IKEERKIQK  IKEERKIQK  0  0  0  0  0    IKEERKIQK           C1QBP 0.00319 48303.7   85.00
+   15  HLA-B*35:03       KEERKIQKH  KEERKIQKH  0  0  0  0  0    KEERKIQKH           C1QBP 0.00298 48412.5   90.00
+   16  HLA-B*35:03       EERKIQKHK  EERKIQKHK  0  0  0  0  0    EERKIQKHK           C1QBP 0.00282 48498.5   90.00
+   17  HLA-B*35:03       ERKIQKHKT  ERKIQKHKT  0  0  0  0  0    ERKIQKHKT           C1QBP 0.00159 49145.6  100.00
+   18  HLA-B*35:03       RKIQKHKTL  RKIQKHKTL  0  0  0  0  0    RKIQKHKTL           C1QBP 0.01226 43787.6   36.00
+   19  HLA-B*35:03       KIQKHKTLP  KIQKHKTLP  0  0  0  0  0    KIQKHKTLP           C1QBP 0.00352 48130.0   85.00
+   20  HLA-B*35:03       IQKHKTLPK  IQKHKTLPK  0  0  0  0  0    IQKHKTLPK           C1QBP 0.00823 45742.1   50.00
+   21  HLA-B*35:03       QKHKTLPKM  QKHKTLPKM  0  0  0  0  0    QKHKTLPKM           C1QBP 0.01183 43991.3   37.00
+   22  HLA-B*35:03       KHKTLPKMS  KHKTLPKMS  0  0  0  0  0    KHKTLPKMS           C1QBP 0.00375 48010.9   80.00
+   23  HLA-B*35:03       HKTLPKMSG  HKTLPKMSG  0  0  0  0  0    HKTLPKMSG           C1QBP 0.00748 46110.8   55.00
+   24  HLA-B*35:03       KTLPKMSGG  KTLPKMSGG  0  0  0  0  0    KTLPKMSGG           C1QBP 0.00494 47398.2   70.00
+   25  HLA-B*35:03       TLPKMSGGW  TLPKMSGGW  0  0  0  0  0    TLPKMSGGW           C1QBP 0.01139 44201.3   38.00
+   26  HLA-B*35:03       LPKMSGGWE  LPKMSGGWE  0  0  0  0  0    LPKMSGGWE           C1QBP 0.02953 36325.3   14.00
+   27  HLA-B*35:03       PKMSGGWEL  PKMSGGWEL  0  0  0  0  0    PKMSGGWEL           C1QBP 0.02218 39332.9   20.00
+   28  HLA-B*35:03       KMSGGWELE  KMSGGWELE  0  0  0  0  0    KMSGGWELE           C1QBP 0.00641 46652.3   60.00
+   29  HLA-B*35:03       MSGGWELEL  MSGGWELEL  0  0  0  0  0    MSGGWELEL           C1QBP 0.12442 13010.8    1.70 <= WB
+    1  HLA-B*35:03        DGDKAFVD  DGDKAFVD-  0  0  0  8  1     DGDKAFVD           C1QBP 0.00157 49157.8  100.00
+    2  HLA-B*35:03        GDKAFVDF  -GDKAFVDF  0  0  0  0  1     GDKAFVDF           C1QBP 0.00417 47793.7   80.00
+    3  HLA-B*35:03        DKAFVDFL  DKAFVDF-L  0  0  0  7  1     DKAFVDFL           C1QBP 0.00741 46146.8   55.00
+    4  HLA-B*35:03        KAFVDFLS  KAFVDFLS-  0  0  0  8  1     KAFVDFLS           C1QBP 0.00811 45801.6   50.00
+    5  HLA-B*35:03        AFVDFLSD  -AFVDFLSD  0  0  0  0  1     AFVDFLSD           C1QBP 0.00389 47941.8   80.00
+    6  HLA-B*35:03        FVDFLSDE  FVDFLSDE-  0  0  0  8  1     FVDFLSDE           C1QBP 0.01107 44356.5   39.00
+    7  HLA-B*35:03        VDFLSDEI  -VDFLSDEI  0  0  0  0  1     VDFLSDEI           C1QBP 0.01130 44247.2   38.00
+    8  HLA-B*35:03        DFLSDEIK  DFLSDEIK-  0  0  0  8  1     DFLSDEIK           C1QBP 0.00310 48348.7   85.00
+    9  HLA-B*35:03        FLSDEIKE  FLSDEIKE-  0  0  0  8  1     FLSDEIKE           C1QBP 0.00376 48004.6   80.00
+   10  HLA-B*35:03        LSDEIKEE  LSDEIKEE-  0  0  0  8  1     LSDEIKEE           C1QBP 0.00253 48650.4   95.00
+   11  HLA-B*35:03        SDEIKEER  -SDEIKEER  0  0  0  0  1     SDEIKEER           C1QBP 0.00121 49349.7  100.00
+   12  HLA-B*35:03        DEIKEERK  DEIKEER-K  0  0  0  7  1     DEIKEERK           C1QBP 0.00125 49326.7  100.00
+   13  HLA-B*35:03        EIKEERKI  EIKEER-KI  0  0  0  6  1     EIKEERKI           C1QBP 0.00384 47966.7   80.00
+   14  HLA-B*35:03        IKEERKIQ  IKEERKIQ-  0  0  0  8  1     IKEERKIQ           C1QBP 0.00117 49373.2  100.00
+   15  HLA-B*35:03        KEERKIQK  KE-ERKIQK  0  0  0  2  1     KEERKIQK           C1QBP 0.00133 49284.6  100.00
+   16  HLA-B*35:03        EERKIQKH  EERK-IQKH  0  0  0  4  1     EERKIQKH           C1QBP 0.00233 48754.2   95.00
+   17  HLA-B*35:03        ERKIQKHK  ERKIQKH-K  0  0  0  7  1     ERKIQKHK           C1QBP 0.00124 49334.7  100.00
+   18  HLA-B*35:03        RKIQKHKT  RKIQKHKT-  0  0  0  8  1     RKIQKHKT           C1QBP 0.00117 49373.7  100.00
+   19  HLA-B*35:03        KIQKHKTL  KIQKHK-TL  0  0  0  6  1     KIQKHKTL           C1QBP 0.00557 47073.7   65.00
+   20  HLA-B*35:03        IQKHKTLP  IQKHKTLP-  0  0  0  8  1     IQKHKTLP           C1QBP 0.00290 48455.0   90.00
+   21  HLA-B*35:03        QKHKTLPK  QKHK-TLPK  0  0  0  4  1     QKHKTLPK           C1QBP 0.00249 48672.0   95.00
+   22  HLA-B*35:03        KHKTLPKM  KH-KTLPKM  0  0  0  2  1     KHKTLPKM           C1QBP 0.00659 46558.5   60.00
+   23  HLA-B*35:03        HKTLPKMS  HKTLPKMS-  0  0  0  8  1     HKTLPKMS           C1QBP 0.00196 48952.4   95.00
+   24  HLA-B*35:03        KTLPKMSG  KTLPK-MSG  0  0  0  5  1     KTLPKMSG           C1QBP 0.00283 48494.3   90.00
+   25  HLA-B*35:03        TLPKMSGG  TLPKMSGG-  0  0  0  8  1     TLPKMSGG           C1QBP 0.00196 48951.3   95.00
+   26  HLA-B*35:03        LPKMSGGW  LP-KMSGGW  0  0  0  2  1     LPKMSGGW           C1QBP 0.01972 40391.7   22.00
+   27  HLA-B*35:03        PKMSGGWE  -PKMSGGWE  0  0  0  0  1     PKMSGGWE           C1QBP 0.00290 48454.5   90.00
+   28  HLA-B*35:03        KMSGGWEL  KM-SGGWEL  0  0  0  2  1     KMSGGWEL           C1QBP 0.01916 40636.3   23.00
+   29  HLA-B*35:03        MSGGWELE  MSGGWELE-  0  0  0  8  1     MSGGWELE           C1QBP 0.00488 47427.4   70.00
+   30  HLA-B*35:03        SGGWELEL  SG-GWELEL  0  0  0  2  1     SGGWELEL           C1QBP 0.00928 45222.5   45.00
+-----------------------------------------------------------------------------------
+
+Protein C1QBP. Allele HLA-B*35:03. Number of high binders 1. Number of weak binders 4. Number of peptides 114
+
+-----------------------------------------------------------------------------------
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/bin/netMHCpan -a HLA-C03:03 -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest3/C1QBP_refPeptide.fa
+# Wed Nov 18 11:46:47 2020
+# User: huangz
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest3
+# Host: Linux odcf-worker01 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-C03:03           HLA allele
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest3/C1QBP_refPeptide.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/synlist Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-C03:03           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest3/C1QBP_refPeptide.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/threshold/%s.thr Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/allelenames File with print names for alleles
+
+# NetMHCpan version 3.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/tmp/netMHCpanHuTNC7
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+HLA-C03:03 : Distance to training data  0.000 (using nearest neighbor HLA-C03:03)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity   Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-C*03:03     DGDKAFVDFLS  DGDAFVDFL  0  3  1  0  0   DGDKAFVDFL           C1QBP 0.00426 47748.7   90.00
+    2  HLA-C*03:03     GDKAFVDFLSD  GAFVDFLSD  0  1  2  0  0  GDKAFVDFLSD           C1QBP 0.00379 47989.0   95.00
+    3  HLA-C*03:03     DKAFVDFLSDE  KAFDFLSDE  1  3  1  0  0   KAFVDFLSDE           C1QBP 0.00655 46578.7   85.00
+    4  HLA-C*03:03     KAFVDFLSDEI  KAFVDFLSI  0  8  2  0  0  KAFVDFLSDEI           C1QBP 0.12919 12357.3   11.00
+    5  HLA-C*03:03     AFVDFLSDEIK  FVDFLSDEI  1  0  0  0  0    FVDFLSDEI           C1QBP 0.02886 36590.4   42.00
+    6  HLA-C*03:03     FVDFLSDEIKE  FVDFLSDEI  0  0  0  0  0    FVDFLSDEI           C1QBP 0.03435 34481.0   37.00
+    7  HLA-C*03:03     VDFLSDEIKEE  FLSDEIKEE  2  0  0  0  0    FLSDEIKEE           C1QBP 0.00416 47796.8   95.00
+    8  HLA-C*03:03     DFLSDEIKEER  FLSDEIEER  1  6  1  0  0   FLSDEIKEER           C1QBP 0.01009 44828.3   75.00
+    9  HLA-C*03:03     FLSDEIKEERK  FLSDEIKEK  0  8  2  0  0  FLSDEIKEERK           C1QBP 0.01273 43566.4   65.00
+   10  HLA-C*03:03     LSDEIKEERKI  LSDEIKEEI  0  8  2  0  0  LSDEIKEERKI           C1QBP 0.03345 34815.7   38.00
+   11  HLA-C*03:03     SDEIKEERKIQ  SEIKEERKI  0  1  1  0  0   SDEIKEERKI           C1QBP 0.00138 49256.8  100.00
+   12  HLA-C*03:03     DEIKEERKIQK  DEIERKIQK  0  3  2  0  0  DEIKEERKIQK           C1QBP 0.00155 49167.4  100.00
+   13  HLA-C*03:03     EIKEERKIQKH  EIKEEIQKH  0  5  2  0  0  EIKEERKIQKH           C1QBP 0.00134 49283.0  100.00
+   14  HLA-C*03:03     IKEERKIQKHK  IKEERKIQK  0  8  2  0  0  IKEERKIQKHK           C1QBP 0.00231 48765.8  100.00
+   15  HLA-C*03:03     KEERKIQKHKT  KEERKIHKT  0  6  2  0  0  KEERKIQKHKT           C1QBP 0.00115 49382.3  100.00
+   16  HLA-C*03:03     EERKIQKHKTL  EKIQKHKTL  0  1  2  0  0  EERKIQKHKTL           C1QBP 0.00812 45793.1   80.00
+   17  HLA-C*03:03     ERKIQKHKTLP  ERIQKHKTL  0  2  1  0  0   ERKIQKHKTL           C1QBP 0.00371 48033.7   95.00
+   18  HLA-C*03:03     RKIQKHKTLPK  RKIQKTLPK  0  4  2  0  0  RKIQKHKTLPK           C1QBP 0.00785 45926.1   80.00
+   19  HLA-C*03:03     KIQKHKTLPKM  KIHKTLPKM  0  2  2  0  0  KIQKHKTLPKM           C1QBP 0.03382 34677.8   37.00
+   20  HLA-C*03:03     IQKHKTLPKMS  IQHKTLPKM  0  2  1  0  0   IQKHKTLPKM           C1QBP 0.01436 42803.9   65.00
+   21  HLA-C*03:03     QKHKTLPKMSG  KHTLPKMSG  1  2  1  0  0   KHKTLPKMSG           C1QBP 0.00264 48593.1  100.00
+   22  HLA-C*03:03     KHKTLPKMSGG  KTLPKMSGG  0  1  2  0  0  KHKTLPKMSGG           C1QBP 0.00752 46093.9   80.00
+   23  HLA-C*03:03     HKTLPKMSGGW  KTLPMSGGW  1  4  1  0  0   KTLPKMSGGW           C1QBP 0.02252 39189.8   48.00
+   24  HLA-C*03:03     KTLPKMSGGWE  KTLPMSGGW  0  4  1  0  0   KTLPKMSGGW           C1QBP 0.01324 43325.8   65.00
+   25  HLA-C*03:03     TLPKMSGGWEL  TLMSGGWEL  0  2  2  0  0  TLPKMSGGWEL           C1QBP 0.08580 19761.2   17.00
+   26  HLA-C*03:03     LPKMSGGWELE  LPMSGGWEL  0  2  1  0  0   LPKMSGGWEL           C1QBP 0.04191 31773.1   32.00
+   27  HLA-C*03:03     PKMSGGWELEL  MSGGWELEL  2  0  0  0  0    MSGGWELEL           C1QBP 0.04162 31872.3   32.00
+    1  HLA-C*03:03      DGDKAFVDFL  DGDAFVDFL  0  3  1  0  0   DGDKAFVDFL           C1QBP 0.02636 37594.1   44.00
+    2  HLA-C*03:03      GDKAFVDFLS  GKAFVDFLS  0  1  1  0  0   GDKAFVDFLS           C1QBP 0.00443 47662.0   90.00
+    3  HLA-C*03:03      DKAFVDFLSD  KAFVDFLSD  1  0  0  0  0    KAFVDFLSD           C1QBP 0.00832 45697.1   80.00
+    4  HLA-C*03:03      KAFVDFLSDE  KAFDFLSDE  0  3  1  0  0   KAFVDFLSDE           C1QBP 0.03223 35279.1   39.00
+    5  HLA-C*03:03      AFVDFLSDEI  FVDFLSDEI  1  0  0  0  0    FVDFLSDEI           C1QBP 0.13952 11049.6    9.50
+    6  HLA-C*03:03      FVDFLSDEIK  FVDFLSDEI  0  0  0  0  0    FVDFLSDEI           C1QBP 0.10536 15991.1   13.00
+    7  HLA-C*03:03      VDFLSDEIKE  VFLSDEIKE  0  1  1  0  0   VDFLSDEIKE           C1QBP 0.00431 47722.4   90.00
+    8  HLA-C*03:03      DFLSDEIKEE  FLSDEIKEE  1  0  0  0  0    FLSDEIKEE           C1QBP 0.01038 44689.4   75.00
+    9  HLA-C*03:03      FLSDEIKEER  FLSDEIEER  0  6  1  0  0   FLSDEIKEER           C1QBP 0.03512 34192.3   36.00
+   10  HLA-C*03:03      LSDEIKEERK  LSDEIKEEK  0  8  1  0  0   LSDEIKEERK           C1QBP 0.01251 43670.8   65.00
+   11  HLA-C*03:03      SDEIKEERKI  SEIKEERKI  0  1  1  0  0   SDEIKEERKI           C1QBP 0.00580 46959.7   85.00
+   12  HLA-C*03:03      DEIKEERKIQ  DEIEERKIQ  0  3  1  0  0   DEIKEERKIQ           C1QBP 0.00166 49108.4  100.00
+   13  HLA-C*03:03      EIKEERKIQK  EIKEERIQK  0  6  1  0  0   EIKEERKIQK           C1QBP 0.00387 47949.1   95.00
+   14  HLA-C*03:03      IKEERKIQKH  IKEERIQKH  0  5  1  0  0   IKEERKIQKH           C1QBP 0.00275 48534.2  100.00
+   15  HLA-C*03:03      KEERKIQKHK  KERKIQKHK  0  1  1  0  0   KEERKIQKHK           C1QBP 0.00295 48429.8   95.00
+   16  HLA-C*03:03      EERKIQKHKT  EERKIQHKT  0  6  1  0  0   EERKIQKHKT           C1QBP 0.00154 49171.7  100.00
+   17  HLA-C*03:03      ERKIQKHKTL  ERIQKHKTL  0  2  1  0  0   ERKIQKHKTL           C1QBP 0.01916 40637.6   55.00
+   18  HLA-C*03:03      RKIQKHKTLP  RKIQKHKTL  0  0  0  0  0    RKIQKHKTL           C1QBP 0.01063 44565.7   70.00
+   19  HLA-C*03:03      KIQKHKTLPK  KIQKHTLPK  0  5  1  0  0   KIQKHKTLPK           C1QBP 0.01247 43691.5   65.00
+   20  HLA-C*03:03      IQKHKTLPKM  IQHKTLPKM  0  2  1  0  0   IQKHKTLPKM           C1QBP 0.08924 19037.7   16.00
+   21  HLA-C*03:03      QKHKTLPKMS  QKHKTLPKM  0  0  0  0  0    QKHKTLPKM           C1QBP 0.00580 46958.7   85.00
+   22  HLA-C*03:03      KHKTLPKMSG  KHTLPKMSG  0  2  1  0  0   KHKTLPKMSG           C1QBP 0.00870 45508.6   75.00
+   23  HLA-C*03:03      HKTLPKMSGG  HTLPKMSGG  0  1  1  0  0   HKTLPKMSGG           C1QBP 0.02069 39973.5   55.00
+   24  HLA-C*03:03      KTLPKMSGGW  KTLPMSGGW  0  4  1  0  0   KTLPKMSGGW           C1QBP 0.06222 25503.8   23.00
+   25  HLA-C*03:03      TLPKMSGGWE  TLPKMSGGW  0  0  0  0  0    TLPKMSGGW           C1QBP 0.01084 44468.9   70.00
+   26  HLA-C*03:03      LPKMSGGWEL  LPMSGGWEL  0  2  1  0  0   LPKMSGGWEL           C1QBP 0.19737  5909.0    6.00
+   27  HLA-C*03:03      PKMSGGWELE  PKMSGGWEL  0  0  0  0  0    PKMSGGWEL           C1QBP 0.00623 46738.7   85.00
+   28  HLA-C*03:03      KMSGGWELEL  KMSGGWLEL  0  6  1  0  0   KMSGGWELEL           C1QBP 0.13327 11823.8   10.00
+    1  HLA-C*03:03       DGDKAFVDF  DGDKAFVDF  0  0  0  0  0    DGDKAFVDF           C1QBP 0.04266 31516.0   31.00
+    2  HLA-C*03:03       GDKAFVDFL  GDKAFVDFL  0  0  0  0  0    GDKAFVDFL           C1QBP 0.01188 43968.0   70.00
+    3  HLA-C*03:03       DKAFVDFLS  DKAFVDFLS  0  0  0  0  0    DKAFVDFLS           C1QBP 0.00645 46630.6   85.00
+    4  HLA-C*03:03       KAFVDFLSD  KAFVDFLSD  0  0  0  0  0    KAFVDFLSD           C1QBP 0.06595 24494.5   22.00
+    5  HLA-C*03:03       AFVDFLSDE  AFVDFLSDE  0  0  0  0  0    AFVDFLSDE           C1QBP 0.02104 39821.9   50.00
+    6  HLA-C*03:03       FVDFLSDEI  FVDFLSDEI  0  0  0  0  0    FVDFLSDEI           C1QBP 0.49026   248.5    0.80 <= WB
+    7  HLA-C*03:03       VDFLSDEIK  VDFLSDEIK  0  0  0  0  0    VDFLSDEIK           C1QBP 0.01004 44855.0   75.00
+    8  HLA-C*03:03       DFLSDEIKE  DFLSDEIKE  0  0  0  0  0    DFLSDEIKE           C1QBP 0.00343 48176.3   95.00
+    9  HLA-C*03:03       FLSDEIKEE  FLSDEIKEE  0  0  0  0  0    FLSDEIKEE           C1QBP 0.07205 22930.5   20.00
+   10  HLA-C*03:03       LSDEIKEER  LSDEIKEER  0  0  0  0  0    LSDEIKEER           C1QBP 0.03454 34409.8   37.00
+   11  HLA-C*03:03       SDEIKEERK  SDEIKEERK  0  0  0  0  0    SDEIKEERK           C1QBP 0.00195 48958.3  100.00
+   12  HLA-C*03:03       DEIKEERKI  DEIKEERKI  0  0  0  0  0    DEIKEERKI           C1QBP 0.00708 46313.8   80.00
+   13  HLA-C*03:03       EIKEERKIQ  EIKEERKIQ  0  0  0  0  0    EIKEERKIQ           C1QBP 0.00358 48098.2   95.00
+   14  HLA-C*03:03       IKEERKIQK  IKEERKIQK  0  0  0  0  0    IKEERKIQK           C1QBP 0.01235 43747.8   70.00
+   15  HLA-C*03:03       KEERKIQKH  KEERKIQKH  0  0  0  0  0    KEERKIQKH           C1QBP 0.00339 48200.9   95.00
+   16  HLA-C*03:03       EERKIQKHK  EERKIQKHK  0  0  0  0  0    EERKIQKHK           C1QBP 0.00322 48286.4   95.00
+   17  HLA-C*03:03       ERKIQKHKT  ERKIQKHKT  0  0  0  0  0    ERKIQKHKT           C1QBP 0.00265 48587.3  100.00
+   18  HLA-C*03:03       RKIQKHKTL  RKIQKHKTL  0  0  0  0  0    RKIQKHKTL           C1QBP 0.11139 14982.0   13.00
+   19  HLA-C*03:03       KIQKHKTLP  KIQKHKTLP  0  0  0  0  0    KIQKHKTLP           C1QBP 0.01173 44042.8   70.00
+   20  HLA-C*03:03       IQKHKTLPK  IQKHKTLPK  0  0  0  0  0    IQKHKTLPK           C1QBP 0.03001 36136.8   41.00
+   21  HLA-C*03:03       QKHKTLPKM  QKHKTLPKM  0  0  0  0  0    QKHKTLPKM           C1QBP 0.07123 23133.6   20.00
+   22  HLA-C*03:03       KHKTLPKMS  KHKTLPKMS  0  0  0  0  0    KHKTLPKMS           C1QBP 0.00874 45490.9   75.00
+   23  HLA-C*03:03       HKTLPKMSG  HKTLPKMSG  0  0  0  0  0    HKTLPKMSG           C1QBP 0.01627 41930.2   60.00
+   24  HLA-C*03:03       KTLPKMSGG  KTLPKMSGG  0  0  0  0  0    KTLPKMSGG           C1QBP 0.06159 25677.1   23.00
+   25  HLA-C*03:03       TLPKMSGGW  TLPKMSGGW  0  0  0  0  0    TLPKMSGGW           C1QBP 0.05931 26320.7   24.00
+   26  HLA-C*03:03       LPKMSGGWE  LPKMSGGWE  0  0  0  0  0    LPKMSGGWE           C1QBP 0.02234 39265.3   49.00
+   27  HLA-C*03:03       PKMSGGWEL  PKMSGGWEL  0  0  0  0  0    PKMSGGWEL           C1QBP 0.06163 25667.7   23.00
+   28  HLA-C*03:03       KMSGGWELE  KMSGGWELE  0  0  0  0  0    KMSGGWELE           C1QBP 0.02943 36366.6   41.00
+   29  HLA-C*03:03       MSGGWELEL  MSGGWELEL  0  0  0  0  0    MSGGWELEL           C1QBP 0.48679   258.0    0.80 <= WB
+    1  HLA-C*03:03        DGDKAFVD  DGDKAFVD-  0  0  0  8  1     DGDKAFVD           C1QBP 0.00133 49283.5  100.00
+    2  HLA-C*03:03        GDKAFVDF  -GDKAFVDF  0  0  0  0  1     GDKAFVDF           C1QBP 0.00872 45498.3   75.00
+    3  HLA-C*03:03        DKAFVDFL  DKAFV-DFL  0  0  0  5  1     DKAFVDFL           C1QBP 0.00778 45963.4   80.00
+    4  HLA-C*03:03        KAFVDFLS  KAFVDFLS-  0  0  0  8  1     KAFVDFLS           C1QBP 0.02854 36714.5   42.00
+    5  HLA-C*03:03        AFVDFLSD  AFVDFLSD-  0  0  0  8  1     AFVDFLSD           C1QBP 0.00713 46288.3   80.00
+    6  HLA-C*03:03        FVDFLSDE  FVDFLSDE-  0  0  0  8  1     FVDFLSDE           C1QBP 0.03100 35751.4   40.00
+    7  HLA-C*03:03        VDFLSDEI  -VDFLSDEI  0  0  0  0  1     VDFLSDEI           C1QBP 0.02633 37606.3   44.00
+    8  HLA-C*03:03        DFLSDEIK  D-FLSDEIK  0  0  0  1  1     DFLSDEIK           C1QBP 0.00192 48970.4  100.00
+    9  HLA-C*03:03        FLSDEIKE  FLSDEIKE-  0  0  0  8  1     FLSDEIKE           C1QBP 0.01951 40484.0   55.00
+   10  HLA-C*03:03        LSDEIKEE  LSDEIKEE-  0  0  0  8  1     LSDEIKEE           C1QBP 0.00889 45413.7   75.00
+   11  HLA-C*03:03        SDEIKEER  -SDEIKEER  0  0  0  0  1     SDEIKEER           C1QBP 0.00247 48682.5  100.00
+   12  HLA-C*03:03        DEIKEERK  DEIKE-ERK  0  0  0  5  1     DEIKEERK           C1QBP 0.00073 49606.6  100.00
+   13  HLA-C*03:03        EIKEERKI  EIKEERK-I  0  0  0  7  1     EIKEERKI           C1QBP 0.00494 47399.2   90.00
+   14  HLA-C*03:03        IKEERKIQ  IKEERKIQ-  0  0  0  8  1     IKEERKIQ           C1QBP 0.00167 49105.2  100.00
+   15  HLA-C*03:03        KEERKIQK  KE-ERKIQK  0  0  0  2  1     KEERKIQK           C1QBP 0.00207 48892.1  100.00
+   16  HLA-C*03:03        EERKIQKH  EERK-IQKH  0  0  0  4  1     EERKIQKH           C1QBP 0.00087 49530.5  100.00
+   17  HLA-C*03:03        ERKIQKHK  ER-KIQKHK  0  0  0  2  1     ERKIQKHK           C1QBP 0.00146 49218.0  100.00
+   18  HLA-C*03:03        RKIQKHKT  RKIQKHKT-  0  0  0  8  1     RKIQKHKT           C1QBP 0.00283 48489.6   95.00
+   19  HLA-C*03:03        KIQKHKTL  KIQKH-KTL  0  0  0  5  1     KIQKHKTL           C1QBP 0.02899 36536.6   41.00
+   20  HLA-C*03:03        IQKHKTLP  IQKHKTLP-  0  0  0  8  1     IQKHKTLP           C1QBP 0.00605 46830.8   85.00
+   21  HLA-C*03:03        QKHKTLPK  QKHK-TLPK  0  0  0  4  1     QKHKTLPK           C1QBP 0.00455 47595.5   90.00
+   22  HLA-C*03:03        KHKTLPKM  KH-KTLPKM  0  0  0  2  1     KHKTLPKM           C1QBP 0.02438 38407.3   46.00
+   23  HLA-C*03:03        HKTLPKMS  HKTLPKMS-  0  0  0  8  1     HKTLPKMS           C1QBP 0.00400 47881.7   95.00
+   24  HLA-C*03:03        KTLPKMSG  KTLPKMSG-  0  0  0  8  1     KTLPKMSG           C1QBP 0.01139 44204.1   70.00
+   25  HLA-C*03:03        TLPKMSGG  TLPKMSGG-  0  0  0  8  1     TLPKMSGG           C1QBP 0.00577 46975.5   85.00
+   26  HLA-C*03:03        LPKMSGGW  LPKMSGG-W  0  0  0  7  1     LPKMSGGW           C1QBP 0.02021 40178.1   55.00
+   27  HLA-C*03:03        PKMSGGWE  PKMSGGWE-  0  0  0  8  1     PKMSGGWE           C1QBP 0.00183 49019.7  100.00
+   28  HLA-C*03:03        KMSGGWEL  KM-SGGWEL  0  0  0  2  1     KMSGGWEL           C1QBP 0.08245 20489.7   17.00
+   29  HLA-C*03:03        MSGGWELE  MSGGWELE-  0  0  0  8  1     MSGGWELE           C1QBP 0.01840 40972.3   55.00
+   30  HLA-C*03:03        SGGWELEL  SG-GWELEL  0  0  0  2  1     SGGWELEL           C1QBP 0.03945 32627.3   33.00
+-----------------------------------------------------------------------------------
+
+Protein C1QBP. Allele HLA-C*03:03. Number of high binders 0. Number of weak binders 2. Number of peptides 114
+
+-----------------------------------------------------------------------------------
+# /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/bin/netMHCpan -a HLA-C04:01 -l 8,9,10,11 -f /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest3/C1QBP_refPeptide.fa
+# Wed Nov 18 11:46:47 2020
+# User: huangz
+# PWD : /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest3
+# Host: Linux odcf-worker01 3.10.0-693.21.1.el7.x86_64 x86_64
+# -a       HLA-C04:01           HLA allele
+# -l       8,9,10,11            Peptide length [8-11] (multiple length with ,)
+# -f       /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest3/C1QBP_refPeptide.fa File name with input
+# Command line parameters set to:
+#	[-rdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/synlist Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/tmp/netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-C04:01           HLA allele
+#	[-f filename]        /icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_indels/myTest3/C1QBP_refPeptide.fa File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 0                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/threshold/%s.thr Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/Linux_x86_64/data/allelenames File with print names for alleles
+
+# NetMHCpan version 3.0
+
+# Tmpdir made /icgc/dkfzlsdf/analysis/G200/immuno/tools/netMHCpan-3.0/tmp/netMHCpan52QeC7
+# Input is in FSA format
+
+# Peptide length 8,9,10,11
+
+HLA-C04:01 : Distance to training data  0.000 (using nearest neighbor HLA-C04:01)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  Pos          HLA         Peptide       Core Of Gp Gl Ip Il        Icore        Identity   Score Aff(nM)   %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    1  HLA-C*04:01     DGDKAFVDFLS  DGDKAFVFL  0  7  1  0  0   DGDKAFVDFL           C1QBP 0.01169 44059.0   85.00
+    2  HLA-C*04:01     GDKAFVDFLSD  GAFVDFLSD  0  1  2  0  0  GDKAFVDFLSD           C1QBP 0.00581 46952.6  100.00
+    3  HLA-C*04:01     DKAFVDFLSDE  DFVDFLSDE  0  1  2  0  0  DKAFVDFLSDE           C1QBP 0.01026 44745.5   85.00
+    4  HLA-C*04:01     KAFVDFLSDEI  AFDFLSDEI  1  2  1  0  0   AFVDFLSDEI           C1QBP 0.06030 26037.5   12.00
+    5  HLA-C*04:01     AFVDFLSDEIK  AFDFLSDEI  0  2  1  0  0   AFVDFLSDEI           C1QBP 0.04933 29321.7   18.00
+    6  HLA-C*04:01     FVDFLSDEIKE  FVDFLSDEI  0  0  0  0  0    FVDFLSDEI           C1QBP 0.02959 36301.3   40.00
+    7  HLA-C*04:01     VDFLSDEIKEE  FLSDEIKEE  2  0  0  0  0    FLSDEIKEE           C1QBP 0.00872 45499.3   90.00
+    8  HLA-C*04:01     DFLSDEIKEER  FLSDIKEER  1  4  1  0  0   FLSDEIKEER           C1QBP 0.02925 36436.3   40.00
+    9  HLA-C*04:01     FLSDEIKEERK  FLSDEIERK  0  6  2  0  0  FLSDEIKEERK           C1QBP 0.03699 33508.5   30.00
+   10  HLA-C*04:01     LSDEIKEERKI  LSDEIKEEI  0  8  2  0  0  LSDEIKEERKI           C1QBP 0.02654 37520.9   45.00
+   11  HLA-C*04:01     SDEIKEERKIQ  SEIKEERKI  0  1  1  0  0   SDEIKEERKI           C1QBP 0.00493 47403.8  100.00
+   12  HLA-C*04:01     DEIKEERKIQK  DEIERKIQK  0  3  2  0  0  DEIKEERKIQK           C1QBP 0.00652 46594.3   95.00
+   13  HLA-C*04:01     EIKEERKIQKH  EIKERKIQK  0  3  1  0  0   EIKEERKIQK           C1QBP 0.00468 47529.2  100.00
+   14  HLA-C*04:01     IKEERKIQKHK  IKEERKIQK  0  8  2  0  0  IKEERKIQKHK           C1QBP 0.00713 46288.3   95.00
+   15  HLA-C*04:01     KEERKIQKHKT  KEERKIHKT  0  6  2  0  0  KEERKIQKHKT           C1QBP 0.00465 47548.2  100.00
+   16  HLA-C*04:01     EERKIQKHKTL  EEIQKHKTL  0  2  2  0  0  EERKIQKHKTL           C1QBP 0.01407 42940.3   75.00
+   17  HLA-C*04:01     ERKIQKHKTLP  ERIQKHKTL  0  2  1  0  0   ERKIQKHKTL           C1QBP 0.00656 46573.1   95.00
+   18  HLA-C*04:01     RKIQKHKTLPK  RQKHKTLPK  0  1  2  0  0  RKIQKHKTLPK           C1QBP 0.02088 39888.3   60.00
+   19  HLA-C*04:01     KIQKHKTLPKM  KIQKHLPKM  0  5  2  0  0  KIQKHKTLPKM           C1QBP 0.03601 33865.7   31.00
+   20  HLA-C*04:01     IQKHKTLPKMS  IQKHKTLPM  0  8  1  0  0   IQKHKTLPKM           C1QBP 0.01658 41787.5   70.00
+   21  HLA-C*04:01     QKHKTLPKMSG  QKHKTLMSG  0  6  2  0  0  QKHKTLPKMSG           C1QBP 0.00575 46982.6  100.00
+   22  HLA-C*04:01     KHKTLPKMSGG  KTLPKMSGG  0  1  2  0  0  KHKTLPKMSGG           C1QBP 0.01030 44725.2   85.00
+   23  HLA-C*04:01     HKTLPKMSGGW  HLPKMSGGW  0  1  2  0  0  HKTLPKMSGGW           C1QBP 0.03142 35590.8   37.00
+   24  HLA-C*04:01     KTLPKMSGGWE  KLPKMSGGW  0  1  1  0  0   KTLPKMSGGW           C1QBP 0.02157 39592.9   55.00
+   25  HLA-C*04:01     TLPKMSGGWEL  TLMSGGWEL  0  2  2  0  0  TLPKMSGGWEL           C1QBP 0.06588 24512.0   10.00
+   26  HLA-C*04:01     LPKMSGGWELE  LPMSGGWEL  0  2  1  0  0   LPKMSGGWEL           C1QBP 0.03461 34381.1   32.00
+   27  HLA-C*04:01     PKMSGGWELEL  KMSGGWLEL  1  6  1  0  0   KMSGGWELEL           C1QBP 0.03327 34884.3   34.00
+    1  HLA-C*04:01      DGDKAFVDFL  DGDKAFVFL  0  7  1  0  0   DGDKAFVDFL           C1QBP 0.04030 32331.1   26.00
+    2  HLA-C*04:01      GDKAFVDFLS  GKAFVDFLS  0  1  1  0  0   GDKAFVDFLS           C1QBP 0.01219 43821.3   80.00
+    3  HLA-C*04:01      DKAFVDFLSD  DKAFVFLSD  0  5  1  0  0   DKAFVDFLSD           C1QBP 0.00881 45454.5   90.00
+    4  HLA-C*04:01      KAFVDFLSDE  KFVDFLSDE  0  1  1  0  0   KAFVDFLSDE           C1QBP 0.02331 38853.7   55.00
+    5  HLA-C*04:01      AFVDFLSDEI  AFDFLSDEI  0  2  1  0  0   AFVDFLSDEI           C1QBP 0.11827 13907.1    1.70 <= WB
+    6  HLA-C*04:01      FVDFLSDEIK  FVDFLSEIK  0  6  1  0  0   FVDFLSDEIK           C1QBP 0.08043 20942.2    6.00
+    7  HLA-C*04:01      VDFLSDEIKE  VFLSDEIKE  0  1  1  0  0   VDFLSDEIKE           C1QBP 0.01167 44069.0   85.00
+    8  HLA-C*04:01      DFLSDEIKEE  FLSDEIKEE  1  0  0  0  0    FLSDEIKEE           C1QBP 0.01377 43077.1   75.00
+    9  HLA-C*04:01      FLSDEIKEER  FLSDIKEER  0  4  1  0  0   FLSDEIKEER           C1QBP 0.07822 21449.0    6.50
+   10  HLA-C*04:01      LSDEIKEERK  LSDEIKERK  0  6  1  0  0   LSDEIKEERK           C1QBP 0.02518 38074.6   47.00
+   11  HLA-C*04:01      SDEIKEERKI  SEIKEERKI  0  1  1  0  0   SDEIKEERKI           C1QBP 0.01438 42796.5   75.00
+   12  HLA-C*04:01      DEIKEERKIQ  DEIEERKIQ  0  3  1  0  0   DEIKEERKIQ           C1QBP 0.00520 47263.0  100.00
+   13  HLA-C*04:01      EIKEERKIQK  EIEERKIQK  0  2  1  0  0   EIKEERKIQK           C1QBP 0.01509 42466.7   75.00
+   14  HLA-C*04:01      IKEERKIQKH  IKEERIQKH  0  5  1  0  0   IKEERKIQKH           C1QBP 0.00847 45622.0   90.00
+   15  HLA-C*04:01      KEERKIQKHK  KEERKIQHK  0  7  1  0  0   KEERKIQKHK           C1QBP 0.01098 44400.6   85.00
+   16  HLA-C*04:01      EERKIQKHKT  EERKIQHKT  0  6  1  0  0   EERKIQKHKT           C1QBP 0.00587 46925.7  100.00
+   17  HLA-C*04:01      ERKIQKHKTL  ERIQKHKTL  0  2  1  0  0   ERKIQKHKTL           C1QBP 0.02298 38993.9   55.00
+   18  HLA-C*04:01      RKIQKHKTLP  RIQKHKTLP  0  1  1  0  0   RKIQKHKTLP           C1QBP 0.01519 42424.4   75.00
+   19  HLA-C*04:01      KIQKHKTLPK  KIQKHTLPK  0  5  1  0  0   KIQKHKTLPK           C1QBP 0.05045 28967.5   18.00
+   20  HLA-C*04:01      IQKHKTLPKM  IQKHKTLPM  0  8  1  0  0   IQKHKTLPKM           C1QBP 0.05278 28247.0   16.00
+   21  HLA-C*04:01      QKHKTLPKMS  QKHKTLPKM  0  0  0  0  0    QKHKTLPKM           C1QBP 0.00960 45069.6   90.00
+   22  HLA-C*04:01      KHKTLPKMSG  KHTLPKMSG  0  2  1  0  0   KHKTLPKMSG           C1QBP 0.01287 43499.1   80.00
+   23  HLA-C*04:01      HKTLPKMSGG  HTLPKMSGG  0  1  1  0  0   HKTLPKMSGG           C1QBP 0.01745 41395.6   65.00
+   24  HLA-C*04:01      KTLPKMSGGW  KLPKMSGGW  0  1  1  0  0   KTLPKMSGGW           C1QBP 0.04642 30257.3   21.00
+   25  HLA-C*04:01      TLPKMSGGWE  TLPKMSGGW  0  0  0  0  0    TLPKMSGGW           C1QBP 0.02570 37863.5   46.00
+   26  HLA-C*04:01      LPKMSGGWEL  LPMSGGWEL  0  2  1  0  0   LPKMSGGWEL           C1QBP 0.09960 17020.5    3.50
+   27  HLA-C*04:01      PKMSGGWELE  PKMSGGWEL  0  0  0  0  0    PKMSGGWEL           C1QBP 0.01447 42755.3   75.00
+   28  HLA-C*04:01      KMSGGWELEL  KMSGGWLEL  0  6  1  0  0   KMSGGWELEL           C1QBP 0.07632 21895.7    7.00
+    1  HLA-C*04:01       DGDKAFVDF  DGDKAFVDF  0  0  0  0  0    DGDKAFVDF           C1QBP 0.05913 26369.7   13.00
+    2  HLA-C*04:01       GDKAFVDFL  GDKAFVDFL  0  0  0  0  0    GDKAFVDFL           C1QBP 0.03576 33957.4   31.00
+    3  HLA-C*04:01       DKAFVDFLS  DKAFVDFLS  0  0  0  0  0    DKAFVDFLS           C1QBP 0.01767 41300.8   65.00
+    4  HLA-C*04:01       KAFVDFLSD  KAFVDFLSD  0  0  0  0  0    KAFVDFLSD           C1QBP 0.01812 41099.7   65.00
+    5  HLA-C*04:01       AFVDFLSDE  AFVDFLSDE  0  0  0  0  0    AFVDFLSDE           C1QBP 0.03762 33281.2   29.00
+    6  HLA-C*04:01       FVDFLSDEI  FVDFLSDEI  0  0  0  0  0    FVDFLSDEI           C1QBP 0.21997  4627.4    0.12 <= SB
+    7  HLA-C*04:01       VDFLSDEIK  VDFLSDEIK  0  0  0  0  0    VDFLSDEIK           C1QBP 0.01913 40650.4   60.00
+    8  HLA-C*04:01       DFLSDEIKE  DFLSDEIKE  0  0  0  0  0    DFLSDEIKE           C1QBP 0.01174 44037.5   85.00
+    9  HLA-C*04:01       FLSDEIKEE  FLSDEIKEE  0  0  0  0  0    FLSDEIKEE           C1QBP 0.03907 32761.8   27.00
+   10  HLA-C*04:01       LSDEIKEER  LSDEIKEER  0  0  0  0  0    LSDEIKEER           C1QBP 0.04773 29832.1   20.00
+   11  HLA-C*04:01       SDEIKEERK  SDEIKEERK  0  0  0  0  0    SDEIKEERK           C1QBP 0.01054 44609.6   85.00
+   12  HLA-C*04:01       DEIKEERKI  DEIKEERKI  0  0  0  0  0    DEIKEERKI           C1QBP 0.01499 42512.7   75.00
+   13  HLA-C*04:01       EIKEERKIQ  EIKEERKIQ  0  0  0  0  0    EIKEERKIQ           C1QBP 0.00586 46926.7  100.00
+   14  HLA-C*04:01       IKEERKIQK  IKEERKIQK  0  0  0  0  0    IKEERKIQK           C1QBP 0.02262 39144.9   55.00
+   15  HLA-C*04:01       KEERKIQKH  KEERKIQKH  0  0  0  0  0    KEERKIQKH           C1QBP 0.00927 45226.4   90.00
+   16  HLA-C*04:01       EERKIQKHK  EERKIQKHK  0  0  0  0  0    EERKIQKHK           C1QBP 0.01141 44195.0   85.00
+   17  HLA-C*04:01       ERKIQKHKT  ERKIQKHKT  0  0  0  0  0    ERKIQKHKT           C1QBP 0.00703 46335.4   95.00
+   18  HLA-C*04:01       RKIQKHKTL  RKIQKHKTL  0  0  0  0  0    RKIQKHKTL           C1QBP 0.05516 27527.1   15.00
+   19  HLA-C*04:01       KIQKHKTLP  KIQKHKTLP  0  0  0  0  0    KIQKHKTLP           C1QBP 0.01941 40529.2   60.00
+   20  HLA-C*04:01       IQKHKTLPK  IQKHKTLPK  0  0  0  0  0    IQKHKTLPK           C1QBP 0.05960 26238.0   13.00
+   21  HLA-C*04:01       QKHKTLPKM  QKHKTLPKM  0  0  0  0  0    QKHKTLPKM           C1QBP 0.03980 32504.7   27.00
+   22  HLA-C*04:01       KHKTLPKMS  KHKTLPKMS  0  0  0  0  0    KHKTLPKMS           C1QBP 0.01264 43610.8   80.00
+   23  HLA-C*04:01       HKTLPKMSG  HKTLPKMSG  0  0  0  0  0    HKTLPKMSG           C1QBP 0.01955 40469.6   60.00
+   24  HLA-C*04:01       KTLPKMSGG  KTLPKMSGG  0  0  0  0  0    KTLPKMSGG           C1QBP 0.03164 35505.0   37.00
+   25  HLA-C*04:01       TLPKMSGGW  TLPKMSGGW  0  0  0  0  0    TLPKMSGGW           C1QBP 0.06580 24534.3   10.00
+   26  HLA-C*04:01       LPKMSGGWE  LPKMSGGWE  0  0  0  0  0    LPKMSGGWE           C1QBP 0.02266 39126.2   55.00
+   27  HLA-C*04:01       PKMSGGWEL  PKMSGGWEL  0  0  0  0  0    PKMSGGWEL           C1QBP 0.06633 24393.5   10.00
+   28  HLA-C*04:01       KMSGGWELE  KMSGGWELE  0  0  0  0  0    KMSGGWELE           C1QBP 0.03658 33659.0   30.00
+   29  HLA-C*04:01       MSGGWELEL  MSGGWELEL  0  0  0  0  0    MSGGWELEL           C1QBP 0.08927 19032.6    4.50
+    1  HLA-C*04:01        DGDKAFVD  DGDKAFVD-  0  0  0  8  1     DGDKAFVD           C1QBP 0.00420 47778.7  100.00
+    2  HLA-C*04:01        GDKAFVDF  G-DKAFVDF  0  0  0  1  1     GDKAFVDF           C1QBP 0.02866 36669.7   41.00
+    3  HLA-C*04:01        DKAFVDFL  DKAFV-DFL  0  0  0  5  1     DKAFVDFL           C1QBP 0.02066 39986.0   60.00
+    4  HLA-C*04:01        KAFVDFLS  KAFVDFLS-  0  0  0  8  1     KAFVDFLS           C1QBP 0.01469 42650.9   75.00
+    5  HLA-C*04:01        AFVDFLSD  AFVDFLSD-  0  0  0  8  1     AFVDFLSD           C1QBP 0.01692 41633.2   70.00
+    6  HLA-C*04:01        FVDFLSDE  FVDFLSDE-  0  0  0  8  1     FVDFLSDE           C1QBP 0.02723 37240.2   43.00
+    7  HLA-C*04:01        VDFLSDEI  V-DFLSDEI  0  0  0  1  1     VDFLSDEI           C1QBP 0.03664 33637.5   30.00
+    8  HLA-C*04:01        DFLSDEIK  DF-LSDEIK  0  0  0  2  1     DFLSDEIK           C1QBP 0.00938 45176.0   90.00
+    9  HLA-C*04:01        FLSDEIKE  FLSDEIKE-  0  0  0  8  1     FLSDEIKE           C1QBP 0.02027 40154.7   60.00
+   10  HLA-C*04:01        LSDEIKEE  LSDEIKEE-  0  0  0  8  1     LSDEIKEE           C1QBP 0.00994 44902.1   90.00
+   11  HLA-C*04:01        SDEIKEER  S-DEIKEER  0  0  0  1  1     SDEIKEER           C1QBP 0.00888 45421.1   90.00
+   12  HLA-C*04:01        DEIKEERK  DEIK-EERK  0  0  0  4  1     DEIKEERK           C1QBP 0.00401 47876.0  100.00
+   13  HLA-C*04:01        EIKEERKI  EIKEER-KI  0  0  0  6  1     EIKEERKI           C1QBP 0.00748 46114.3   95.00
+   14  HLA-C*04:01        IKEERKIQ  IKEERKIQ-  0  0  0  8  1     IKEERKIQ           C1QBP 0.00471 47513.2  100.00
+   15  HLA-C*04:01        KEERKIQK  K-EERKIQK  0  0  0  1  1     KEERKIQK           C1QBP 0.00894 45391.1   90.00
+   16  HLA-C*04:01        EERKIQKH  EE-RKIQKH  0  0  0  2  1     EERKIQKH           C1QBP 0.00313 48337.1  100.00
+   17  HLA-C*04:01        ERKIQKHK  ER-KIQKHK  0  0  0  2  1     ERKIQKHK           C1QBP 0.00639 46661.4   95.00
+   18  HLA-C*04:01        RKIQKHKT  RKIQKHKT-  0  0  0  8  1     RKIQKHKT           C1QBP 0.00532 47204.2  100.00
+   19  HLA-C*04:01        KIQKHKTL  KIQKHK-TL  0  0  0  6  1     KIQKHKTL           C1QBP 0.03237 35224.5   35.00
+   20  HLA-C*04:01        IQKHKTLP  IQKHKTLP-  0  0  0  8  1     IQKHKTLP           C1QBP 0.01059 44587.9   85.00
+   21  HLA-C*04:01        QKHKTLPK  -QKHKTLPK  0  0  0  0  1     QKHKTLPK           C1QBP 0.01269 43582.9   80.00
+   22  HLA-C*04:01        KHKTLPKM  KH-KTLPKM  0  0  0  2  1     KHKTLPKM           C1QBP 0.02623 37644.1   45.00
+   23  HLA-C*04:01        HKTLPKMS  HKTLPKMS-  0  0  0  8  1     HKTLPKMS           C1QBP 0.00755 46077.9   95.00
+   24  HLA-C*04:01        KTLPKMSG  KTLPKMSG-  0  0  0  8  1     KTLPKMSG           C1QBP 0.01534 42352.4   70.00
+   25  HLA-C*04:01        TLPKMSGG  TLPKMSGG-  0  0  0  8  1     TLPKMSGG           C1QBP 0.01158 44112.4   85.00
+   26  HLA-C*04:01        LPKMSGGW  -LPKMSGGW  0  0  0  0  1     LPKMSGGW           C1QBP 0.02873 36641.5   41.00
+   27  HLA-C*04:01        PKMSGGWE  PKMSGGWE-  0  0  0  8  1     PKMSGGWE           C1QBP 0.00564 47041.1  100.00
+   28  HLA-C*04:01        KMSGGWEL  KM-SGGWEL  0  0  0  2  1     KMSGGWEL           C1QBP 0.06060 25953.4   12.00
+   29  HLA-C*04:01        MSGGWELE  MS-GGWELE  0  0  0  2  1     MSGGWELE           C1QBP 0.01403 42957.5   75.00
+   30  HLA-C*04:01        SGGWELEL  SG-GWELEL  0  0  0  2  1     SGGWELEL           C1QBP 0.02650 37537.2   45.00
+-----------------------------------------------------------------------------------
+
+Protein C1QBP. Allele HLA-C*04:01. Number of high binders 1. Number of weak binders 1. Number of peptides 114
+
+-----------------------------------------------------------------------------------
+# NetMHCIIpan version 3.1
+
+# Input is in FASTA format
+
+# Peptide length 15
+
+# Threshold for Strong binding peptides (IC50)	50.000 nM
+# Threshold for Weak binding peptides (IC50)	500.000 nM
+
+# Threshold for Strong binding peptides (%Rank)	0.5%
+# Threshold for Weak binding peptides (%Rank)	2%
+
+# Allele: DRB1_1454
+--------------------------------------------------------------------------------------------------------------------------------------------
+   Seq          Allele              Peptide    Identity  Pos      Core  Core_Rel 1-log50k(aff)  Affinity(nM)  %Rank Exp_Bind  BindingLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+     0         DRB1_1454     DGDKAFVDFLSDEIK       C1QBP    5    FVDFLSDEI 0.425         0.250       3351.27  75.00   9.999       
+     1         DRB1_1454     GDKAFVDFLSDEIKE       C1QBP    4    FVDFLSDEI 0.415         0.256       3148.89  70.00   9.999       
+     2         DRB1_1454     DKAFVDFLSDEIKEE       C1QBP    3    FVDFLSDEI 0.395         0.254       3208.35  70.00   9.999       
+     3         DRB1_1454     KAFVDFLSDEIKEER       C1QBP    2    FVDFLSDEI 0.415         0.259       3046.15  70.00   9.999       
+     4         DRB1_1454     AFVDFLSDEIKEERK       C1QBP    1    FVDFLSDEI 0.325         0.238       3819.62  75.00   9.999       
+     5         DRB1_1454     FVDFLSDEIKEERKI       C1QBP    3    FLSDEIKEE 0.310         0.214       4915.76  85.00   9.999       
+     6         DRB1_1454     VDFLSDEIKEERKIQ       C1QBP    2    FLSDEIKEE 0.460         0.184       6832.07  90.00   9.999       
+     7         DRB1_1454     DFLSDEIKEERKIQK       C1QBP    1    FLSDEIKEE 0.370         0.181       7063.20  90.00   9.999       
+     8         DRB1_1454     FLSDEIKEERKIQKH       C1QBP    5    IKEERKIQK 0.375         0.188       6509.78  90.00   9.999       
+     9         DRB1_1454     LSDEIKEERKIQKHK       C1QBP    4    IKEERKIQK 0.480         0.185       6737.88  90.00   9.999       
+    10         DRB1_1454     SDEIKEERKIQKHKT       C1QBP    3    IKEERKIQK 0.455         0.199       5786.72  85.00   9.999       
+    11         DRB1_1454     DEIKEERKIQKHKTL       C1QBP    6    RKIQKHKTL 0.420         0.278       2471.05  65.00   9.999       
+    12         DRB1_1454     EIKEERKIQKHKTLP       C1QBP    5    RKIQKHKTL 0.410         0.293       2102.84  60.00   9.999       
+    13         DRB1_1454     IKEERKIQKHKTLPK       C1QBP    6    IQKHKTLPK 0.520         0.370        911.91  35.00   9.999       
+    14         DRB1_1454     KEERKIQKHKTLPKM       C1QBP    5    IQKHKTLPK 0.610         0.438        435.74  19.00   9.999   <=WB
+    15         DRB1_1454     EERKIQKHKTLPKMS       C1QBP    4    IQKHKTLPK 0.605         0.459        349.08  15.00   9.999   <=WB
+    16         DRB1_1454     ERKIQKHKTLPKMSG       C1QBP    3    IQKHKTLPK 0.605         0.455        364.35  16.00   9.999   <=WB
+    17         DRB1_1454     RKIQKHKTLPKMSGG       C1QBP    2    IQKHKTLPK 0.610         0.449        388.00  17.00   9.999   <=WB
+    18         DRB1_1454     KIQKHKTLPKMSGGW       C1QBP    1    IQKHKTLPK 0.525         0.390        734.42  30.00   9.999       
+    19         DRB1_1454     IQKHKTLPKMSGGWE       C1QBP    0    IQKHKTLPK 0.300         0.312       1705.28  55.00   9.999       
+    20         DRB1_1454     QKHKTLPKMSGGWEL       C1QBP    2    HKTLPKMSG 0.400         0.231       4090.61  80.00   9.999       
+    21         DRB1_1454     KHKTLPKMSGGWELE       C1QBP    1    HKTLPKMSG 0.340         0.206       5411.62  85.00   9.999       
+    22         DRB1_1454     HKTLPKMSGGWELEL       C1QBP    4    PKMSGGWEL 0.500         0.190       6413.51  90.00   9.999       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 0 Number of weak binders: 4
+--------------------------------------------------------------------------------------------------------------------------------------------
+# NetMHCIIpan version 3.1
+
+# Input is in FASTA format
+
+# Peptide length 15
+
+# Threshold for Strong binding peptides (IC50)	50.000 nM
+# Threshold for Weak binding peptides (IC50)	500.000 nM
+
+# Threshold for Strong binding peptides (%Rank)	0.5%
+# Threshold for Weak binding peptides (%Rank)	2%
+
+# Allele: DRB1_1501
+--------------------------------------------------------------------------------------------------------------------------------------------
+   Seq          Allele              Peptide    Identity  Pos      Core  Core_Rel 1-log50k(aff)  Affinity(nM)  %Rank Exp_Bind  BindingLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+     0         DRB1_1501     DGDKAFVDFLSDEIK       C1QBP    5    FVDFLSDEI 0.430         0.311       1735.14  65.00   9.999       
+     1         DRB1_1501     GDKAFVDFLSDEIKE       C1QBP    4    FVDFLSDEI 0.415         0.314       1669.74  60.00   9.999       
+     2         DRB1_1501     DKAFVDFLSDEIKEE       C1QBP    3    FVDFLSDEI 0.455         0.304       1868.12  65.00   9.999       
+     3         DRB1_1501     KAFVDFLSDEIKEER       C1QBP    2    FVDFLSDEI 0.485         0.307       1807.47  65.00   9.999       
+     4         DRB1_1501     AFVDFLSDEIKEERK       C1QBP    1    FVDFLSDEI 0.445         0.274       2571.62  70.00   9.999       
+     5         DRB1_1501     FVDFLSDEIKEERKI       C1QBP    0    FVDFLSDEI 0.300         0.235       3944.65  80.00   9.999       
+     6         DRB1_1501     VDFLSDEIKEERKIQ       C1QBP    2    FLSDEIKEE 0.305         0.179       7192.22  95.00   9.999       
+     7         DRB1_1501     DFLSDEIKEERKIQK       C1QBP    1    FLSDEIKEE 0.410         0.149       9951.50  95.00   9.999       
+     8         DRB1_1501     FLSDEIKEERKIQKH       C1QBP    5    IKEERKIQK 0.285         0.146      10284.26  95.00   9.999       
+     9         DRB1_1501     LSDEIKEERKIQKHK       C1QBP    4    IKEERKIQK 0.365         0.138      11229.17  95.00   9.999       
+    10         DRB1_1501     SDEIKEERKIQKHKT       C1QBP    3    IKEERKIQK 0.340         0.143      10640.13  95.00   9.999       
+    11         DRB1_1501     DEIKEERKIQKHKTL       C1QBP    6    RKIQKHKTL 0.425         0.200       5742.06  90.00   9.999       
+    12         DRB1_1501     EIKEERKIQKHKTLP       C1QBP    5    RKIQKHKTL 0.430         0.220       4632.72  85.00   9.999       
+    13         DRB1_1501     IKEERKIQKHKTLPK       C1QBP    6    IQKHKTLPK 0.585         0.320       1570.31  60.00   9.999       
+    14         DRB1_1501     KEERKIQKHKTLPKM       C1QBP    5    IQKHKTLPK 0.685         0.390        736.23  40.00   9.999       
+    15         DRB1_1501     EERKIQKHKTLPKMS       C1QBP    4    IQKHKTLPK 0.705         0.410        590.15  34.00   9.999       
+    16         DRB1_1501     ERKIQKHKTLPKMSG       C1QBP    3    IQKHKTLPK 0.700         0.404        630.98  36.00   9.999       
+    17         DRB1_1501     RKIQKHKTLPKMSGG       C1QBP    2    IQKHKTLPK 0.695         0.400        656.49  37.00   9.999       
+    18         DRB1_1501     KIQKHKTLPKMSGGW       C1QBP    1    IQKHKTLPK 0.625         0.344       1212.36  55.00   9.999       
+    19         DRB1_1501     IQKHKTLPKMSGGWE       C1QBP    0    IQKHKTLPK 0.315         0.266       2812.31  75.00   9.999       
+    20         DRB1_1501     QKHKTLPKMSGGWEL       C1QBP    6    PKMSGGWEL 0.360         0.235       3917.86  80.00   9.999       
+    21         DRB1_1501     KHKTLPKMSGGWELE       C1QBP    5    PKMSGGWEL 0.455         0.240       3741.90  80.00   9.999       
+    22         DRB1_1501     HKTLPKMSGGWELEL       C1QBP    4    PKMSGGWEL 0.575         0.258       3065.12  75.00   9.999       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 0 Number of weak binders: 0
+--------------------------------------------------------------------------------------------------------------------------------------------

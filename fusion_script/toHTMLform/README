@@ -1,0 +1,10 @@
+In order to let front user to open visualization file in an easy way, we provide the following script to convert format of the visualization file to HTML format, which can be opened by web browser.
+
+> Rscript /icgc/dkfzlsdf/analysis/D120/scripts/toHTMLform/run_generate_html.R 
+    Required three arguments:
+    arg1: Path to function file
+    arg2: Path to visualization file
+    arg3: Path to your output file
+
+For example.
+> Rscript /icgc/dkfzlsdf/analysis/D120/scripts/toHTMLform/run_generate_html.R /icgc/dkfzlsdf/analysis/D120/scripts/toHTMLform/function_generate_html.Rmd /icgc/dkfzlsdf/analysis/D120/immunoinfor/nct_gatc/results_per_pid/LU64_UL62/immunoIndel2020/indels_sum_visualization test_LU64.html

@@ -1,0 +1,141 @@
+Sender: LSF System <lsfadmin@odcf-cn34u18s02>
+Subject: Job 3930537: <predictProtein_HB60> in cluster <ODCF> Done
+
+Job <predictProtein_HB60> was submitted from host <odcf-worker01> by user <huangz> in cluster <ODCF> at Wed Aug 26 10:24:46 2020
+Job was executed on host(s) <odcf-cn34u18s02>, in queue <medium>, as user <huangz> in cluster <ODCF> at Wed Aug 26 10:24:46 2020
+</home/huangz> was used as the home directory.
+</icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs> was used as the working directory.
+Started at Wed Aug 26 10:24:46 2020
+Terminated at Wed Aug 26 10:25:30 2020
+Results reported at Wed Aug 26 10:25:30 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/run_predict_protein_fa.sh
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   8.05 sec.
+    Max Memory :                                 967 MB
+    Average Memory :                             125.50 MB
+    Total Requested Memory :                     2048.00 MB
+    Delta Memory :                               1081.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   40 sec.
+    Turnaround time :                            44 sec.
+
+The output (if any) follows:
+
+NOTICE: for SNPs, column 6 and beyond MAY BE heterozygosity status, quality score, read depth, RMS mapping quality, quality by depth, if these information can be recognized automatically
+NOTICE: for indels, column 6 and beyond MAY BE heterozygosity status, quality score, read depth, read count supporting indel call, RMS mapping quality, if these information can be recognized automatically
+NOTICE: Read 31 lines and wrote 30 different variants at 30 genomic positions (30 SNPs and 0 indels)
+NOTICE: Among 30 different variants at 30 positions, 25 are heterozygotes, 5 are homozygotes
+NOTICE: Among 30 SNPs, 21 are transitions, 9 are transversions (ratio=2.33)
+perl /icgc/ngs_share/annovar/annovar_Feb2016/convert2annovar.pl -format vcf4old /icgc/dkfzlsdf/analysis/D120/immunoinfor/nct_gatc/results_per_pid/HB60/snvs/snvs_IPNCT_HB60_somatic_functional_snvs_conf_8_to_10.vcf > /icgc/dkfzlsdf/analysis/D120/immunoinfor/nct_gatc/results_per_pid/HB60/snvs/snvs_IPNCT_HB60_somatic_functional_snvs_conf_8_to_10.vcf.annovar
+NOTICE: The --geneanno operation is set to ON by default
+NOTICE: Output files were written to /icgc/dkfzlsdf/analysis/D120/immunoinfor/nct_gatc/results_per_pid/HB60/snvs/snvs_IPNCT_HB60_somatic_functional_snvs_conf_8_to_10.vcf.annovar.variant_function, /icgc/dkfzlsdf/analysis/D120/immunoinfor/nct_gatc/results_per_pid/HB60/snvs/snvs_IPNCT_HB60_somatic_functional_snvs_conf_8_to_10.vcf.annovar.exonic_variant_function
+NOTICE: Reading gene annotation from /icgc/ngs_share/annovar/annovar_Feb2016/humandb/hg19_refGene.txt ... Done with 52068 transcripts (including 11837 without coding sequence annotation) for 26464 unique genes
+NOTICE: Processing next batch with 30 unique variants in 30 input lines
+NOTICE: Reading FASTA sequences from /icgc/ngs_share/annovar/annovar_Feb2016/humandb/hg19_refGeneMrna.fa ... Done with 46 sequences
+WARNING: A total of 356 sequences will be ignored due to lack of correct ORF annotation
+Sender: LSF System <lsfadmin@odcf-cn33u03s05>
+Subject: Job 3930722: <predictProtein_HB60> in cluster <ODCF> Done
+
+Job <predictProtein_HB60> was submitted from host <odcf-worker01> by user <huangz> in cluster <ODCF> at Wed Aug 26 10:46:07 2020
+Job was executed on host(s) <odcf-cn33u03s05>, in queue <medium>, as user <huangz> in cluster <ODCF> at Wed Aug 26 10:46:08 2020
+</home/huangz> was used as the home directory.
+</icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs> was used as the working directory.
+Started at Wed Aug 26 10:46:08 2020
+Terminated at Wed Aug 26 10:46:51 2020
+Results reported at Wed Aug 26 10:46:51 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/run_predict_protein_fa.sh
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   7.75 sec.
+    Max Memory :                                 967 MB
+    Average Memory :                             125.50 MB
+    Total Requested Memory :                     2048.00 MB
+    Delta Memory :                               1081.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   40 sec.
+    Turnaround time :                            44 sec.
+
+The output (if any) follows:
+
+NOTICE: for SNPs, column 6 and beyond MAY BE heterozygosity status, quality score, read depth, RMS mapping quality, quality by depth, if these information can be recognized automatically
+NOTICE: for indels, column 6 and beyond MAY BE heterozygosity status, quality score, read depth, read count supporting indel call, RMS mapping quality, if these information can be recognized automatically
+NOTICE: Read 31 lines and wrote 30 different variants at 30 genomic positions (30 SNPs and 0 indels)
+NOTICE: Among 30 different variants at 30 positions, 25 are heterozygotes, 5 are homozygotes
+NOTICE: Among 30 SNPs, 21 are transitions, 9 are transversions (ratio=2.33)
+perl /icgc/ngs_share/annovar/annovar_Feb2016/convert2annovar.pl -format vcf4old /icgc/dkfzlsdf/analysis/D120/immunoinfor/nct_gatc/results_per_pid/HB60/snvs/snvs_IPNCT_HB60_somatic_functional_snvs_conf_8_to_10.vcf > /icgc/dkfzlsdf/analysis/D120/immunoinfor/nct_gatc/results_per_pid/HB60/snvs/snvs_IPNCT_HB60_somatic_functional_snvs_conf_8_to_10.vcf.annovar
+NOTICE: The --geneanno operation is set to ON by default
+NOTICE: Output files were written to /icgc/dkfzlsdf/analysis/D120/immunoinfor/nct_gatc/results_per_pid/HB60/snvs/snvs_IPNCT_HB60_somatic_functional_snvs_conf_8_to_10.vcf.annovar.variant_function, /icgc/dkfzlsdf/analysis/D120/immunoinfor/nct_gatc/results_per_pid/HB60/snvs/snvs_IPNCT_HB60_somatic_functional_snvs_conf_8_to_10.vcf.annovar.exonic_variant_function
+NOTICE: Reading gene annotation from /icgc/ngs_share/annovar/annovar_Feb2016/humandb/hg19_refGene.txt ... Done with 52068 transcripts (including 11837 without coding sequence annotation) for 26464 unique genes
+NOTICE: Processing next batch with 30 unique variants in 30 input lines
+NOTICE: Reading FASTA sequences from /icgc/ngs_share/annovar/annovar_Feb2016/humandb/hg19_refGeneMrna.fa ... Done with 46 sequences
+WARNING: A total of 356 sequences will be ignored due to lack of correct ORF annotation
+Sender: LSF System <lsfadmin@odcf-cn34u18s02>
+Subject: Job 3930728: <predictProtein_HB60> in cluster <ODCF> Done
+
+Job <predictProtein_HB60> was submitted from host <odcf-worker01> by user <huangz> in cluster <ODCF> at Wed Aug 26 10:59:33 2020
+Job was executed on host(s) <odcf-cn34u18s02>, in queue <medium>, as user <huangz> in cluster <ODCF> at Wed Aug 26 10:59:34 2020
+</home/huangz> was used as the home directory.
+</icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/test_HB60_snvs> was used as the working directory.
+Started at Wed Aug 26 10:59:34 2020
+Terminated at Wed Aug 26 11:00:15 2020
+Results reported at Wed Aug 26 11:00:15 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/icgc/dkfzlsdf/analysis/D120/scripts/neoepitope_SNVs/run_predict_protein_fa.sh
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   7.98 sec.
+    Max Memory :                                 965 MB
+    Average Memory :                             125.12 MB
+    Total Requested Memory :                     2048.00 MB
+    Delta Memory :                               1083.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   39 sec.
+    Turnaround time :                            42 sec.
+
+The output (if any) follows:
+
+NOTICE: for SNPs, column 6 and beyond MAY BE heterozygosity status, quality score, read depth, RMS mapping quality, quality by depth, if these information can be recognized automatically
+NOTICE: for indels, column 6 and beyond MAY BE heterozygosity status, quality score, read depth, read count supporting indel call, RMS mapping quality, if these information can be recognized automatically
+NOTICE: Read 31 lines and wrote 30 different variants at 30 genomic positions (30 SNPs and 0 indels)
+NOTICE: Among 30 different variants at 30 positions, 25 are heterozygotes, 5 are homozygotes
+NOTICE: Among 30 SNPs, 21 are transitions, 9 are transversions (ratio=2.33)
+perl /icgc/ngs_share/annovar/annovar_Feb2016/convert2annovar.pl -format vcf4old /icgc/dkfzlsdf/analysis/D120/immunoinfor/nct_gatc/results_per_pid/HB60/snvs/snvs_IPNCT_HB60_somatic_functional_snvs_conf_8_to_10.vcf > /icgc/dkfzlsdf/analysis/D120/immunoinfor/nct_gatc/results_per_pid/HB60/snvs/snvs_IPNCT_HB60_somatic_functional_snvs_conf_8_to_10.vcf.annovar
+NOTICE: The --geneanno operation is set to ON by default
+NOTICE: Output files were written to /icgc/dkfzlsdf/analysis/D120/immunoinfor/nct_gatc/results_per_pid/HB60/snvs/snvs_IPNCT_HB60_somatic_functional_snvs_conf_8_to_10.vcf.annovar.variant_function, /icgc/dkfzlsdf/analysis/D120/immunoinfor/nct_gatc/results_per_pid/HB60/snvs/snvs_IPNCT_HB60_somatic_functional_snvs_conf_8_to_10.vcf.annovar.exonic_variant_function
+NOTICE: Reading gene annotation from /icgc/ngs_share/annovar/annovar_Feb2016/humandb/hg19_refGene.txt ... Done with 52068 transcripts (including 11837 without coding sequence annotation) for 26464 unique genes
+NOTICE: Processing next batch with 30 unique variants in 30 input lines
+NOTICE: Reading FASTA sequences from /icgc/ngs_share/annovar/annovar_Feb2016/humandb/hg19_refGeneMrna.fa ... Done with 46 sequences
+WARNING: A total of 356 sequences will be ignored due to lack of correct ORF annotation
